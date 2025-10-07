@@ -1,5 +1,5 @@
 // lib/data/services/index.ts
-
+// Company Registration Services
 import { proprietorshipData } from "./registration/company_registration/proprietorship";
 import { partnershipData } from "./registration/company_registration/partnership";
 import { llpData } from "./registration/company_registration/llp";
@@ -43,6 +43,15 @@ import { copyrightRegistrationData } from "./registration/intellectual_property/
 import { copyrightObjectionData } from "./registration/intellectual_property/copyright-objection";
 import { patentRegistrationData } from "./registration/intellectual_property/patent-registration";
 import { patentSearchData } from "./registration/intellectual_property/patent-search";
+// MCA Compliance Services
+import { llpComplianceData } from "./mca/company_compliance/llp-compliance";
+import { opcComplianceData } from "./mca/company_compliance/opc-compliance";
+import { privateLimitedComplianceData } from "./mca/company_compliance/private-limited-compliance";
+import { nidhiCompanyComplianceData } from "./mca/company_compliance/nidhi-company-compliance";
+import { section8CompanyComplianceData } from './mca/company_compliance/section-8-company-compliance';
+import { statutoryAuditData } from './mca/company_compliance/statutory-audit';
+import { taxAuditData } from './mca/company_compliance/tax-audit';
+import { bookkeepingData } from './mca/company_compliance/bookkeeping';
 
 export const serviceData = {
   proprietorship: proprietorshipData,
@@ -89,4 +98,12 @@ export const serviceData = {
   "copyright-objection": copyrightObjectionData,
   "patent-registration": patentRegistrationData,
   "patent-search": patentSearchData,
+  "llp-compliance": llpComplianceData,
+  "opc-compliance": opcComplianceData,
+  "private-limited-compliance": privateLimitedComplianceData,
+  "nidhi-company-compliance": nidhiCompanyComplianceData,
+  "section-8-company-compliance": section8CompanyComplianceData,
+  "statutory-audit": statutoryAuditData,
+  "tax-audit": taxAuditData,
+  "bookkeeping": bookkeepingData,
 };
