@@ -1,6 +1,7 @@
 // components/page-sections/proprietorship/HeroWithForm.tsx
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
+import { MarkdownBoldRenderer } from "../MarkdownBoldRenderer";
 
 interface HeroWithFormProps {
   title: string;
@@ -8,7 +9,11 @@ interface HeroWithFormProps {
   breadcrumb: string[];
 }
 
-export const HeroWithForm = ({ title, overview, breadcrumb }: HeroWithFormProps) => {
+export const HeroWithForm = ({
+  title,
+  overview,
+  breadcrumb,
+}: HeroWithFormProps) => {
   return (
     <section className="bg-slate-50 py-20">
       <div className="container mx-auto px-4">
@@ -21,7 +26,7 @@ export const HeroWithForm = ({ title, overview, breadcrumb }: HeroWithFormProps)
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
               {title}
             </h1>
-            <p className="mt-4 text-lg text-gray-600">{overview}</p>
+            <MarkdownBoldRenderer text={overview} />
             <div className="mt-6 flex items-center space-x-6">
               <div className="flex items-center">
                 <div className="flex text-yellow-400">

@@ -61,7 +61,7 @@ const Header = () => {
             >
               {/* THEME UPDATE: Changed text and hover colors */}
               <Link
-                href={mainItem.slug}
+                href={""}
                 className="flex items-center px-4 h-full text-sm font-semibold text-slate-300 hover:text-orange-500 transition-colors"
               >
                 <span>{mainItem.mainHead}</span>
