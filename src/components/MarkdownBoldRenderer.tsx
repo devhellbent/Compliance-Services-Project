@@ -23,5 +23,10 @@ export const MarkdownBoldRenderer: React.FC<MarkdownBoldRendererProps> = ({
   }, [text]);
 
   // Render the component using dangerouslySetInnerHTML
-  return <Component dangerouslySetInnerHTML={createMarkup} className="mt-4 text-lg text-gray-600"/>;
+  return (
+    <Component
+      dangerouslySetInnerHTML={createMarkup}
+      className="text-lg text-gray-600"
+    />
+  );
 };

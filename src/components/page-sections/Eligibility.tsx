@@ -1,3 +1,5 @@
+import { MarkdownBoldRenderer } from "../MarkdownBoldRenderer";
+
 // components/page-sections/proprietorship/Eligibility.tsx
 type EligibilityCriterion = {
   title: string;
@@ -26,7 +28,9 @@ export const Eligibility = ({ criteria }: EligibilityProps) => {
               </h3>
               <ul className="space-y-2 text-gray-600 text-sm list-disc list-inside">
                 {criterion.items.map((item: string) => (
-                  <li key={item}>{item}</li>
+                  <li key={item} className="inline">
+                    <MarkdownBoldRenderer text={item} />
+                  </li>
                 ))}
               </ul>
             </div>

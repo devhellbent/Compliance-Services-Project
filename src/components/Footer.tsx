@@ -1,126 +1,151 @@
 // components/Footer.tsx
 import Link from "next/link";
-import { navigationData } from "@/lib/navigation";
-import {
-  Facebook,
-  Twitter,
-  Linkedin,
-  Instagram,
-  ArrowRight,
-} from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 export const Footer = () => {
+  // Manually selected popular services for a cleaner footer
+  const popularRegistrations = [
+    {
+      name: "Private Limited Company",
+      slug: "/services/private-limited-company",
+    },
+    { name: "LLP Registration", slug: "/services/llp" },
+    {
+      name: "Trademark Registration",
+      slug: "/services/trademark-registration",
+    },
+    { name: "GST Registration", slug: "/services/gst-registration" },
+  ];
+
+  const taxAndCompliance = [
+    { name: "Income Tax Filing", slug: "/services/income-tax-e-filing" },
+    { name: "GST Return Filing", slug: "/services/gst-return-filing" },
+    {
+      name: "Company Compliance",
+      slug: "/services/private-limited-compliance",
+    },
+    { name: "TDS Return Filing", slug: "/services/tds-return-filing" },
+  ];
+
   return (
-    <footer className="bg-slate-900 text-white">
+    <footer className="bg-white border-t border-gray-200">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-          {/* Left Column: Branding and Address */}
-          <div className="lg:col-span-4">
-            <h3 className="text-2xl font-bold">BharatFilings</h3>
-            <p className="mt-4 text-slate-400 text-sm leading-relaxed">
-              #101, Oxford Towers, 139, HAL Old Airport Rd, Kodihalli,
-              Bengaluru, Karnataka 560008
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
+          {/* Column 1: Branding & Socials */}
+          <div className="sm:col-span-2 lg:col-span-1">
+            <h3 className="text-xl font-bold text-gray-900">BharatFilings</h3>
+            <p className="mt-3 text-gray-500 leading-relaxed">
+              Your partner in business and legal compliance.
             </p>
-            <a
-              href="#"
-              className="mt-4 text-sm font-semibold text-orange-500 hover:text-orange-400 flex items-center"
-            >
-              Open on Google Maps <ArrowRight size={16} className="ml-1" />
-            </a>
             <div className="mt-6 flex space-x-4">
               <a
                 href="#"
                 aria-label="Facebook"
-                className="text-slate-400 hover:text-white"
+                className="text-gray-400 hover:text-orange-500 transition-colors"
               >
                 <Facebook size={20} />
               </a>
               <a
                 href="#"
                 aria-label="Instagram"
-                className="text-slate-400 hover:text-white"
+                className="text-gray-400 hover:text-orange-500 transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
                 href="#"
                 aria-label="LinkedIn"
-                className="text-slate-400 hover:text-white"
+                className="text-gray-400 hover:text-orange-500 transition-colors"
               >
                 <Linkedin size={20} />
               </a>
             </div>
           </div>
 
-          {/* Right Column: Service Links */}
-          <div className="lg:col-span-8">
-            <div className="space-y-10">
-              {navigationData.map((mainItem) => {
-                // Flatten all service items from all sub-categories under the main item
-                const allItems =
-                  mainItem.subCategories?.flatMap((sc) => sc.items || []) || [];
-                if (allItems.length === 0) return null;
-
-                return (
-                  <div key={mainItem.mainHead}>
-                    <h4 className="text-sm font-bold uppercase tracking-wider text-slate-400 pb-2 border-b border-slate-700">
-                      {mainItem.mainHead}
-                    </h4>
-                    <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-3">
-                      {allItems.map((item) => (
-                        <Link
-                          key={item.name}
-                          href={item.slug}
-                          className="text-slate-300 hover:text-white text-sm"
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom Bar with simple links */}
-        <div className="mt-16 pt-8 border-t border-slate-700 grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+          {/* Column 2: Popular Registrations */}
           <div>
-            <h5 className="font-semibold mb-3">Company</h5>
-            <ul className="space-y-2 text-slate-400">
+            <h5 className="font-semibold text-gray-800 mb-4">
+              Popular Registrations
+            </h5>
+            <ul className="space-y-3">
+              {popularRegistrations.map((item) => (
+                <li key={item.name}>
+                  <Link
+                    href={item.slug}
+                    className="text-gray-600 hover:text-orange-500 transition-colors"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 3: Tax & Compliance */}
+          <div>
+            <h5 className="font-semibold text-gray-800 mb-4">
+              Tax & Compliance
+            </h5>
+            <ul className="space-y-3">
+              {taxAndCompliance.map((item) => (
+                <li key={item.name}>
+                  <Link
+                    href={item.slug}
+                    className="text-gray-600 hover:text-orange-500 transition-colors"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 4: Quick Links */}
+          <div>
+            <h5 className="font-semibold text-gray-800 mb-4">Quick Links</h5>
+            <ul className="space-y-3">
               <li>
-                <Link href="/about" className="hover:text-white">
+                <Link
+                  href="/about"
+                  className="text-gray-600 hover:text-orange-500 transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-white">
+                <Link
+                  href="/blog"
+                  className="text-gray-600 hover:text-orange-500 transition-colors"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/guides" className="hover:text-white">
-                  Guides
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="font-semibold mb-3">Support</h5>
-            <ul className="space-y-2 text-slate-400">
-              <li>
-                <Link href="/contact" className="hover:text-white">
+                <Link
+                  href="/contact"
+                  className="text-gray-600 hover:text-orange-500 transition-colors"
+                >
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="/faqs" className="hover:text-white">
-                  Have questions?
+                <Link
+                  href="/faqs"
+                  className="text-gray-600 hover:text-orange-500 transition-colors"
+                >
+                  FAQs
                 </Link>
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="mt-12 pt-8 border-t border-gray-200 text-center">
+          <p className="text-xs text-gray-500">
+            &copy; {new Date().getFullYear()} BharatFilings. All Rights
+            Reserved.
+          </p>
         </div>
       </div>
     </footer>

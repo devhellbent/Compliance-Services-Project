@@ -4,12 +4,12 @@ import Link from "next/link";
 
 export const CtaSection = () => {
   return (
-    <section className="py-20 bg-slate-800/50">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-extrabold text-white">
+        <h2 className="text-3xl font-extrabold text-gray-900">
           Ready to Start or Grow Your Business?
         </h2>
-        <p className="mt-4 text-slate-300 max-w-xl mx-auto">
+        <p className="mt-4 text-gray-600 max-w-xl mx-auto">
           Let our experts handle the complexities of legal and financial
           compliance, so you can focus on what you do best.
         </p>

@@ -9,21 +9,21 @@ export const ClientsSection = () => {
     { name: "Client Logo 5", path: "/logo5.svg" },
   ];
   return (
-    <section className="py-12 bg-slate-800/50">
+    <section className="py-12 bg-white">
       <div className="container mx-auto px-4">
-        <p className="text-center text-sm font-semibold text-slate-400 mb-6">
+        <p className="text-center text-sm font-semibold text-gray-500 mb-6">
           TRUSTED BY OVER 10,000+ BUSINESSES NATIONWIDE
         </p>
         <div className="flex justify-center items-center space-x-12">
           {clients.map((client) => (
             <div key={client.name}>
               <img
-                src={`https://placehold.co/120x40/334155/a3a3a3?text=${client.name.replace(
+                src={`https://placehold.co/120x40/transparent/6b7280?text=${client.name.replace(
                   /\s/g,
                   "+"
                 )}&font=lato`}
                 alt={client.name}
-                className="h-8 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 transition-all"
+                className="h-8 opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition-all"
               />
             </div>
           ))}

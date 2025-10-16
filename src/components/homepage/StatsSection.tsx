@@ -42,7 +42,7 @@ const StatItem = ({ to, label }: { to: number; label: string }) => {
       >
         0+
       </p>
-      <p className="mt-2 text-sm text-slate-300 uppercase tracking-wider">
+      <p className="mt-2 text-sm text-gray-500 uppercase tracking-wider">
         {label}
       </p>
     </div>
@@ -51,7 +51,7 @@ const StatItem = ({ to, label }: { to: number; label: string }) => {
 
 export const StatsSection = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <StatItem to={10000} label="Happy Clients" />

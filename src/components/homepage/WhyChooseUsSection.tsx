@@ -57,13 +57,13 @@ export const WhyChooseUsSection = () => {
   }, []);
 
   return (
-    <section id="why-us-section" className="py-20 bg-slate-800/50">
+    <section id="why-us-section" className="py-20 bg-white">
       <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
         <div id="why-us-content">
-          <h2 className="text-3xl font-extrabold text-white">
+          <h2 className="text-3xl font-extrabold text-gray-900">
             Why Choose BharatFilings?
           </h2>
-          <p className="mt-4 text-slate-300">
+          <p className="mt-4 text-gray-600">
             We are committed to providing a service that is not just reliable,
             but also transparent, affordable, and incredibly easy to use.
           </p>
@@ -74,10 +74,10 @@ export const WhyChooseUsSection = () => {
                   {feature.icon}
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-bold text-white">
+                  <h4 className="text-lg font-bold text-gray-800">
                     {feature.title}
                   </h4>
-                  <p className="mt-1 text-slate-400 text-sm">{feature.text}</p>
+                  <p className="mt-1 text-gray-500 text-sm">{feature.text}</p>
                 </div>
               </div>
             ))}

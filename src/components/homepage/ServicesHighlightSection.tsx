@@ -29,13 +29,13 @@ export const ServicesHighlightSection = () => {
   }, []);
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
             Our Core Services
           </h2>
-          <p className="mt-4 text-slate-300">
+          <p className="mt-4 text-gray-600">
             End-to-end solutions for every stage of your business.
           </p>
         </div>
@@ -46,7 +46,7 @@ export const ServicesHighlightSection = () => {
               <Link
                 href={service.slug}
                 key={service.mainHead}
-                className="group block bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-orange-500 hover:-translate-y-2 transition-all duration-300 service-card"
+                className="group block bg-white p-8 rounded-xl border border-gray-200 hover:border-orange-500 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 service-card"
               >
                 <div className="flex flex-col h-full">
                   {Icon && (
@@ -55,10 +55,10 @@ export const ServicesHighlightSection = () => {
                     </div>
                   )}
                   <div className="flex-grow">
-                    <h3 className="text-xl font-bold text-white mb-3">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">
                       {service.mainHead}
                     </h3>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-gray-500 text-sm leading-relaxed">
                       {service.subCategories
                         ?.map((sc) => sc.subHead)
                         .slice(0, 2)
