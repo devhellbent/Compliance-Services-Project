@@ -1,4 +1,6 @@
 // components/homepage/ClientsSection.tsx
+import Image from "next/image";
+
 export const ClientsSection = () => {
   // Replace with your actual client logos
   const clients = [
@@ -17,12 +19,14 @@ export const ClientsSection = () => {
         <div className="flex justify-center items-center space-x-12">
           {clients.map((client) => (
             <div key={client.name}>
-              <img
+              <Image
                 src={`https://placehold.co/120x40/transparent/6b7280?text=${client.name.replace(
                   /\s/g,
                   "+"
                 )}&font=lato`}
                 alt={client.name}
+                width={120}
+                height={40}
                 className="h-8 opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition-all"
               />
             </div>

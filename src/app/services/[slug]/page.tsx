@@ -10,7 +10,7 @@ export default async function ServicePage({
 }) {
   const { slug } = await params; // ✅ unwrap the promise here
 
-  const data = serviceData[slug];
+  const data = serviceData[slug as keyof typeof serviceData];
   if (!data) notFound();
 
   return (

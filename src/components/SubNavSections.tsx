@@ -10,7 +10,9 @@ import { FeesTable } from "@/components/page-sections/FeesTable";
 import { Faq } from "@/components/page-sections/Faq";
 import { MarkdownBoldRenderer } from "./MarkdownBoldRenderer";
 
-export function SubNavSections({ data }: { data: any }) {
+import { ServiceData } from "@/lib/types";
+
+export function SubNavSections({ data }: { data: ServiceData }) {
   const sections = [
     "Overview",
     data.advantages && data.disadvantages ? "Advantages" : null,

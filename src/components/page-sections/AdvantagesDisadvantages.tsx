@@ -5,7 +5,7 @@ import { Check, X } from "lucide-react";
 import * as Icons from "lucide-react";
 
 type AdvantageDisadvantageItem = {
-  icon: React.ElementType;
+  icon: string;
   title: string;
   text: string;
 };
@@ -34,11 +34,11 @@ export const AdvantagesDisadvantages: React.FC<
             <div className="space-y-6">
               {advantages.map((item: AdvantageDisadvantageItem) => {
                 const IconName = item.icon as keyof typeof Icons
-                const Icon = Icons[IconName];
+                const Icon = Icons[IconName] as React.ComponentType<React.SVGProps<SVGSVGElement>>;
                 return (
                   <div key={item.title} className="flex items-start">
                     <div className="flex-shrink-0 w-10 h-10 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mr-4">
-                       <Icon />
+                       {Icon && <Icon />}
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">
@@ -60,11 +60,11 @@ export const AdvantagesDisadvantages: React.FC<
             <div className="space-y-6">
               {disadvantages.map((item: AdvantageDisadvantageItem) => {
                 const IconName = item.icon as keyof typeof Icons
-                const Icon = Icons[IconName];
+                const Icon = Icons[IconName] as React.ComponentType<React.SVGProps<SVGSVGElement>>;
                 return (
                   <div key={item.title} className="flex items-start">
                     <div className="flex-shrink-0 w-10 h-10 bg-red-100 text-red-600 rounded-lg flex items-center justify-center mr-4">
-                      <Icon />
+                      {Icon && <Icon />}
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">
