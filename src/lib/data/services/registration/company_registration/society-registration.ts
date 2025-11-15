@@ -5,8 +5,32 @@ import { ServiceData } from "@/lib/types";
 export const societyRegistrationData: ServiceData = {
   title: "Society Registration (NGO)",
   breadcrumb: ["Home", "Registrations", "Society Registration"],
+  description:
+    "Build lasting social impact through collective action. Society registration establishes membership-based non-profit organizations for charitable, literary, scientific, and artistic pursuits, creating democratic platforms for community-driven change and social welfare initiatives.",
   overview:
-    "A **Society** is a membership-based organization formed by a group of individuals (typically a minimum of seven) who unite for a common non-profit purpose, such as promoting literature, science, arts, or charitable activities. Governed by the **Societies Registration Act, 1860**, a society functions democratically through a managing committee elected by its members. It's a popular structure for NGOs, particularly for state-level operations, clubs, and associations.",
+    "A **Society** represents a democratic, membership-based non-profit organization established under the Societies Registration Act, 1860, bringing together individuals united by common objectives in charitable work, promotion of literature, science, fine arts, or provision of social services and community welfare. This time-tested legal structure requires minimum seven founding members who voluntarily associate to pursue non-commercial goals through collective action and democratic governance. The governing body, typically comprising a president, secretary, treasurer, and executive committee members, is elected by the general membership through democratic voting processes, ensuring participatory decision-making and accountability to members. Societies operate on principles of transparency, with mandatory maintenance of member registers, minute books, and annual general meetings where members exercise voting rights on key organizational matters including amendments to rules, approval of accounts, and election of office bearers. The registration process involves submission of memorandum of association outlining objectives, rules and regulations governing operations, and list of governing body members to the Registrar of Societies under state-specific legislation. Once registered, the society obtains a separate legal identity distinct from its members, enabling it to own property, enter contracts, receive grants and donations, open bank accounts, and sue or be sued in its own name. The structure offers significant flexibility in adding or removing members, conducting various charitable activities, and adapting to evolving social needs through amendments in rules and regulations. Registered societies enjoy tax benefits under Section 12A and 80G of the Income Tax Act upon obtaining approval, enabling donors to claim tax deductions and enhancing fundraising capabilities. The membership-driven model fosters community participation, volunteer engagement, and grassroots mobilization for social causes. Societies can receive foreign contributions after obtaining FCRA registration, access government grants and CSR funding, and establish multiple branches across geographies. Lower compliance requirements compared to Section 8 Companies make societies accessible for community groups, educational institutions, cultural organizations, sports clubs, and local welfare associations. The democratic governance structure ensures collective ownership of the mission while preventing concentration of power. Ideal for community-based organizations, educational trusts, cultural associations, social welfare groups, sports clubs, and grassroots NGOs, Society registration delivers a robust framework for organized social action, community development, and sustainable impact creation through collective effort.",
+  whyChooseUs: [
+    {
+      icon: "Users",
+      title: "Democratic Structure",
+      text: "Managed by a governing body elected by its members.",
+    },
+    {
+      icon: "Library",
+      title: "Separate Legal Identity",
+      text: "A registered society is a legal entity distinct from its members.",
+    },
+    {
+      icon: "FileSignature",
+      title: "Easy Formation",
+      text: "The registration process is less complex and more cost-effective.",
+    },
+    {
+      icon: "BadgePercent",
+      title: "Tax Exemption",
+      text: "Eligible for tax benefits under Sections 12A and 80G.",
+    },
+  ],
   advantages: [
     {
       icon: "Users",
@@ -47,69 +71,38 @@ export const societyRegistrationData: ServiceData = {
     },
   ],
   eligibility: [
-    {
-      title: "Member Requirements",
-      items: [
-        "A minimum of **seven members** are required to form a society in most states.",
-        "The members can be Indian citizens, foreigners, or even other registered entities.",
-      ],
-    },
-    {
-      title: "Foundational Documents",
-      items: [
-        "**Memorandum of Association (MOA)**: This document contains the name, objectives, and details of the founding members.",
-        "**Rules & Regulations**: This document outlines the rules for managing the society, including membership, meetings, and elections.",
-      ],
-    },
+    "A minimum of seven members are required.",
+    "The society's objectives must be for charitable or promotional purposes.",
   ],
   documents: [
     {
-      tabTitle: "Core Documents",
-      content: {
-        title: "Memorandum and Rules",
-        items: [
-          "Memorandum of Association (MOA), signed by all founding members.",
-          "Rules & Regulations of the Society, also signed by all founding members.",
-          "A covering letter requesting registration, signed by all founding members.",
-        ],
-      },
+      title: "Core Documents",
+      items: ["Memorandum of Association (MOA)", "Rules & Regulations"],
     },
     {
-      tabTitle: "Member & Office Proof",
-      content: {
-        title: "Identity and Address Proof",
-        items: [
-          "PAN Card and Aadhaar Card (or other ID proof) of all members of the governing body.",
-          "Address proof of the society's registered office (Utility bill, Rent Agreement, NOC).",
-          "An affidavit from the president or secretary of the society.",
-        ],
-      },
+      title: "Member & Office Proof",
+      items: [
+        "PAN Card and ID proof of members",
+        "Address proof of the registered office",
+      ],
     },
   ],
   registrationProcess: [
     {
       step: 1,
       title: "Choose a Unique Name",
-      description:
-        "Select a name for the society that is not identical to any existing society and does not violate the Emblems and Names Act, 1950.",
+      description: "Select a unique name for the society.",
     },
     {
       step: 2,
-      title: "Draft MOA and Rules & Regulations",
+      title: "Draft MOA and Rules",
       description:
-        "Prepare the Memorandum of Association and the Rules & Regulations according to the format prescribed in the Societies Registration Act for your state.",
+        "Prepare the Memorandum of Association and Rules & Regulations.",
     },
     {
       step: 3,
-      title: "Get Signatures and Attestation",
-      description:
-        "The MOA and Rules must be signed by all founding members and witnessed by a gazetted officer, notary public, or another authorized person.",
-    },
-    {
-      step: 4,
-      title: "File Application with Registrar",
-      description:
-        "Submit the application, along with two copies of the signed documents and the prescribed registration fee, to the Registrar of Societies in the relevant state.",
+      title: "File Application",
+      description: "Submit the application to the Registrar of Societies.",
     },
   ],
   fees: [

@@ -5,53 +5,60 @@ import { ServiceData } from "@/lib/types";
 export const isoRegistrationData: ServiceData = {
   title: "ISO Registration",
   breadcrumb: ["Home", "Registrations", "ISO Registration"],
+  description:
+    "Accredited ISO certification audits for QMS/EMS/OH&S/ISMS/FSMS with a 3‑year cycle and annual surveillance.",
   overview:
-    "**ISO Registration**, more accurately termed **ISO Certification**, is a third-party verification that a company's management system, manufacturing process, or documentation procedure meets the requirements for standardization and quality assurance. 🏅 Issued by accredited certification bodies (not by ISO itself), it signifies a company's commitment to quality. The most common standard is **ISO 9001:2015**, which focuses on a Quality Management System (QMS).",
+    "**ISO Certification** is an independent assessment by an accredited Certification Body (CB) that your management system meets a specific ISO standard. ISO itself does not certify—CBs accredited by bodies like **NABCB** or **IAF‑MLA** members conduct audits. Certificates usually cover a defined scope and site(s), are valid for 3 years, and require annual surveillance audits. Common standards include **ISO 9001:2015 (QMS)**, **ISO 14001:2015 (EMS)**, **ISO 45001:2018 (OH&S)**, **ISO/IEC 27001:2022 (ISMS)** and **ISO 22000:2018 (FSMS)**.",
   advantages: [
     {
       icon: "TrendingUp",
       title: "Enhanced Credibility & Brand Image",
-      text: "ISO certification is a globally recognized mark of quality and trust, significantly boosting your brand's reputation.",
+      text: "Globally recognized assurance that processes meet international standards, boosting trust and brand value.",
     },
     {
       icon: "Smile",
       title: "Improved Customer Satisfaction",
-      text: "By implementing a quality management system, you ensure consistent product/service quality, leading to happier customers.",
+      text: "Process discipline drives consistent outputs, fewer defects, and better customer experience.",
     },
     {
       icon: "Settings",
       title: "Increased Operational Efficiency",
-      text: "Standardizing processes helps identify and eliminate inefficiencies, reducing costs and improving productivity.",
+      text: "Clarifies roles, KPIs and controls—reducing rework, waste and compliance risks.",
     },
     {
       icon: "Globe",
       title: "Access to New Markets",
-      text: "Many domestic and international tenders, as well as large corporate clients, require ISO certification as a prerequisite to do business.",
+      text: "Often a pre‑qualification for tenders and enterprise supply chains; eases international expansion.",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "Risk‑based Thinking",
+      text: "Standards like ISO 9001 and 27001 embed risk assessment and continual improvement culture.",
     },
   ],
   disadvantages: [
     {
       icon: "CircleDollarSign",
       title: "High Cost of Implementation",
-      text: "The process of developing systems, training staff, and undergoing audits can be expensive, especially for small businesses.",
+      text: "Process redesign, documentation, training and audits can be costly, especially initially.",
     },
     {
       icon: "Clock",
       title: "Time and Resource Intensive",
-      text: "Achieving and maintaining ISO certification requires a significant commitment of time and manpower for documentation and process management.",
+      text: "Implementation and audit prep take sustained effort; requires management commitment.",
     },
     {
       icon: "FileSearch",
       title: "Regular Surveillance Audits",
-      text: "To maintain the certification, the company must undergo periodic surveillance audits, which involve recurring costs and effort.",
+      text: "Annual surveillance and 3‑year recertification add recurring audit/consulting costs.",
     },
   ],
   eligibility: [
     {
       title: "Who Can Apply?",
       items: [
-        "Any organization, regardless of its size, industry, or whether it's public or private, can apply for ISO certification.",
-        "This includes manufacturing companies, service providers, software firms, hospitals, and educational institutions.",
+        "Any organization—manufacturing, services, software, healthcare, education—of any size can certify a management system.",
+        "Single or multi‑site organizations can be covered; the scope must clearly state products/services and locations.",
       ],
     },
   ],
@@ -61,10 +68,9 @@ export const isoRegistrationData: ServiceData = {
       content: {
         title: "Legal & Business Identity",
         items: [
-          "Copy of the company's PAN Card.",
-          "Certificate of Incorporation and MOA/AOA.",
-          "Address proof of the business (e.g., Utility Bill, Rent Agreement).",
-          "A brief profile of the company and its activities.",
+          "PAN, GST (if applicable), and legal constitution documents (COI, MOA/AOA, LLP Agreement/Partnership Deed).",
+          "Registered address proof and site list; organization profile and scope statement.",
+          "Process map and list of applicable legal/contractual requirements.",
         ],
       },
     },
@@ -73,10 +79,21 @@ export const isoRegistrationData: ServiceData = {
       content: {
         title: "Quality Management System (QMS) Documents",
         items: [
-          "The company's **Quality Manual**.",
-          "**Standard Operating Procedures (SOPs)** for key processes.",
-          "Records of internal audits and management reviews.",
-          "Organizational chart and details of roles and responsibilities.",
+          "Policies and objectives (e.g., Quality, Environment, ISMS, OH&S).",
+          "Documented procedures/SOPs, work instructions and forms/templates.",
+          "Risk & opportunity assessments; compliance obligations register (as applicable).",
+          "Records: training, calibration/maintenance, incident/NC logs, CAPA, internal audits and management reviews.",
+        ],
+      },
+    },
+    {
+      tabTitle: "ISMS/EMS/FSMS Add‑ons",
+      content: {
+        title: "Standard‑Specific",
+        items: [
+          "ISMS: Statement of Applicability, asset inventory, risk treatment plan, access/control policies.",
+          "EMS: Aspect‑impact register, compliance evaluation, environmental monitoring records.",
+          "FSMS: HACCP plan, PRPs/OPRPs, hazard analysis records and traceability/recall procedures.",
         ],
       },
     },
@@ -84,67 +101,81 @@ export const isoRegistrationData: ServiceData = {
   registrationProcess: [
     {
       step: 1,
-      title: "Choose an ISO Standard",
+      title: "Select Standard & Scope",
       description:
-        "Select the appropriate ISO standard for your business (e.g., ISO 9001 for quality, ISO 14001 for environmental management).",
+        "Choose the relevant standard(s) and define scope, sites and processes to be covered.",
     },
     {
       step: 2,
-      title: "Implement the System",
+      title: "Gap Analysis & Implementation",
       description:
-        "Develop and implement the required policies, procedures, and documentation (like a Quality Manual) to meet the standard's requirements.",
+        "Perform a gap assessment, then implement policies, procedures, controls, KPIs and records to meet requirements.",
     },
     {
       step: 3,
-      title: "Conduct Internal Audit",
+      title: "Internal Audits & Management Review",
       description:
-        "Perform an internal audit to identify and rectify any gaps in your system before the external audit.",
+        "Conduct internal audits, close nonconformities and hold a management review meeting.",
     },
     {
       step: 4,
-      title: "Choose a Certification Body",
+      title: "Select Accredited CB",
       description:
-        "Select an accredited third-party certification body to conduct the external audit.",
+        "Engage an accredited Certification Body (NABCB/IAF) and agree audit plan and dates.",
     },
     {
       step: 5,
-      title: "Stage 1 & Stage 2 Audits",
+      title: "Stage 1 & Stage 2",
       description:
-        "The certification body conducts a documentation review (Stage 1) followed by an on-site inspection (Stage 2) to verify the implementation of your system.",
+        "Stage 1: readiness/document review. Stage 2: on‑site implementation audit, NCRs if any to be closed.",
     },
     {
       step: 6,
-      title: "Receive Certification",
+      title: "Certification & Surveillance",
       description:
-        "Upon successful completion of the audits, the certification body issues the ISO certificate, which is typically valid for three years.",
+        "Certificate issued for 3 years with yearly surveillance; recertification audit at cycle end.",
     },
   ],
   fees: [
     {
       component: "Certification Cost",
-      fees: "₹20,000 - ₹1,00,000+",
+      fees: "₹25,000 - ₹2,50,000+",
       remarks:
-        "The cost varies significantly based on the size and complexity of the organization, the chosen standard, and the certification body.",
+        "Depends on headcount, sites, scope complexity, chosen standard(s) and the Certification Body.",
     },
     {
       component: "Consultancy & Implementation",
       fees: "Varies",
       remarks:
-        "Many companies hire a consultant to help with documentation and implementation, which is an additional cost.",
+        "Optional. Many organizations hire consultants for gap analysis, documentation, training and pre‑audit checks.",
+    },
+    {
+      component: "Surveillance Audits",
+      fees: "Annual (10%–30% of cert fee)",
+      remarks:
+        "Yearly surveillance fees charged by CBs during the 3‑year cycle; recertification at cycle end.",
     },
   ],
   faqs: [
     {
-      q: "Is ISO certification mandatory in India?",
-      a: "No, ISO certification is generally voluntary. However, it is often a mandatory requirement for participating in government tenders or for becoming a supplier to large corporations, making it a market necessity in many industries.",
+      q: "Is ISO certification mandatory?",
+      a: "Generally voluntary, but often required for tenders and enterprise vendor onboarding—making it commercially essential in many sectors.",
     },
     {
-      q: "How long is an ISO certificate valid for?",
-      a: "An ISO certificate is typically valid for three years. To maintain its validity, the company must undergo annual surveillance audits during this period.",
+      q: "How long is a certificate valid?",
+      a: "Typically 3 years with annual surveillance audits. At cycle end, a recertification audit is required.",
     },
     {
-      q: "What is the difference between ISO 9001 and ISO 14001?",
-      a: "ISO 9001 is the standard for a Quality Management System (QMS), focusing on customer satisfaction and quality of products/services. ISO 14001 is the standard for an Environmental Management System (EMS), focusing on an organization's environmental performance.",
+      q: "Accreditation vs Certification—what's the difference?",
+      a: "Accreditation is recognition of a Certification Body by an authority (e.g., NABCB/IAF). Certification is when that CB audits and certifies your organization.",
+    },
+    {
+      q: "Can we fail an ISO audit?",
+      a: "If major nonconformities are found, certification may be deferred until corrective actions are implemented and verified.",
+    },
+    {
+      q: "How long does it take to get certified?",
+      a: "From a few weeks to a few months depending on readiness, organization size, and the number of standards/sites in scope.",
     },
   ],
 };

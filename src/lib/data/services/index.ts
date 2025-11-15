@@ -2,7 +2,7 @@
 // Company Registration Services
 import { proprietorshipData } from "./registration/company_registration/proprietorship";
 import { partnershipData } from "./registration/company_registration/partnership";
-import { llpData } from "./registration/company_registration/llp";
+import { llpData } from "./registration/company_registration/limited-liability-partnership";
 import { onePersonCompanyData } from "./registration/company_registration/one-person-company";
 import { privateLimitedCompanyData } from "./registration/company_registration/private-limited-company";
 import { publicLimitedCompanyData } from "./registration/company_registration/public-limited-company";
@@ -56,7 +56,7 @@ import { bookkeepingData } from './mca/company_compliance/bookkeeping';
 export const serviceData = {
   proprietorship: proprietorshipData,
   partnership: partnershipData,
-  llp: llpData,
+  "limited-liability-partnership": llpData,
   "one-person-company": onePersonCompanyData,
   "private-limited-company": privateLimitedCompanyData,
   "public-limited-company": publicLimitedCompanyData,

@@ -5,8 +5,32 @@ import { ServiceData } from "@/lib/types";
 export const startupIndiaRegistrationData: ServiceData = {
   title: "Startup India Registration",
   breadcrumb: ["Home", "Registrations", "Startup India"],
+  description:
+    "Unlock government support for your innovative venture. Startup India registration provides DPIIT recognition, tax exemptions, compliance relaxations, and access to funding schemes, empowering startups to scale rapidly with comprehensive government backing.",
   overview:
-    "**Startup India Registration** is not a business structure registration but a **recognition/certification** provided by the Department for Promotion of Industry and Internal Trade (DPIIT), a part of the Government of India. 🚀 An eligible company, LLP, or partnership firm can be recognized as a 'Startup' to avail a host of benefits, including tax holidays, easier compliance, and access to funding schemes.",
+    "**Startup India Registration** represents a transformative government certification program launched by the Department for Promotion of Industry and Internal Trade (DPIIT) under the Ministry of Commerce and Industry, designed to recognize, support, and accelerate the growth of innovative entrepreneurial ventures across India. This flagship initiative aims to build a robust startup ecosystem by providing a comprehensive suite of benefits including three-year income tax exemption on profits (subject to Inter-Ministerial Board approval), exemption from angel tax under Section 56(2)(viib) for investments from registered investors, 80% reduction in patent filing fees, fast-tracked patent examination, and self-certification under various labor and environment laws reducing compliance burden significantly. Eligible startups must be incorporated as Private Limited Company, LLP, or Partnership Firm, be less than ten years old from incorporation, have annual turnover not exceeding ₹100 crore in any financial year, and work toward innovation, development, or improvement of products, processes, or services with scalable business models. The recognition process involves online application through the Startup India portal with supporting documents including incorporation certificate, business description highlighting innovative nature, and recommendations or pitch deck. DPIIT-recognized startups gain access to the Fund of Funds for Startups (FFS) with ₹10,000 crore corpus managed through SIDBI, eligibility for Credit Guarantee Scheme providing collateral-free debt funding, and participation in various government procurement programs with relaxed eligibility criteria. The recognition opens doors to incubation facilities, mentorship programs, networking opportunities with investors and industry leaders, and participation in national and international startup events organized by the government. Startups can leverage the Startup India Hub for connecting with relevant stakeholders, accessing legal support, and navigating regulatory frameworks. The program provides single-window clearance mechanisms simplifying approvals and registrations across various departments. Additional benefits include priority in government tenders, fast-track exits through simplified winding-up procedures within 90 days, and exemption from Section 56 angel tax scrutiny when raising funds from verified investors. The initiative covers startups across diverse sectors including technology, healthcare, agriculture, education, finance, and social enterprises, promoting innovation-driven entrepreneurship nationwide. Whether you're developing cutting-edge technology, creating sustainable solutions, or disrupting traditional industries, Startup India registration provides the governmental recognition and tangible benefits essential for transforming innovative ideas into scalable businesses with national and global impact.",
+  whyChooseUs: [
+    {
+      icon: "BadgePercent",
+      title: "Tax Holiday",
+      text: "Income tax exemption for three consecutive years.",
+    },
+    {
+      icon: "FileCheck",
+      title: "Easier Compliance",
+      text: "Self-certification of compliance with labor and environmental laws.",
+    },
+    {
+      icon: "Gavel",
+      title: "Easy Winding Up",
+      text: "Faster process for winding up the company.",
+    },
+    {
+      icon: "Banknote",
+      title: "Access to Funds",
+      text: "Eligibility for government funding schemes.",
+    },
+  ],
   advantages: [
     {
       icon: "BadgePercent",
@@ -47,77 +71,58 @@ export const startupIndiaRegistrationData: ServiceData = {
     },
   ],
   eligibility: [
-    {
-      title: "Entity Type & Age",
-      items: [
-        "The entity must be a **Private Limited Company**, a **Limited Liability Partnership (LLP)**, or a **Registered Partnership Firm**.",
-        "It should not have been formed by splitting up or reconstructing an existing business.",
-        "The date of incorporation/registration must be less than **10 years** ago.",
-      ],
-    },
-    {
-      title: "Turnover & Innovation",
-      items: [
-        "Annual turnover must not have exceeded **₹100 crore** in any of the previous financial years.",
-        "The entity must be working towards **innovation, development, or improvement** of products, processes, or services, or have a scalable business model with high potential for employment generation or wealth creation.",
-      ],
-    },
+    "The entity must be a Private Limited Company, LLP, or a Registered Partnership Firm.",
+    "The business must be innovative and have a scalable business model.",
+    "Annual turnover should not exceed ₹100 crore.",
   ],
   documents: [
     {
-      tabTitle: "Core Documents",
-      content: {
-        title: "Business & Registration Proof",
-        items: [
-          "Certificate of Incorporation / Registration of the entity.",
-          "PAN card of the entity.",
-        ],
-      },
+      title: "Core Documents",
+      items: ["Certificate of Incorporation/Registration", "PAN Card"],
     },
     {
-      tabTitle: "Supporting Documents",
-      content: {
-        title: "Proof of Concept & Innovation",
-        items: [
-          "A brief write-up about the innovative nature of the business.",
-          "Website link, pitch deck, or a short video explaining the business.",
-          "Details of any awards, recognitions, or patents related to the business.",
-        ],
-      },
+      title: "Supporting Documents",
+      items: [
+        "A brief write-up about the innovation",
+        "Website link or pitch deck",
+      ],
     },
   ],
   registrationProcess: [
     {
       step: 1,
       title: "Incorporate Your Business",
-      description: "First, your business must be incorporated as a Private Limited Company, LLP, or Partnership Firm.",
+      description:
+        "Register your business as a Private Limited Company, LLP, or Partnership Firm.",
     },
     {
       step: 2,
       title: "Register on Startup India Portal",
-      description: "Create a profile on the official Startup India website and fill in the online application form with all business details.",
+      description: "Create a profile and fill the online application.",
     },
     {
       step: 3,
       title: "Submit Documents",
-      description: "Upload the required documents, including the incorporation certificate and a detailed write-up about your startup's innovation.",
+      description: "Upload the required documents and innovation write-up.",
     },
     {
       step: 4,
-      title: "Get DPIIT Recognition Number",
-      description: "Once the application is submitted and verified, the DPIIT will issue a unique recognition number. The certificate of recognition can be downloaded from the portal.",
+      title: "Get DPIIT Recognition",
+      description: "Receive the recognition number and certificate from DPIIT.",
     },
   ],
   fees: [
     {
       component: "Government Fee",
       fees: "Free",
-      remarks: "The DPIIT does not charge any fee for Startup India recognition. The process is completely free of cost.",
+      remarks:
+        "The DPIIT does not charge any fee for Startup India recognition. The process is completely free of cost.",
     },
     {
       component: "Professional Fees",
       fees: "₹5,000 - ₹15,000",
-      remarks: "Charged for professional assistance in preparing the application, drafting the innovation write-up, and ensuring all criteria are met.",
+      remarks:
+        "Charged for professional assistance in preparing the application, drafting the innovation write-up, and ensuring all criteria are met.",
     },
   ],
   faqs: [

@@ -5,8 +5,32 @@ import { ServiceData } from "@/lib/types";
 export const foreignSubsidiaryCompanyRegistrationData: ServiceData = {
   title: "Foreign Subsidiary Company Registration",
   breadcrumb: ["Home", "Registrations", "Foreign Subsidiary"],
+  description:
+    "Expand your business footprint across borders. Foreign Subsidiary Company registration establishes Indian parent company control in international markets, enabling global expansion with complete ownership, operational autonomy, and strategic market positioning worldwide.",
   overview:
-    "A **Foreign Subsidiary**, or a Wholly-Owned Subsidiary (WOS), is a company established in a foreign country but controlled by an Indian parent company. This is a key strategy for Indian businesses aiming for global expansion 🌏, allowing them to access international markets, talent, and technology. The process involves complying with India's **Overseas Direct Investment (ODI)** guidelines under FEMA, as well as the corporate laws of the host country.",
+    "A **Foreign Subsidiary Company**, commonly known as a Wholly-Owned Subsidiary (WOS), represents a strategic corporate structure where an Indian parent company establishes and controls a business entity in a foreign country, holding complete or majority ownership stakes that ensure operational control and strategic alignment. This international expansion vehicle enables Indian businesses to directly access global markets, leverage international talent pools, adopt cutting-edge technologies, and establish local presence in target countries while maintaining Indian headquarters oversight. The subsidiary operates as a separate legal entity under the host country's corporate laws, providing limited liability protection to the Indian parent company while facilitating compliance with local regulations and business practices. This structure offers numerous strategic advantages including direct market access without intermediaries, enhanced brand credibility through local incorporation, ability to customize products and services for regional preferences, and circumvention of import duties and trade barriers through local manufacturing or operations. The parent company exercises control through board representation, shareholding patterns, and strategic directives while the subsidiary maintains operational independence to respond quickly to local market dynamics. Foreign subsidiaries enable Indian companies to establish research and development centers in innovation hubs, set up manufacturing facilities to serve regional markets, create distribution networks for exports, and acquire foreign intellectual property and technologies. The structure facilitates easier repatriation of profits subject to host country regulations, provides tax optimization opportunities through international structuring, and builds local stakeholder relationships with governments, suppliers, and customers. Establishment typically involves compliance with Foreign Exchange Management Act (FEMA) regulations, RBI guidelines for overseas direct investment, and host country corporate laws regarding incorporation, taxation, and operations. The Indian parent must ensure adequate capitalization, reporting obligations to RBI through Annual Performance Reports, and adherence to transfer pricing regulations for inter-company transactions. Foreign subsidiaries represent significant commitment compared to joint ventures or representative offices, requiring substantial capital investment and long-term strategic planning. Ideal for established Indian corporations pursuing international growth, manufacturers seeking global supply chain integration, technology companies establishing global delivery centers, and businesses aiming for multinational presence, Foreign Subsidiary registration delivers complete control, brand consistency, and strategic flexibility in global expansion initiatives.",
+  whyChooseUs: [
+    {
+      icon: "Globe",
+      title: "Global Market Access",
+      text: "Establish a direct presence in foreign markets.",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "Limited Liability",
+      text: "Protects the Indian parent company's assets.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Risk Diversification",
+      text: "Diversify economic and market risks.",
+    },
+    {
+      icon: "Landmark",
+      title: "Legal Recognition",
+      text: "Enhances credibility in the foreign country.",
+    },
+  ],
   advantages: [
     {
       icon: "Globe",
@@ -47,78 +71,64 @@ export const foreignSubsidiaryCompanyRegistrationData: ServiceData = {
     },
   ],
   eligibility: [
-    {
-      title: "Indian Entity Requirements",
-      items: [
-        "The Indian party must be a registered company, partnership firm, or LLP.",
-        "Must route all transactions through an Authorized Dealer (AD) Category-I bank.",
-        "The total financial commitment must not exceed 400% of the Indian party's net worth as per its last audited balance sheet.",
-      ],
-    },
-    {
-      title: "Host Country Requirements",
-      items: [
-        "Must meet all the legal and corporate requirements for company formation in the chosen foreign country.",
-        "This includes appointing local directors or agents as mandated by that country's laws.",
-      ],
-    },
+    "The Indian parent company must be a registered entity.",
+    "The investment must comply with the ODI guidelines under FEMA.",
+    "The host country's legal requirements for company formation must be met.",
   ],
   documents: [
     {
-      tabTitle: "Indian Compliance (ODI)",
-      content: {
-        title: "Documents for RBI/AD Bank",
-        items: [
-          "**Form ODI**, duly filled and signed.",
-          "Certified copy of the Board Resolution authorizing the overseas investment.",
-          "Statutory Auditor's certificate for calculating the net worth.",
-          "Valuation report for the foreign entity's shares (if applicable).",
-        ],
-      },
+      title: "For Indian Compliance (ODI)",
+      items: [
+        "Form ODI",
+        "Board Resolution",
+        "Statutory Auditor's certificate",
+        "Valuation report (if applicable)",
+      ],
     },
     {
-      tabTitle: "Foreign Incorporation",
-      content: {
-        title: "Typical Documents for Host Country",
-        items: [
-          "Documents required by the foreign jurisdiction, which often include apostilled copies of the Indian parent's corporate documents.",
-          "Details and KYC of the proposed directors and shareholders.",
-        ],
-      },
+      title: "For Foreign Incorporation",
+      items: [
+        "Apostilled copies of the Indian parent's corporate documents",
+        "KYC of directors and shareholders",
+      ],
     },
   ],
   registrationProcess: [
     {
       step: 1,
-      title: "Board Resolution and ODI Form",
-      description: "The Indian company's board must pass a resolution approving the investment. Then, Form ODI is submitted to the Authorized Dealer (AD) Bank.",
+      title: "Board Resolution & ODI Form",
+      description:
+        "Pass a board resolution and submit the ODI form to the AD Bank.",
     },
     {
       step: 2,
       title: "Fund Remittance",
-      description: "Once the AD Bank approves the ODI application, the funds for investment can be remitted to the foreign country through banking channels.",
+      description: "Remit funds for investment to the foreign country.",
     },
     {
       step: 3,
       title: "Incorporate in Foreign Country",
-      description: "Engage local legal counsel in the host country to complete the company incorporation process according to their laws.",
+      description: "Complete the incorporation process in the host country.",
     },
     {
       step: 4,
       title: "Post-Investment Compliance",
-      description: "After incorporation, submit evidence of the investment to the AD Bank to get a Unique Identification Number (UIN) from the RBI. Annual Performance Reports (APR) must be filed every year.",
+      description:
+        "Submit evidence of investment to the AD Bank and obtain a UIN.",
     },
   ],
   fees: [
     {
       component: "Foreign Legal & Incorporation Fees",
       fees: "Varies Highly",
-      remarks: "This is the major cost and depends entirely on the host country (e.g., USA, UK, Singapore).",
+      remarks:
+        "This is the major cost and depends entirely on the host country (e.g., USA, UK, Singapore).",
     },
     {
       component: "Indian Professional Fees",
       fees: "₹50,000+",
-      remarks: "Covers FEMA advisory, ODI form filing, and coordination with the AD Bank. Excludes foreign legal costs.",
+      remarks:
+        "Covers FEMA advisory, ODI form filing, and coordination with the AD Bank. Excludes foreign legal costs.",
     },
   ],
   faqs: [

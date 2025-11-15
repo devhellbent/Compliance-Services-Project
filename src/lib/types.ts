@@ -1,23 +1,28 @@
 // lib/types.ts
 
 // Define the structure for individual items like advantages, documents, etc.
-type AdvantageDisadvantageItem = {
+export type AdvantageDisadvantageItem = {
   icon: string;
   title: string;
   text: string;
 };
 
-type EligibilityCriterion = {
+export type EligibilityCriterion = {
   title: string;
   items: string[];
 };
 
-type DocumentContent = {
+export type DocumentContent = {
   title: string;
   items: string[];
 };
 
-type DocumentTab = {
+export type SimpleDocument = {
+  title: string;
+  items: string[];
+};
+
+export type DocumentTab = {
   tabTitle: string;
   content: DocumentContent;
 };
@@ -43,12 +48,32 @@ type FaqItem = {
 export interface ServiceData {
   title: string;
   breadcrumb: string[];
+  description?: string;
   overview: string;
+  whyChooseUs?: AdvantageDisadvantageItem[];
   advantages: AdvantageDisadvantageItem[];
   disadvantages: AdvantageDisadvantageItem[];
-  eligibility: EligibilityCriterion[];
-  documents: DocumentTab[];
+  eligibility: (EligibilityCriterion | string)[];
+  documents: (DocumentTab | SimpleDocument)[];
   registrationProcess: RegistrationStep[];
   fees: Fee[];
   faqs: FaqItem[];
+  typesOfPartnership?: {
+    title: string;
+    description: string;
+    types: {
+      title: string;
+      description: string;
+      keyFeatures: string[];
+    }[];
+  };
+  comparison?: {
+    title: string;
+    headers: string[];
+    rows: {
+      feature: string;
+      registered: string;
+      unregistered: string;
+    }[];
+  };
 }

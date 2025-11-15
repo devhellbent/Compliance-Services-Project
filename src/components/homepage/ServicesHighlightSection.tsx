@@ -11,7 +11,27 @@ import { ArrowRight } from "lucide-react";
 gsap.registerPlugin(ScrollTrigger);
 
 export const ServicesHighlightSection = () => {
-  const highlightedServices = navigationData.slice(0, 4);
+  // Build a flat list of core service items from navigation, ensuring valid service slugs
+  const coreServiceItems = navigationData
+    .flatMap((group) =>
+      (group.subCategories || []).flatMap((sub) =>
+        (sub.items || []).map((item) => ({
+          title: item.name,
+          slug: item.slug, // expected to be /services/<service-slug>
+          parent: {
+            subHead: sub.subHead,
+            icon: sub.icon,
+          },
+        }))
+      )
+    )
+    // Filter only actual /services/ routes to avoid dead links like /registrations
+    .filter(
+      (it) => typeof it.slug === "string" && it.slug.startsWith("/services/")
+    );
+
+  // Select first 8 to display as core services (can be curated later)
+  const highlightedServices = coreServiceItems.slice(0, 8);
 
   useGSAP(() => {
     // Animate the service cards on scroll
@@ -19,11 +39,14 @@ export const ServicesHighlightSection = () => {
       opacity: 0,
       y: 50,
       duration: 0.6,
-      stagger: 0.2,
+      stagger: 0.15,
       ease: "power3.out",
+      immediateRender: false,
       scrollTrigger: {
         trigger: ".service-card-container",
-        start: "top 80%", // Start animation when the container is 80% from the top
+        start: "top 80%", // Start when container reaches 80% viewport height
+        toggleActions: "play none play none", // play on enter and enter-back, never reverse
+        once: false, // allow re-entry to play again instead of reversing
       },
     });
   }, []);
@@ -41,11 +64,11 @@ export const ServicesHighlightSection = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 service-card-container">
           {highlightedServices.map((service) => {
-            const Icon = service.subCategories?.[0]?.icon;
+            const Icon = service.parent.icon;
             return (
               <Link
                 href={service.slug}
-                key={service.mainHead}
+                key={`${service.slug}`}
                 className="group block bg-white p-8 rounded-xl border border-gray-200 hover:border-orange-500 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 service-card"
               >
                 <div className="flex flex-col h-full">
@@ -56,13 +79,10 @@ export const ServicesHighlightSection = () => {
                   )}
                   <div className="flex-grow">
                     <h3 className="text-xl font-bold text-gray-900 mb-3">
-                      {service.mainHead}
+                      {service.title}
                     </h3>
                     <p className="text-gray-500 text-sm leading-relaxed">
-                      {service.subCategories
-                        ?.map((sc) => sc.subHead)
-                        .slice(0, 2)
-                        .join(", ") + " & more."}
+                      {service.parent.subHead}
                     </p>
                   </div>
                   <div className="mt-6">

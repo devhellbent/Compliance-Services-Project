@@ -5,56 +5,76 @@ import { ServiceData } from "@/lib/types";
 export const tanRegistrationData: ServiceData = {
   title: "TAN Registration",
   breadcrumb: ["Home", "Registrations", "TAN Registration"],
+  description:
+    "Obtain TAN for TDS/TCS deduction and filing—mandatory for challans, quarterly returns and TDS certificates.",
   overview:
-    "A **Tax Deduction and Collection Account Number (TAN)** is a unique 10-digit alphanumeric number required for all persons responsible for deducting or collecting tax at source (TDS/TCS) on behalf of the Income Tax Department. 🧾 It is mandatory to quote TAN in all TDS/TCS-related documents, including returns, payments, and certificates. It is different from PAN and is used exclusively for TDS/TCS compliance.",
+    "A **Tax Deduction & Collection Account Number (TAN)** is a mandatory 10‑character alphanumeric identifier (e.g., MUMM12345A) issued by the Income Tax Department to every deductor/collector of tax at source (TDS/TCS). It must be quoted on all challans (ITNS‑281), quarterly returns (24Q, 26Q, 27Q, 27EQ), TDS/TCS certificates (Form 16/16A) and official correspondence. A single TAN covers both TDS and TCS obligations—duplication is prohibited (penalty ₹10,000). Unlike PAN (taxpayer identity), TAN specifically tracks tax deducted/collected flows enabling reconciliation of credits claimed by deductees.",
   advantages: [
     {
       icon: "FileCheck",
       title: "Enables TDS/TCS Compliance",
-      text: "It is legally mandatory for any person or entity deducting or collecting tax at source.",
+      text: "Legally required to deduct / collect tax and file statutory quarterly statements.",
     },
     {
       icon: "Receipt",
       title: "Required for Filing Returns",
-      text: "You cannot file TDS/TCS returns (like Form 24Q, 26Q) without a valid TAN. These returns are required to be filed quarterly.",
+      text: "Essential for uploading returns (24Q, 26Q, 27Q, 27EQ) & generating Form 16/16A.",
     },
     {
       icon: "Newspaper",
       title: "Issuance of TDS Certificates",
-      text: "A valid TAN is required to issue TDS certificates (like Form 16 for salary and Form 16A for other payments) to deductees.",
+      text: "Mandatory reference for generation and validation of salary & non‑salary TDS certificates.",
     },
     {
       icon: "Bank",
       title: "Depositing Tax",
-      text: "Authorized banks will not accept TDS/TCS payments unless the deductor quotes their TAN.",
+      text: "Banks & OLTAS challans reject payments without a valid TAN quoted.",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "Credit Reconciliation",
+      text: "Enables matching of amounts deducted vs. credits appearing in deductee Form 26AS.",
     },
   ],
   disadvantages: [
     {
       icon: "AlertTriangle",
       title: "Penalty for Non-Quoting",
-      text: "Failure to quote TAN in TDS/TCS challans, certificates, or returns can attract a penalty of ₹10,000.",
+      text: "Non‑quotation on challans / returns invites penalty under Section 272BB (₹10,000).",
     },
     {
       icon: "FileWarning",
       title: "Penalty for Non-Application",
-      text: "If a person who is required to obtain a TAN fails to do so, they can also be liable for a penalty of ₹10,000.",
+      text: "Failure to obtain TAN when required yields same penalty and halts compliant deduction.",
     },
     {
       icon: "Info",
       title: "Specific Use Only",
-      text: "TAN is not a general-purpose identification number; its use is strictly limited to TDS/TCS compliance.",
+      text: "Limited scope—cannot replace PAN, GSTIN, CIN or other statutory identifiers.",
+    },
+    {
+      icon: "Clock",
+      title: "Quarterly Workload",
+      text: "Adds recurring compliance burden (returns, corrections, certificate downloads).",
     },
   ],
   eligibility: [
     {
       title: "Who Needs a TAN?",
       items: [
-        "Any person or entity responsible for deducting tax at source under the Income Tax Act, 1961.",
-        "**Employers**: Who deduct tax on employee salaries.",
-        "**Companies/Firms**: Paying for professional services, rent, or contractor payments above specified limits.",
-        "**Individuals**: Who are subject to a tax audit and make payments requiring TDS.",
-        "Any entity responsible for collecting tax at source (TCS).",
+        "Every person / entity required to deduct TDS or collect TCS under the Income Tax Act.",
+        "Employers deducting TDS on salaries (24Q).",
+        "Companies / Firms / LLPs paying professional fees, contractor bills, rent, interest, commission etc. above thresholds.",
+        "Individuals / HUFs subject to tax audit making specified payments (Section 194M/194C etc.).",
+        "Entities collecting TCS (e.g., sale of scrap, timber, specific goods under Section 206C).",
+      ],
+    },
+    {
+      title: "Key Points",
+      items: [
+        "One TAN per deductor—do not apply for multiple; use same TAN across all sections.",
+        "Separate branches of large organizations may seek distinct TANs if acting independently.",
+        "PAN is still needed; TAN does not replace PAN for returns of income.",
       ],
     },
   ],
@@ -64,9 +84,20 @@ export const tanRegistrationData: ServiceData = {
       content: {
         title: "Application is Document-Free",
         items: [
-          "The application for TAN allotment is made using Form 49B.",
-          "No supporting documents are required to be submitted with this application.",
-          "The details provided in the form are considered sufficient for the allotment of TAN.",
+          "Apply using **Form 49B** (online via Protean / NSDL).",
+          "No physical supporting documents ordinarily required.",
+          "Ensure AO Code accuracy (Area, AO Type, Range, Number) before submission.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Reference Data",
+      content: {
+        title: "Keep Ready",
+        items: [
+          "Deductor PAN (mandatory field).",
+          "Full legal name & address; contact email & phone.",
+          "Category of deductor (Company / Branch / Govt / Individual / Firm).",
         ],
       },
     },
@@ -76,33 +107,45 @@ export const tanRegistrationData: ServiceData = {
       step: 1,
       title: "Fill Application Form 49B",
       description:
-        "Complete the online application using Form 49B available on the NSDL-TIN portal. Ensure all details, especially the deductor's category and PAN, are correct.",
+        "Enter deductor details, category & PAN. Validate AO Code from ITD resources or TIN-FC.",
     },
     {
       step: 2,
       title: "Make Payment",
       description:
-        "Pay the required processing fee online through net banking, debit/credit card, or other available methods.",
+        "Pay nominal processing fee online (card / net banking / UPI).",
     },
     {
       step: 3,
       title: "Receive Acknowledgement",
       description:
-        "After successful payment, a 14-digit acknowledgement number is generated. This can be used to track the status of the application.",
+        "14‑digit acknowledgement generated—retain for tracking status.",
     },
     {
       step: 4,
       title: "TAN Allotment",
       description:
-        "The Income Tax Department processes the application. Once approved, the TAN is allotted and can be checked online. There is no physical TAN card issued; only an allotment letter is sent.",
+        "ITD processes & allots TAN; download / note number (no physical card—letter / email only).",
+    },
+    {
+      step: 5,
+      title: "Activate Usage",
+      description:
+        "Quote TAN immediately in challans & future quarterly TDS/TCS statements.",
     },
   ],
   fees: [
     {
       component: "TAN Application Processing Fee",
-      fees: "₹65 (approx.)",
+      fees: "₹65–₹70",
       remarks:
-        "This is a standard government-mandated fee for processing a new TAN application. Includes GST.",
+        "Government processing fee (inclusive of GST) – portal updates may vary slightly.",
+    },
+    {
+      component: "Penalty (Incorrect / Duplicate TAN)",
+      fees: "₹10,000",
+      remarks:
+        "Section 272BB – for failure to apply, quote, or using multiple TANs improperly.",
     },
   ],
   faqs: [
@@ -116,7 +159,15 @@ export const tanRegistrationData: ServiceData = {
     },
     {
       q: "Do I need to renew my TAN?",
-      a: "No, TAN is a one-time allotment and does not have an expiry date. It remains valid for life.",
+      a: "No. TAN is permanent unless surrendered due to closure / change in deductor structure.",
+    },
+    {
+      q: "Can one business hold multiple TANs?",
+      a: "Generally no—only if separate branches deduct independently; avoid unnecessary duplication.",
+    },
+    {
+      q: "What if wrong AO Code was entered?",
+      a: "File a correction request in subsequent quarterly return or approach TIN facilitation center for rectification.",
     },
   ],
 };

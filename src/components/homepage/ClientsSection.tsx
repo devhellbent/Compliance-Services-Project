@@ -28,6 +28,7 @@ export const ClientsSection = () => {
                 width={120}
                 height={40}
                 className="h-8 opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition-all"
+                unoptimized
               />
             </div>
           ))}

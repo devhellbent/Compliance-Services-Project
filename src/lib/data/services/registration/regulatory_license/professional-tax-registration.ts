@@ -5,54 +5,64 @@ import { ServiceData } from "@/lib/types";
 export const professionalTaxRegistrationData: ServiceData = {
   title: "Professional Tax Registration",
   breadcrumb: ["Home", "Registrations", "Professional Tax Registration"],
+  description:
+    "State professional tax registration for employers (PTRC) and professionals (PTEC), including returns and payment schedules.",
   overview:
-    "**Professional Tax (PT)** is a state-level tax levied on professionals, trades, and employment. It is imposed by specific state governments in India (not all states have it). For businesses, it is the employer's responsibility to deduct PT from employees' salaries and pay it to the state government. 🏛️ Registration is mandatory for any business entity with employees in a state where this tax is applicable.",
+    "**Professional Tax (PT)** is a state‑levied tax on professions, trades, callings, and employment. Applicability, slab rates, exemptions and compliance calendars vary by state (not all states levy PT). Employers must obtain **PTRC** to deduct PT from employee salaries and deposit it to the state; businesses and professionals obtain **PTEC** to pay PT on their own professional income. Registration is generally due within 30 days of hiring staff or commencing professional activity.",
   advantages: [
     {
       icon: "FileCheck",
       title: "Legal Compliance",
-      text: "It is a mandatory legal requirement for businesses with employees in applicable states, avoiding penalties for non-compliance.",
+      text: "Mandatory in applicable states—prevents penalties and prosecution risk.",
     },
     {
       icon: "Landmark",
       title: "State Government Compliance",
-      text: "Ensures compliance with the state's commercial tax laws, which is crucial for smooth business operations.",
+      text: "Meets state commercial tax requirements; enables other state permissions.",
     },
     {
       icon: "Receipt",
       title: "Prerequisite for Other Licenses",
-      text: "In many states, a valid PT registration is a prerequisite for obtaining other state-level licenses and registrations.",
+      text: "Often needed for trade licenses, tenders, and other state registrations.",
     },
     {
       icon: "Users",
       title: "Employee Welfare",
-      text: "The revenue collected is used by the state government to fund schemes for employment generation and social welfare.",
+      text: "State revenue supports public services; deduction appears transparent to employees.",
     },
   ],
   disadvantages: [
     {
       icon: "FileWarning",
       title: "Monthly/Quarterly Compliance",
-      text: "Requires regular compliance in the form of monthly or quarterly payments and annual return filings, adding to administrative tasks.",
+      text: "Recurring returns & payments add to payroll and compliance workload.",
     },
     {
       icon: "Map",
       title: "State-Specific Rules",
-      text: "The rules, tax slabs, and due dates vary from state to state, which can be complex for businesses operating in multiple locations.",
+      text: "Different slabs, exemptions and due dates across states complicate multi‑state ops.",
     },
     {
       icon: "AlertTriangle",
       title: "Penalties for Non-Compliance",
-      text: "Penalties are levied for late registration, late payment of tax, and late filing of returns.",
+      text: "Late registration, payment or return filing attracts interest & penalties.",
     },
   ],
   eligibility: [
     {
       title: "Who Needs PT Registration?",
       items: [
-        "**Employers**: Every business entity (Company, Firm, Proprietorship, LLP, etc.) that employs staff in a state where PT is applicable.",
-        "**Professionals**: Practicing professionals like Doctors, Lawyers, Chartered Accountants, Architects, etc.",
-        "**Self-Employed**: Individuals engaged in any business or trade on their own account.",
+        "**Employers (PTRC)** – any entity employing staff above state exemption thresholds.",
+        "**Self‑employed / Professionals (PTEC)** – doctors, lawyers, CAs, architects, traders etc.",
+        "**Companies/LLPs/Firms** – PTEC for entity’s own liability; PTRC for employee deductions.",
+      ],
+    },
+    {
+      title: "State‑wise Notes",
+      items: [
+        "Applicable in states incl. Maharashtra, Karnataka, West Bengal, Tamil Nadu, Telangana, Andhra Pradesh, Gujarat, Madhya Pradesh, Odisha, Bihar, Assam, etc.",
+        "Not applicable in states like Delhi, Haryana, Uttar Pradesh, Rajasthan (as of current norms).",
+        "Annual cap per person is ₹2,500 (Article 276, Constitution).",
       ],
     },
   ],
@@ -82,39 +92,50 @@ export const professionalTaxRegistrationData: ServiceData = {
         ],
       },
     },
+    {
+      tabTitle: "Optional / Conditional",
+      content: {
+        title: "Depending on State",
+        items: [
+          "Cancelled cheque / bank statement of entity.",
+          "NOC from owner + Rent Agreement if premises rented.",
+          "Board Resolution / Partner authorization for signatory.",
+        ],
+      },
+    },
   ],
   registrationProcess: [
     {
       step: 1,
       title: "Visit State Tax Website",
       description:
-        "The application is filed online on the website of the respective state's Commercial Tax Department or Profession Tax Department.",
+        "Apply on the relevant state portal (Commercial Tax / Profession Tax / Mahagst, etc.).",
     },
     {
       step: 2,
       title: "Fill the Application Form",
       description:
-        "Complete the online application form for Professional Tax registration (PTEC and/or PTRC) with all the required business and employee details.",
+        "Choose PTEC and/or PTRC; enter entity, signatory & employee details as required.",
     },
     {
       step: 3,
       title: "Upload Documents",
       description:
-        "Upload scanned copies of all the required documents as per the state's checklist.",
+        "Upload scans per checklist; verify slab mapping for employees as per salary bands.",
     },
     {
       step: 4,
       title: "Receive Certificate",
       description:
-        "Once the application and documents are verified by the department, the PT Registration Certificate is issued and can be downloaded from the portal.",
+        "Post verification, download PTEC/PTRC certificate; note return schedules & payment timelines.",
     },
   ],
   fees: [
     {
       component: "Government Registration Fee",
-      fees: "Nil - ₹500",
+      fees: "Nil – ₹1,000",
       remarks:
-        "The registration fee is minimal or often nil, but this varies by state.",
+        "Varies by state and certificate type (PTEC/PTRC) — often nominal.",
     },
     {
       component: "Professional Fees",
@@ -122,19 +143,25 @@ export const professionalTaxRegistrationData: ServiceData = {
       remarks:
         "For professional assistance with the application process and document preparation.",
     },
+    {
+      component: "Illustrative Monthly Slabs",
+      fees: "₹0 / ₹150 / ₹200",
+      remarks:
+        "Common slabs: up to ₹15k – Nil; ₹15,001–₹20k – ₹150; above ₹20k – ₹200 (varies by state).",
+    },
   ],
   faqs: [
     {
       q: "Which states in India have Professional Tax?",
-      a: "Professional Tax is a state-level tax and is not applicable in all states. Some of the states that levy PT include Maharashtra, Karnataka, West Bengal, Tamil Nadu, Andhra Pradesh, Telangana, Gujarat, and Madhya Pradesh.",
+      a: "It’s state‑specific. Examples: Maharashtra, Karnataka, West Bengal, Tamil Nadu, Telangana, Andhra Pradesh, Gujarat, Madhya Pradesh, Odisha, Bihar, Assam. Not applicable in Delhi, Haryana, Uttar Pradesh, Rajasthan.",
     },
     {
       q: "What is the maximum amount of Professional Tax that can be levied?",
-      a: "As per Article 276 of the Indian Constitution, the maximum amount of Professional Tax that can be levied on any person per year is capped at ₹2,500.",
+      a: "The Constitution caps PT at **₹2,500 per person per year** (Article 276). States set slabs within this limit.",
     },
     {
       q: "What is the difference between PTEC and PTRC?",
-      a: "PTEC (Professional Tax Enrollment Certificate) is for the business entity itself to be legally able to conduct its profession or trade. PTRC (Professional Tax Registration Certificate) is for the employer to be able to deduct and deposit PT from its employees' salaries.",
+      a: "**PTEC**: tax payable by the entity / professional on own income. **PTRC**: enables employer to deduct & remit PT for employees.",
     },
   ],
 };

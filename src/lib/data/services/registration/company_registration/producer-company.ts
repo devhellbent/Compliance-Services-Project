@@ -5,140 +5,184 @@ import { ServiceData } from "@/lib/types";
 export const producerCompanyData: ServiceData = {
   title: "Producer Company Registration",
   breadcrumb: ["Home", "Registrations", "Producer Company"],
+  description:
+    "Empower agricultural communities through collective strength. Producer Company registration unites farmers and agricultural producers into a corporate entity, enhancing bargaining power, ensuring fair prices, and transforming rural livelihoods through cooperative entrepreneurship.",
   overview:
-    "A **Producer Company** is a special corporate body legally formed by producers, specifically farmers, agriculturalists, or artisans. It's a hybrid between a cooperative society and a private limited company, governed by the **Companies Act, 2013**. Its main objective is to improve the standard of living of its members through collective activities like production, procurement, marketing, and selling of their primary produce.",
+    "A **Producer Company** represents an innovative hybrid business structure specifically designed for agricultural producers, farmers, and primary producers, combining the democratic governance of cooperative societies with the professional management and legal framework of private limited companies. Introduced through Part IXA of the Companies Act, 1956 (now governed by Companies Act, 2013), this specialized entity empowers primary producers to collectively engage in production, harvesting, procurement, grading, pooling, handling, marketing, selling, and exporting their produce while maintaining complete control over their enterprise. The structure requires a minimum of ten producer members (individuals or producer institutions) and maximum five non-producer members, ensuring producer-centric governance where decision-making authority remains with those directly involved in primary production. Each member holds equal voting rights regardless of shareholding, promoting democratic participation and preventing exploitation by middlemen or intermediaries. The Producer Company can undertake diverse activities including production of goods, processing, preservation, marketing of primary produce, bulk purchasing of inputs like seeds, fertilizers, and equipment, providing technical assistance, insurance, and financial services to members, and even operating as a mutually aided cooperative structure. This framework eliminates middlemen, ensuring fair prices for producers while offering consumers access to quality products at reasonable rates. The structure enables collective bargaining power, allowing small and marginal farmers to negotiate better terms with buyers, access institutional credit, adopt modern agricultural technologies, and participate in government schemes and subsidies. Members enjoy limited liability protection with liability restricted to their shareholding, safeguarding personal assets from business obligations. The corporate structure facilitates brand building, quality certification, value addition, and direct market linkages including exports, significantly enhancing income potential. With lower compliance burden compared to traditional companies and eligibility for various government incentives, Producer Companies deliver sustainable livelihood enhancement for farming communities, agricultural workers, handloom weavers, handicraft artisans, fishermen, and other primary producers across India.",
+  whyChooseUs: [
+    {
+      icon: "Users",
+      title: "Collective Bargaining",
+      text: "Enables farmers to have better bargaining power.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Increased Income",
+      text: "Helps in increasing the income of producers.",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "Limited Liability",
+      text: "Offers limited liability to its members.",
+    },
+    {
+      icon: "Banknote",
+      title: "Access to Credit",
+      text: "Provides better access to credit and other financial services.",
+    },
+  ],
   advantages: [
     {
       icon: "ShieldCheck",
-      title: "Limited Liability & Separate Entity",
-      text: "Members' personal assets are protected, and the company has its own legal identity, separate from its owners.",
+      title: "Limited Liability Protection",
+      text: "Members' personal assets are protected. Liability is limited to the unpaid amount on their shares. Separate legal entity with perpetual succession.",
     },
     {
-      icon: "Handshake",
-      title: "Greater Bargaining Power",
-      text: "By pooling their produce, members can negotiate better prices with buyers and purchase inputs in bulk at lower costs.",
+      icon: "Users",
+      title: "Democratic Structure & Member Control",
+      text: "Operates on democratic principles with one member-one vote system. Members collectively control management and decision-making.",
     },
     {
-      icon: "Landmark",
-      title: "Access to Credit",
-      text: "As a formal corporate entity, it can more easily secure loans and financial assistance from banks and institutions like NABARD.",
+      icon: "TrendingUp",
+      title: "Better Bargaining Power",
+      text: "Pooling of produce and collective marketing enables members to negotiate better prices with buyers and reduce dependence on intermediaries.",
     },
     {
-      icon: "BookUser",
+      icon: "Banknote",
+      title: "Easy Access to Credit & Subsidies",
+      text: "As a formal corporate entity, can secure institutional loans from banks, NABARD, and avail government subsidies, schemes, and grants for agriculture and rural development.",
+    },
+    {
+      icon: "Award",
       title: "Professional Management",
-      text: "It allows for the appointment of experts to manage the business efficiently, which individual producers often cannot afford.",
+      text: "Can appoint professional managers, experts, and consultants to handle operations, marketing, and finance—something individual producers cannot afford.",
+    },
+    {
+      icon: "Scale",
+      title: "Value Addition & Processing",
+      text: "Enables collective investment in value addition, processing, branding, and packaging of primary produce, increasing income for members.",
     },
   ],
   disadvantages: [
     {
       icon: "Users",
       title: "Restricted Membership",
-      text: "Membership is strictly limited to 'primary producers', preventing investment from the general public.",
+      text: "Only primary producers (farmers, agriculturalists, artisans, etc.) can become members. General public or non-producers cannot invest or join.",
     },
     {
-      icon: "FileWarning",
-      title: "Complex Compliance",
-      text: "Being a company, it must adhere to the compliance requirements of the Companies Act, which can be burdensome for farmers.",
+      icon: "FileText",
+      title: "Compliance & Regulatory Burden",
+      text: "Must comply with the Companies Act, 2013 including annual filings, board meetings, audits, and statutory registers. Can be complex for rural producers.",
+    },
+    {
+      icon: "AlertCircle",
+      title: "Higher Formation Costs",
+      text: "Incorporation requires minimum ₹5 lakh authorized capital. DSC, DIN, professional fees, and stamp duty add to the cost—higher than a society or cooperative.",
     },
     {
       icon: "Scale",
-      title: "Potential for Disputes",
-      text: "Decision-making among a large group of members can sometimes lead to internal conflicts.",
+      title: "Potential for Internal Conflicts",
+      text: "Decision-making among a large group of members from diverse backgrounds can lead to disputes, disagreements, and management challenges.",
     },
   ],
   eligibility: [
-    {
-      title: "Member Requirements",
-      items: [
-        "A minimum of **10 individual producers**.",
-        "Alternatively, two or more producer institutions.",
-        "A combination of 10 or more individuals and producer institutions.",
-      ],
-    },
-    {
-      title: "Director and Capital",
-      items: [
-        "A minimum of **5 directors** is required (maximum of 15).",
-        "A minimum paid-up authorized capital of **₹5 lakh** is required.",
-        "The company name must end with **'Producer Company Limited'**.",
-      ],
-    },
+    "A minimum of 10 producers (individuals) or two producer institutions are required.",
+    "A minimum of five directors are required.",
+    "The company's objectives must be related to the primary produce of its members.",
   ],
   documents: [
     {
-      tabTitle: "Directors & Members",
-      content: {
-        title: "Identity and Address Proof",
-        items: [
-          "PAN Card and Aadhaar Card of all proposed directors and subscribers.",
-          "Proof of being a 'primary producer' for all members (e.g., land ownership records, Sarpanch letter).",
-          "Passport-size photographs.",
-        ],
-      },
+      title: "For Directors/Shareholders",
+      items: [
+        "PAN Card",
+        "Identity Proof",
+        "Address Proof",
+        "Photograph",
+        "Proof of being a producer",
+      ],
     },
     {
-      tabTitle: "Registered Office",
-      content: {
-        title: "Proof of Business Address",
-        items: [
-          "Latest Utility Bill of the registered office.",
-          "Rent Agreement and NOC if the office is rented.",
-        ],
-      },
+      title: "For Registered Office",
+      items: ["Utility Bill", "NOC from the owner"],
     },
   ],
   registrationProcess: [
     {
       step: 1,
-      title: "Obtain DSC and DIN",
-      description:
-        "All the proposed 5 or more directors must obtain their Digital Signature Certificates (DSC) and Director Identification Numbers (DIN).",
+      title: "DSC & DIN",
+      description: "Obtain DSC and DIN for directors.",
     },
     {
       step: 2,
       title: "Name Approval",
-      description:
-        "Apply for a unique name for the company using the SPICe+ Part A form. The name must end with 'Producer Company Limited'.",
+      description: "Reserve a unique name for the company.",
     },
     {
       step: 3,
-      title: "File Incorporation Forms",
-      description:
-        "File the SPICe+ Part B form along with the e-MOA and e-AOA. The MOA must clearly state the objectives which align with the activities permitted for a producer company.",
-    },
-    {
-      step: 4,
-      title: "Receive Certificate of Incorporation",
-      description:
-        "After verification of all documents, the Registrar of Companies (RoC) will issue the Certificate of Incorporation.",
+      title: "Incorporation",
+      description: "File the incorporation form with the RoC.",
     },
   ],
   fees: [
     {
-      component: "Government Fees & Stamp Duty",
-      fees: "Varies",
-      remarks:
-        "Depends on the authorized capital (minimum ₹5 lakh) and the state of registration.",
+      component: "Digital Signature Certificate (DSC)",
+      fees: "₹1,000 - ₹2,000",
+      remarks: "Per director (minimum 5 directors required)",
     },
     {
-      component: "Professional Fees",
+      component: "Director Identification Number (DIN)",
+      fees: "₹500 - ₹1,000",
+      remarks: "Per director (one-time)",
+    },
+    {
+      component: "Name Approval (SPICe+ Part A)",
+      fees: "₹1,000",
+      remarks: "For name reservation",
+    },
+    {
+      component: "Government/ROC Fees (SPICe+ Part B)",
+      fees: "₹2,500 - ₹5,000",
+      remarks: "For authorized capital of ₹5 lakh or more",
+    },
+    {
+      component: "Stamp Duty",
+      fees: "Varies by state",
+      remarks:
+        "Based on ₹5 lakh minimum authorized capital (state-specific rates apply)",
+    },
+    {
+      component: "Professional Fees (CA/CS/Lawyer)",
       fees: "₹20,000 - ₹40,000",
       remarks:
-        "Covers the entire registration process for multiple directors and members, including all documentation and filings.",
+        "Includes documentation, proof of primary producer status verification, drafting MoA/AoA, and filing",
+    },
+    {
+      component: "Total Estimated Cost",
+      fees: "₹30,000 - ₹60,000",
+      remarks:
+        "Varies based on number of directors, state, and professional fees",
     },
   ],
   faqs: [
     {
-      q: "Who is considered a 'primary producer'?",
-      a: "A primary producer is a person engaged in producing agricultural products (including horticulture, animal husbandry, floriculture, etc.), or any other primary produce.",
+      q: "Who is considered a 'primary producer' eligible to form a Producer Company?",
+      a: "A primary producer is any person engaged in an activity connected with primary produce, including production, harvesting, procurement, grading, pooling, handling, marketing, selling, and export. This includes farmers, agriculturalists, horticulturists, persons engaged in animal husbandry, floriculture, pisciculture, viticulture, forestry, forest products, re-vegetation, bee raising, and artisans.",
     },
     {
-      q: "Can a Producer Company make a profit?",
-      a: "Yes. After making provisions for reserves, the company can distribute profits to its members as a limited return and as a patronage bonus, which is based on the member's participation in the business.",
+      q: "What is the minimum authorized capital required for a Producer Company?",
+      a: "The minimum authorized capital required is ₹5 lakh, which is higher than a regular private limited company. This ensures the company has adequate capital to support collective agricultural or producer activities.",
     },
     {
-      q: "Are there any tax benefits for a Producer Company?",
-      a: "Yes, under the Income Tax Act, the profits of a Producer Company from marketing the agricultural produce grown by its members are exempt from tax, subject to certain conditions.",
+      q: "Can a Producer Company distribute profits to its members?",
+      a: "Yes, a Producer Company can distribute profits as a limited return on equity capital and as a patronage bonus to members based on their participation (quantity or value of business done with the company). After making provisions for reserves, surplus can be distributed.",
+    },
+    {
+      q: "What are the tax benefits available to Producer Companies?",
+      a: "Under Section 80P(2)(a)(iii) of the Income Tax Act, income earned by a Producer Company from marketing agricultural produce grown by its members is exempt from income tax, subject to certain conditions. This makes it tax-efficient for farmer collectives.",
+    },
+    {
+      q: "What is the difference between a Producer Company and a Cooperative Society?",
+      a: "A Producer Company is registered under the Companies Act and offers limited liability, separate legal entity status, and professional management like a company. A Cooperative Society is registered under state cooperative laws with more democratic control but limited access to capital and professional management. Producer Company combines benefits of both structures.",
     },
   ],
 };

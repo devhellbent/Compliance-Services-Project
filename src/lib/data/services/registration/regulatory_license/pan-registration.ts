@@ -1,81 +1,113 @@
-// lib/data/services/pan-registration.ts
+// lib/data/services/pan-registration.ts (expanded)
 
 import { ServiceData } from "@/lib/types";
 
 export const panRegistrationData: ServiceData = {
   title: "PAN Registration",
   breadcrumb: ["Home", "Registrations", "PAN Registration"],
+  description:
+    "Apply for new PAN or corrections for individuals and entities with e‑KYC and instant e‑PAN options for tax and KYC compliance.",
   overview:
-    "A **Permanent Account Number (PAN)** is a unique 10-character alphanumeric identifier issued by the Indian Income Tax Department. 💳 It's a mandatory document for any person or entity that earns taxable income in India. PAN is used to track financial transactions, prevent tax evasion, and serves as a primary identity proof for all financial and business activities.",
+    "A **Permanent Account Number (PAN)** is a unique 10‑character alphanumeric identifier used by the Indian Income Tax Department to link virtually all significant taxable and reportable financial activities of a person or entity. It is compulsory for Income Tax Return filing, TDS/TCS credit mapping, capital market transactions, property dealings, and numerous KYC regimes. The structured code (AAAAA9999A) embeds entity type, surname/initial mapping, sequence and checksum. As a universal financial identity it underpins transparency and anti‑evasion measures by providing a single cross‑system key.",
   advantages: [
     {
       icon: "FileText",
-      title: "Mandatory for Tax Filing",
-      text: "It is compulsory for filing Income Tax Returns (ITR) for all individuals and entities.",
+      title: "Mandatory for ITR",
+      text: "Essential for filing returns and tracking TDS/TCS credits.",
     },
     {
       icon: "Landmark",
-      title: "Essential for Financial Transactions",
-      text: "Required for opening bank accounts, investing in mutual funds, and for high-value transactions like buying property or vehicles.",
+      title: "High‑Value Transactions",
+      text: "Required for property, securities, large deposits & investments.",
     },
     {
       icon: "UserCheck",
-      title: "Universal Identity Proof",
-      text: "PAN serves as a valid and widely accepted photo identity proof across India.",
+      title: "Accepted ID",
+      text: "Widely accepted government photo & financial identity proof.",
     },
     {
       icon: "Building",
-      title: "Required for Business Registration",
-      text: "A PAN is the first document required to register any form of business, be it a company, LLP, or partnership firm.",
+      title: "Business Foundation",
+      text: "Prerequisite for opening current accounts & GST registration.",
+    },
+    {
+      icon: "Search",
+      title: "Traceability",
+      text: "Links scattered data sources—reduces tax evasion risk.",
     },
   ],
   disadvantages: [
     {
       icon: "AlertTriangle",
-      title: "Penalty for Multiple PANs",
-      text: "Holding more than one PAN is illegal and can attract a penalty of up to ₹10,000.",
+      title: "Multiple PAN Penalty",
+      text: "Possessing >1 active PAN triggers penalties—surrender duplicates.",
     },
     {
       icon: "Link",
-      title: "Aadhaar Linking is Mandatory",
-      text: "PAN must be linked with your Aadhaar card to remain operative for filing ITR and other financial transactions.",
+      title: "Aadhaar Linking",
+      text: "Non‑linked PAN may become inoperative for compliance.",
     },
     {
       icon: "FileWarning",
-      title: "Deactivation if Not Used",
-      text: "If no transactions are made for an extended period, the PAN might become inactive, requiring re-validation.",
+      title: "Data Mismatch",
+      text: "Inconsistent demographic data can delay processing / e‑filing.",
+    },
+    {
+      icon: "ShieldAlert",
+      title: "Privacy Exposure",
+      text: "Over‑sharing PAN can invite identity misuse—share prudently.",
     },
   ],
   eligibility: [
     {
-      title: "Who Needs a PAN?",
+      title: "Who Needs PAN",
       items: [
-        "**Individuals**: Any individual earning taxable income or required to file an ITR.",
-        "**Businesses**: All legal entities like companies, LLPs, and partnership firms.",
-        "**Foreign Nationals**: Foreign citizens who earn income or conduct business in India.",
-        "**Others**: Trusts, HUFs (Hindu Undivided Family), and other associations of persons.",
+        "Any individual with taxable Indian income or entering specified reportable transactions.",
+        "All entities: Company, LLP, Partnership, HUF, AOP, BOI, Trust, Society, Local Authority.",
+        "Foreign citizens / entities with Indian source income or investment registrations.",
+        "Mandatory where business turnover may exceed ₹5,00,000 or ITR filing obligation exists.",
+      ],
+    },
+    {
+      title: "Special Notes",
+      items: [
+        "Minor applications signed by guardian; sole proprietorship uses proprietor’s PAN.",
+        "Foreign investors require PAN for Demat & capital market KYC.",
+        "PAN–Aadhaar linking deadline compliance essential to avoid inoperative status.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "For Individuals (Indian)",
+      tabTitle: "Individuals (Resident)",
       content: {
-        title: "Proof of Identity, Address & Date of Birth",
+        title: "Primary Proofs",
         items: [
-          "**One Document Often Suffices**: Aadhaar Card is typically sufficient as it serves as proof for all three.",
-          "**Alternatively**: Passport, Voter ID, or Driving License can also be used.",
-          "Passport-size photographs.",
+          "Aadhaar (preferred single proof: ID + Address + DOB).",
+          "Alternative: Passport / Voter ID / Driving Licence + separate DOB proof (if needed).",
+          "Recent colour passport photograph.",
         ],
       },
     },
     {
-      tabTitle: "For Companies/Entities",
+      tabTitle: "Non-Individuals",
       content: {
-        title: "Business Registration Documents",
+        title: "Entities",
         items: [
-          "Copy of the Certificate of Incorporation issued by the Registrar of Companies (RoC).",
-          "For LLPs/Partnerships: Copy of the Certificate of Registration or Partnership Deed.",
+          "Certificate of Incorporation / Registration / Partnership / Trust Deed.",
+          "List of directors / partners / trustees (internal reference).",
+          "Form 49A details of authorized signatory with KYC proofs.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Foreign Applicants",
+      content: {
+        title: "49AA Requirements",
+        items: [
+          "Passport (apostilled / consular attested if issued abroad).",
+          "Foreign address proof (Bank / Utility ≤ 3 months).",
+          "Recent photograph + signed Form 49AA.",
         ],
       },
     },
@@ -83,60 +115,82 @@ export const panRegistrationData: ServiceData = {
   registrationProcess: [
     {
       step: 1,
-      title: "Fill Application Form",
+      title: "Form Selection",
       description:
-        "Complete the online application using **Form 49A** for Indian citizens or **Form 49AA** for foreign nationals on the NSDL or UTIITSL portal.",
+        "Choose Form 49A (Indian) or 49AA (Foreign) on Protean / UTIITSL portal.",
     },
     {
       step: 2,
-      title: "Submit Documents",
+      title: "Data Entry",
       description:
-        "Upload the scanned copies of your proof of identity, address, and date of birth. Aadhaar e-KYC can make this process paperless.",
+        "Enter demographic & contact details; ensure spelling matches Aadhaar / Passport.",
     },
     {
       step: 3,
-      title: "Pay the Fees",
+      title: "KYC Mode",
       description:
-        "Make the payment for the application through online methods like net banking, credit/debit card, or demand draft.",
+        "Use Aadhaar e‑KYC (paperless) or upload self‑attested scans.",
     },
     {
       step: 4,
-      title: "Receive Acknowledgement",
-      description:
-        "After successful submission, you will receive a 15-digit acknowledgement number which can be used to track the status of your application.",
+      title: "Fee Payment",
+      description: "Pay online; foreign dispatch incurs higher fee.",
     },
     {
       step: 5,
-      title: "Verification and Dispatch",
+      title: "Acknowledgement",
       description:
-        "The Income Tax Department verifies the application. Upon approval, the e-PAN is sent via email, and the physical PAN card is dispatched to your registered address.",
+        "Receive 15‑digit reference; print/sign & post if physical docs required.",
+    },
+    {
+      step: 6,
+      title: "Issuance",
+      description:
+        "e‑PAN often in hours (Aadhaar flow); physical card ~10–15 working days.",
+    },
+    {
+      step: 7,
+      title: "Link & Use",
+      description: "Link with Aadhaar; update banks & platforms as needed.",
     },
   ],
   fees: [
     {
-      component: "PAN Card Application Fee",
-      fees: "₹107 (approx.)",
-      remarks: "For dispatch within India. Includes processing fee and GST.",
+      component: "Application (Domestic)",
+      fees: "₹106–₹110",
+      remarks: "Form 49A processing + local dispatch (incl. GST).",
     },
     {
-      component: "e-PAN Card Only",
-      fees: "₹72 (approx.)",
-      remarks:
-        "If you do not require a physical card, an e-PAN is sent to your email.",
+      component: "Application (Foreign Address)",
+      fees: "≈ ₹1,020",
+      remarks: "Higher overseas dispatch charges.",
+    },
+    {
+      component: "e‑PAN Only / Reprint",
+      fees: "₹50–₹70",
+      remarks: "Digital PDF issuance when physical not needed.",
     },
   ],
   faqs: [
     {
-      q: "How long does it take to get a PAN card?",
-      a: "If you apply using Aadhaar-based e-KYC, the e-PAN is often allotted within a few hours. The physical card typically takes about 10-15 working days to be delivered.",
+      q: "Can I have more than one PAN?",
+      a: "No. Multiple active PANs attract penalty; surrender duplicates immediately.",
     },
     {
-      q: "Is it legal to have more than one PAN card?",
-      a: "No, it is illegal for an individual to have more than one PAN. If you have been allotted multiple PANs, you should immediately surrender the additional one(s) to the Income Tax Department to avoid penalties.",
+      q: "Time for allotment?",
+      a: "Aadhaar e‑KYC route: e‑PAN often within hours; physical card 10–15 working days.",
     },
     {
-      q: "What should I do if I lose my PAN card?",
-      a: "If you lose your PAN card, you can apply for a reprint online through the NSDL or UTIITSL portals by providing your PAN and Aadhaar details. You do not need to file an FIR unless you suspect misuse.",
+      q: "Is Aadhaar linking compulsory?",
+      a: "Yes—non‑linked PAN turns inoperative for filing & TDS credit usage post deadlines.",
+    },
+    {
+      q: "Lost my PAN—what now?",
+      a: "Request reprint or e‑PAN online using PAN + Aadhaar; FIR only if misuse suspected.",
+    },
+    {
+      q: "Change details later?",
+      a: "File correction request citing updated KYC proofs; new e‑PAN issued upon approval.",
     },
   ],
 };

@@ -1,26 +1,16 @@
 import { notFound } from "next/navigation";
 import { serviceData } from "@/lib/data/services";
-import { HeroWithForm } from "@/components/page-sections/HeroWithForm";
-import { SubNavSections } from "@/components/SubNavSections"; // <-- new client component
+import { ServicePageContent } from "@/components/ServicePageContent";
 
 export default async function ServicePage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const { slug } = await params; // ✅ unwrap the promise here
+  const { slug } = await params;
 
   const data = serviceData[slug as keyof typeof serviceData];
   if (!data) notFound();
 
-  return (
-    <div>
-      <HeroWithForm
-        title={data.title}
-        overview={data.overview}
-        breadcrumb={data.breadcrumb}
-      />
-      <SubNavSections data={data} />
-    </div>
-  );
+  return <ServicePageContent data={data} />;
 }

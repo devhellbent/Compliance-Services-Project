@@ -5,54 +5,73 @@ import { ServiceData } from "@/lib/types";
 export const fssaiLicenseData: ServiceData = {
   title: "FSSAI License",
   breadcrumb: ["Home", "Registrations", "FSSAI License"],
+  description:
+    "FoSCoS‑based FSSAI registration and licensing for food businesses—basic, state or central—covering manufacture, storage and sale.",
   overview:
-    "An **FSSAI License** is a mandatory 14-digit registration number for all **Food Business Operators (FBOs)** in India. 🍲 It is issued by the Food Safety and Standards Authority of India (FSSAI), the governing body responsible for ensuring the quality and safety of food products sold in the country. The type of license required depends on the scale and nature of the business.",
+    "An **FSSAI License/Registration** is a mandatory 14‑digit authorization for all **Food Business Operators (FBOs)** involved in manufacturing, processing, storage, distribution, sale or import of food in India. Issued under the Food Safety and Standards Act via the FoSCoS portal, it ensures food safety, hygiene and traceability. The number must be displayed at the premises and on packaged food labels, and the license is premise‑specific and renewable.",
   advantages: [
     {
       icon: "ShieldCheck",
       title: "Ensures Food Safety",
-      text: "The license ensures that your food products meet the safety and quality standards set by the government.",
+      text: "Demonstrates compliance with statutory safety and hygiene standards across the food chain.",
     },
     {
       icon: "Users",
       title: "Builds Consumer Trust",
-      text: "Displaying the FSSAI number on your products builds goodwill and assures customers of the food's quality.",
+      text: "FSSAI logo and 14‑digit number on labels boost credibility and buyer confidence.",
     },
     {
       icon: "Gavel",
       title: "Legal Compliance",
-      text: "It is a legal requirement to operate a food business, helping you avoid heavy penalties and legal action.",
+      text: "Mandatory to operate legally; prevents penalties, seizure and business closure.",
     },
     {
       icon: "Globe",
       title: "Aids Business Expansion",
-      text: "A valid FSSAI license makes it easier to expand your business, get bank loans, and partner with other businesses.",
+      text: "Required by marketplaces, aggregators and large buyers; helps secure finance and partnerships.",
+    },
+    {
+      icon: "ListChecks",
+      title: "Traceability & Recalls",
+      text: "Facilitates product traceability, complaint handling and effective recall management.",
     },
   ],
   disadvantages: [
     {
       icon: "FileWarning",
       title: "Complex Documentation",
-      text: "The application process, especially for State and Central licenses, requires detailed documentation and a Food Safety Management System (FSMS) plan.",
+      text: "State/Central licenses need detailed FSMS plans, equipment lists, water test reports, etc.",
     },
     {
       icon: "CalendarClock",
       title: "Regular Renewals",
-      text: "The license is valid for a period of 1 to 5 years and must be renewed before expiry to continue operations.",
+      text: "Valid 1–5 years; renewal before expiry is mandatory to avoid late fees and lapses.",
     },
     {
       icon: "AlertTriangle",
       title: "Heavy Penalties for Non-Compliance",
-      text: "Operating without a valid FSSAI license can lead to severe penalties, including fines up to ₹10 lakh and imprisonment.",
+      text: "Operating without/after expiry can invite penalties, prosecution, and closure directions.",
+    },
+    {
+      icon: "Map",
+      title: "State‑wise Variations",
+      text: "Documentation and inspections vary across states and local bodies; timelines can differ.",
     },
   ],
   eligibility: [
     {
       title: "Types of FSSAI Licenses",
       items: [
-        "**Basic Registration**: For small FBOs like hawkers, petty retailers, and businesses with an annual turnover of up to **₹12 lakh**.",
-        "**State License**: For mid-sized businesses like restaurants, hotels, and manufacturers with an annual turnover between **₹12 lakh and ₹20 crore**.",
-        "**Central License**: For large businesses, importers, exporters, e-commerce operators, and businesses with an annual turnover **above ₹20 crore**.",
+        "**Basic Registration**: Petty FBOs up to annual turnover of **₹12 lakh** (hawkers, home kitchens, small retailers).",
+        "**State License**: Restaurants, hotels, manufacturers, transporters etc. with turnover **₹12 lakh–₹20 crore**.",
+        "**Central License**: For turnover **above ₹20 crore**, importers/exporters, e‑commerce FBOs, large manufacturers and units in central premises (e.g., seaports, airports).",
+      ],
+    },
+    {
+      title: "Who Needs It?",
+      items: [
+        "Manufacturers, processors, repackers, marketers, wholesalers, distributors, storage/warehousing, transporters, retailers, restaurants, cloud kitchens, caterers, online sellers.",
+        "License is premise‑specific; each location requires its own license/registration.",
       ],
     },
   ],
@@ -62,10 +81,10 @@ export const fssaiLicenseData: ServiceData = {
       content: {
         title: "For All FBOs",
         items: [
-          "Passport-size photograph of the applicant.",
-          "ID proof of the applicant (Aadhaar Card, Voter ID, etc.).",
-          "PAN Card of the business entity.",
-          "Proof of possession of the business premises (Rent Agreement, Utility Bill).",
+          "Passport‑size photo; Aadhaar/ID of applicant and authorized signatory.",
+          "PAN of proprietor/firm/company and entity proof (COI/MOA‑AOA/LLP Agreement/Partnership Deed).",
+          "Premises proof: Rent Agreement/Lease/Sale Deed + latest utility bill; NOC from owner if rented.",
+          "List of food products/categories handled.",
         ],
       },
     },
@@ -74,10 +93,21 @@ export const fssaiLicenseData: ServiceData = {
       content: {
         title: "Additional Documents",
         items: [
-          "Blueprint or layout plan of the processing unit.",
-          "List of equipment and machinery.",
-          "List of food categories to be manufactured or processed.",
-          "A detailed Food Safety Management System (FSMS) plan.",
+          "Layout/blueprint of processing/storage area with dimensions.",
+          "List of equipment and machinery with numbers and capacities.",
+          "FSMS/Plan or certificate; water analysis report (if applicable).",
+          "List of directors/partners; Board resolution/authorization.",
+          "NOCs: Municipality/Health/PCB as applicable; IEC for importers.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Restaurant/Cloud Kitchen",
+      content: {
+        title: "Activity‑Specific",
+        items: [
+          "Kitchen layout, chimney/exhaust details, food handler medical fitness and training records.",
+          "Waste disposal arrangements; pest control contract; freezer/chiller details.",
         ],
       },
     },
@@ -85,72 +115,86 @@ export const fssaiLicenseData: ServiceData = {
   registrationProcess: [
     {
       step: 1,
-      title: "Determine License Type",
+      title: "Determine Category & Turnover",
       description:
-        "Based on your business's annual turnover and nature of activity, identify whether you need a Basic, State, or Central License.",
+        "Identify activity (manufacture/trade/service) and turnover to select Basic, State, or Central license on FoSCoS.",
     },
     {
       step: 2,
-      title: "Fill Application Form",
+      title: "FoSCoS Application (Form A/B)",
       description:
-        "Complete the application (Form A for Basic Registration, Form B for State/Central License) on the FSSAI's FoSCoS portal.",
+        "Create account, fill Form A (Basic) or Form B (State/Central), add product categories, business details and premises info.",
     },
     {
       step: 3,
       title: "Upload Documents",
       description:
-        "Upload all the required documents in the prescribed format on the portal.",
+        "Upload KYC, premises proof, FSMS, layout, equipment list and activity‑specific NOCs in prescribed formats.",
     },
     {
       step: 4,
-      title: "Pay the Fee",
+      title: "Pay Government Fees",
       description:
-        "Make the payment for the license fee through the online portal.",
+        "Pay statutory fees online and submit application; respond to clarification/inspection notices if raised.",
     },
     {
       step: 5,
-      title: "Verification and Inspection",
+      title: "Scrutiny & Inspection",
       description:
-        "The FSSAI department will verify your application. For State and Central licenses, a physical inspection of the premises may be conducted.",
+        "Authority scrutinizes the application; State/Central cases may involve site inspection before grant.",
     },
     {
       step: 6,
-      title: "Receive License",
+      title: "Grant & Compliance",
       description:
-        "Upon successful verification, the FSSAI license will be issued and can be downloaded from the FoSCoS portal.",
+        "License/Registration issued on approval. Display the certificate and number; maintain hygiene records and file due returns (e.g., Form D‑1/D‑2 for manufacturers).",
     },
   ],
   fees: [
     {
       component: "Basic Registration",
       fees: "₹100 per year",
-      remarks: "For small-scale food businesses.",
+      remarks: "For petty FBOs up to ₹12 lakh turnover.",
     },
     {
       component: "State License",
       fees: "₹2,000 - ₹5,000 per year",
       remarks:
-        "Varies depending on the type of business (e.g., manufacturer, hotel).",
+        "Varies by activity and state (restaurant, hotel, manufacturer, transporter etc.).",
     },
     {
       component: "Central License",
       fees: "₹7,500 per year",
       remarks:
-        "Standard fee for most large-scale businesses, importers, and exporters.",
+        "For large units, importers/exporters, e‑commerce etc.; additional category fees may apply.",
+    },
+    {
+      component: "Late Renewal Penalty",
+      fees: "₹100 per day",
+      remarks:
+        "If renewal application is filed after expiry; post‑expiry operations are prohibited.",
     },
   ],
   faqs: [
     {
       q: "Who needs an FSSAI license?",
-      a: "Every Food Business Operator (FBO), from street vendors and home bakers to large manufacturers and importers, is required to have an FSSAI license or registration.",
+      a: "All FBOs handling food—manufacturers, traders, storage, transporters, retailers, restaurants, cloud kitchens, caterers, importers/exporters and online sellers—need FSSAI registration/license based on scale.",
     },
     {
       q: "What is the validity of an FSSAI license?",
-      a: "An FSSAI license can be obtained for a period ranging from 1 year to a maximum of 5 years. It must be renewed before its expiry.",
+      a: "It can be issued for 1–5 years. Apply for renewal before expiry to avoid late fees and business interruption.",
     },
     {
       q: "Is it mandatory to print the FSSAI number on food product labels?",
-      a: "Yes, for all packaged food products, the 14-digit FSSAI license number and the FSSAI logo must be prominently displayed on the label.",
+      a: "Yes. Packaged foods must display the 14‑digit FSSAI number and logo; premises must display the certificate/number.",
+    },
+    {
+      q: "Do home bakers and cloud kitchens need FSSAI?",
+      a: "Yes. Home kitchens and cloud kitchens require at least Basic Registration; higher categories may apply as volume grows.",
+    },
+    {
+      q: "Do I need separate licenses for multiple locations?",
+      a: "Yes. Licenses are premise‑specific; each unit, warehouse or retail outlet typically needs its own registration/license.",
     },
   ],
 };

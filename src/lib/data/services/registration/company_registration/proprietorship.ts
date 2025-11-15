@@ -3,63 +3,140 @@
 import { ServiceData } from "@/lib/types";
 
 export const proprietorshipData: ServiceData = {
-  title: "Sole Proprietorship Registration",
-  breadcrumb: ["Home", "Registrations", "Proprietorship"],
+  title: "Proprietorship Registration",
+  breadcrumb: [
+    "Home",
+    "Registrations",
+    "Company Registration",
+    "Proprietorship",
+  ],
+  description:
+    "Launch your business journey with simplicity and control. Proprietorship registration offers the easiest and most cost-effective way to start your own business in India, giving you complete ownership and direct control over all business decisions.",
   overview:
-    "A proprietorship is a business owned and managed by a single individual, making it the most basic and widely chosen business structure in India. The owner has complete control over all operations and decisions. In this structure, the business and the owner are considered the same legal entity. This means the owner keeps all profits but is also personally responsible for all business debts and losses, a concept known as unlimited liability.",
+    "A **Proprietorship** is the simplest and most straightforward form of business organization in India, ideal for individual entrepreneurs looking to establish their business identity with minimal regulatory burden. As a sole proprietor, you maintain complete control over business operations, strategic decisions, and profit retention, making it the most flexible business structure available. This model operates as an extension of the owner rather than a separate legal entity, which means minimal compliance requirements and straightforward tax filing procedures. While the proprietor bears unlimited liability for business debts and obligations, the structure offers unparalleled autonomy in decision-making and operational management. Registration through various statutory authorities such as Shops and Establishment Act, GST registration, and professional tax registration provides legal recognition and enables the business to open bank accounts, secure business loans, and participate in government tenders. This structure is particularly suitable for small businesses, freelancers, consultants, and service providers who want to maintain direct control while keeping operational costs minimal. The ease of setup, minimal capital requirements, and straightforward dissolution process make proprietorship the preferred choice for testing business ideas and entering the entrepreneurial landscape.",
+  whyChooseUs: [
+    {
+      icon: "FileCheck",
+      title: "Legal Recognition",
+      text: "To officially establish the business as a recognized entity in the eyes of the law.",
+    },
+    {
+      icon: "Briefcase",
+      title: "Smooth Business Operations",
+      text: "To make it easier to open bank accounts, obtain licenses, and carry out day-to-day business activities.",
+    },
+    {
+      icon: "Receipt",
+      title: "Tax Compliance",
+      text: "To ensure the business is registered for taxes and complies with government regulations.",
+    },
+    {
+      icon: "Users",
+      title: "Credibility with Customers and Suppliers",
+      text: "To gain trust from clients, suppliers, and financial institutions by operating as a legally recognized business.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Financial Services",
+      text: "To enable the proprietor to apply for loans, credit, or other financial support from banks and institutions.",
+    },
+    {
+      icon: "Award",
+      title: "License Eligibility",
+      text: "Create eligibility for obtaining various business licenses, permits, and government registrations required for operations.",
+    },
+    {
+      icon: "Shield",
+      title: "Protection of Business Name",
+      text: "To secure the business name so that no one else can legally use it in the same area or industry.",
+    },
+  ],
   advantages: [
     {
       icon: "Zap",
       title: "Easy to Set Up",
-      text: "The registration process involves minimal documentation and legal formalities, making it the quickest business structure to start.",
+      text: "A sole proprietorship is the simplest form of business to establish. The registration process involves minimal documentation and formalities, making it ideal for first-time entrepreneurs or small business owners who want to start quickly.",
     },
     {
       icon: "Shield",
       title: "Complete Control",
-      text: "The owner has full and sole authority over all business decisions and operations without any external interference.",
+      text: "The owner has full authority over all business decisions, operations, and strategies. There is no need for consensus or approval from partners or shareholders, allowing for faster decision-making and operational flexibility.",
+    },
+    {
+      icon: "IndianRupee",
+      title: "Low Cost of Formation",
+      text: "Starting a sole proprietorship requires minimal capital investment, and the ongoing compliance costs are significantly lower than other business structures like private limited companies or partnerships.",
     },
     {
       icon: "HandCoins",
       title: "Direct Profits",
-      text: "All profits generated by the business belong exclusively to the owner and are taxed as personal income.",
+      text: "All profits generated by the business belong solely to the owner. There's no need to share earnings with partners or investors, which makes it highly rewarding for individuals running small or medium-scale ventures.",
     },
     {
       icon: "Files",
       title: "Minimal Compliance",
-      text: "Fewer regulatory obligations and filings compared to other complex company structures like private limited companies.",
+      text: "Unlike companies, sole proprietorships have fewer regulatory obligations. There's no need for complex reporting, board meetings, or extensive legal compliance, making it easier to focus on growing the business.",
+    },
+    {
+      icon: "Workflow",
+      title: "Flexibility in Operations",
+      text: "The owner can quickly adapt to market changes, modify business strategies, or expand operations without needing approval from others. The simplicity of this structure provides a high degree of operational flexibility.",
+    },
+    {
+      icon: "BadgeCheck",
+      title: "Enhanced Credibility",
+      text: "A registered sole proprietorship enjoys more credibility with customers, suppliers, and financial institutions. Legal recognition helps in building trust, which is crucial for business growth and establishing long-term relationships.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Financial Services",
+      text: "Registration allows the proprietor to open business bank accounts, apply for loans, or seek credit from financial institutions. This makes it easier to manage finances and raise capital for business expansion.",
     },
   ],
   disadvantages: [
     {
       icon: "AlertTriangle",
       title: "Unlimited Liability",
-      text: "The owner's personal assets are at risk to cover business debts. There is no legal distinction between personal and business assets.",
+      text: "The owner is personally responsible for all business debts and liabilities, putting their personal assets at risk.",
     },
     {
-      icon: "Landmark",
-      title: "Difficulty Raising Capital",
-      text: "Cannot issue shares to raise equity and may find it challenging to secure large business loans from financial institutions.",
+      icon: "TrendingDown",
+      title: "Difficulty in Raising Capital",
+      text: "It can be challenging to secure loans or attract investors, as the business cannot sell shares.",
     },
     {
-      icon: "BarChart",
+      icon: "Clock",
       title: "Limited Lifespan",
-      text: "The business's existence is tied to the owner and ceases upon the owner's death, retirement, or insolvency.",
+      text: "The business is tied to the owner's existence and may cease to exist if the owner dies or becomes incapacitated.",
+    },
+    {
+      icon: "Briefcase",
+      title: "Heavy Workload",
+      text: "The owner is solely responsible for all aspects of the business, from operations to finances.",
+    },
+    {
+      icon: "UserX",
+      title: "Limited Expertise",
+      text: "The business's success is dependent on the owner's skills and knowledge, which can be limited.",
     },
   ],
   eligibility: [
     {
-      title: "General Requirements",
+      title: "Owner Requirements",
       items: [
-        "Must be a resident citizen of India.",
-        "Must be at least 18 years old.",
-        "A unique business name must be chosen, which should not infringe on existing trademarks.",
+        "Single Owner – The business must be owned and managed by one individual.",
+        "Indian Resident – The proprietor should be a citizen and resident of India.",
+        "Legal Age – The owner must be at least 18 years old.",
+        "Valid Identity Proof – Government-issued ID like Aadhar card, PAN card, or passport is required.",
       ],
     },
     {
-      title: "Business Activity",
+      title: "Business Requirements",
       items: [
-        "The business activity must be legal and not prohibited by any law in India.",
-        "Necessary local or state-level permits must be obtained for regulated industries (e.g., food, trade).",
+        "Unique Business Name – The business name should be distinct and not infringe on existing trademarks or registered businesses.",
+        "Business Address – The proprietor should have a valid address for the business operations.",
+        "No Legal Disabilities – The proprietor should not have any legal restrictions that prevent them from running a business.",
+        "Lawful Business Activity – The business must operate legally and must not involve illegal goods or services.",
       ],
     },
   ],
@@ -67,34 +144,44 @@ export const proprietorshipData: ServiceData = {
     {
       tabTitle: "Proprietor Documents",
       content: {
-        title: "Proprietor's Identity & Address Proof",
+        title: "Mandatory Documents of the Proprietor",
         items: [
-          "Aadhaar Card (linked with mobile number)",
-          "PAN Card (Mandatory for tax purposes)",
-          "Passport-size Photographs",
-          "Bank Account Statement or Cancelled Cheque",
+          "Aadhaar Card: Primary identity and address proof",
+          "PAN Card: Essential for all financial transactions and filing income tax returns",
+          "Passport-size Photographs: Recent passport-size photos required for various applications",
         ],
       },
     },
     {
       tabTitle: "Business Address Proof",
       content: {
-        title: "Proof of Business Location",
+        title: "Documents proving the location of your business",
         items: [
-          "Latest Utility Bill (Electricity/Water/Gas Bill for owned or rented property)",
-          "Rent Agreement (if the premises are rented)",
-          "No-Objection Certificate (NOC) from the Landlord (if rented)",
+          "For Owned Property: Electricity Bill or utility bill (not older than two months), Property Tax Receipt or Sale Deed",
+          "For Rented Property: Rent/Lease Agreement, No-Objection Certificate (NOC) from the landlord, Utility bill of the rented premises",
         ],
       },
     },
     {
       tabTitle: "Key Registrations",
       content: {
-        title: "Essential Business Registrations",
+        title: "Essential Business Registrations & Licenses",
         items: [
-          "GST Registration Certificate (if turnover exceeds the threshold)",
-          "MSME/Udyam Registration Certificate (recommended for benefits)",
-          "Shop and Establishment Act License (as per state laws)",
+          "GST Registration (if applicable): Mandatory if annual turnover exceeds ₹40 lakhs for goods or ₹20 lakhs for services",
+          "MSME/Udyam Registration: Highly beneficial for availing government schemes, subsidies, and easy loan approvals",
+          "Shop and Establishment Act License: Mandatory for all businesses operating from a commercial space",
+          "Industry-Specific Licenses: FSSAI License for food-related businesses, Trade License for specific trading activities",
+        ],
+      },
+    },
+    {
+      tabTitle: "Financial Documents",
+      content: {
+        title: "Financial and Tax Compliance",
+        items: [
+          "Business Bank Account: Open a separate current bank account in the name of your business",
+          "Professional Tax Registration (if applicable): Required in certain states for individuals earning income from a profession or business",
+          "Income Tax Compliance: File annual income tax returns (ITR-3 or ITR-4)",
         ],
       },
     },
@@ -104,50 +191,81 @@ export const proprietorshipData: ServiceData = {
       step: 1,
       title: "Choose a Business Name",
       description:
-        "Select a unique and suitable name for your proprietorship. This can be your own name or a trade name.",
+        "Pick a unique and suitable name for your business. The name should not be similar to existing trademarks or registered businesses.",
     },
     {
       step: 2,
       title: "Open a Business Bank Account",
       description:
-        "Open a current bank account in the name of your proprietorship. This is a primary proof of the business's existence.",
+        "Open a current account in the business name to keep personal and business finances separate. This serves as primary proof of business existence.",
     },
     {
       step: 3,
-      title: "Obtain Basic Registrations",
+      title: "Get Identity Proof Ready",
       description:
-        "Apply for necessary local registrations like the Shop and Establishment Act License and the central Udyam Registration for MSMEs.",
+        "Prepare PAN Card and Aadhaar Card of the proprietor, and address proof of business location (electricity bill, rent agreement, etc.).",
     },
     {
       step: 4,
-      title: "Apply for GST Registration",
+      title: "Register for MSME (Optional but Beneficial)",
       description:
-        "If your business turnover is expected to exceed the GST threshold (₹40 lakh for goods, ₹20 lakh for services), you must obtain GST registration.",
+        "Register under Udyam/MSME to get government benefits and subsidies. This registration is free and highly recommended.",
+    },
+    {
+      step: 5,
+      title: "Get Required Licenses",
+      description:
+        "Obtain necessary licenses based on your business type: FSSAI license for food businesses, Shop & Establishment Act license, Professional Tax registration (if applicable).",
+    },
+    {
+      step: 6,
+      title: "GST Registration (if applicable)",
+      description:
+        "Mandatory if turnover crosses ₹40 lakhs for goods or ₹20 lakhs for services, or if you sell across states.",
+    },
+    {
+      step: 7,
+      title: "Employee-Related Registrations",
+      description:
+        "If applicable: ESIC registration (if you employ 10 or more workers), EPFO registration (if you employ 20 or more workers).",
+    },
+    {
+      step: 8,
+      title: "Other Certifications",
+      description:
+        "Obtain other necessary certifications depending on your business, like import/export license (IEC Code) if required.",
     },
   ],
   fees: [
     {
       component: "GST Registration",
       fees: "Free",
-      remarks: "Government portal charges no fee for GST registration.",
+      remarks: "Mandatory if turnover exceeds ₹40 lakh",
     },
     {
       component: "MSME (Udyam) Registration",
       fees: "Free",
-      remarks:
-        "This is a free registration offered by the government to avail MSME benefits.",
+      remarks: "Optional, but beneficial for small businesses",
     },
     {
       component: "Shop & Establishment License",
       fees: "₹1,000 – ₹5,000",
-      remarks:
-        "Fees are determined by respective state municipal corporations and vary by location.",
+      remarks: "Fees vary by state and business size",
     },
     {
-      component: "Professional Fees",
-      fees: "₹1,500 - ₹3,000",
-      remarks:
-        "Covers consultation, documentation, and filing assistance for all required registrations.",
+      component: "CA or Consultant Charges",
+      fees: "₹1,000 – ₹3,000",
+      remarks: "For handling paperwork and legal formalities",
+    },
+    {
+      component: "PAN Application",
+      fees: "₹110",
+      remarks: "One-time fee via NSDL or UTIITSL",
+    },
+    {
+      component: "Current Account Opening",
+      fees: "Varies by bank",
+      remarks: "Usually requires maintaining a minimum balance",
     },
   ],
   faqs: [
@@ -157,11 +275,19 @@ export const proprietorshipData: ServiceData = {
     },
     {
       q: "Is there a specific 'Proprietorship Registration Certificate'?",
-      a: "No, the government does not issue a single certificate for proprietorship. Its legal existence is established through other registrations like GST, Udyam, a Shop Act license, or simply by opening a current bank account in the business's name.",
+      a: "No, there is no single, centralized registration for a sole proprietorship in India. Its existence is established through various other registrations and licenses like GST, Udyam, Shop Act license, or simply by opening a current bank account in the business's name.",
     },
     {
       q: "Can I convert my proprietorship into a private limited company later?",
       a: "Yes, as your business grows, you can convert your proprietorship into a Private Limited Company or a One Person Company to gain benefits like limited liability, easier access to funding, and a separate legal identity.",
+    },
+    {
+      q: "Do I need GST registration for my proprietorship?",
+      a: "GST registration is mandatory if your annual turnover exceeds ₹40 lakhs for goods or ₹20 lakhs for services. It is also mandatory for e-commerce sellers and those involved in inter-state business.",
+    },
+    {
+      q: "What is MSME/Udyam Registration and is it necessary?",
+      a: "MSME/Udyam Registration is not mandatory, but registering as a Micro, Small, or Medium Enterprise is highly beneficial. It helps in availing government schemes, subsidies, and easy loan approvals. The registration is completely free.",
     },
   ],
 };

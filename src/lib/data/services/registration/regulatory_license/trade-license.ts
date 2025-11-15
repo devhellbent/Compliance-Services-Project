@@ -5,54 +5,56 @@ import { ServiceData } from "@/lib/types";
 export const tradeLicenseData: ServiceData = {
   title: "Trade License",
   breadcrumb: ["Home", "Registrations", "Trade License"],
+  description:
+    "Municipal trade license to operate specified activities at a premises, with inspections and yearly renewals.",
   overview:
-    "A **Trade License** is a certificate issued by a local municipal corporation that grants permission to carry out a specific business or trade in a particular area. 📜 Its primary purpose is to ensure that the business complies with the local authority's rules and safety guidelines. It doesn't grant property ownership but is a mandatory permit to operate a business from a specific premise. The rules and regulations for obtaining a trade license vary from state to state.",
+    "A **Trade License** is a mandatory municipal authorization to run a specified business activity at a particular premises within a city’s jurisdiction. It safeguards public health, safety and local order by enforcing hygiene, fire, environmental and zoning standards. It is activity and location specific, typically valid for one financial year (renewable), and does not confer any tenancy or ownership rights. Non‑compliance can invite fines and closure directions.",
   advantages: [
     {
       icon: "CheckSquare",
       title: "Legal Permission to Operate",
-      text: "Provides the legal right to conduct your business in a specific locality, preventing penalties or business closure.",
+      text: "Grants formal permission to operate, avoiding penalties and shutdown risk.",
     },
     {
       icon: "ShieldCheck",
       title: "Enhances Credibility",
-      text: "A valid trade license increases the reputation of your business and builds trust among customers and potential partners.",
+      text: "Signals compliance to customers, lenders and authorities; aids loan approvals.",
     },
     {
       icon: "Landmark",
       title: "Attracts Investment",
-      text: "Banks and financial institutions often require a valid trade license as a prerequisite for providing business loans.",
+      text: "Often prerequisite for bank facilities, other state/sector approvals.",
     },
     {
       icon: "Gavel",
       title: "Ensures Ethical Practices",
-      text: "The license ensures that the business adheres to safety, health, and ethical standards set by the local government.",
+      text: "Enforces health, safety and zoning norms to protect the public and environment.",
     },
   ],
   disadvantages: [
     {
       icon: "FileWarning",
       title: "Local and Specific",
-      text: "The license is tied to a specific trade and premise. Any change in business activity or location requires a new license or modification.",
+      text: "Activity & premises specific—changes require modification or fresh license.",
     },
     {
       icon: "CalendarClock",
       title: "Annual Renewal",
-      text: "A trade license is typically valid for one financial year and must be renewed annually, adding a recurring compliance task.",
+      text: "Annual renewals and inspections add recurring compliance tasks.",
     },
     {
       icon: "AlertTriangle",
       title: "Penalty for Non-Compliance",
-      text: "Operating a business without obtaining or renewing a trade license can lead to heavy fines and even business shutdown.",
+      text: "Operating without/after expiry risks fines, sealing or closure orders.",
     },
   ],
   eligibility: [
     {
       title: "Who Needs a Trade License?",
       items: [
-        "Any individual or entity intending to start a business or trade within the territorial limits of a municipal corporation.",
-        "Common examples include restaurants, hotels, manufacturing units, shops, canteens, and cyber cafes.",
-        "The applicant must be over 18 years of age and have no criminal record.",
+        "Any individual / entity carrying on trade within municipal limits (subject to zoning).",
+        "Examples: restaurants, bakeries, salons, gyms, lodges, shops, warehouses, factories.",
+        "Applicant must be 18+ with clean record; activity must be lawful.",
       ],
     },
   ],
@@ -62,10 +64,9 @@ export const tradeLicenseData: ServiceData = {
       content: {
         title: "For All Applicants",
         items: [
-          "PAN Card of the applicant/business entity.",
-          "Aadhaar Card of the applicant.",
-          "Address proof of the business premises (e.g., latest Rent Agreement, Utility Bill, Property Tax receipt).",
-          "Layout plan or blueprint of the office/premises.",
+          "PAN of applicant / business; Aadhaar of applicant.",
+          "Premises proof: Property tax receipt / Sale Deed / Rent Agreement + Owner NOC.",
+          "Latest utility bill; site layout/plan showing dimensions & usage.",
         ],
       },
     },
@@ -74,9 +75,20 @@ export const tradeLicenseData: ServiceData = {
       content: {
         title: "Additional Entity Documents",
         items: [
-          "Certificate of Incorporation and MOA/AOA.",
-          "Partnership Deed for LLPs and firms.",
-          "A No-Objection Certificate (NOC) from the property owner.",
+          "Certificate of Incorporation, MOA/AOA (Companies).",
+          "LLP Agreement / Partnership Deed (LLP / Firm).",
+          "Board Resolution / Authorization for signatory.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Conditional Clearances",
+      content: {
+        title: "Based on Activity",
+        items: [
+          "Fire NOC for restaurants, warehouses, manufacturing / flammable storage.",
+          "Pollution Control Board consent for industrial / polluting activities.",
+          "Health Department license for food & hygiene sensitive trades.",
         ],
       },
     },
@@ -92,25 +104,25 @@ export const tradeLicenseData: ServiceData = {
       step: 2,
       title: "Prepare and Submit Application",
       description:
-        "Fill out the trade license application form, which is usually available online on the municipality's website or at their office.",
+        "Fill the municipal application online/offline with activity, premises & ownership details.",
     },
     {
       step: 3,
       title: "Upload/Attach Documents",
       description:
-        "Submit the application along with all the required documents as per the checklist provided by the municipality.",
+        "Attach KYC, premises proof, layout & conditional NOCs as per activity category.",
     },
     {
       step: 4,
       title: "Premise Inspection",
       description:
-        "A municipal inspector or health officer may visit the business premises to verify that all safety and health standards are being met.",
+        "Inspector/Health/Fire officials may verify compliance with local bye‑laws & standards.",
     },
     {
       step: 5,
       title: "Receive License",
       description:
-        "Once the application and inspection are satisfactory, the municipal authority will issue the trade license.",
+        "On approval, license is issued for the financial year; diarize renewal timelines.",
     },
   ],
   fees: [
@@ -118,7 +130,7 @@ export const tradeLicenseData: ServiceData = {
       component: "Government Fee",
       fees: "Varies Widely",
       remarks:
-        "The fee depends on the state, the type of business, the size of the premises, and the scale of operations. It can range from ₹500 to ₹10,000+.",
+        "Depends on activity category, floor area, risk class and city. Commonly ₹500–₹10,000+.",
     },
     {
       component: "Professional Fees",
@@ -134,11 +146,11 @@ export const tradeLicenseData: ServiceData = {
     },
     {
       q: "How long is a Trade License valid for?",
-      a: "A trade license is typically issued for one year and is valid from April 1st to March 31st of the financial year. It must be renewed annually.",
+      a: "Typically valid for the financial year (Apr–Mar) and renewed annually; some ULBs offer multi‑year options.",
     },
     {
       q: "What happens if I don't get a Trade License?",
-      a: "Operating a business without a valid trade license is an offense. The municipal authority can impose fines and penalties, and in some cases, may even order the closure of the business.",
+      a: "Operating without/after expiry can attract fines, sealing orders or closures by the municipality.",
     },
   ],
 };

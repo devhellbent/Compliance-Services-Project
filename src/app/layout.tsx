@@ -1,6 +1,5 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import SmoothScrolling from "@/components/SmoothScrolling";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -34,10 +33,8 @@ export default function RootLayout({
       </head>
       <body className="font-inter">
         <Header />
-        <SmoothScrolling>
-          <main>{children}</main>
-          <Footer />
-        </SmoothScrolling>
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

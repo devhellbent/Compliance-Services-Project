@@ -1,36 +1,34 @@
 "use client";
 
-import { useState } from "react";
-
 interface SubNavProps {
   sections: string[];
+  activeSection: string;
   onSelect: (section: string) => void;
 }
 
-export function SubNav({ sections, onSelect }: SubNavProps) {
-  const [active, setActive] = useState(sections[0]);
-
-  const handleClick = (section: string) => {
-    setActive(section);
-    onSelect(section);
-  };
-
+export function SubNav({ sections, activeSection, onSelect }: SubNavProps) {
   return (
-    <div className="sticky top-0 z-40 bg-white border-b shadow-sm">
-      <div className="flex gap-6 px-6 py-3 overflow-x-auto whitespace-nowrap">
-        {sections.map((section) => (
-          <button
-            key={section}
-            onClick={() => handleClick(section)}
-            className={`pb-2 border-b-2 transition-all ${
-              active === section
-                ? "border-blue-600 text-blue-600 font-semibold"
-                : "border-transparent text-gray-600 hover:text-blue-600"
-            }`}
-          >
-            {section}
-          </button>
-        ))}
+    <div className="sticky top-0 z-30 bg-white/80 backdrop-blur-sm border-b shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-center items-center space-x-8 overflow-x-auto py-3">
+          {sections.map((section) => (
+            <button
+              key={section}
+              onClick={() => onSelect(section)}
+              className={`relative whitespace-nowrap px-1 py-2 text-sm font-medium transition-colors duration-200
+                ${
+                  activeSection === section
+                    ? "text-blue-600"
+                    : "text-gray-500 hover:text-gray-900"
+                }`}
+            >
+              {section}
+              {activeSection === section && (
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600" />
+              )}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

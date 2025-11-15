@@ -5,8 +5,32 @@ import { ServiceData } from "@/lib/types";
 export const microfinanceCompanyRegistrationData: ServiceData = {
   title: "Microfinance Company Registration",
   breadcrumb: ["Home", "Registrations", "Microfinance Company"],
+  description:
+    "Bridge the financial inclusion gap with purpose-driven lending. Microfinance Company registration enables provision of small-scale financial services to underserved communities, promoting entrepreneurship and economic empowerment at the grassroots level.",
   overview:
-    "A **Microfinance Company** provides small-scale financial services, such as micro-loans, to low-income individuals and underserved communities that lack access to traditional banking 🏦. In India, they can be structured in two main ways: as a non-profit **Section 8 Company** or as a for-profit **NBFC-MFI** licensed by the RBI. The Section 8 route is a common starting point, focusing on social objectives without needing RBI approval to begin.",
+    "A **Microfinance Company** serves as a vital instrument for financial inclusion, providing small-scale financial services including micro-loans, savings facilities, insurance, and remittance services to low-income individuals, women entrepreneurs, and economically disadvantaged communities who traditionally lack access to formal banking channels. In India's regulatory landscape, microfinance operations can be structured either as a non-profit Section 8 Company focused on social impact or as a for-profit NBFC-MFI (Non-Banking Financial Company - Micro Finance Institution) licensed and regulated by the Reserve Bank of India under the NBFC-MFI Directions. The NBFC-MFI structure requires minimum Net Owned Funds of ₹5 crore (₹10 crore for North Eastern States) and mandates that at least 85% of net assets must be deployed as qualifying assets—loans to low-income borrowers meeting specific criteria including household income thresholds and loan amount limits. These institutions operate on the philosophy of providing collateral-free loans to individuals and self-help groups (SHGs), enabling income-generating activities, skill development, and sustainable livelihood creation. The microfinance model emphasizes group lending methodology where borrowers form joint liability groups, promoting peer monitoring, repayment discipline, and community support systems. Interest rate caps, loan amount restrictions, and mandatory client protection guidelines ensure borrower welfare and prevent predatory lending practices. The structure facilitates partnerships with banks, development finance institutions, and impact investors who provide bulk funding for onward micro-lending operations. Microfinance Companies play crucial roles in women empowerment, rural entrepreneurship, agricultural financing, and small business development, contributing significantly to poverty alleviation and economic mobility. The regulatory framework mandates transparent pricing, fair practices, grievance redressal mechanisms, and responsible lending standards, protecting vulnerable borrower segments. With growing emphasis on digital financial services, modern microfinance companies leverage technology for loan disbursement, repayment collection, and credit assessment, reducing operational costs and expanding reach. Whether structured for social mission or commercial viability, Microfinance Companies deliver transformative financial solutions to the bottom of the pyramid, fostering inclusive economic growth and sustainable development.",
+  whyChooseUs: [
+    {
+      icon: "HeartHandshake",
+      title: "Social Impact",
+      text: "Contributes to poverty alleviation and financial inclusion.",
+    },
+    {
+      icon: "Users",
+      title: "Financial Inclusion",
+      text: "Provides financial services to the 'unbanked' population.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Grants",
+      text: "Can attract grants and donations.",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "No Initial RBI Approval",
+      text: "Can start operations without an RBI license (as a Section 8 company).",
+    },
+  ],
   advantages: [
     {
       icon: "HeartHandshake",
@@ -47,71 +71,43 @@ export const microfinanceCompanyRegistrationData: ServiceData = {
     },
   ],
   eligibility: [
-    {
-      title: "For Section 8 Microfinance Company",
-      items: [
-        "Standard requirements for a Section 8 Company (minimum 2 directors).",
-        "The MOA must clearly state the objective of providing microfinance services.",
-      ],
-    },
-    {
-      title: "For NBFC-MFI (RBI License)",
-      items: [
-        "Must be a company registered under the Companies Act, 2013.",
-        "Requires a minimum **Net Owned Fund (NOF)** of **₹5 crore** (₹2 crore for North Eastern Region).",
-        "At least 85% of its assets must be in the nature of 'qualifying assets' (micro-loans).",
-      ],
-    },
+    "For Section 8 Microfinance Company: Standard requirements for a Section 8 Company.",
+    "For NBFC-MFI (RBI License): Minimum Net Owned Fund (NOF) of ₹5 crore.",
   ],
   documents: [
     {
-      tabTitle: "For Section 8 Registration",
-      content: {
-        title: "Standard Documents",
-        items: [
-          "PAN Card and Aadhaar Card of all proposed directors.",
-          "Address proof of the registered office (Utility Bill, Rent Agreement, NOC).",
-          "A detailed business plan focusing on the microfinance operations and objectives.",
-        ],
-      },
+      title: "For Section 8 Registration",
+      items: [
+        "PAN Card and Aadhaar Card of directors",
+        "Address proof of the registered office",
+        "Business plan",
+      ],
     },
     {
-      tabTitle: "For NBFC-MFI License",
-      content: {
-        title: "Additional RBI Documents",
-        items: [
-          "Certified copies of the Certificate of Incorporation and MOA/AOA.",
-          "Board Resolution related to the NBFC-MFI application.",
-          "Audited balance sheets and profit & loss accounts for the last three years.",
-          "Detailed information about the management and directors.",
-        ],
-      },
+      title: "For NBFC-MFI License",
+      items: [
+        "Certificate of Incorporation",
+        "MOA/AOA",
+        "Audited financial statements",
+      ],
     },
   ],
   registrationProcess: [
     {
       step: 1,
       title: "Incorporate as a Section 8 Company",
-      description:
-        "Register a Section 8 Company with the MCA. Ensure the main object in the Memorandum of Association (MOA) is to provide microfinance.",
+      description: "Register a Section 8 Company with the MCA.",
     },
     {
       step: 2,
       title: "Start Microfinance Operations",
-      description:
-        "Begin providing micro-credit services as per the guidelines laid down in the Companies Act and RBI regulations applicable to such entities.",
+      description: "Begin providing micro-credit services.",
     },
     {
       step: 3,
-      title: "Arrange Net Owned Funds (for NBFC-MFI)",
+      title: "Apply for NBFC-MFI License",
       description:
-        "To scale up, arrange the minimum required Net Owned Funds (e.g., ₹5 crore) to be eligible for an RBI license.",
-    },
-    {
-      step: 4,
-      title: "Apply to RBI for NBFC-MFI License",
-      description:
-        "Submit a detailed online application to the RBI along with all required financial and corporate documents to be registered as an NBFC-MFI.",
+        "Apply to the RBI for an NBFC-MFI license to scale up operations.",
     },
   ],
   fees: [
