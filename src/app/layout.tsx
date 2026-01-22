@@ -31,7 +31,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-inter">
+      <body className="font-inter" suppressHydrationWarning>
         <Header />
         <main>{children}</main>
         <Footer />

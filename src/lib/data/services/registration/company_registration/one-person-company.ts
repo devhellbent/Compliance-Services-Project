@@ -10,8 +10,11 @@ export const onePersonCompanyData: ServiceData = {
   ],
   description:
     "Empower your solo entrepreneurial vision with corporate advantages. One Person Company registration provides single-member businesses with limited liability protection and corporate structure benefits, perfect for individual entrepreneurs seeking formal business recognition.",
-  overview:
-    "A **One Person Company (OPC)** represents a revolutionary business structure introduced under the Companies Act, 2013, specifically designed to empower solo entrepreneurs with the benefits of corporate governance while maintaining single-person ownership and control. This innovative entity combines the simplicity of sole proprietorship with the credibility and limited liability protection of a private limited company, creating an ideal platform for individual entrepreneurs to formalize their business ventures. As a separate legal entity, an OPC can own property, enter contracts, and conduct business operations independently, ensuring clear separation between personal and business assets. The structure requires only one director and one member (who can be the same person), with a mandatory nominee who assumes control in case of the member's incapacity or death, ensuring business continuity. Limited liability protection shields the owner's personal assets from business debts and legal obligations, with liability restricted to the share capital contributed. This corporate structure enhances business credibility significantly, making it easier to secure bank loans, attract clients, and participate in government tenders and procurement processes. The OPC enjoys perpetual succession, meaning the entity continues to exist regardless of changes in membership, providing long-term stability for business operations. While compliance requirements are more structured than sole proprietorship, they remain simpler than those of private limited companies, striking an optimal balance between formality and operational efficiency. The structure is particularly advantageous for freelancers, consultants, small manufacturers, and service providers transitioning from informal to formal business operations, offering them a professional corporate identity while maintaining complete operational control.",
+  overview: `**One Person Company (OPC) Registration**
+
+**One Person Company (OPC) registration** is the process of legally forming a company in India that is owned and managed by a single individual. This structure was introduced under the **Companies Act, 2013** to promote entrepreneurship by giving individuals the benefits of a corporate entity while maintaining full control over business decisions.
+
+An OPC is ideal for **freelancers, solo entrepreneurs, and small business owners** who want to start a company without needing partners. It provides a **separate legal identity**, **limited liability protection**, and **better credibility** compared to a sole proprietorship.`,
   whyChooseUs: [
     {
       icon: "User",
@@ -94,12 +97,18 @@ export const onePersonCompanyData: ServiceData = {
   ],
   documents: [
     {
-      title: "For Director/Nominee",
-      items: ["PAN Card", "Identity Proof", "Address Proof", "Photograph"],
+      tabTitle: "For Director/Nominee",
+      content: {
+        title: "For Director/Nominee",
+        items: ["PAN Card", "Identity Proof", "Address Proof", "Photograph"],
+      },
     },
     {
-      title: "For Registered Office",
-      items: ["Utility Bill", "NOC from the owner"],
+      tabTitle: "For Registered Office",
+      content: {
+        title: "For Registered Office",
+        items: ["Utility Bill", "NOC from the owner"],
+      },
     },
   ],
   registrationProcess: [

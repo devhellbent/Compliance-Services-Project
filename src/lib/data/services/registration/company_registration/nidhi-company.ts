@@ -7,8 +7,19 @@ export const nidhiCompanyData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Nidhi Company"],
   description:
     "Foster financial inclusion through mutual cooperation. Nidhi Company registration enables member-focused savings and lending operations, promoting thrift habits and providing accessible credit facilities within a regulated mutual benefit framework.",
-  overview:
-    "A **Nidhi Company** represents a unique category of Non-Banking Financial Company (NBFC) operating under Section 406 of the Companies Act, 2013, specifically designed to cultivate savings habits and provide mutual credit facilities exclusively among its members. This specialized financial institution functions on the fundamental principle of member cooperation, borrowing deposits from members and lending these funds back to members at reasonable interest rates, creating a self-sustaining cycle of financial support within the community. Unlike traditional NBFCs, Nidhi Companies are exempt from core provisions of the Reserve Bank of India Act, operating under simplified regulatory framework while maintaining Ministry of Corporate Affairs oversight. The structure mandates minimum 200 members and ₹10 lakh paid-up capital (increasing to ₹20 lakh within two years), ensuring adequate member base and financial stability for sustainable operations. The Net Owned Funds to Deposit ratio of 1:20 and restrictions on lending limits ensure prudent financial management and member protection. Nidhi Companies cannot issue preference shares, debentures, or any other debt instruments, maintaining focus on simple deposit-taking and lending activities that benefit members directly. The structure operates on democratic principles where each member has equal voting rights regardless of shareholding, ensuring collective decision-making and preventing concentration of control. All transactions must occur exclusively with members, with strict prohibition on accepting deposits from or lending to non-members, maintaining the mutual benefit character. The company must maintain specific nomenclature including 'Nidhi Limited' in its name, clearly identifying its specialized nature to stakeholders. This structure provides members with convenient access to credit at lower interest rates compared to traditional financial institutions, while offering attractive returns on savings deposits. The regulatory framework ensures transparency through mandatory financial audits, member meetings, and compliance reporting. Ideal for community-based financial cooperation, housing societies, professional groups, and regional associations, Nidhi Companies deliver accessible financial services while promoting financial discipline and mutual economic growth among members.",
+  overview: `**Nidhi Company Registration**
+
+A Nidhi Company is a type of Non-Banking Financial Company (NBFC) governed by Section 406 of the Companies Act, 2013 and Nidhi Rules, 2014.Its primary objective is to cultivate the habit of saving and thrift among its members and to accept deposits and lend money only to its members. Nidhi Companies operate on a mutual benefit principle and do not require RBI approval for registration, making them an attractive option for small savings and lending operations.
+
+To register a Nidhi Company, a minimum of seven members is required, out of which three must be directors. The company must be incorporated as a Public Limited Company with "Nidhi Limited" as part of its name. The minimum paid-up share capital required is ₹10 lakhs. After incorporation, within one year, the company must have at least 200 members and a Net Owned Fund (NOF) of ₹20 lakhs.
+
+The registration process involves obtaining Digital Signature Certificates (DSC), Director Identification Numbers (DIN), name approval through RUN (Reserve Unique Name), and filing incorporation forms with the Ministry of Corporate Affairs (MCA).
+
+**What is Nidhi Company?**
+
+The main objective of a **Nidhi Company** is to **promote a culture of savings and financial discipline** among a specific group of members. It works as a community-based financial institution, encouraging members to pool their resources for **mutual growth and benefit**. Governed by the **Companies Act, 2013**, and regulated by the **Ministry of Corporate Affairs (MCA)**, Nidhi Companies operate within a well-defined legal framework.
+
+These regulations are designed to **ensure transparency, protect members' interests, and maintain financial stability**. By following the rules set by the MCA, a Nidhi Company provides a secure and reliable platform for its members to **save collectively and access affordable loans**, fostering both **trust and financial well-being** within the community. This structure makes it an effective model for small-scale savings and lending activities.`,
   whyChooseUs: [
     {
       icon: "Users",
@@ -33,56 +44,130 @@ export const nidhiCompanyData: ServiceData = {
   ],
   advantages: [
     {
-      icon: "Users",
-      title: "Mutual Benefit & Community Focused",
-      text: "Promotes savings and provides affordable credit to members. Ideal for close-knit communities with shared financial goals.",
+      icon: "CheckCircle",
+      title: "of Nidhi Companies",
+      text: "",
     },
     {
-      icon: "Banknote",
-      title: "Easy Access to Loans for Members",
-      text: "Members can obtain loans at competitive interest rates with minimal documentation compared to banks. Loan approval is faster.",
+      icon: "CheckCircle",
+      title: "Simplified Regulatory Framework",
+      text: "",
+      subPoints: [
+        "**No RBI License Required:** Unlike other NBFCs, Nidhi Companies do **not** need to obtain a license from the Reserve Bank of India (RBI) to commence operations.",
+        "**Lesser Compliance Burden:** They are governed by the Ministry of Corporate Affairs (MCA) under the Companies Act, 2013, and the Nidhi Rules, 2014, which are **less stringent** than the comprehensive regulations imposed on traditional NBFCs by the RBI.",
+      ],
     },
     {
-      icon: "ShieldCheck",
-      title: "No RBI License Required",
-      text: "Exempt from RBI licensing requirements and most NBFC regulations. Only requires Nidhi Declaration from MCA after meeting conditions.",
+      icon: "CheckCircle",
+      title: "Benefits for Members",
+      text: "",
+      subPoints: [
+        "**Financial Inclusion:** They provide accessible saving and lending facilities, particularly in local and rural areas underserved by mainstream banks.",
+        "**Affordable Credit:** Members can get loans with relatively **minimal documentation** and at **reasonable interest rates**.",
+        "**Promotes Savings:** The core objective of accepting deposits and offering interest encourages a crucial habit of thrift and financial discipline.",
+      ],
     },
     {
-      icon: "TrendingUp",
-      title: "Limited Liability & Perpetual Succession",
-      text: "Shareholders have limited liability. The company enjoys perpetual succession and operates as a separate legal entity.",
+      icon: "CheckCircle",
+      title: "Operational Benefits",
+      text: "",
+      subPoints: [
+        "**Low Risk:** Since they only deal with deposits from and loans to their members, the risk of non-repayment of loans and external financial risk is generally **lower** due to peer accountability.",
+        "**Simple Incorporation:** The registration process is relatively straightforward and requires a **lower minimum capital** compared to other types of financial institutions.",
+        "**No Outside Interference:** Operations are restricted to the closed group of members, ensuring that no external party can intervene in the company\\'s management or financial activities. **Disadvantages of Nidhi Companies**",
+      ],
     },
     {
-      icon: "Building2",
-      title: "Simple Formation Process",
-      text: "Can be incorporated as a Public Limited Company using the standard SPICe+ process. No complex NBFC licensing required initially.",
+      icon: "CheckCircle",
+      title: "Operational Limitations",
+      text: "",
+      subPoints: [
+        "**Restricted Funding:** They can only raise funds by accepting deposits from members, severely **limiting the capital pool** and potential for large-scale growth compared to banks or NBFCs that can raise funds from the general public.",
+        "**Limited Business Scope:** Nidhi Companies are strictly prohibited from carrying on any other business, such as chit funds, hire purchase finance, leasing finance, or insurance.",
+        "**No Public Advertising:** They are restricted from advertising their deposit schemes to the general public, which hinders customer acquisition and growth beyond the local member base.",
+      ],
+    },
+    {
+      icon: "CheckCircle",
+      title: "Financial Constraints",
+      text: "",
+      subPoints: [
+        "**Limited Credit Availability:** Due to restricted fund-raising capabilities, the availability of credit for members is also limited.",
+        "**Lack of Deposit Insurance:** Unlike deposits in commercial banks, Nidhi Company deposits are **not covered** by the Deposit Insurance and Credit Guarantee Corporation (DICGC), which exposes depositors to a higher risk in case of company failure.",
+      ],
+    },
+    {
+      icon: "CheckCircle",
+      title: "Regulatory Concerns",
+      text: "",
+      subPoints: [
+        "**Risk of Mismanagement:** The lighter regulatory oversight can sometimes lead to **weak corporate governance** or susceptibility to fraudulent practices and misappropriation of funds, as has been reported in the past.",
+        "**Strict Adherence to Nidhi Rules:** While less stringent than RBI rules, the company must strictly adhere to compliance requirements like maintaining a minimum of 200 members and a specific Net Owned Fund to Deposit ratio within one year of incorporation, failing which the company faces penalties or restrictions.",
+      ],
     },
   ],
   disadvantages: [
     {
-      icon: "Users",
-      title: "Members-Only Transactions",
-      text: "Can only accept deposits from and lend to its members. Cannot deal with non-members or the general public. Restricts growth potential.",
+      icon: "CheckCircle",
+      title: "of Nidhi Companies",
+      text: "",
     },
     {
-      icon: "AlertTriangle",
-      title: "Stringent Post-Incorporation Requirements",
-      text: "Must achieve 200 members and Net Owned Fund of ₹10 lakh within one year. Failure to comply may lead to penalties or loss of Nidhi status.",
+      icon: "CheckCircle",
+      title: "Simplified Regulatory Framework",
+      text: "",
+      subPoints: [
+        "**No RBI License Required:** Unlike other NBFCs, Nidhi Companies do **not** need to obtain a license from the Reserve Bank of India (RBI) to commence operations.",
+        "**Lesser Compliance Burden:** They are governed by the Ministry of Corporate Affairs (MCA) under the Companies Act, 2013, and the Nidhi Rules, 2014, which are **less stringent** than the comprehensive regulations imposed on traditional NBFCs by the RBI.",
+      ],
     },
     {
-      icon: "Ban",
-      title: "Restricted Business Activities",
-      text: "Cannot issue preference shares, conduct chit fund business, engage in hire-purchase finance, insurance, or open current accounts for members.",
+      icon: "CheckCircle",
+      title: "Benefits for Members",
+      text: "",
+      subPoints: [
+        "**Financial Inclusion:** They provide accessible saving and lending facilities, particularly in local and rural areas underserved by mainstream banks.",
+        "**Affordable Credit:** Members can get loans with relatively **minimal documentation** and at **reasonable interest rates**.",
+        "**Promotes Savings:** The core objective of accepting deposits and offering interest encourages a crucial habit of thrift and financial discipline.",
+      ],
     },
     {
-      icon: "FileText",
-      title: "High Compliance Burden",
-      text: "Must file regular returns with MCA (NDH-1, NDH-2, NDH-3, NDH-4), conduct statutory audits, maintain statutory registers, and comply with Nidhi Rules, 2014.",
+      icon: "CheckCircle",
+      title: "Operational Benefits",
+      text: "",
+      subPoints: [
+        "**Low Risk:** Since they only deal with deposits from and loans to their members, the risk of non-repayment of loans and external financial risk is generally **lower** due to peer accountability.",
+        "**Simple Incorporation:** The registration process is relatively straightforward and requires a **lower minimum capital** compared to other types of financial institutions.",
+        "**No Outside Interference:** Operations are restricted to the closed group of members, ensuring that no external party can intervene in the company\\'s management or financial activities. **Disadvantages of Nidhi Companies**",
+      ],
     },
     {
-      icon: "Scale",
-      title: "Deposit and Lending Restrictions",
-      text: "Ratio of Net Owned Fund to deposits cannot exceed 1:20. Unencumbered term deposits must be at least 10% of outstanding deposits.",
+      icon: "CheckCircle",
+      title: "Operational Limitations",
+      text: "",
+      subPoints: [
+        "**Restricted Funding:** They can only raise funds by accepting deposits from members, severely **limiting the capital pool** and potential for large-scale growth compared to banks or NBFCs that can raise funds from the general public.",
+        "**Limited Business Scope:** Nidhi Companies are strictly prohibited from carrying on any other business, such as chit funds, hire purchase finance, leasing finance, or insurance.",
+        "**No Public Advertising:** They are restricted from advertising their deposit schemes to the general public, which hinders customer acquisition and growth beyond the local member base.",
+      ],
+    },
+    {
+      icon: "CheckCircle",
+      title: "Financial Constraints",
+      text: "",
+      subPoints: [
+        "**Limited Credit Availability:** Due to restricted fund-raising capabilities, the availability of credit for members is also limited.",
+        "**Lack of Deposit Insurance:** Unlike deposits in commercial banks, Nidhi Company deposits are **not covered** by the Deposit Insurance and Credit Guarantee Corporation (DICGC), which exposes depositors to a higher risk in case of company failure.",
+      ],
+    },
+    {
+      icon: "CheckCircle",
+      title: "Regulatory Concerns",
+      text: "",
+      subPoints: [
+        "**Risk of Mismanagement:** The lighter regulatory oversight can sometimes lead to **weak corporate governance** or susceptibility to fraudulent practices and misappropriation of funds, as has been reported in the past.",
+        "**Strict Adherence to Nidhi Rules:** While less stringent than RBI rules, the company must strictly adhere to compliance requirements like maintaining a minimum of 200 members and a specific Net Owned Fund to Deposit ratio within one year of incorporation, failing which the company faces penalties or restrictions.",
+      ],
     },
   ],
   eligibility: [
@@ -92,12 +177,18 @@ export const nidhiCompanyData: ServiceData = {
   ],
   documents: [
     {
-      title: "For Directors/Shareholders",
-      items: ["PAN Card", "Identity Proof", "Address Proof", "Photograph"],
+      tabTitle: "For Directors/Shareholders",
+      content: {
+        title: "For Directors/Shareholders",
+        items: ["PAN Card", "Identity Proof", "Address Proof", "Photograph"],
+      },
     },
     {
-      title: "For Registered Office",
-      items: ["Utility Bill", "NOC from the owner"],
+      tabTitle: "For Registered Office",
+      content: {
+        title: "For Registered Office",
+        items: ["Utility Bill", "NOC from the owner"],
+      },
     },
   ],
   registrationProcess: [

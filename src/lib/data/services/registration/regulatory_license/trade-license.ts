@@ -8,7 +8,11 @@ export const tradeLicenseData: ServiceData = {
   description:
     "Municipal trade license to operate specified activities at a premises, with inspections and yearly renewals.",
   overview:
-    "A **Trade License** is a mandatory municipal authorization to run a specified business activity at a particular premises within a city’s jurisdiction. It safeguards public health, safety and local order by enforcing hygiene, fire, environmental and zoning standards. It is activity and location specific, typically valid for one financial year (renewable), and does not confer any tenancy or ownership rights. Non‑compliance can invite fines and closure directions.",
+    `A Trade License is a **mandatory legal certificate** issued by the local municipal authority (like the Municipal Corporation or City Council) that grants an individual or entity formal permission to conduct a specific business or trade within a defined geographical area. It acts as a primary form of official authorization, ensuring the business is legally recognized and operating within the bounds of local regulations.
+
+The main purpose of this license is to **safeguard public health and safety** and maintain local civic order. By mandating a Trade License, the government can monitor and regulate commercial activities, ensuring that establishments---such as restaurants, factories, or shops---comply with prescribed health, safety, environmental, and zoning standards. This prevents the public from being affected by nuisance, pollution, or health hazards caused by unethical or unregulated trade practices.
+
+The license is typically **valid for a period of one year** and must be renewed annually. It is crucial for legal compliance, as operating a business without a valid Trade License can result in fines, penalties, or the closure of the establishment. Importantly, the license grants permission to trade but does **not** convey any ownership rights to the business property.`,
   advantages: [
     {
       icon: "CheckSquare",
@@ -49,15 +53,8 @@ export const tradeLicenseData: ServiceData = {
     },
   ],
   eligibility: [
-    {
-      title: "Who Needs a Trade License?",
-      items: [
-        "Any individual / entity carrying on trade within municipal limits (subject to zoning).",
-        "Examples: restaurants, bakeries, salons, gyms, lodges, shops, warehouses, factories.",
-        "Applicant must be 18+ with clean record; activity must be lawful.",
-      ],
-    },
-  ],
+    "The Eligibility Criteria for obtaining a Trade License in India are generally straightforward, but the specific documentation and additional requirements are determined by the local Municipal Corporation or Urban Local Body (ULB) where the business is located.  Here are the main universal criteria that must be met:"
+],
   documents: [
     {
       tabTitle: "Common Documents",

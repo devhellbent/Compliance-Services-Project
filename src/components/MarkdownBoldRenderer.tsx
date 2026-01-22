@@ -23,7 +23,24 @@ export const MarkdownBoldRenderer: React.FC<MarkdownBoldRendererProps> = ({
    * reruns when the input `text` prop changes.
    */
   const createMarkup = useMemo(() => {
-    let html = text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    // Handle empty or undefined text
+    if (!text || typeof text !== "string") {
+      return { __html: "" };
+    }
+
+    let html = text;
+
+    // First, handle properly paired markdown bold (**text**) to HTML <strong> tags
+    // Using non-greedy match to handle multiple bold sections in one string
+    html = html.replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>");
+
+    // Clean up standalone ** patterns (opening without closing or closing without opening)
+    // Remove standalone ** at the start of text (followed by space or at end of line)
+    html = html.replace(/^\s*\*\*\s+/g, "");
+    // Remove standalone ** at the end of text (preceded by space or at start of line)
+    html = html.replace(/\s+\*\*\s*$/g, "");
+    // Remove standalone ** in the middle (with spaces around it)
+    html = html.replace(/\s+\*\*\s+/g, " ");
 
     // Strip accidental outer <p> tags if present to avoid nesting when parent is also a <p>
     // This is defensive – only removes ONE pair of wrapping <p> .. </p>

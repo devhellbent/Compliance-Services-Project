@@ -8,7 +8,11 @@ export const dinRegistrationData: ServiceData = {
   description:
     "Apply for a lifetime Director Identification Number (DIN) with MCA, including annual DIR‑3 KYC to keep it active.",
   overview:
-    "The **Director Identification Number (DIN)** is an 8‑digit unique identifier allotted by the Ministry of Corporate Affairs (MCA) to any individual who is or intends to be appointed as a director in a company (or as a designated partner in an LLP—via DPIN). It is a statutory prerequisite under the Companies Act, 2013. Each person can hold only one DIN which remains valid for life, irrespective of the number of companies they serve. By providing a traceable, permanent identity across appointments, DIN strengthens transparency, accountability, and anti‑fraud controls in corporate governance.",
+    `**What is DIN Registration**
+
+The Director Identification Number (DIN) is a unique, eight-digit identifier assigned by the Ministry of Corporate Affairs (MCA), Government of India, to any individual who is either an existing director of a company or intends to be appointed as one. Mandated under the Companies Act, 2013, the DIN is an essential prerequisite for holding a director position in any Indian company, including private limited, public limited, or LLP. Once allotted, the DIN is a permanent, non-transferable number valid for the individual\'s lifetime, irrespective of the number of companies they are associated with.
+
+The primary significance of DIN registration lies in promoting transparency and accountability within India\'s corporate governance framework. It acts as a digital fingerprint for directors, allowing regulatory authorities to maintain a centralized database and track a director\'s involvement across various companies. This unique identification helps prevent the proliferation of fraudulent appointments, minimize identity misrepresentation, and ensure that directors comply with regulatory standards and legal obligations.`,
   advantages: [
     {
       icon: "UserCheck",
@@ -49,37 +53,18 @@ export const dinRegistrationData: ServiceData = {
     },
   ],
   eligibility: [
-    {
-      title: "Who Can Apply for a DIN?",
-      items: [
-        "Any individual (Indian or foreign national) proposed to be appointed as director.",
-        "Adults (18+) with valid identity & address proofs; no educational prerequisites.",
-        "Designated partners in LLPs require DPIN (interchangeable with DIN).",
-      ],
-    },
-  ],
-  documents: [
-    {
-      tabTitle: "For Indian Nationals",
-      content: {
-        title: "KYC Documents",
-        items: [
-          "PAN (mandatory primary ID).",
-          "Aadhaar / Passport / Voter ID / Driving Licence as address proof.",
-          "Recent photograph, email & mobile (for OTP).",
-        ],
-      },
-    },
-    {
-      tabTitle: "For Foreign Nationals",
-      content: {
-        title: "Apostilled/Notarized Documents",
-        items: [
-          "Passport (mandatory) apostilled / consular‑attested.",
-          "Address proof (DL / bank statement / utility bill), apostilled / notarized.",
-        ],
-      },
-    },
+    "**Individual Applicant:** The applicant must be an **individual**. Only natural persons can apply for and be allotted a DIN. Companies, LLPs, or other artificial legal entities cannot obtain a DIN.",
+    "**Age of Majority:** The applicant must be an **adult**, i.e., of legal age (18 years or above) as per Indian law.",
+    "**No Specific Educational Qualification:** There are **no specific educational qualifications or professional experiences** required to obtain a DIN. Any adult individual can apply.",
+    "**Nationality:** The applicant can be an **Indian citizen or a foreign national**. The DIN system is not restricted by nationality, allowing foreign individuals to hold directorships in Indian companies.",
+    "**Sound Mind:** The applicant should generally be of **sound mind**, though this is more implied in the legal capacity to enter into agreements rather than an explicit check during the DIN application process itself.",
+    "**Possession of Valid Identity and Address Proofs:** This is perhaps the most crucial practical requirement. The applicant must possess valid and verifiable identity and address proofs. **For Indian Nationals:**",
+    "PAN (Permanent Account Number) Card (Mandatory)",
+    "Aadhaar Card / Voter ID / Passport / Driving License (as identity and address proof)",
+    "Latest Bank Statement / Utility Bill (electricity, telephone, gas bill) for address proof (not older than 2 months). **For Foreign Nationals:**",
+    "Passport (Mandatory)",
+    "Residential proof such as a driving license, bank statement, or utility bill (not older than 1 year).",
+    "All documents must be apostilled or notarized by a public notary in the country of origin."
   ],
   registrationProcess: [
     {
@@ -132,6 +117,20 @@ export const dinRegistrationData: ServiceData = {
       remarks:
         "Payable if annual KYC is not filed by the due date; DIN remains deactivated until cleared.",
     },
+  ],
+  documents: [
+    {
+      tabTitle: "Required Documents",
+      content: {
+        title: "Required Documents",
+        items: [
+          "PAN Card (Mandatory for Indian Nationals)",
+          "Aadhaar Card / Voter ID / Passport / Driving License",
+          "Latest Bank Statement / Utility Bill (not older than 2 months)",
+          "For Foreign Nationals: Passport (Mandatory), Residential proof, all documents must be apostilled or notarized",
+        ],
+      },
+    }
   ],
   faqs: [
     {

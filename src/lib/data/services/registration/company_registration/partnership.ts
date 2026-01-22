@@ -7,8 +7,11 @@ export const partnershipData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Company Registration", "Partnership"],
   description:
     "Unite strengths, share success. Partnership firm registration enables two or more professionals to combine their expertise and resources, creating a legally recognized business structure that distributes profits, responsibilities, and growth opportunities among partners.",
-  overview:
-    "A **Partnership Firm** represents a collaborative business structure where two or more individuals unite their skills, capital, and expertise to establish and operate a business enterprise governed by the Indian Partnership Act, 1932. While registration with the Registrar of Firms is optional, it provides substantial legal advantages including the right to file suits against third parties and enhanced credibility in business transactions. The partnership deed serves as the constitutional document defining each partner's rights, duties, profit-sharing ratios, and operational protocols, creating a clear framework for business governance. This structure allows for pooling of resources and diverse skill sets, enabling partners to leverage collective strengths while sharing both profits and liabilities. The flexibility in profit distribution, combined with relatively simple compliance requirements compared to corporate structures, makes partnerships particularly attractive for professional services, trading businesses, and small to medium enterprises. However, partners must be mindful of unlimited liability provisions, where personal assets may be at risk for business obligations. The structure facilitates easier decision-making through mutual consensus and allows for tax benefits through profit distribution. Registration enhances the firm's legal standing, enabling access to banking facilities, government contracts, and formal dispute resolution mechanisms. This makes partnership registration an excellent choice for professionals like doctors, lawyers, chartered accountants, and entrepreneurs seeking collaborative business growth.",
+  overview: `**Partnership Firm Registration**
+
+Partnership firm registration is the legal process of formally registering a business partnership with the Registrar of Firms, as per the Indian Partnership Act, 1932. While registration is not mandatory, it is highly recommended due to the significant benefits it offers
+
+Once a partnership firm is registered, it becomes a legally recognized entity, giving your business formal standing in the eyes of the law.In short, registration strengthens your business foundation and helps it grow with confidence and security.`,
   whyChooseUs: [
     {
       icon: "Users",
@@ -101,65 +104,34 @@ export const partnershipData: ServiceData = {
     },
   ],
   eligibility: [
-    {
-      title: "Basic Requirements",
-      items: [
-        "Minimum Number of Partners: There must be at least two partners.",
-        "Maximum Number of Partners: The maximum number of partners is 50, as per the Companies Act.",
-        "Competent Partners: All partners must be legally capable of entering into a contract (of sound mind, at least 18 years old, not disqualified by any law).",
-        "Lawful Business Activity: The purpose of the partnership must be to carry on a legal business.",
-      ],
-    },
-    {
-      title: "Documentation",
-      items: [
-        "Partnership Deed: A written agreement (Partnership Deed) detailing the terms and conditions of the partnership is required.",
-        "The deed must be printed on non-judicial stamp paper of appropriate value and should be notarized.",
-        "It should outline partners' rights, duties, profit-sharing ratio, capital contribution, and other operational details.",
-      ],
-    },
+    "**Minimum Number of Partners:** There must be at least two partners.",
+    "**Maximum Number of Partners:** The maximum number of partners is 50, as per the Companies Act, though it was formerly 20.",
+    "**Competent Partners:** All partners must be legally capable of entering into a contract. This means they must be ",
+    "Of sound mind.",
+    "At least 18 years old.",
+    "Not disqualified by any law from entering into a contract. ",
+    "**Lawful Business Activity:** The purpose of the partnership must be to carry on a legal business.",
+    "**Partnership Deed:** A written agreement (Partnership Deed) detailing the terms and conditions of the partnership is required. This document is crucial and should outline the partners\\' rights, duties, profit-sharing ratio, capital contribution, and other operational details. -",
   ],
   documents: [
     {
-      tabTitle: "Partnership Deed",
+      tabTitle: "Proof of Business Address",
       content: {
-        title: "Most Crucial Legal Document",
+        title: "Proof of Business Address",
         items: [
-          "Must include name and address of the firm, names and addresses of all partners, nature of business, profit/loss sharing ratio, capital contributions",
-          "Must be drafted on non-judicial stamp paper of appropriate value (as per state's Stamp Act) and notarized",
-        ],
-      },
-    },
-    {
-      tabTitle: "Identity & Address Proof",
-      content: {
-        title: "Proof of Identity and Residence for Every Partner",
-        items: [
-          "Identity Proof: Copy of PAN Card (mandatory for all partners)",
-          "Address Proof: Self-attested copy of Aadhaar Card, Voter ID, Passport, or Driving License",
-          "Utility bills (electricity or water bill) not older than two months can also be used",
-          "Photographs: Passport-sized photographs of all partners",
-        ],
-      },
-    },
-    {
-      tabTitle: "Business Address Proof",
-      content: {
-        title: "Proof of Firm's Principal Place of Business",
-        items: [
-          "For Rented Premises: Copy of rent/lease agreement, latest utility bill, NOC from landlord",
-          "For Owned Premises: Copy of property deed or ownership documents, latest utility bill in owner's name",
+          "For Rented Premises: Copy of rent or lease agreement along with the latest utility bill of the property. A No Objection Certificate (NOC) from the landlord is also essential.",
+          "For Owned Premises: Copy of the property deed or ownership documents, along with the latest utility bill in the name of the owner (a partner).",
         ],
       },
     },
     {
       tabTitle: "Additional Documents",
       content: {
-        title: "Form 1 and Other Requirements",
+        title: "Additional Documents",
         items: [
-          "Form 1: Application for registration under Indian Partnership Act, 1932",
-          "Affidavit: Certifying all details are correct and partners are legally competent",
-          "Firm's PAN Card: Apply for PAN card in the firm's name for tax purposes",
+          "Form 1: Application for registration under the Indian Partnership Act, 1932. It must be filled out with the firm's details, signed, and verified by all partners or their authorized agents.",
+          "Affidavit: An affidavit must be submitted, certifying that all the details provided in the application and the partnership deed are correct and that all partners are legally competent to enter into a contract.",
+          "Firm's PAN Card: It is important to apply for a PAN card in the firm's name. The PAN card is required for tax purposes and to open a bank account for the business.",
         ],
       },
     },
@@ -277,7 +249,7 @@ export const partnershipData: ServiceData = {
         keyFeatures: [
           "All partners can participate in management and decision-making.",
           "Each partner can act on behalf of the firm and bind other partners legally (mutual agency).",
-          "Partners’ personal assets may be used to pay off firm’s debts if business assets are insufficient.",
+          "Partners' personal assets may be used to pay off firm's debts if business assets are insufficient.",
         ],
       },
       {

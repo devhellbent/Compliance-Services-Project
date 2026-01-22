@@ -5,54 +5,82 @@ import { ServiceData } from "@/lib/types";
 export const a80gRegistrationData: ServiceData = {
   title: "80G Registration",
   breadcrumb: ["Home", "Registrations", "80G Registration"],
-  overview:
-    "An **80G Certificate** is a certification granted by the Income Tax Department to non-profit organizations (NGOs). Its primary purpose is to encourage donations by providing a significant tax benefit to the **donor**. 🎁 When an NGO has an 80G certificate, individuals and companies who donate to it can claim a **tax deduction** on the donated amount from their gross total income. This is a powerful tool for attracting funds.",
+  overview: `80G registration, governed by Section 80G of the Income Tax Act, 1961, is a certification obtained by charitable organizations in India, such as trusts, societies, and Section 8 companies. Its primary function is to provide a crucial incentive for donors: the ability to claim a deduction from their taxable income on the donations they make to the registered entity. This effectively lowers the donor\'s tax liability and encourages philanthropic contributions.
+
+The registration is beneficial for both the donor and the organization. For the donor, the deduction can range from 50% to 100% of the donated amount, depending on the recipient fund or institution, subject to certain limits. For the non-profit organization, holding an 80G certificate significantly enhances its credibility and transparency, making it far more appealing to potential individual, corporate, and foreign donors, thereby boosting fundraising potential.
+
+To be eligible for 80G certification, an organization must fulfill several conditions, including possessing a valid Section 12A registration (which grants tax exemption on the organization\'s income), maintaining transparent accounts, and ensuring its income is used solely for charitable purposes. The application is made to the Principal Commissioner or Commissioner of Income Tax, and the registration must be periodically renewed to remain valid.
+
+**What is Section 80G**
+
+Section 80G of the Indian Income Tax Act offers tax deductions to taxpayers (individuals, companies, etc.) who make donations to specified charitable institutions or relief funds. This provision encourages philanthropy by allowing donors to deduct a percentage (usually 50% or 100%) of the donated amount from their taxable income, thereby reducing their tax liability.`,
   advantages: [
     {
-      icon: "TrendingUp",
-      title: "Boosts Donations",
-      text: "Providing a tax deduction acts as a major incentive for donors, significantly increasing the potential for fundraising.",
-    },
-    {
-      icon: "ShieldCheck",
-      title: "Enhances Credibility",
-      text: "An 80G certificate signals that the NGO has been verified by the tax authorities, which builds trust and authenticity.",
-    },
-    {
-      icon: "Building",
-      title: "Attracts Corporate Funding",
-      text: "Many companies look for 80G registered NGOs to make donations as part of their Corporate Social Responsibility (CSR) activities.",
-    },
-    {
-      icon: "Landmark",
-      title: "Wider Donor Base",
-      text: "It allows you to approach a wider audience for funds, including high-net-worth individuals and large corporations.",
+      icon: "Files",
+      title: "and Compliance Challenges of 80G Registration",
+      text: "The drawbacks mainly relate to the stringent compliance requirements and restrictions placed on the organization\\'s operations.",
+      subPoints: [
+        "**Strict Compliance Burden:** The organization must adhere to strict rules set by the Income Tax Department, including: ",
+        "Maintaining separate and accurate **books of accounts**.",
+        "Mandatory annual **reporting of donations** received (Form 10BD) and issuing certificates to donors (Form 10BE). ",
+        "**Restriction on Use of Funds:** The organization\\'s income and assets must be used **only for charitable purposes**. Any diversion for non-charitable use or personal benefit of trustees/members can lead to cancellation of the certificate.",
+        "**Restrictions on Activities:** The organization must not be working for the benefit of any specific religious community or caste.",
+        "**Mandatory Re-Registration and Validity Period:** ",
+        "The registration is **not permanent** anymore. After an initial provisional period, the final approval is typically valid for **5 years** and must be renewed by applying at least six months prior to expiry.",
+        "Failure to renew the certificate on time leads to the loss of 80G benefits, which instantly deters donors. ",
+        "**Rejection Risk in New Regime:** Organizations that receive **provisional registration** and later fail to secure final registration may face uncertainty, potentially impacting the tax-exempt status of past donations, which can cause donor backlash.",
+      ],
     },
   ],
   disadvantages: [
     {
-      icon: "FileCheck",
-      title: "12A Registration is a Prerequisite",
-      text: "An NGO cannot apply for an 80G certificate unless it has already obtained a 12A registration for tax exemption.",
-    },
-    {
-      icon: "FileWarning",
-      title: "Annual Compliance",
-      text: "The NGO must file an annual 'Statement of Donations' (Form 10BD) and issue donation certificates (Form 10BE) to its donors.",
-    },
-    {
-      icon: "Ban",
-      title: "Not for All NGOs",
-      text: "NGOs with religious objectives or those benefiting a specific caste or community are generally not eligible for 80G.",
+      icon: "Files",
+      title: "and Compliance Challenges of 80G Registration",
+      text: "The drawbacks mainly relate to the stringent compliance requirements and restrictions placed on the organization\\'s operations.",
+      subPoints: [
+        "**Strict Compliance Burden:** The organization must adhere to strict rules set by the Income Tax Department, including: ",
+        "Maintaining separate and accurate **books of accounts**.",
+        "Mandatory annual **reporting of donations** received (Form 10BD) and issuing certificates to donors (Form 10BE). ",
+        "**Restriction on Use of Funds:** The organization\\'s income and assets must be used **only for charitable purposes**. Any diversion for non-charitable use or personal benefit of trustees/members can lead to cancellation of the certificate.",
+        "**Restrictions on Activities:** The organization must not be working for the benefit of any specific religious community or caste.",
+        "**Mandatory Re-Registration and Validity Period:** ",
+        "The registration is **not permanent** anymore. After an initial provisional period, the final approval is typically valid for **5 years** and must be renewed by applying at least six months prior to expiry.",
+        "Failure to renew the certificate on time leads to the loss of 80G benefits, which instantly deters donors. ",
+        "**Rejection Risk in New Regime:** Organizations that receive **provisional registration** and later fail to secure final registration may face uncertainty, potentially impacting the tax-exempt status of past donations, which can cause donor backlash.",
+      ],
     },
   ],
   eligibility: [
     {
-      title: "Eligible Entities",
+      title:
+        "The eligibility criteria for 80G registration are primarily focused",
       items: [
-        "Registered Public Charitable Trusts, Societies, or Section 8 Companies.",
-        "The NGO must have a valid **12A registration**.",
-        "The organization's activities must be for charitable purposes and not for the benefit of any specific religious community or caste.",
+        "on the **donee organization** (the one receiving the donation) to ensure it is genuinely charitable, compliant with income tax laws, and serves the public good.  An organization must meet several conditions under the Income Tax Act, 1961 (India), to get and retain its 80G approval.    To be eligible for 80G registration, an institution or fund must satisfy the following key conditions:",
+      ],
+    },
+    {
+      title: "Legal and Operational Status",
+      items: [
+        "**Legal Structure:** The organization must be legally registered as a **Charitable Trust, Society, or a Section 8 Company** (Non-profit company) under the relevant Indian laws.",
+        "**Mandatory Registration:** It must have a valid registration under **Section 12A/12AB** of the Income Tax Act, which grants the organization tax-exempt status on its income. **12A/12AB registration is a prerequisite for 80G.**",
+        "**Charitable Objective:** The primary objective and activities of the institution must be **charitable** as defined under the Income Tax Act, not profit-oriented.",
+      ],
+    },
+    {
+      title: "Financial and Accounting Compliance",
+      items: [
+        "**Proper Accounts:** The organization must maintain **regular books of accounts** for its receipts and expenditures.",
+        "**Audited Accounts:** It must file **audited financial statements** (Balance Sheet, Income & Expenditure Account) annually.",
+        "**Use of Income:** The income and assets of the organization must be applied **solely for charitable or religious purposes** within India.",
+      ],
+    },
+    {
+      title: "Restrictions on Activities",
+      items: [
+        "**No Business Income (Generally):** The organization should generally **not have any business income**. If it does have business income, it must maintain separate books of accounts, and the donations received must not be diverted to that business.",
+        "**No Private Benefit:** No part of the income or assets should be used for the benefit of the founder, governing body members, or their relatives.",
+        "**No Religious/Caste Specificity:** The institution must **not be established for the exclusive benefit** of any particular religious community or caste.",
+        "**No Political Activities:** The organization must not engage in any political activities.",
       ],
     },
   ],

@@ -5,74 +5,105 @@ import { ServiceData } from "@/lib/types";
 export const darpanRegistrationData: ServiceData = {
   title: "Darpan Registration",
   breadcrumb: ["Home", "Registrations", "Darpan Registration"],
-  overview:
-    "**Darpan Registration** is a portal created by **NITI Aayog** (the policy think tank of the Government of India) to maintain a comprehensive database of Non-Governmental Organizations (NGOs) and Voluntary Organizations (VOs). 🖥️ This registration is **mandatory** for any NGO that wants to apply for and receive grants or funding from any ministry or department of the Indian Government.",
+  overview: `Darpan registration, also known as NGO Darpan, is the official online registration process for Non-Governmental Organisations (NGOs) and Voluntary Organisations (VOs) in India. This digital platform is managed by **NITI Aayog**, the premier policy think tank of the Government of India, in collaboration with the National Informatics Centre (NIC). Its primary purpose is to create a centralized national database of all registered non-profit entities in the country.
+
+The registration process requires the NGO to submit detailed information and documents about its legal status, governing body, financial sources, and activities. Upon successful registration and verification, the organization is issued a **Unique Darpan ID (UIN)**. This ID is essential and often mandatory for NGOs seeking to engage with the government, apply for various central or state government grants, schemes, and funding opportunities, as well as for certain foreign contribution regulations (FCRA) and Corporate Social Responsibility (CSR) applications.
+
+Ultimately, NGO Darpan aims to foster greater **transparency, accountability, and credibility** within the non-profit sector. By standardizing the registration and information disclosure process, it acts as a crucial interface, strengthening the partnership between the government and the voluntary sector, simplifying communication, and enabling better monitoring, evaluation, and collaboration on social development projects across India.
+
+**Key Features of Darpan Registration**
+
+The Darpan Registration, managed by NITI Aayog, is a digital initiative with several core features designed to centralize and formalize the voluntary sector in India. These features transform how Non-Governmental Organisations (NGOs) and Voluntary Organisations (VOs) interact with government departments and the public.
+
+-   **Unique Darpan ID (UIN) Issuance:** The most important feature is the assignment of a **Unique Identification Number (UIN)** to every registered NGO. This UIN acts as the organization\'s official digital identity, essential for all interactions with government agencies, and is mandatory for applying for central and state government grants.
+
+-   **Centralized National Database:** The portal maintains a comprehensive, **searchable database** of all registered NGOs, their activities, and key personnel. This national repository promotes public transparency and enables government ministries to efficiently verify the legitimacy, track the performance, and find suitable partners for developmental projects.
+
+-   **Online Grant and Scheme Access:** Darpan serves as an interface connecting NGOs with various Ministries and Departments. It is a key feature for accessing **online application links** for government grants, welfare schemes, and funding opportunities, thereby streamlining the process and reducing paperwork.
+
+-   **Transparency and Accountability:** The registration requires NGOs to publicly submit and regularly update detailed information, including their registration status, operational areas, board members, and, often, funding details. This mandatory disclosure enhances **credibility and accountability** to government bodies, corporate partners for CSR funds, and individual donors.
+
+-   **Streamlined Government Engagement:** The registration acts as a single point of data submission for multiple government purposes. It facilitates **smoother communication and collaboration** with the government, making it easier for Ministries to share timely updates, policy changes, and project-related information directly with registered organizations across the country.`,
   advantages: [
     {
-      icon: "Landmark",
-      title: "Eligibility for Government Grants",
-      text: "It is the primary prerequisite for NGOs to apply for grants under various government schemes.",
-    },
-    {
-      icon: "ShieldCheck",
-      title: "Increases Credibility",
-      text: "Registration on a government portal enhances the transparency and credibility of the NGO in the eyes of donors and the public.",
-    },
-    {
-      icon: "Fingerprint",
-      title: "Provides a Unique ID",
-      text: "Each registered NGO is assigned a unique ID, which is used by government departments to track the organization's activities and funding.",
-    },
-    {
-      icon: "Database",
-      title: "Centralized Repository",
-      text: "Acts as a central database for government bodies to access information about NGOs, their activities, and their key members.",
+      icon: "CheckCircle",
+      title: "of Darpan Registration",
+      text: "1.  **Bureaucratic Hurdles and Complexity:** While designed to streamline, the registration process can sometimes involve significant bureaucratic hurdles. NGOs, especially smaller ones with limited resources, may find the online application, documentation requirements, and subsequent verification process time-consuming and complex. 2.  **Mandatory Information Disclosure:** For some organizations, the requirement to publicly disclose detailed information about their finances, board members, and activities might be seen as a disadvantage. While it promotes transparency, some NGOs might prefer a higher degree of privacy, especially concerning sensitive operational details. 3.  **Dependence on Digital Access and Literacy:** The entire process is online, which can be a barrier for NGOs operating in remote areas with limited internet access or for those whose staff lack sufficient digital literacy. This digital divide can exclude smaller, grassroots organizations from the benefits of registration. 4.  **Continuous Compliance and Updates:** Registration is not a one-time event; NGOs are expected to keep their information updated regularly. Failing to maintain current details can lead to issues with government interactions or even suspension of their UIN, adding an ongoing administrative burden. 5.  **No Automatic Guarantee of Funding:** While Darpan registration is a prerequisite for many government grants, it does not guarantee funding. NGOs still need to compete based on their project proposals, impact, and alignment with government priorities. The registration merely qualifies them to apply.",
     },
   ],
   disadvantages: [
     {
-      icon: "FileWarning",
-      title: "Requires Detailed Disclosures",
-      text: "The portal requires detailed information about the NGO's activities, members, and financials, which must be kept updated.",
-    },
-    {
-      icon: "Info",
-      title: "Prerequisite for Grants Only",
-      text: "The primary purpose is to enable grant applications; it does not offer direct financial benefits on its own.",
-    },
-    {
-      icon: "Link",
-      title: "Linked with Other Portals",
-      text: "The data is linked with other government portals, so maintaining accurate and updated information is crucial.",
+      icon: "CheckCircle",
+      title: "of Darpan Registration",
+      text: "1.  **Bureaucratic Hurdles and Complexity:** While designed to streamline, the registration process can sometimes involve significant bureaucratic hurdles. NGOs, especially smaller ones with limited resources, may find the online application, documentation requirements, and subsequent verification process time-consuming and complex. 2.  **Mandatory Information Disclosure:** For some organizations, the requirement to publicly disclose detailed information about their finances, board members, and activities might be seen as a disadvantage. While it promotes transparency, some NGOs might prefer a higher degree of privacy, especially concerning sensitive operational details. 3.  **Dependence on Digital Access and Literacy:** The entire process is online, which can be a barrier for NGOs operating in remote areas with limited internet access or for those whose staff lack sufficient digital literacy. This digital divide can exclude smaller, grassroots organizations from the benefits of registration. 4.  **Continuous Compliance and Updates:** Registration is not a one-time event; NGOs are expected to keep their information updated regularly. Failing to maintain current details can lead to issues with government interactions or even suspension of their UIN, adding an ongoing administrative burden. 5.  **No Automatic Guarantee of Funding:** While Darpan registration is a prerequisite for many government grants, it does not guarantee funding. NGOs still need to compete based on their project proposals, impact, and alignment with government priorities. The registration merely qualifies them to apply.",
     },
   ],
   eligibility: [
     {
-      title: "Eligible Entities",
+      title:
+        "Any Non-Governmental Organisation (NGO) or Voluntary Organisation (VO)",
       items: [
-        "Any registered **Trust**, **Society**, or **Section 8 Company** that is involved in charitable or social welfare activities.",
-        "The NGO must have a valid PAN card in its own name.",
+        "that is legally registered in India is eligible to apply for registration on the NITI Aayog\\'s Darpan portal.",
+      ],
+    },
+    {
+      title: "Mandatory Legal Status",
+      items: [
+        "**Trusts:** Registered under the **Indian Trusts Act, 1882** (for Public Charitable Trusts) or relevant state acts.",
+        "**Societies:** Registered under the **Societies Registration Act, 1860** or similar state-specific laws.",
+        "**Non-Profit Companies:** Incorporated as a **Section 8 Company** under the **Companies Act, 2013** (formerly Section 25 Company).",
+        "Other legally registered voluntary organizations (VOs). Note: Registration is mandatory if the NGO intends to apply for grants or financial assistance from any Central or State Government Ministry/Department. Individual registration is not permitted.",
+      ],
+    },
+    {
+      title: "Essential Organizational Requirements",
+      items: [
+        "**Valid PAN Card:** The organization must have a Permanent Account Number (PAN) issued in its official name.",
+        "**Active Engagement:** The NGO must be actively engaged in social welfare, charitable, or development-related activities in India.",
+        "**Working Bank Account:** The organization must have an operational bank account registered in its official name.",
+      ],
+    },
+    {
+      title: "Key Personnel Requirements",
+      items: [
+        "**Minimum Three Key Members:** Details for at least **three key office bearers** (e.g., President/Chairman, Secretary/CEO, and Treasurer/Financial Head) must be provided.",
+        "**Mandatory ID Proofs:** For these three key members, it is compulsory to provide their personal **Aadhaar Number** and **PAN Number** for verification.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "NGO Documents",
+      tabTitle: "Mandatory Documents for the NGO/VO",
       content: {
-        title: "Registration and PAN",
+        title: "Mandatory Documents for the NGO/VO",
         items: [
-          "Copy of the NGO's Registration Certificate (e.g., Trust Deed, Society Registration Certificate, or Certificate of Incorporation).",
-          "Copy of the NGO's PAN Card.",
+          "**PAN Card of the NGO/VO:** The Permanent Account Number (PAN) must be in the name of the organization.",
+          "**Registration Certificate:** Legal proof of the organization\\'s establishment (e.g., Trust Deed, Society Registration Certificate, or Certificate of Incorporation for a Section 8 Company).",
+          "**Governing Documents (MOA/Trust Deed/Bylaws):** Documents like the Memorandum of Association (MOA) for a Society/Section 8 Company or the Trust Deed for a Trust, which outlines the organization\\'s aims and structure.",
+          "**Address Proof of the NGO/VO:** A valid document to verify the registered office address (e.g., utility bill like an Electricity or Telephone Bill, or Rent/Lease Agreement).",
         ],
       },
     },
     {
-      tabTitle: "Member Documents",
+      tabTitle: "Details of Key Functionaries (Office Bearers)",
       content: {
-        title: "KYC of Office Bearers",
+        title: "Details of Key Functionaries (Office Bearers)",
         items: [
-          "PAN Card and Aadhaar Card of at least three members of the executive committee, trustees, or directors.",
-          "Mobile numbers and email IDs of the key office bearers.",
+          "**Aadhaar Card** of at least three key members (mandatory).",
+          "**PAN Card** of at least three key members.",
+          "**Full Name, Designation, Date of Birth, Email ID, and Mobile Number** of the key members.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Financial & Operational Details",
+      content: {
+        title: "Financial & Operational Details",
+        items: [
+          "**Bank Account Details:** Name of the Bank, Branch Name, Account Number, and IFSC Code.",
+          "**Annual Reports and Audited Financial Statements:** (Conditional/Mandatory for older NGOs) The latest Audited Financial Statements and Annual Reports to demonstrate credibility.",
+          "**Source of Funds:** Information about grants or funds received, especially from the government.",
+          "**Working Areas:** Details of the state(s) and district(s) where the organization is active.",
         ],
       },
     },

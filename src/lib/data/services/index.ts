@@ -43,26 +43,40 @@ import { copyrightRegistrationData } from "./registration/intellectual_property/
 import { copyrightObjectionData } from "./registration/intellectual_property/copyright-objection";
 import { patentRegistrationData } from "./registration/intellectual_property/patent-registration";
 import { patentSearchData } from "./registration/intellectual_property/patent-search";
+import { infringementNoticeData } from "./registration/intellectual_property/infringement-notice";
 // MCA Compliance Services
 import { llpComplianceData } from "./mca/company_compliance/llp-compliance";
 import { opcComplianceData } from "./mca/company_compliance/opc-compliance";
 import { privateLimitedComplianceData } from "./mca/company_compliance/private-limited-compliance";
 import { nidhiCompanyComplianceData } from "./mca/company_compliance/nidhi-company-compliance";
-import { section8CompanyComplianceData } from './mca/company_compliance/section-8-company-compliance';
-import { statutoryAuditData } from './mca/company_compliance/statutory-audit';
-import { taxAuditData } from './mca/company_compliance/tax-audit';
-import { bookkeepingData } from './mca/company_compliance/bookkeeping';
+import { section8CompanyComplianceData } from "./mca/company_compliance/section-8-company-compliance";
+import { statutoryAuditData } from "./mca/company_compliance/statutory-audit";
+import { taxAuditData } from "./mca/company_compliance/tax-audit";
+import { bookkeepingData } from "./mca/company_compliance/bookkeeping";
+import { partnershipComplianceData } from "./mca/company_compliance/partnership-compliance";
+import { chargeCreationData } from "./compliance/corporate_service/charge-creation";
 
 export const serviceData = {
   proprietorship: proprietorshipData,
   partnership: partnershipData,
+  "partnership-compliance": partnershipComplianceData,
+  "private-company-compliance": privateLimitedComplianceData, // Alias
+  "public-limited-company-compliance": privateLimitedComplianceData, // Placeholder - using private limited as template
+  "producer-company-compliance": privateLimitedComplianceData, // Placeholder
+  "ngo-compliance": section8CompanyComplianceData, // Alias for Section 8
+  "trust-compliance": trustRegistrationData, // Placeholder - using trust registration
+  "society-compliance": societyRegistrationData, // Placeholder - using society registration
+  "subsidiary-company-compliance": privateLimitedComplianceData, // Placeholder
+  "microfinance-company-compliance": privateLimitedComplianceData, // Placeholder
   "limited-liability-partnership": llpData,
   "one-person-company": onePersonCompanyData,
   "private-limited-company": privateLimitedCompanyData,
   "public-limited-company": publicLimitedCompanyData,
   "producer-company": producerCompanyData,
   "nidhi-company": nidhiCompanyData,
+  "nidhi-company-registration": nidhiCompanyData, // Alias for navigation
   "section-8-company": section8CompanyData,
+  "section-8-ngo-company": section8CompanyData, // Alias for navigation
   "trust-registration": trustRegistrationData,
   "society-registration": societyRegistrationData,
   "indian-subsidiary": indianSubsidiaryData,
@@ -98,6 +112,7 @@ export const serviceData = {
   "copyright-objection": copyrightObjectionData,
   "patent-registration": patentRegistrationData,
   "patent-search": patentSearchData,
+  "infringement-notice": infringementNoticeData,
   "llp-compliance": llpComplianceData,
   "opc-compliance": opcComplianceData,
   "private-limited-compliance": privateLimitedComplianceData,
@@ -105,5 +120,130 @@ export const serviceData = {
   "section-8-company-compliance": section8CompanyComplianceData,
   "statutory-audit": statutoryAuditData,
   "tax-audit": taxAuditData,
-  "bookkeeping": bookkeepingData,
+  bookkeeping: bookkeepingData,
+  "charge-creation-modification-satisfaction": chargeCreationData,
+  // Placeholder entries for missing services - using existing data as templates
+  "fema-rbi-compliance": privateLimitedComplianceData,
+  "msme-filling": msmeUdyamRegistrationData,
+  "pas-6": llpComplianceData,
+  "llp-form-11-filing": llpComplianceData,
+  "dpt-3-filing": llpComplianceData,
+  agm: llpComplianceData,
+  "e-voting": llpComplianceData,
+  "aoc-4-aoc-4-xbrl": privateLimitedComplianceData,
+  "mgt-7-mgt-7a": privateLimitedComplianceData,
+  "kyc-dir-3-kyc": dinRegistrationData,
+  "fc-gpr-fc-trs-filings": privateLimitedComplianceData,
+  "llp-winding-up": llpComplianceData,
+  "private-limited-winding-up": privateLimitedComplianceData,
+  "section-8-winding-up": section8CompanyComplianceData,
+  "nidhi-winding-up": nidhiCompanyComplianceData,
+  "indian-subsidiary-winding-up": indianSubsidiaryData,
+  "commencement-inc-20a": privateLimitedCompanyData,
+  "change-in-llp-agreement": llpData,
+  "authorized-capital-increase": privateLimitedComplianceData,
+  "aoa-amendment": privateLimitedComplianceData,
+  "moa-amendment": privateLimitedComplianceData,
+  "name-change-company": privateLimitedComplianceData,
+  "registered-office-change": privateLimitedComplianceData,
+  "din-reactivation": dinRegistrationData,
+  "approval-of-director": dinRegistrationData,
+  "removal-of-director": privateLimitedComplianceData,
+  "adt-1-filing": statutoryAuditData,
+  "dormant-status-filing": privateLimitedComplianceData,
+  "proprietor-to-llp-company": proprietorshipData,
+  "llp-to-private-company": llpData,
+  "opc-to-private-limited": onePersonCompanyData,
+  "private-to-public-company": privateLimitedCompanyData,
+  "isin-number": privateLimitedComplianceData,
+  "share-transfer": privateLimitedComplianceData,
+  "demat-of-shares": privateLimitedComplianceData,
+  "rta-services": privateLimitedComplianceData,
+  "share-allotment-and-transfer": chargeCreationData,
+  "right-issue-private-placement": chargeCreationData,
+  "buy-back-of-shares": chargeCreationData,
+  // Additional placeholder entries for remaining services
+  "issue-of-preference-shares-convertible-debentures": chargeCreationData,
+  "reduction-of-share-capital": chargeCreationData,
+  "esop-structuring-and-implementation": chargeCreationData,
+  "xbrl-filing": privateLimitedComplianceData,
+  "compliance-with-lodr-regulations": privateLimitedComplianceData,
+  "insider-trading-regulations-compliance": privateLimitedComplianceData,
+  "listing-of-securities-on-stock-exchanges": publicLimitedCompanyData,
+  "posh-policy-and-compliance": privateLimitedComplianceData,
+  "secretarial-audit": statutoryAuditData,
+  "legal-due-diligence": privateLimitedComplianceData,
+  "corporate-governance": privateLimitedComplianceData,
+  "internal-audit-and-process-review": taxAuditData,
+  "amalgamation-merger-and-demerger-advisory": privateLimitedComplianceData,
+  "drafting-of-scheme-of-arrangement": privateLimitedComplianceData,
+  "nclt-filing-and-approvals": privateLimitedComplianceData,
+  "policy-making": privateLimitedComplianceData,
+  "business-tax-filing": taxAuditData,
+  "itr-1-return-filing": taxAuditData,
+  "itr-2-return-filing": taxAuditData,
+  "itr-3-return-filing": taxAuditData,
+  "itr-4-return-filing": taxAuditData,
+  "itr-5-return-filing": taxAuditData,
+  "itr-6-return-filing": taxAuditData,
+  "itr-7-return-filing": taxAuditData,
+  "15ca-15cb-filing": taxAuditData,
+  "income-tax-notice": taxAuditData,
+  "pf-return-filling": pfRegistrationData,
+  "esic-return-filling": esicRegistrationData,
+  "tds-return-filing": taxAuditData,
+  "professional-tax-return-filling": professionalTaxRegistrationData,
+  "gst-registration": tradeLicenseData,
+  "gst-registration-for-e-commerce": tradeLicenseData,
+  "additional-place-of-business-in-gst": tradeLicenseData,
+  "gst-amendment": tradeLicenseData,
+  "gst-return-filing": tradeLicenseData,
+  "gst-return-filing-for-e-commerce": tradeLicenseData,
+  "gst-annual-return-filing-gstr-9": tradeLicenseData,
+  "gstr-10": tradeLicenseData,
+  "gst-revocation": tradeLicenseData,
+  // Documentation services - using generic templates
+  "all-legal-documents": partnershipData,
+  "commercial-rental-agreement": partnershipData,
+  "experience-letter": partnershipData,
+  "appointment-letter": partnershipData,
+  "affidavit-format": partnershipData,
+  "income-certificate": partnershipData,
+  "no-objection-certificate": partnershipData,
+  "salary-slip": partnershipData,
+  "resignation-letter": partnershipData,
+  "legal-heir-certificate": partnershipData,
+  "relieving-letter": partnershipData,
+  "partnership-deed": partnershipData,
+  "gst-invoice": tradeLicenseData,
+  "authorised-signatory-in-gst": tradeLicenseData,
+  "delivery-challan": tradeLicenseData,
+  "offer-letter": partnershipData,
+  "consent-letter-for-gst-registration": tradeLicenseData,
+  "rent-receipt": partnershipData,
+  "non-disclosure-agreement-nda": partnershipData,
+  "service-level-agreement": partnershipData,
+  "franchise-agreement": partnershipData,
+  "master-service-agreement": partnershipData,
+  "shareholders-agreement": chargeCreationData,
+  "joint-venture-agreement": partnershipData,
+  "vendor-agreement": partnershipData,
+  "consultancy-agreement": partnershipData,
+  "memorandum-of-understanding": partnershipData,
+  "succession-certificate": partnershipData,
+  "scope-of-work-agreement": partnershipData,
+  "share-purchase-agreement": chargeCreationData,
+  "noncompete-agreement": partnershipData,
+  "finance-agreement": partnershipData,
+  "will-registration": trustRegistrationData,
+  "probate-of-will": trustRegistrationData,
+  "power-of-attorney": partnershipData,
+  "rental-agreement": partnershipData,
+  "sale-deed": partnershipData,
+  "gift-deed": partnershipData,
+  "rental-tenant-notice": partnershipData,
+  "legal-notice": partnershipData,
+  "employment-agreement": partnershipData,
+  esop: chargeCreationData,
+  "payroll-maintenance": partnershipData,
 };

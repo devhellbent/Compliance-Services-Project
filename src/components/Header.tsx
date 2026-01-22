@@ -1,21 +1,59 @@
 // components/Header.tsx
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { navigationData } from "@/lib/navigation";
 import { Button } from "./ui/button";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X, Search } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Header = () => {
+  const router = useRouter();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
 
   const [hoveredNavIndex, setHoveredNavIndex] = useState<number | null>(null);
   const [activeSubCategoryIndex, setActiveSubCategoryIndex] = useState(0);
 
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const handleMobileLinkClick = () => setIsMobileMenuOpen(false);
+
+  // Flatten all services from navigation data for searching
+  const allServices = useMemo(() => {
+    return navigationData.flatMap((mainItem) =>
+      (mainItem.subCategories || []).flatMap((subCategory) =>
+        (subCategory.items || []).map((item) => ({
+          name: item.name,
+          slug: item.slug,
+          category: mainItem.mainHead,
+          subCategory: subCategory.subHead,
+        }))
+      )
+    );
+  }, []);
+
+  // Filter services based on search query
+  const filteredServices = useMemo(() => {
+    if (!searchQuery.trim()) return [];
+    const query = searchQuery.toLowerCase();
+    return allServices
+      .filter(
+        (service) =>
+          service.name.toLowerCase().includes(query) ||
+          service.category.toLowerCase().includes(query) ||
+          service.subCategory.toLowerCase().includes(query)
+      )
+      .slice(0, 8); // Limit to 8 results
+  }, [searchQuery, allServices]);
+
+  const handleSearchSelect = (slug: string) => {
+    setSearchQuery("");
+    setIsSearchFocused(false);
+    router.push(slug);
+  };
 
   const menuVariants = {
     hidden: { opacity: 0, scale: 0.98, y: -10 },
@@ -39,15 +77,75 @@ const Header = () => {
   return (
     // THEME UPDATE: Changed to dark theme to match footer
     <header className="bg-slate-900 sticky top-0 z-50">
-      <div className="container mx-auto px-4 flex justify-between items-center h-20">
-        {/* THEME UPDATE: Changed text colors for dark background */}
-        <Link href="/" className="text-2xl font-bold text-white">
+      <div className="container mx-auto px-4 flex justify-between items-center h-20 relative">
+        {/* Logo - Hidden when search is expanded */}
+        <Link 
+          href="/" 
+          className={`text-2xl font-bold text-white transition-all duration-300 ${
+            isSearchFocused ? "opacity-0 w-0 overflow-hidden" : "opacity-100"
+          }`}
+        >
           Bharat<span className="text-orange-500">Filings</span>
         </Link>
 
-        {/* Desktop Navigation */}
+        {/* Desktop Search Bar - Expands to full width when focused */}
+        <div className={`hidden lg:flex items-center relative transition-all duration-300 ${
+          isSearchFocused ? "flex-1 mx-0" : "flex-1 max-w-md mx-8"
+        }`}>
+          <div className="relative w-full">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
+            <input
+              type="text"
+              placeholder="Search all services..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onFocus={() => setIsSearchFocused(true)}
+              onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
+              className="w-full pl-10 pr-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-all"
+            />
+            {/* Close button when expanded */}
+            {isSearchFocused && (
+              <button
+                onClick={() => {
+                  setSearchQuery("");
+                  setIsSearchFocused(false);
+                }}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white transition-colors"
+                aria-label="Close search"
+              >
+                <X size={18} />
+              </button>
+            )}
+            {/* Search Results Dropdown */}
+            {isSearchFocused && filteredServices.length > 0 && (
+              <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-xl border border-gray-200 max-h-96 overflow-y-auto z-50">
+                {filteredServices.map((service) => (
+                  <button
+                    key={service.slug}
+                    onClick={() => handleSearchSelect(service.slug)}
+                    className="w-full text-left px-4 py-3 hover:bg-orange-50 transition-colors border-b border-gray-100 last:border-b-0"
+                  >
+                    <div className="font-medium text-gray-900">{service.name}</div>
+                    <div className="text-sm text-gray-500 mt-1">
+                      {service.category} • {service.subCategory}
+                    </div>
+                  </button>
+                ))}
+              </div>
+            )}
+            {isSearchFocused && searchQuery.trim() && filteredServices.length === 0 && (
+              <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-xl border border-gray-200 p-4 z-50">
+                <div className="text-gray-500 text-center">No services found</div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Desktop Navigation - Hidden when search is expanded */}
         <nav
-          className="hidden lg:flex items-center h-full relative"
+          className={`hidden lg:flex items-center h-full relative transition-all duration-300 ${
+            isSearchFocused ? "opacity-0 w-0 overflow-hidden" : "opacity-100"
+          }`}
           onMouseLeave={() => setHoveredNavIndex(null)}
         >
           {navigationData.map((mainItem, index) => (
@@ -129,7 +227,10 @@ const Header = () => {
           </AnimatePresence>
         </nav>
 
-        <div className="hidden lg:block">
+        {/* Contact Us Button - Hidden when search is expanded */}
+        <div className={`hidden lg:block transition-all duration-300 ${
+          isSearchFocused ? "opacity-0 w-0 overflow-hidden" : "opacity-100"
+        }`}>
           {/* THEME UPDATE: Changed button to accent orange color */}
           <Button className="bg-orange-500 hover:bg-orange-600 text-white">
             Contact Us
@@ -164,6 +265,40 @@ const Header = () => {
               <X size={24} />
             </button>
           </div>
+          {/* Mobile Search Bar */}
+          <div className="mb-6">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
+              <input
+                type="text"
+                placeholder="Search all services..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-10 pr-4 py-2 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+              />
+            </div>
+            {/* Mobile Search Results */}
+            {searchQuery.trim() && filteredServices.length > 0 && (
+              <div className="mt-2 bg-white rounded-lg border border-gray-200 max-h-64 overflow-y-auto">
+                {filteredServices.map((service) => (
+                  <button
+                    key={service.slug}
+                    onClick={() => {
+                      handleSearchSelect(service.slug);
+                      handleMobileLinkClick();
+                    }}
+                    className="w-full text-left px-4 py-3 hover:bg-orange-50 transition-colors border-b border-gray-100 last:border-b-0"
+                  >
+                    <div className="font-medium text-gray-900">{service.name}</div>
+                    <div className="text-sm text-gray-500 mt-1">
+                      {service.category} • {service.subCategory}
+                    </div>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
           <nav className="flex flex-col space-y-2">
             {navigationData.map((mainItem) => (
               <div key={mainItem.mainHead} className="border-b">

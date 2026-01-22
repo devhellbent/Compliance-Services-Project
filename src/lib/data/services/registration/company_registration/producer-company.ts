@@ -7,8 +7,17 @@ export const producerCompanyData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Producer Company"],
   description:
     "Empower agricultural communities through collective strength. Producer Company registration unites farmers and agricultural producers into a corporate entity, enhancing bargaining power, ensuring fair prices, and transforming rural livelihoods through cooperative entrepreneurship.",
-  overview:
-    "A **Producer Company** represents an innovative hybrid business structure specifically designed for agricultural producers, farmers, and primary producers, combining the democratic governance of cooperative societies with the professional management and legal framework of private limited companies. Introduced through Part IXA of the Companies Act, 1956 (now governed by Companies Act, 2013), this specialized entity empowers primary producers to collectively engage in production, harvesting, procurement, grading, pooling, handling, marketing, selling, and exporting their produce while maintaining complete control over their enterprise. The structure requires a minimum of ten producer members (individuals or producer institutions) and maximum five non-producer members, ensuring producer-centric governance where decision-making authority remains with those directly involved in primary production. Each member holds equal voting rights regardless of shareholding, promoting democratic participation and preventing exploitation by middlemen or intermediaries. The Producer Company can undertake diverse activities including production of goods, processing, preservation, marketing of primary produce, bulk purchasing of inputs like seeds, fertilizers, and equipment, providing technical assistance, insurance, and financial services to members, and even operating as a mutually aided cooperative structure. This framework eliminates middlemen, ensuring fair prices for producers while offering consumers access to quality products at reasonable rates. The structure enables collective bargaining power, allowing small and marginal farmers to negotiate better terms with buyers, access institutional credit, adopt modern agricultural technologies, and participate in government schemes and subsidies. Members enjoy limited liability protection with liability restricted to their shareholding, safeguarding personal assets from business obligations. The corporate structure facilitates brand building, quality certification, value addition, and direct market linkages including exports, significantly enhancing income potential. With lower compliance burden compared to traditional companies and eligibility for various government incentives, Producer Companies deliver sustainable livelihood enhancement for farming communities, agricultural workers, handloom weavers, handicraft artisans, fishermen, and other primary producers across India.",
+  overview: `**Producer Company Registration**
+
+A Producer Company is a unique corporate entity designed specifically for primary producers, such as farmers and artisans, to help them with the collective management of their produce and business activities. It\'s a hybrid of a private limited company and a cooperative society, combining the benefits of limited liability with the democratic principles of \'one member, one vote.
+
+**Producer Company**
+
+The Producer Company model provides a strong legal structure for rural and agricultural communities to organize, access credit, and collectively grow their businesses, thereby empowering them economically. A Producer Company is a unique corporate entity designed specifically for primary producers, such as farmers, artisans, and others involved in the production of goods and services. It combines the benefits of a private limited company with the cooperative principles of mutual assistance
+
+The company is owned exclusively by its members, who are the producers themselves. Each member has equal voting rights, irrespective of the number of shares they hold, which ensures a democratic governance structure. Similar to other limited companies, the members\' liability is limited to their share contribution. The company\'s name must end with \"Producer Limited Company
+
+A Producer Company is primarily governed by the Companies Act, 2013, specifically through sections that were carried over from the Companies Act, 1956. This legal framework was established to provide a formal corporate structure for farmer-owned businesses and other primary producers.`,
   whyChooseUs: [
     {
       icon: "Users",
@@ -33,62 +42,90 @@ export const producerCompanyData: ServiceData = {
   ],
   advantages: [
     {
-      icon: "ShieldCheck",
-      title: "Limited Liability Protection",
-      text: "Members' personal assets are protected. Liability is limited to the unpaid amount on their shares. Separate legal entity with perpetual succession.",
+      icon: "CheckCircle",
+      title: "High Compliance Burden",
+      text: "** As a company registered under the Companies Act, 2013, a Producer Company is subject to stringent legal and regulatory compliances. This includes mandatory annual audits, regular board and general meetings, and filing of various forms with the Ministry of Corporate Affairs (MCA). This can be a significant administrative and financial burden, especially for small-scale farmer groups.",
     },
     {
-      icon: "Users",
-      title: "Democratic Structure & Member Control",
-      text: "Operates on democratic principles with one member-one vote system. Members collectively control management and decision-making.",
+      icon: "CheckCircle",
+      title: "Lack of Professional Management",
+      text: "** A common challenge is the lack of professional management expertise among the members. While the company can hire professionals, the members themselves often lack the knowledge to effectively run a corporate entity, including managing finances, marketing, and legal compliance.",
     },
     {
-      icon: "TrendingUp",
-      title: "Better Bargaining Power",
-      text: "Pooling of produce and collective marketing enables members to negotiate better prices with buyers and reduce dependence on intermediaries.",
+      icon: "CheckCircle",
+      title: "Difficulty in Raising Capital",
+      text: "** While a Producer Company can raise capital from its members, it is **prohibited from raising funds from the general public**. This limitation can be a major hurdle for scaling up operations, especially when large investments in infrastructure or technology are needed.",
     },
     {
-      icon: "Banknote",
-      title: "Easy Access to Credit & Subsidies",
-      text: "As a formal corporate entity, can secure institutional loans from banks, NABARD, and avail government subsidies, schemes, and grants for agriculture and rural development.",
+      icon: "CheckCircle",
+      title: "Risk of Internal Conflicts",
+      text: "** With a large number of members, differing opinions on management, profit distribution, and business strategies can lead to internal conflicts. These disputes can undermine the company\\'s unity and operational efficiency.",
     },
     {
-      icon: "Award",
-      title: "Professional Management",
-      text: "Can appoint professional managers, experts, and consultants to handle operations, marketing, and finance—something individual producers cannot afford.",
+      icon: "CheckCircle",
+      title: "Restrictions on Share Transfer",
+      text: "** The shares of a Producer Company are not freely transferable. This lack of liquidity can make it difficult for members to exit the company or for external investors to participate, which limits the company\\'s ability to grow.",
     },
     {
-      icon: "Scale",
-      title: "Value Addition & Processing",
-      text: "Enables collective investment in value addition, processing, branding, and packaging of primary produce, increasing income for members.",
+      icon: "CheckCircle",
+      title: "Limited Awareness and Trust",
+      text: "** In many rural areas, there is a lack of awareness about the Producer Company model, and skepticism among farmers can make it difficult to attract and retain members. It can take time to build trust and demonstrate the tangible benefits of the company to the producer community. ###",
     },
   ],
   disadvantages: [
     {
-      icon: "Users",
-      title: "Restricted Membership",
-      text: "Only primary producers (farmers, agriculturalists, artisans, etc.) can become members. General public or non-producers cannot invest or join.",
+      icon: "CheckCircle",
+      title: "High Compliance Burden",
+      text: "** As a company registered under the Companies Act, 2013, a Producer Company is subject to stringent legal and regulatory compliances. This includes mandatory annual audits, regular board and general meetings, and filing of various forms with the Ministry of Corporate Affairs (MCA). This can be a significant administrative and financial burden, especially for small-scale farmer groups.",
     },
     {
-      icon: "FileText",
-      title: "Compliance & Regulatory Burden",
-      text: "Must comply with the Companies Act, 2013 including annual filings, board meetings, audits, and statutory registers. Can be complex for rural producers.",
+      icon: "CheckCircle",
+      title: "Lack of Professional Management",
+      text: "** A common challenge is the lack of professional management expertise among the members. While the company can hire professionals, the members themselves often lack the knowledge to effectively run a corporate entity, including managing finances, marketing, and legal compliance.",
     },
     {
-      icon: "AlertCircle",
-      title: "Higher Formation Costs",
-      text: "Incorporation requires minimum ₹5 lakh authorized capital. DSC, DIN, professional fees, and stamp duty add to the cost—higher than a society or cooperative.",
+      icon: "CheckCircle",
+      title: "Difficulty in Raising Capital",
+      text: "** While a Producer Company can raise capital from its members, it is **prohibited from raising funds from the general public**. This limitation can be a major hurdle for scaling up operations, especially when large investments in infrastructure or technology are needed.",
     },
     {
-      icon: "Scale",
-      title: "Potential for Internal Conflicts",
-      text: "Decision-making among a large group of members from diverse backgrounds can lead to disputes, disagreements, and management challenges.",
+      icon: "CheckCircle",
+      title: "Risk of Internal Conflicts",
+      text: "** With a large number of members, differing opinions on management, profit distribution, and business strategies can lead to internal conflicts. These disputes can undermine the company\\'s unity and operational efficiency.",
+    },
+    {
+      icon: "CheckCircle",
+      title: "Restrictions on Share Transfer",
+      text: "** The shares of a Producer Company are not freely transferable. This lack of liquidity can make it difficult for members to exit the company or for external investors to participate, which limits the company\\'s ability to grow.",
+    },
+    {
+      icon: "CheckCircle",
+      title: "Limited Awareness and Trust",
+      text: "** In many rural areas, there is a lack of awareness about the Producer Company model, and skepticism among farmers can make it difficult to attract and retain members. It can take time to build trust and demonstrate the tangible benefits of the company to the producer community. ###",
     },
   ],
   eligibility: [
-    "A minimum of 10 producers (individuals) or two producer institutions are required.",
-    "A minimum of five directors are required.",
-    "The company's objectives must be related to the primary produce of its members.",
+    {
+      title:
+        "To register a Producer Company, you must meet specific criteria under",
+      items: [
+        "the Companies Act, 2013, which are different from other company types. The eligibility is centered on the nature of the members and the company\\'s structure.",
+      ],
+    },
+    {
+      title: "Key Criteria",
+      items: [
+        "**Membership:** The company must be formed by:",
+        "A minimum of **10 individuals**, each of whom is a primary producer.",
+        "A minimum of **two producer institutions** (e.g., registered cooperatives, NGOs, or SHGs).",
+        "A combination of both, totaling at least 10 individuals. There is **no maximum limit** on the number of members.",
+        "**Directors:** A Producer Company must have a minimum of **five directors** and a maximum of 15. The directors must be primary producers themselves.",
+        '**Primary Producer Status:** Members must be engaged in an activity related to \\"primary produce,\\" which includes farming, horticulture, animal husbandry, pisciculture, handloom, handicrafts, and other primary produce as defined in the Act. Proof of this status (e.g., land records or a letter from the village head) is required.',
+        "**Capital:** While the Companies Act, 2013, removed the minimum capital requirement, it is often recommended to have an authorized capital of at least \u20b95 lakh for better credibility with financial institutions and for covering initial expenses.",
+        '**Name:** The company\\\'s name must be unique and end with the words \\"**Producer Limited Company**.\\"',
+        "**Registered Office:** The company must have a registered office address in India.",
+      ],
+    },
   ],
   documents: [
     {
@@ -102,8 +139,11 @@ export const producerCompanyData: ServiceData = {
       ],
     },
     {
-      title: "For Registered Office",
-      items: ["Utility Bill", "NOC from the owner"],
+      tabTitle: "For Registered Office",
+      content: {
+        title: "For Registered Office",
+        items: ["Utility Bill", "NOC from the owner"],
+      },
     },
   ],
   registrationProcess: [

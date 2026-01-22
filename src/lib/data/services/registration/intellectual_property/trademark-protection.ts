@@ -6,55 +6,75 @@ export const trademarkProtectionData: ServiceData = {
   title: "Trademark Protection",
   breadcrumb: ["Home", "Intellectual Property", "Trademark Protection"],
   overview:
-    "**Trademark Protection** is not a one-time registration but a continuous process of safeguarding your registered trademark from unauthorized use and infringement. 🛡️ It involves actively **monitoring** the market and the Trademark Journal for similar marks, and taking timely **legal action** when necessary. Effective protection ensures that your brand's integrity, reputation, and value are not diluted by competitors.",
+    `Trademark protection is the legal framework that safeguards a distinctive mark---such as a word, logo, symbol, or design---used by a business to identify its goods or services and distinguish them from those of competitors. Its **primary purpose** is two-fold: to protect the goodwill and reputation of the business, and to prevent consumer confusion in the marketplace. By granting the owner an exclusive right to use the mark, the law ensures that customers can reliably associate a mark with a specific source and quality, fostering trust and loyalty.
+
+In India, this protection is primarily governed by the **Trade Marks Act, 1999**. A registered trademark grants the proprietor a clear statutory right to take legal action for infringement against any party using an identical or deceptively similar mark for related goods or services without permission. For unregistered but well-used marks, the law offers protection through the common law remedy of **\"passing off,\"** although this requires the owner to prove prior use and reputation, which is often more burdensome than simply relying on a registration certificate.
+
+Ultimately, trademark protection is a vital business asset. It not only secures the brand\'s identity and market position but also adds tangible value to the company as an **intangible asset** that can be sold, licensed, or used to raise finance. Registration provides a strong legal deterrent against copycats, ensures long-term market exclusivity (renewable every ten years), and is a foundational step for commercial expansion and global protection.
+
+**What is Trademark**
+
+A trademark is a word, logo, symbol, or design that uniquely identifies and distinguishes the goods or services of one business from those of its competitors. It serves as the legal source identifier (the brand), protecting the company\'s reputation and preventing consumer confusion in the marketplace. It is a valuable form of intellectual property.
+
+**Common Types Include in Trademark**
+
+-   **Word Marks:** Protects the brand name, slogan, or phrase in standard text format, regardless of font, color, or design. This gives the broadest protection over the words themselves.
+
+> *Example:* **Reliance**, **Just Do It**
+
+-   **Device Marks / Logo Marks:** Protects a specific visual symbol, logo, graphic design, image, or stylized representation (with or without words).
+
+> *Example:* The **Nike Swoosh** symbol, the **Apple** silhouette.
+
+-   **Composite Marks:** A combination of both a Word Mark and a Device Mark, where the words and the logo are registered together as a single unit.
+
+> *Example:* The **Coca-Cola** name written in its unique script.
+
+-   **Shape Marks:** Protects the distinctive three-dimensional shape of a product or its packaging, provided the shape is not purely functional.
+
+> *Example:* The shape of the **Coca-Cola bottle** or the **Toblerone** > bar shape.
+
+-   **Colour Marks:** Protects a specific single color or combination of colors that has acquired distinctiveness and is strongly associated with the brand.
+
+> *Example:* **Cadbury\'s Purple** (for chocolate) or **Tiffany Blue**.
+
+-   **Sound Marks:** Protects a unique, distinctive sound or short jingle used to identify a brand\'s goods or services.
+
+> *Example:* The **Netflix \"ta-dum\"** sound at the start of a show`,
   advantages: [
     {
-      icon: "ShieldCheck",
-      title: "Safeguards Brand Reputation",
-      text: "Prevents others from using your brand name on substandard products or services, which could damage your reputation.",
-    },
-    {
-      icon: "Gavel",
-      title: "Enforces Legal Rights",
-      text: "Allows you to take legal action, such as filing an infringement suit, to stop unauthorized use and claim damages.",
-    },
-    {
-      icon: "Search",
-      title: "Prevents Dilution",
-      text: "Active monitoring and opposition stop similar marks from being registered, thereby preventing the dilution of your brand's distinctiveness.",
-    },
-    {
-      icon: "Gem",
-      title: "Protects Business Value",
-      text: "Your brand is a valuable asset. Protecting it ensures its value is maintained for potential sales, licensing, or franchising.",
-    },
-  ],
+        icon: "Shield",
+        title: "of Trademark Protection",
+        text: "",
+        subPoints: [
+            "**Exclusive Rights:** Grants the registered owner the sole right to use the mark nationwide for the goods/services specified.",
+            "**Legal Proof:** The registration certificate is **prima facie evidence** of the mark\\'s validity and ownership, making court cases simpler.",
+            "**Consumer Trust:** Assures customers of the consistent source and quality of the product, building goodwill and brand loyalty.",
+            "**Valuable Asset:** The trademark becomes an **intangible asset** on the company\\'s balance sheet; it can be licensed, franchised, or sold.",
+            "**Notice to Public:** Allows the legal use of the symbol, publicly warning potential infringers.",
+            "**Deterrent:** Registration appears in official search results, discouraging competitors from adopting similar marks.",
+            "**Long-Term Protection:** Protection is potentially indefinite, renewable every 10 years, ensuring long-term market presence."
+        ]
+    }
+],
   disadvantages: [
     {
-      icon: "CircleDollarSign",
-      title: "Ongoing Cost",
-      text: "Effective protection, especially through professional watch services and legal actions, is an ongoing business expense.",
-    },
-    {
-      icon: "Eye",
-      title: "Requires Constant Vigilance",
-      text: "The responsibility to monitor for and act against infringement lies with the trademark owner.",
-    },
-    {
-      icon: "FileWarning",
-      title: "Burden of Proof",
-      text: "In any legal action, the trademark owner has the burden of proving that the infringing use is causing public confusion.",
-    },
-  ],
+        icon: "Shield",
+        title: "of Trademark Protection",
+        text: "",
+        subPoints: [
+            "**Initial Cost & Time:** The registration process involves government fees, legal costs, and can take many months or over a year to complete.",
+            "**Geographical Limit:** Protection is typically only valid in the country where it is registered; global protection requires multiple filings.",
+            "**Enforcement Duty:** The owner bears the responsibility and cost of constantly monitoring the market for infringement and taking legal action.",
+            "**Renewal Obligation:** Rights must be maintained by paying a renewal fee (usually every 10 years); failure to renew results in loss of protection.",
+            "**Protection Scope Limit:** The protection is restricted to the specific goods and services (classes) listed in the application, not the entire market.",
+            "**Rigidity:** Making significant changes to the mark (logo, name style) often requires filing an entirely new application."
+        ]
+    }
+],
   eligibility: [
-    {
-      title: "Who Can Protect a Trademark?",
-      items: [
-        "The **owner of a registered trademark** has the statutory right to sue for infringement.",
-        "The **owner of a well-known but unregistered trademark** can also take action under the common law of 'passing off'.",
-      ],
-    },
-  ],
+    "Here's a clear summary of the Eligibility Criteria for Trademark     Protection in India, as per the Trade Marks Act, 1999 and Trade     Marks Rules, 2017"
+],
   documents: [
     {
       tabTitle: "For Legal Action",

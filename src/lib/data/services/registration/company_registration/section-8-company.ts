@@ -7,8 +7,15 @@ export const section8CompanyData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Section 8 Company"],
   description:
     "Transform social impact into sustainable change. Section 8 Company registration provides NGOs with corporate structure advantages, tax benefits, and legal credibility to pursue charitable, educational, and social welfare objectives with professional governance.",
-  overview:
-    "A **Section 8 Company** represents a specialized non-profit corporate structure established under Section 8 of the Companies Act, 2013, designed specifically for organizations pursuing charitable causes, social welfare, education, arts, science, research, environmental protection, or sports promotion. Unlike traditional companies, Section 8 entities channel all profits and income exclusively toward advancing their stated objectives, with strict prohibition on dividend distribution to members, ensuring complete focus on social impact rather than commercial gains. This corporate structure combines the credibility and perpetual succession of a company with the philanthropic mission of an NGO, making it highly attractive to donors, grant-making institutions, and corporate social responsibility (CSR) programs. The registration process, overseen by the Ministry of Corporate Affairs, grants the company exemption from using 'Limited' or 'Private Limited' in its name, allowing clean, mission-focused branding. Section 8 Companies enjoy significant tax benefits under the Income Tax Act, including exemptions under Sections 12A and 80G, which enable donors to claim tax deductions for their contributions, thereby enhancing fundraising potential. The structure mandates minimum three directors and two members, with no minimum capital requirement, making it accessible for social entrepreneurs and philanthropists. Corporate governance requirements ensure transparency and accountability through mandatory annual filings, audit reports, and board meetings, building trust among stakeholders and beneficiaries. This structure facilitates foreign funding through FCRA registration, enables property ownership, and provides legal standing to enter contracts, receive grants, and protect intellectual property. The professional framework attracts qualified professionals and volunteers while ensuring long-term sustainability through structured succession planning. Ideal for charitable trusts transitioning to corporate governance, educational institutions, healthcare initiatives, environmental organizations, and social enterprises, Section 8 Companies deliver the perfect balance of social mission and corporate credibility.",
+  overview: `**What is a Section 8 Company**
+
+A Section 8 Company is a special type of Non-Profit Organization (NPO) formed under the Companies Act, 2013. It is established with the aim of promoting activities that benefit society such as education, art, science, sports, research, social welfare, charity, religion, and environmental protection.
+
+Unlike regular companies that work for profit, a Section 8 Company uses its income solely for its charitable objectives. No portion of its profits can be distributed as dividends to its members every rupee earned is reinvested to support the organization's mission.
+
+With just two or more people sharing a non-profit vision, a Section 8 Company can be registered. This structure provides a recognized and transparent legal identity, allowing the organization to receive funds, own property, sign agreements, and carry out all activities in its own name.
+
+By combining the credibility of a corporate entity with the purpose of a charitable organization, Section 8 Companies play a vital role in driving social and economic development in India.`,
   whyChooseUs: [
     {
       icon: "Heart",
@@ -33,61 +40,82 @@ export const section8CompanyData: ServiceData = {
   ],
   advantages: [
     {
-      icon: "Award",
-      title: "High Credibility & Trust",
-      text: "Registered under the Companies Act and regulated by MCA, it has higher credibility among donors, government bodies, and the public compared to trusts or societies.",
+      icon: "CheckCircle",
+      title: "Separate Legal Entity",
+      text: "** It can own assets, enter into contracts, and manage its affairs independently, providing stability and longevity (perpetual succession).",
     },
     {
-      icon: "Building2",
-      title: "Separate Legal Entity & Perpetual Succession",
-      text: "It has its own legal identity, separate from its members. It can own property, incur debts, and enjoys perpetual existence.",
+      icon: "CheckCircle",
+      title: "Limited Liability",
+      text: "** It protects the personal assets of its directors and members from the company\\'s liabilities, encouraging more people to participate in social causes without personal financial risk.",
     },
     {
-      icon: "BadgePercent",
-      title: "Tax Benefits & Exemptions",
-      text: "Qualifies for numerous tax exemptions under the Income Tax Act. Donors can claim tax deductions under Section 80G and 12A (after registration).",
+      icon: "CheckCircle",
+      title: "Tax Exemptions",
+      text: "** It becomes eligible to apply for significant tax benefits under the Income Tax Act (Sections 12A and 80G), which not only helps the organization save tax on its income but also provides **tax deductions to its donors**, thereby boosting fundraising capabilities.",
     },
     {
-      icon: "Globe",
-      title: "No 'Limited' or 'Pvt Ltd' Suffix",
-      text: "Exempt from using 'Private Limited' or 'Limited' in its name, enhancing its non-profit image. Can use names like Foundation, Federation, Association, etc.",
-    },
-    {
-      icon: "ShieldCheck",
-      title: "Limited Liability for Members",
-      text: "Members' liability is limited to the amount they have contributed to the company, protecting their personal assets.",
-    },
-    {
-      icon: "Landmark",
-      title: "Eligibility for Government Grants & Foreign Donations (FCRA)",
-      text: "Can easily obtain government grants and is eligible to register under the Foreign Contribution (Regulation) Act (FCRA) to receive foreign donations.",
+      icon: "CheckCircle",
+      title: "Access to Corporate Social Responsibility (CSR) Funding",
+      text: "** Due to its credibility and structured compliance, a Section 8 Company is often the preferred and most eligible entity for receiving CSR funds from for-profit corporations.",
     },
   ],
   disadvantages: [
     {
-      icon: "Ban",
-      title: "No Profit Distribution",
-      text: "All profits and income must be reinvested into the company's objectives. Cannot be distributed to members as dividends.",
+      icon: "CheckCircle",
+      title: "Charitable Objects",
+      text: "",
+      subPoints: [
+        "The company must be established **solely for the promotion** of commerce, art, science, sports, education, research, social welfare, religion, charity, protection of the environment, or any such other object.",
+      ],
     },
     {
-      icon: "FileText",
-      title: "Strict Compliance & Regulatory Burden",
-      text: "Subject to all compliance requirements of the Companies Act, including audits, board meetings, annual filings (AOC-4, MGT-7), and maintaining statutory registers.",
+      icon: "HandCoins",
+      title: "Application of Profits/Income",
+      text: "",
+      subPoints: [
+        "The company must **intend to apply its profits, if any, or other income** solely for promoting its charitable objects.",
+        "It must **prohibit the payment of any dividend** to its members. Profits cannot be distributed to its members in any form.",
+      ],
     },
     {
-      icon: "Gavel",
-      title: "Cannot Alter Objectives Easily",
-      text: "The Memorandum of Association (MoA) and Articles of Association (AoA) cannot be altered without prior approval from the Central Government.",
+      icon: "Scale",
+      title: "Legal Structure and Members/Directors",
+      text: "",
+      subPoints: [
+        "**Applicants:** An individual or an association of persons (including firms, Hindu Undivided Families, and other companies) can apply.",
+        "**Minimum Directors/Members:** ",
+        "For a **Private Limited** Section 8 Company: **Minimum 2 Directors** and **2 Members/Subscribers**.",
+        "For a **Public Limited** Section 8 Company: **Minimum 3 Directors** and **7 Members/Subscribers**. ",
+        "**Resident Director:** At least **one director** must be a resident of India (i.e., stayed in India for a minimum of 182 days in the previous financial year).",
+        "**No Minimum Capital:** There is **no requirement** for a minimum paid-up capital.",
+      ],
     },
     {
-      icon: "AlertTriangle",
-      title: "Complex Winding-Up Process",
-      text: "The winding-up process is complex. Upon dissolution, assets must be transferred to another Section 8 Company with similar objectives.",
+      icon: "CheckCircle",
+      title: "Government License",
+      text: "",
+      subPoints: [
+        "The Central Government (or the delegated authority, like the Registrar of Companies/Regional Director) must be satisfied with the application and issue a **license** to the person or association of persons to be registered as a Section 8 company.",
+      ],
     },
     {
-      icon: "DollarSign",
-      title: "Higher Formation & Maintenance Costs",
-      text: "Incorporation and annual compliance costs are higher than for a trust or society due to MCA regulations and professional fees.",
+      icon: "CheckCircle",
+      title: "Name Requirement",
+      text: "",
+      subPoints: [
+        'The company\\\'s name must not include the words \\"**Limited**\\" or \\"**Private Limited**\\" but should typically include words like *Foundation, Forum, Association, Chamber, Council*, etc. **Forms Required for Section 8 Company Registration in India** The registration process for a Section 8 Company in India is now primarily conducted through the integrated electronic form on the Ministry of Corporate Affairs (MCA) portal. The main forms required for the *incorporation* and *grant of license* for a new Section 8 Company are:',
+      ],
+    },
+    {
+      icon: "CheckCircle",
+      title: "I. The Integrated e",
+      text: "Forms (SPICe+ and AGILE-PRO-S)** The current system streamlines the process by combining name reservation, incorporation, and several initial registrations into a single application. ------------------ --------------------------- ------------------------ **Form No.**       **Purpose**                 **Notes** **SPICe+ Part A**  For Name Reservation (or    Allows reservation of can be filed along with     one name. Part B). **SPICe+ Part B**  For Incorporation and       Automatically applies mandatory registrations     for DIN for directors (DIN, PAN, TAN).            without one (up to 3), PAN, and TAN. **e-MOA (INC-33)** Electronic Memorandum of    Mandatory Association.                attachment/part of the SPICe+ filing. **Must be in Form INC-13** for a Section 8 Company. **e-AOA (INC-34)** Electronic Articles of      Mandatory Association.                attachment/part of the SPICe+ filing. **AGILE-PRO-S**    Application for Goods and   Must be filed as a Services Tax Identification linked form with SPICe+. Number (GSTIN), Employees\\' Bank account opening is Provident Fund Organisation mandatory. (EPFO), Employees\\' State Insurance Corporation (ESIC), and opening a **Bank Account**. ------------------ --------------------------- ------------------------",
+    },
+    {
+      icon: "CheckCircle",
+      title: "II. Declarations and Consents (Required Attachments)",
+      text: "These forms are critical declarations that are submitted as attachments within the SPICe+ Part B form: ------------ ----------------------- --------------------------------------- **Form No.** **Purpose**             **Who Files/Signs It** **INC-12**   Application for Grant   Crucially, for *new* company of License under        incorporation, the application for the Section 8.              Section 8 license is now typically filed *through* SPICe+ Part B, in line with simplified rules. However, the requirement for the core supporting documents (see below) remains. INC-12 is still used for an *existing* company converting to Section 8. **INC-14**   Declaration by          A practicing Chartered Accountant (CA), Professional.           Company Secretary (CS), Cost Accountant (CMA), or an Advocate must declare that the draft MOA and AOA comply with Section 8 rules. **INC-15**   Declaration by          A declaration by each person applying Applicants.             for the license stating that the information provided is true and correct. **INC-9**    Declaration of          A declaration from all subscribers and Subscribers and First   first directors that they are not Directors.              disqualified to act as directors. This is generated electronically in most cases. **DIR-2**    Consent to Act as       Consent from each person named as a Director.               first director in the Articles of Association. ------------ ----------------------- ---------------------------------------",
     },
   ],
   eligibility: [
@@ -96,12 +124,52 @@ export const section8CompanyData: ServiceData = {
   ],
   documents: [
     {
-      title: "For Directors/Shareholders",
-      items: ["PAN Card", "Identity Proof", "Address Proof", "Photograph"],
+      tabTitle: "Documents for Directors and Subscribers",
+      content: {
+        title: "Documents for Directors and Subscribers",
+        items: [
+          "**Proof of Identity:** ",
+          "**Permanent Account Number (PAN) Card** (Mandatory for Indian Nationals).",
+          "Any government-issued identity proof such as a **Voter ID, Driving License, or Passport.** (For foreign nationals, a notarised and apostilled copy of the **Passport** is mandatory).",
+          "A recent **Passport-sized Photograph**. ",
+          "**Proof of Address (Residential Proof):** ",
+          "A copy of a recent utility bill in the director\\'s name, such as a **Bank Statement, Electricity Bill, Telephone Bill, or Mobile Bill**. This document should generally **not be older than two months**. (For foreign nationals, this document must be notarised and apostilled). ",
+          "**Statutory Declarations and Consent:** ",
+          "**Form DIR-2:** Consent to act as a Director.",
+          "**Form INC-9:** Declaration from all subscribers and first directors regarding non-conviction and non-guilt of fraud/misfeasance.",
+          "**Form INC-15:** Declaration by each person making the application. ",
+          "**Other Essentials:** ",
+          "A **Digital Signature Certificate (DSC)** of the Class 3 category for all proposed directors to sign the electronic forms.",
+          "A **Director Identification Number (DIN)** for all proposed directors (this can be applied for within the main incorporation form).",
+        ],
+      },
     },
     {
-      title: "For Registered Office",
-      items: ["Utility Bill", "NOC from the owner"],
+      tabTitle: "Documents for the Registered Office",
+      content: {
+        title: "Documents for the Registered Office",
+        items: [
+          "**If the property is Owned:** ",
+          "Copy of the Sale Deed, Property Tax Receipt, or Title Deed.",
+          "A copy of a recent Utility Bill (Electricity, Gas, or Water bill) showing the address, which should **not be older than two months**. \u2022 **If the property is Rented/Leased:**\u2022",
+          "A notarised copy of the **Lease Agreement or Rent Agreement**.",
+          "A copy of a recent Utility Bill (not older than two months).",
+          "A **No Objection Certificate (NOC)** from the property owner, explicitly permitting the use of the premises as the company\\'s registered office.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Constitutional and Core Documents",
+      content: {
+        title: "Constitutional and Core Documents",
+        items: [
+          "**Memorandum of Association (MOA):** This is filed in **Form INC-13** and outlines the charitable objects and the main purpose for which the company is being formed.",
+          "**Articles of Association (AOA):** This document contains the internal regulations for the management of the company.",
+          "**Declaration from a Professional (Form INC-14):** A declaration is required from a practicing Chartered Accountant (CA), Company Secretary (CS), or Cost Accountant (CWA) certifying that the draft MOA and AOA comply with the provisions of Section 8.",
+          "**Estimate of Income and Expenditure:** A projection of the company\\'s estimated annual income and expenses for the next **three years**, detailing the sources of income and the objects of the expenditure.",
+          "**Name Approval Letter:** Evidence of the approval of the proposed company name by the Registrar of Companies (RoC).",
+        ],
+      },
     },
   ],
   registrationProcess: [

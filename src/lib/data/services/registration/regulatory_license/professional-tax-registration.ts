@@ -8,7 +8,11 @@ export const professionalTaxRegistrationData: ServiceData = {
   description:
     "State professional tax registration for employers (PTRC) and professionals (PTEC), including returns and payment schedules.",
   overview:
-    "**Professional Tax (PT)** is a state‑levied tax on professions, trades, callings, and employment. Applicability, slab rates, exemptions and compliance calendars vary by state (not all states levy PT). Employers must obtain **PTRC** to deduct PT from employee salaries and deposit it to the state; businesses and professionals obtain **PTEC** to pay PT on their own professional income. Registration is generally due within 30 days of hiring staff or commencing professional activity.",
+    `**Professional Tax Registration (PTR)** is a mandatory state-level compliance process in India for individuals and business entities earning income through a profession, trade, or employment. This tax is levied by the respective state governments (not the central government) and serves as a revenue source for state-specific public welfare and development programs.
+
+The registration yields one of two certificates based on the applicant\'s role. An employer must obtain a **Professional Tax Registration Certificate (PTRC)** to legally deduct the tax from employees\' salaries and deposit it with the state authority. Conversely, a self-employed professional, such as a doctor or lawyer, must obtain a **Professional Tax Enrolment Certificate (PTEC)** to pay the tax directly on their own income.
+
+Compliance with PTR is crucial for businesses and professionals to avoid penalties and interest charges for non-compliance. Timely registration, usually within 30 days of employing staff or commencing practice, ensures legal standing, enhances business credibility, and allows the tax paid to be claimed as a deduction under the Income Tax Act.`,
   advantages: [
     {
       icon: "FileCheck",
@@ -50,21 +54,54 @@ export const professionalTaxRegistrationData: ServiceData = {
   ],
   eligibility: [
     {
-      title: "Who Needs PT Registration?",
-      items: [
-        "**Employers (PTRC)** – any entity employing staff above state exemption thresholds.",
-        "**Self‑employed / Professionals (PTEC)** – doctors, lawyers, CAs, architects, traders etc.",
-        "**Companies/LLPs/Firms** – PTEC for entity’s own liability; PTRC for employee deductions.",
-      ],
+        title: "Professional Tax Registration is mandatory for individuals and",
+        items: [
+            "**Individuals** earning income from self-employment or professional services.",
+            "**Employers** paying salaries to employees.",
+            "**Companies, Firms, LLPs, and Proprietorships** engaged in any business or trade.",
+            "**Organizations** having a registered office or branch within the state."
+        ]
     },
     {
-      title: "State‑wise Notes",
-      items: [
-        "Applicable in states incl. Maharashtra, Karnataka, West Bengal, Tamil Nadu, Telangana, Andhra Pradesh, Gujarat, Madhya Pradesh, Odisha, Bihar, Assam, etc.",
-        "Not applicable in states like Delhi, Haryana, Uttar Pradesh, Rajasthan (as of current norms).",
-        "Annual cap per person is ₹2,500 (Article 276, Constitution).",
-      ],
+        title: "Eligibility for Employers (PTRC Registration)",
+        items: [
+            "Mandatory if at least **one employee** is drawing a salary above the taxable limit.",
+            "Registration to be obtained **within 30 days** of hiring the first employee.",
+            "Employers must **deduct the tax monthly** from salaries and **deposit it by the due date**.",
+            "Applicable to **private companies, LLPs, firms, partnership firms, and proprietors** who employ staff."
+        ]
     },
+    {
+        title: "Eligibility for Self-Employed Individuals (PTEC Registration)",
+        items: [
+            "Doctors, Lawyers, Engineers, Architects, Chartered Accountants, and Consultants",
+            "Freelancers and Independent Contractors",
+            "Traders, Shop Owners, and Retail Business Operators",
+            "Directors, Partners, or Proprietors of registered firms or companies Note: Even if you have no employees, you must still register under PTEC if you are carrying out a business or profession."
+        ]
+    },
+    {
+        title: "Eligibility for Companies, LLPs, and Firms",
+        items: [
+            "Obtain **PTEC** for the entity itself (for company income), and",
+            "Obtain **PTRC** to deduct and pay tax on behalf of its employees."
+        ]
+    },
+    {
+        title: "Eligibility for Employees",
+        items: [
+            "All salaried individuals earning above the **minimum salary threshold** are liable to pay professional tax.",
+            "The **employer deducts** the tax from salary and remits it to the government.",
+            "The **tax slab varies** by state (maximum \u20b92,500 per year).",
+            "Employees working in **multiple states** are subject to tax as per the state where they work."
+        ]
+    },
+    {
+        title: "State-Wise Applicability",
+        items: [
+            "Professional Tax is applicable in most Indian states including:\\ **Maharashtra, Madhya Pradesh, Karnataka, Gujarat, Tamil Nadu, West Bengal, Telangana, Andhra Pradesh, Odisha, Bihar, and Assam.**  It is **not applicable** in states like **Delhi, Haryana, Uttar Pradesh, and Rajasthan**."
+        ]
+    }
   ],
   documents: [
     {

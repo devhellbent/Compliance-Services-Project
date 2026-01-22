@@ -7,8 +7,23 @@ export const llpData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Company Registration", "LLP"],
   description:
     "Experience the perfect blend of partnership flexibility and corporate protection. LLP registration offers limited liability safeguards for partners while maintaining operational simplicity, making it ideal for professional service firms and modern startups.",
-  overview:
-    "A **Limited Liability Partnership (LLP)** represents an innovative hybrid business structure that masterfully combines the operational flexibility of traditional partnerships with the liability protection characteristic of corporations, introduced in India through the Limited Liability Partnership Act, 2008. As a distinct legal entity separate from its partners, an LLP can own property, enter contracts, and conduct business operations in its own name, ensuring business continuity beyond individual partners. The cornerstone feature of limited liability protects partners' personal assets from business debts and obligations, with liability restricted to their agreed capital contribution—a crucial advantage over traditional partnerships. This structure requires a minimum of two partners with no maximum limit, offering scalability for growing professional practices and businesses. The LLP enjoys perpetual succession, meaning the entity continues to exist regardless of changes in partnership, ensuring stability for long-term business relationships and contracts. Compliance requirements are significantly simpler than private limited companies, with no minimum capital requirement and fewer regulatory filings, reducing operational overhead while maintaining corporate credibility. The structure allows for flexible profit-sharing arrangements through the LLP Agreement, which serves as the governing document outlining partner rights, duties, and operational procedures. Particularly suited for professional services such as legal firms, consulting agencies, chartered accountants, architects, and technology startups, the LLP structure delivers tax efficiency through pass-through taxation while building stakeholder confidence through its regulated framework under the Ministry of Corporate Affairs.",
+  overview: `**Limited Liability Partnership (LLP) Registration in India**
+
+Registration of a Limited Liability Partnership (LLP) in India is a fully digital process managed by the Ministry of Corporate Affairs (MCA). An LLP is a business structure that combines the best features of a traditional partnership and a company. It provides the limited liability of a company, which protects the partners\' personal assets from the business\'s debts, while offering the flexibility of a partnership.
+
+**What is Limited Liability Partnership (LLP)**
+
+A Limited Liability Partnership (LLP) is a modern business structure that combines the flexibility of a traditional partnership with the liability protection of a company. It is a separate legal entity from its partners, meaning the firm can own assets and be held liable for its own debts.
+
+The key feature of an LLP is **limited liability**. This means that a partner\'s personal assets are protected from the firm\'s business debts and liabilities. In a general partnership, partners have unlimited liability and are personally responsible for all business debts, even if they were incurred by another partner. In contrast, an LLP partner\'s liability is limited to their agreed-upon capital contribution.
+
+An LLP also offers **perpetual succession**, meaning the firm continues to exist even if there are changes in partners, such as a death or a retirement. This provides stability and continuity to the business. It is a popular choice for professionals like accountants and lawyers who want to collaborate while shielding themselves from the negligence or misconduct of other partners.
+
+**Limited Liability Partnership Act, 2008**
+
+The **Limited Liability Partnership** Act, 2008, is a specific law enacted by the Parliament of India to govern and regulate Limited Liability Partnerships (LLPs). It introduced a new business structure that combines the key features of a traditional partnership and a company, providing a flexible and legally sound framework for business operations.
+
+The **Limited Liability Partnership Act, 2008**, is a specific law enacted by the Parliament of India to govern and regulate Limited Liability Partnerships (LLPs). It introduced a new business structure that combines the key features of a traditional partnership and a company, providing a flexible and legally sound framework for business operations.`,
   whyChooseUs: [
     {
       icon: "ShieldCheck",
@@ -38,75 +53,38 @@ export const llpData: ServiceData = {
   ],
   advantages: [
     {
-      icon: "ShieldCheck",
-      title: "Limited Liability Protection",
-      text: "The most crucial benefit of an LLP is that it offers limited liability to its partners. Each partner's liability is limited to their agreed-upon contribution to the business, protecting personal assets from business failures or misconduct of other partners.",
-    },
-    {
-      icon: "Building2",
-      title: "Separate Legal Entity and Perpetual Succession",
-      text: "An LLP is considered a separate legal entity, distinct from its partners. It can own assets, enter into contracts, and sue or be sued in its own name. The LLP has perpetual succession, meaning its existence is not affected by changes in its partners.",
-    },
-    {
-      icon: "TrendingUp",
-      title: "Enhanced Credibility and Access to Capital",
-      text: "A registered LLP is perceived as more credible and trustworthy by clients, suppliers, and financial institutions. This enhanced credibility makes it easier to secure loans and attract investment.",
-    },
-    {
-      icon: "Workflow",
-      title: "Operational Flexibility and Tax Benefits",
-      text: "An LLP operates with a flexible management structure. The rights and duties of partners are governed by a mutually agreed-upon LLP Agreement. LLPs are treated as partnerships for tax purposes, avoiding Dividend Distribution Tax.",
-    },
-    {
-      icon: "FileCheck",
-      title: "Lower Compliance Requirements",
-      text: "Compared to a private limited company, LLPs have fewer compliance requirements. No mandatory board meetings and LLPs with turnover below specified threshold are exempt from mandatory audits.",
-    },
-  ],
+        icon: "CheckCircle",
+        title: "Registering a Limited Liability Partnership (LLP) is a strategic move",
+        text: "for any business, as it provides a robust legal structure that offers the best of both a traditional partnership and a company. While a general partnership\\'s registration is optional, an LLP\\'s is mandatory, and the benefits it provides are significant, particularly in terms of risk mitigation and credibility. **Limited Liability Protection :** The most crucial benefit of an LLP is that it offers limited liability to its partners. This means that each partner\\'s liability is limited to their agreed-upon contribution to the business. Unlike a general partnership, a partner\\'s personal assets (like their house or car) are protected from the firm\\'s business debts and liabilities. This provides a crucial shield against financial risks and legal claims, allowing partners to focus on business growth without the fear of losing personal wealth. **Separate Legal Entity and Perpetual Succession :** An LLP is considered a separate legal entity, distinct from its partners. This means it can own assets, enter into contracts, and sue or be sued in its own name. This separation provides stability and professionalism to the business. Furthermore, an LLP has perpetual succession, meaning its existence is independent of its partners. The retirement, death, or insolvency of a partner does not dissolve the LLP, ensuring the business continues seamlessly. **Enhanced Credibility and Access to Capital :** A registered LLP is perceived as more credible and trustworthy by clients, suppliers, and financial institutions. This enhanced credibility makes it easier for the firm to open bank accounts, secure loans, and attract investment. Unlike an unregistered partnership, an LLP\\'s details are publicly available on the Ministry of Corporate Affairs (MCA) website, increasing transparency and building stakeholder trust. **Operational Flexibility and Tax Benefits :** An LLP operates with a flexible management structure, as the rights and duties of partners are governed by a mutually agreed-upon LLP Agreement. This avoids the rigid governance of a company. From a financial perspective, an LLP is treated as a partnership for tax purposes, which means it avoids the Dividend Distribution Tax (DDT). The profits are taxed at the firm level, and the partners are not taxed again on the income they receive from the LLP, making it a tax-efficient structure. Additionally, LLPs with a turnover below a specified threshold are exempt from mandatory audits, which reduces compliance costs."
+    }
+],
   disadvantages: [
     {
-      icon: "Percent",
-      title: "Flat Tax Rate",
-      text: "LLP profits are taxed at a flat rate (currently 30% + cess), and partners do not get the benefit of lower progressive tax slabs available to individuals.",
-    },
-    {
-      icon: "AlertCircle",
-      title: "Higher Penalties for Non-Compliance",
-      text: "Non-compliance with procedural matters, such as late filing of forms, often attracts higher penalties than traditional partnership firms.",
-    },
-    {
-      icon: "UserX",
-      title: "Complex Ownership Transfer",
-      text: "Transferring ownership or partnership rights is more complex than in a company, as it involves amendments to the LLP Agreement and may require consent of other partners.",
-    },
-    {
-      icon: "XCircle",
-      title: "Limited Foreign Investment",
-      text: "While foreign investment is allowed in LLPs, it is restricted to certain sectors and subject to various regulatory approvals under FEMA guidelines.",
-    },
-  ],
+        icon: "CheckCircle",
+        title: "Registering a Limited Liability Partnership (LLP) is a strategic move",
+        text: "for any business, as it provides a robust legal structure that offers the best of both a traditional partnership and a company. While a general partnership\\'s registration is optional, an LLP\\'s is mandatory, and the benefits it provides are significant, particularly in terms of risk mitigation and credibility. **Limited Liability Protection :** The most crucial benefit of an LLP is that it offers limited liability to its partners. This means that each partner\\'s liability is limited to their agreed-upon contribution to the business. Unlike a general partnership, a partner\\'s personal assets (like their house or car) are protected from the firm\\'s business debts and liabilities. This provides a crucial shield against financial risks and legal claims, allowing partners to focus on business growth without the fear of losing personal wealth. **Separate Legal Entity and Perpetual Succession :** An LLP is considered a separate legal entity, distinct from its partners. This means it can own assets, enter into contracts, and sue or be sued in its own name. This separation provides stability and professionalism to the business. Furthermore, an LLP has perpetual succession, meaning its existence is independent of its partners. The retirement, death, or insolvency of a partner does not dissolve the LLP, ensuring the business continues seamlessly. **Enhanced Credibility and Access to Capital :** A registered LLP is perceived as more credible and trustworthy by clients, suppliers, and financial institutions. This enhanced credibility makes it easier for the firm to open bank accounts, secure loans, and attract investment. Unlike an unregistered partnership, an LLP\\'s details are publicly available on the Ministry of Corporate Affairs (MCA) website, increasing transparency and building stakeholder trust. **Operational Flexibility and Tax Benefits :** An LLP operates with a flexible management structure, as the rights and duties of partners are governed by a mutually agreed-upon LLP Agreement. This avoids the rigid governance of a company. From a financial perspective, an LLP is treated as a partnership for tax purposes, which means it avoids the Dividend Distribution Tax (DDT). The profits are taxed at the firm level, and the partners are not taxed again on the income they receive from the LLP, making it a tax-efficient structure. Additionally, LLPs with a turnover below a specified threshold are exempt from mandatory audits, which reduces compliance costs."
+    }
+],
   eligibility: [
-    "A minimum of two partners are required. There is no maximum limit.",
-    "At least two designated partners, one of whom must be a resident of India.",
-    "No minimum capital contribution is required.",
-    "A registered office address in India is mandatory.",
+    "**Minimum Number:** An LLP must have at least **two partners**. There is no upper limit on the maximum number of partners.",
+    "**Unique Name:** The proposed name of the LLP must be unique and not identical or similar to any existing company, LLP, or registered trademark.",
+    "**Designated Partners:** Of the total partners, a minimum of **two** must be designated partners who are individuals. At least one of these designated partners must be a **resident of India**, meaning they have stayed in the country for at least 120 days during the financial year.",
+    "**Lawful Business Activity:** The purpose of the LLP must be to carry on a legal business. An LLP cannot be formed for illegal activities or those against public policy.",
+    "**Competence to Contract:** All partners must be legally competent to enter into a contract. This means they must be of sound mind and at least 18 years of age. A person cannot be a designated partner if they are an undischarged insolvent or have been convicted of a serious offense.",
+    "**Identification Numbers:** Every designated partner must obtain a **Designated Partner Identification Number (DPIN)** from the Ministry of Corporate Affairs (MCA). A **Digital Signature Certificate (DSC)** is also mandatory for all partners to file documents online.",
+    "**Registered Office:** The LLP must have a registered office in India to receive all official communications and legal notices. Proof of this address, such as a rent agreement and a no-objection certificate from the landlord (if rented), must be submitted during the registration process."
   ],
   documents: [
     {
-      title: "For Partners",
-      items: [
-        "PAN Card",
-        "Identity Proof (Aadhaar Card, Voter ID, or Passport)",
-        "Address Proof (Bank Statement or Utility Bill)",
-        "Passport-sized photograph",
-      ],
-    },
-    {
-      title: "For Registered Office",
-      items: [
-        "Utility Bill of the office address",
-        "No Objection Certificate (NOC) from the property owner",
-      ],
+      tabTitle: "For the LLP",
+      content: {
+        title: "For the LLP",
+        items: [
+          "Proof of Registered Office Address: You must provide proof of the LLP's registered office in India. This can be a recent utility bill (not older than two months) in the name of the property owner.",
+          "No Objection Certificate (NOC): If the registered office is a rented property, a signed NOC from the landlord is required, giving consent for the address to be used as the LLP's official registered office. A valid rent agreement must also be provided.",
+          "LLP Agreement: This is a crucial legal document drafted on a non-judicial stamp paper. It outlines the mutual rights and duties of the partners, their capital contributions, and the firm's operational clauses. This document must be filed with the MCA within 30 days of the LLP's incorporation.",
+        ],
+      },
     },
   ],
   registrationProcess: [

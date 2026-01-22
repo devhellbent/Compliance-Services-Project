@@ -5,67 +5,102 @@ import { ServiceData } from "@/lib/types";
 export const trademarkHearingData: ServiceData = {
   title: "Trademark Hearing",
   breadcrumb: ["Home", "Intellectual Property", "Trademark Hearing"],
-  overview:
-    "A **Trademark Hearing** is a formal proceeding conducted by a Hearing Officer at the Trademark Registry. It is scheduled when the Trademark Examiner is not convinced by the written reply filed against an **objection** in the Examination Report. 🏛️ This hearing is the applicant's opportunity to present their case orally, provide legal arguments, and submit evidence to persuade the officer to waive the objection and allow the trademark to be published.",
+  overview: `A **Trademark Hearing**, often called a \"Show Cause Hearing\" in India, is a formal legal proceeding conducted by the Trademark Registry. It is a critical stage that occurs when the **Registrar of Trademarks is not satisfied with the applicant\'s written response** to an initial examination report or if a third party has filed an opposition. Its core purpose is to resolve any remaining objections or disputes regarding the registrability of a trademark, ensuring compliance with legal standards before a final decision is made.
+
+The hearing provides the applicant or their authorized legal representative with a final **opportunity to present their case** in person or virtually before a Trademark Hearing Officer. The applicant must submit detailed arguments, supporting evidence---such as proof of the trademark's use in the market---and legal precedents to **defend the distinctiveness and eligibility** of their mark. This stage allows for a direct dialogue to clarify any misunderstandings and persuade the officer that the trademark should proceed to registration.
+
+Following the presentation of arguments and evidence, the Hearing Officer will decide to either **accept the trademark application** (leading to its publication in the Trademark Journal and eventual registration), or **reject the application** if the objections are not adequately addressed. Given the high stakes, failing to attend or adequately prepare for a trademark hearing can result in the refusal of the application, making it a pivotal moment in securing **legal protection and exclusive rights** for a brand.`,
   advantages: [
     {
-      icon: "MessageSquare",
-      title: "Opportunity for Oral Arguments",
-      text: "Allows you to present your case and legal arguments directly to the Hearing Officer, which can be more persuasive than a written reply.",
+      icon: "CheckCircle",
+      title: "Risk of Final Refusal",
+      text: "The biggest drawback is the risk of an unfavorable outcome. If the Hearing Officer remains unconvinced by the arguments, they can issue a **Refusal Order** immediately, which permanently blocks the application unless an appeal is filed.",
     },
     {
-      icon: "FileCheck",
-      title: "Clarify Complex Issues",
-      text: "Provides a platform to clarify any complex legal or factual points that may not have been fully addressed in the written response.",
+      icon: "CheckCircle",
+      title: "Increased Costs and Time",
+      text: "The hearing process adds to the overall cost of registration. It necessitates the hiring of an experienced trademark attorney, preparation of detailed legal submissions, and the time commitment for attendance and follow-up, increasing the total expense for the business.",
     },
     {
-      icon: "Library",
-      title: "Submission of Evidence",
-      text: "You can submit additional evidence, such as proof of extensive use or case law precedents, to strengthen your application.",
+      icon: "CheckCircle",
+      title: "Mandatory Appearance Requirement",
+      text: '**Failure to attend** the hearing without securing a valid adjournment is a grave error. The application will almost certainly be marked as **\\"Abandoned,\\"** causing the applicant to lose the priority filing date and all associated fees.',
     },
     {
-      icon: "ShieldCheck",
-      title: "Final Chance to Save the Mark",
-      text: "It is often the last and most critical opportunity to overcome the examiner's objections and prevent the application from being refused.",
+      icon: "CheckCircle",
+      title: "Legal Complexity",
+      text: "The hearing is a formal, quasi-judicial proceeding. Successfully navigating the arguments requires deep knowledge of the Trademark Act and legal precedents. Without expert legal counsel, the applicant\\'s chances of success are significantly reduced.",
+    },
+    {
+      icon: "CheckCircle",
+      title: "Uncertainty and Delay",
+      text: 'Even if the hearing goes well, the officer may \\"hold\\" the decision, leading to further **delays** in the registration process. This uncertainty can stall business decisions reliant on the trademark\\\'s secured status.',
     },
   ],
   disadvantages: [
     {
-      icon: "Gavel",
-      title: "Requires Strong Legal Representation",
-      text: "Success at a hearing often depends on the expertise of a trademark attorney who can present legally sound arguments.",
-    },
-    {
-      icon: "Clock",
-      title: "Adds Time and Cost",
-      text: "The hearing process adds several months to the registration timeline and involves professional fees for representation.",
-    },
-    {
-      icon: "AlertTriangle",
-      title: "Risk of Refusal",
-      text: "If the arguments presented are not convincing, the Hearing Officer may refuse the application, leading to its abandonment.",
+      icon: "CheckCircle",
+      title: "of the Trademark Hearing",
+      text: "",
+      subPoints: [
+        "**Risk of Final Refusal:** The biggest drawback is the risk of an unfavorable outcome. If the Hearing Officer remains unconvinced by the arguments, they can issue a **Refusal Order** immediately, which permanently blocks the application unless an appeal is filed.",
+        "**Increased Costs and Time:** The hearing process adds to the overall cost of registration. It necessitates the hiring of an experienced trademark attorney, preparation of detailed legal submissions, and the time commitment for attendance and follow-up, increasing the total expense for the business.",
+        '**Mandatory Appearance Requirement:** **Failure to attend** the hearing without securing a valid adjournment is a grave error. The application will almost certainly be marked as **\\"Abandoned,\\"** causing the applicant to lose the priority filing date and all associated fees.',
+        "**Legal Complexity:** The hearing is a formal, quasi-judicial proceeding. Successfully navigating the arguments requires deep knowledge of the Trademark Act and legal precedents. Without expert legal counsel, the applicant\\'s chances of success are significantly reduced.",
+        '**Uncertainty and Delay:** Even if the hearing goes well, the officer may \\"hold\\" the decision, leading to further **delays** in the registration process. This uncertainty can stall business decisions reliant on the trademark\\\'s secured status.',
+      ],
     },
   ],
   eligibility: [
     {
-      title: "When is a Hearing Scheduled?",
+      title:
+        "The eligibility criteria for a Trademark Hearing are not based on",
       items: [
-        "A hearing is scheduled for any applicant whose trademark application has received an objection from the examiner.",
-        "The applicant must have filed a written reply to the Examination Report.",
-        "The examiner, after reviewing the reply, is still not satisfied and maintains the objection.",
+        "**Unsatisfactory Response to Examination Report:** ",
+        "The Trademark Examiner issues an **Examination Report** raising formal objections (e.g., lack of distinctiveness, similarity to existing marks).",
+        "The applicant files a written **Reply** to address these objections.",
+        "The Registrar/Examiner reviews the Reply and determines it is **insufficient**, unconvincing, or requires **further clarification** via oral arguments. This is the most common path to a hearing. ",
+        "**Third-Party Opposition Proceedings:** ",
+        "The trademark application has been **accepted** by the Registrar and **published** in the Trademark Journal.",
+        "A **Notice of Opposition** is filed by a third party (e.g., a competitor) who believes the mark will harm their rights.",
+        "Once counter-statements and evidence have been exchanged between both parties, the case is automatically listed for a **mandatory hearing** to resolve the dispute.",
+      ],
+    },
+    {
+      title: "Who is Eligible to Attend the Hearing?",
+      items: [
+        "**The Applicant:** The individual or entity who filed the trademark application.",
+        "**Trademark Attorney/Agent:** A legal professional authorized by the applicant via a **Power of Attorney** to represent their case before the Registrar.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "Required for the Hearing",
+      tabTitle: "Mandatory Legal & Procedural Documents",
       content: {
-        title: "Case File and Authorizations",
+        title: "Mandatory Legal & Procedural Documents",
         items: [
-          "**Hearing Notice**: The official notice sent by the Trademark Registry.",
-          "**Power of Attorney (TM-48)**: Authorizing the attorney to appear on the applicant's behalf.",
-          "**Examination Report & Reply**: A copy of the original objection report and the written reply that was filed.",
-          "**Supporting Evidence**: Documents proving the distinctiveness or prior use of the trademark (e.g., invoices, marketing materials).",
+          "**Trademark Hearing Notice:** The official notice received from the Registry, which clearly states the application number, the date and time of the hearing, and the specific **grounds of objection** to be addressed.",
+          "**Original Application Copy (Form TM-A):** A copy of the initial trademark application filed with the Registry.",
+          "**Examination Report Copy:** The official report issued by the Examiner that detailed the initial objections against the mark (e.g., objections under Section 9 or Section 11).",
+          "**Response to Examination Report:** A copy of the written reply previously filed by the applicant, which the Registrar found unsatisfactory and led to the hearing.",
+          "**Power of Attorney (PoA):** If the applicant is represented by a Trademark Attorney or Agent, a duly executed PoA is mandatory to grant them the legal authority to appear and argue on the applicant\\'s behalf.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Substantive Evidence Documents",
+      content: {
+        title: "Substantive Evidence Documents",
+        items: [
+          "**Affidavit of Usage (User Affidavit):** A sworn, notarized statement from the applicant detailing the date of **first use** of the trademark in commerce, the continuous period of use, and the geographical area of use.",
+          "**Proof of Business & Use (The Exhibits):** Documents appended to the Affidavit of Usage as exhibits to substantiate the usage claim. This is often the most persuasive evidence: ",
+          "**Invoices/Bills:** Sales invoices, purchase orders, or bills showing the trademark being used on goods or services.",
+          "**Marketing/Advertising Material:** Brochures, advertisements (print or digital), product packaging, labels, and screenshots of social media campaigns or websites.",
+          "**Financial Records:** Chartered Accountant (CA) certificates detailing the annual sales turnover achieved under the trademark to demonstrate goodwill and commercial success. ",
+          "**Legal Arguments & Precedents:** ",
+          "A drafted **written brief** or detailed notes of the oral arguments to be presented.",
+          "Copies of relevant **case laws** or legal precedents that support the applicant\\'s position and refute the Examiner\\'s objections.",
         ],
       },
     },

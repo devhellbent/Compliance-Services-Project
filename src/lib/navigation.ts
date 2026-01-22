@@ -460,9 +460,9 @@ export const navigationData = [
         description: "Ongoing compliance management for smooth operations.",
         items: [
           {
-            name: "Charge Creation/Modification/Satisfaction",
+            name: "Charge Creation, Modification & Satisfaction",
             slug: createServiceSlug(
-              "Charge Creation-Modification-Satisfaction"
+              "Charge Creation, Modification & Satisfaction"
             ),
           },
           {

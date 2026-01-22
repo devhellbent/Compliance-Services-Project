@@ -7,8 +7,15 @@ export const startupIndiaRegistrationData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Startup India"],
   description:
     "Unlock government support for your innovative venture. Startup India registration provides DPIIT recognition, tax exemptions, compliance relaxations, and access to funding schemes, empowering startups to scale rapidly with comprehensive government backing.",
-  overview:
-    "**Startup India Registration** represents a transformative government certification program launched by the Department for Promotion of Industry and Internal Trade (DPIIT) under the Ministry of Commerce and Industry, designed to recognize, support, and accelerate the growth of innovative entrepreneurial ventures across India. This flagship initiative aims to build a robust startup ecosystem by providing a comprehensive suite of benefits including three-year income tax exemption on profits (subject to Inter-Ministerial Board approval), exemption from angel tax under Section 56(2)(viib) for investments from registered investors, 80% reduction in patent filing fees, fast-tracked patent examination, and self-certification under various labor and environment laws reducing compliance burden significantly. Eligible startups must be incorporated as Private Limited Company, LLP, or Partnership Firm, be less than ten years old from incorporation, have annual turnover not exceeding ₹100 crore in any financial year, and work toward innovation, development, or improvement of products, processes, or services with scalable business models. The recognition process involves online application through the Startup India portal with supporting documents including incorporation certificate, business description highlighting innovative nature, and recommendations or pitch deck. DPIIT-recognized startups gain access to the Fund of Funds for Startups (FFS) with ₹10,000 crore corpus managed through SIDBI, eligibility for Credit Guarantee Scheme providing collateral-free debt funding, and participation in various government procurement programs with relaxed eligibility criteria. The recognition opens doors to incubation facilities, mentorship programs, networking opportunities with investors and industry leaders, and participation in national and international startup events organized by the government. Startups can leverage the Startup India Hub for connecting with relevant stakeholders, accessing legal support, and navigating regulatory frameworks. The program provides single-window clearance mechanisms simplifying approvals and registrations across various departments. Additional benefits include priority in government tenders, fast-track exits through simplified winding-up procedures within 90 days, and exemption from Section 56 angel tax scrutiny when raising funds from verified investors. The initiative covers startups across diverse sectors including technology, healthcare, agriculture, education, finance, and social enterprises, promoting innovation-driven entrepreneurship nationwide. Whether you're developing cutting-edge technology, creating sustainable solutions, or disrupting traditional industries, Startup India registration provides the governmental recognition and tangible benefits essential for transforming innovative ideas into scalable businesses with national and global impact.",
+  overview: `**Startup India Registration 2025**
+
+Startup India is a flagship initiative of the Government of India to support innovation, entrepreneurship, and job creation. To avail of the benefits, a business must be recognized by DPIIT (Department for Promotion of Industry and Internal Trade). Eligible entities include Private Limited Companies, LLPs, or registered Partnership Firms not older than 10 years, with annual turnover not exceeding ₹100 crore. The business must be innovative, scalable, and not formed by splitting an existing entity.
+
+The registration process is simple and free. First, incorporate your business under MCA or relevant authority. Then, create an account on the Startup India portal (www.startupindia.gov.in) and apply for DPIIT recognition through the National Single Window System (NSWS). Upload required documents such as the Certificate of Incorporation, PAN, business details, and a brief on the innovation.
+
+Once approved, a DPIIT recognition certificate is issued within 2 working days. Recognized startups get tax benefits, funding support, self-certification compliance, IPR support, and easier participation in government tenders. This initiative encourages new ventures to grow faster and attract investment.
+
+**Types of Startups Eligible for Registration in India**`,
   whyChooseUs: [
     {
       icon: "BadgePercent",
@@ -33,59 +40,57 @@ export const startupIndiaRegistrationData: ServiceData = {
   ],
   advantages: [
     {
-      icon: "BadgePercent",
-      title: "Tax Holiday for 3 Years",
-      text: "Recognized startups can get an income tax exemption for any 3 consecutive years out of their first 10 years of incorporation.",
-    },
-    {
-      icon: "FileCheck",
-      title: "Easier Compliance",
-      text: "Startups can self-certify their compliance with certain labor and environmental laws, reducing the regulatory burden in the initial years.",
-    },
-    {
-      icon: "Gavel",
-      title: "Easy Winding Up",
-      text: "A startup can be wound up within 90 days of applying for insolvency, as compared to the standard 180 days.",
-    },
-    {
-      icon: "Banknote",
-      title: "Access to Government Funds",
-      text: "Recognized startups are eligible to apply for funding from the government's ₹10,000 crore Fund of Funds scheme.",
+      icon: "CheckCircle",
+      title: "of Startup India Registration",
+      text: "**Recognition as a Startup**\\ Official recognition from the Government of India gives a startup a formal identity. This recognition increases credibility among investors, customers, and partners. Being officially recognized also builds trust, making it easier to form collaborations and partnerships. **Tax Benefits**\\ Registered startups can avail tax exemptions under Section 80-IAC of the Income Tax Act, including a **3-year tax holiday** in their first 10 years. They may also get exemptions on capital gains tax under certain investments. These benefits reduce financial burdens, helping startups focus on growth and innovation. **Easier Access to Funding**\\ Registration opens doors to various government funding schemes such as the **Fund of Funds for Startups (FFS)**. Additionally, recognized startups are more visible to angel investors and venture capitalists, which increases the chances of securing investments. **Simplified Compliance**\\ Startups get relaxed norms for company incorporation, filing annual returns, and certain statutory requirements. For specific sectors, regulatory burdens like labor or environmental clearances are also simplified, reducing administrative overheads. **Government Schemes & Incentives**\\ Registered startups gain access to incubation centers, accelerators, and mentorship programs offered by the government. They are also eligible for **IPR benefits**, such as fast-tracked patent filings and reduced fees, which encourage innovation and protect intellectual property. **Networking & Market Access**\\ Being part of the Startup India initiative provides opportunities to participate in government-organized events, exhibitions, and international trade fairs. It also encourages collaboration with other startups, academic institutions, and corporates, which can help in business expansion and knowledge sharing. **Protection & Support**\\ The government provides legal and policy support for registered startups facing operational or financial challenges. This includes easier dispute resolution and guidance, ensuring that startups can navigate hurdles without excessive risk.",
     },
   ],
   disadvantages: [
     {
-      icon: "Filter",
-      title: "Strict Eligibility Criteria",
-      text: "The entity must be genuinely innovative and meet specific age and turnover criteria to qualify.",
-    },
-    {
-      icon: "Clock",
-      title: "Time-Limited Benefits",
-      text: "Most benefits, like the tax holiday, are available only for a limited period from the date of incorporation.",
-    },
-    {
-      icon: "FileWarning",
-      title: "Separate Tax Approval Needed",
-      text: "Getting DPIIT recognition does not automatically grant the tax holiday; a separate application to the Inter-Ministerial Board is required.",
+      icon: "CheckCircle",
+      title: "of Startup India Registration",
+      text: "**Eligibility Criteria Restrictions**\\ Only companies less than 10 years old with a turnover of less than \u20b9100 crore can register. The startup must also be involved in innovation, development, or improvement of products, processes, or services. Startups not meeting these criteria are ineligible. **Compliance & Documentation**\\ Registration requires detailed documentation, including business plans, KYC documents, and patents (if applicable). After registration, startups must also submit periodic reports to maintain their recognition. Failure to comply can lead to cancellation of registration. **Limited Tax Benefits**\\ Tax exemptions are only available for a limited period and under specific conditions. While helpful, startups are still required to pay GST, TDS, and other statutory dues, meaning tax liabilities are not completely eliminated. **Government Scrutiny**\\ Registered startups are subject to verification and scrutiny by government authorities. They must prove innovation, financial records, and operational claims. Any misrepresentation or failure to meet criteria can result in penalties or cancellation of registration. **Not a Guarantee of Funding**\\ Although registration improves credibility, it does not automatically guarantee investments. Startups still need a strong business model, proper pitch, and networking to attract investors. Registration is a support tool, not a substitute for business viability.",
     },
   ],
   eligibility: [
-    "The entity must be a Private Limited Company, LLP, or a Registered Partnership Firm.",
-    "The business must be innovative and have a scalable business model.",
-    "Annual turnover should not exceed ₹100 crore.",
+    "**Company Type:** Must be incorporated as a Private Limited Company, a Limited Liability Partnership (LLP), or a Registered Partnership Firm.",
+    "**Age Limit:** The period of existence and operations must not exceed 10 years from the date of incorporation/registration.",
+    "**Annual Turnover:** Turnover must not exceed \u20b9100 crore in any of the previous financial years since incorporation.",
+    "**Original Entity:** Must not be formed by splitting up or reconstructing an already existing business.",
+    "**Innovation & Scalability:** Must work towards innovation/improvement of a product, process, or service, and/or have a scalable business model with high potential for wealth and employment creation. **Who Needs Startup Registration?** Startup India registration is **especially useful for new and growing businesses** that want to access government incentives, funding opportunities, and easier compliance. Here's **who should register** under Startup India (DPIIT Recognition):",
   ],
   documents: [
     {
-      title: "Core Documents",
-      items: ["Certificate of Incorporation/Registration", "PAN Card"],
+      tabTitle: "Other Supporting Documents (Recommended/Conditional)",
+      content: {
+        title: "Other Supporting Documents (Recommended/Conditional)",
+        items: [
+          "**Proof of Concept (PoC) or Website Link:**",
+          "If available, a link to the company\\'s website, mobile application, or a video/pitch deck demonstrating the product prototype or service offering.",
+          "**Intellectual Property Rights (IPR) Details:**",
+          "If the startup has applied for or been granted any Intellectual Property like Patents or Trademarks, the application or registration numbers and relevant certificates should be provided.",
+          "**Proof of Funding:**",
+          "Documents showing any funding received from incubators, angel investors, or venture capital funds (if applicable).",
+          "**Financial Documents (Mandatory for some Tax Exemptions):**",
+          "To avail specific tax exemptions like the one under Section 80-IAC, you may also need to provide the Annual Accounts and Income Tax Returns for the last three financial years.",
+          "**Memorandum of Association (MoA) and Articles of Association (AoA):**",
+          "These are mandatory for Private Limited Companies, defining the company\\'s objectives and internal rules.",
+          "**Partnership Deed/LLP Agreement:**",
+          "The deed for a registered Partnership Firm or the Agreement for an LLP.",
+          "**Awards or Certificates of Recognition:**",
+          "Details of any awards or recognition received by the entity.",
+        ],
+      },
     },
     {
-      title: "Supporting Documents",
-      items: [
-        "A brief write-up about the innovation",
-        "Website link or pitch deck",
-      ],
+      tabTitle: "Supporting Documents",
+      content: {
+        title: "Supporting Documents",
+        items: [
+          "A brief write-up about the innovation",
+          "Website link or pitch deck",
+        ],
+      },
     },
   ],
   registrationProcess: [

@@ -5,6 +5,7 @@ export type AdvantageDisadvantageItem = {
   icon: string;
   title: string;
   text: string;
+  subPoints?: string[];
 };
 
 export type EligibilityCriterion = {

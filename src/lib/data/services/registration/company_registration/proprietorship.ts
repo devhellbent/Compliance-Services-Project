@@ -12,8 +12,17 @@ export const proprietorshipData: ServiceData = {
   ],
   description:
     "Launch your business journey with simplicity and control. Proprietorship registration offers the easiest and most cost-effective way to start your own business in India, giving you complete ownership and direct control over all business decisions.",
-  overview:
-    "A **Proprietorship** is the simplest and most straightforward form of business organization in India, ideal for individual entrepreneurs looking to establish their business identity with minimal regulatory burden. As a sole proprietor, you maintain complete control over business operations, strategic decisions, and profit retention, making it the most flexible business structure available. This model operates as an extension of the owner rather than a separate legal entity, which means minimal compliance requirements and straightforward tax filing procedures. While the proprietor bears unlimited liability for business debts and obligations, the structure offers unparalleled autonomy in decision-making and operational management. Registration through various statutory authorities such as Shops and Establishment Act, GST registration, and professional tax registration provides legal recognition and enables the business to open bank accounts, secure business loans, and participate in government tenders. This structure is particularly suitable for small businesses, freelancers, consultants, and service providers who want to maintain direct control while keeping operational costs minimal. The ease of setup, minimal capital requirements, and straightforward dissolution process make proprietorship the preferred choice for testing business ideas and entering the entrepreneurial landscape.",
+  overview: `**Proprietorship**
+
+Proprietorship is one of the most basic and widely chosen forms of business in India. It is owned and managed by a single individual who has complete control over all business operations and decisions. This structure is simple to set up, involves minimal legal formalities, and is a cost-effective option, making it perfect for solo entrepreneurs and small businesses starting their journey.
+
+With BharatFilings, you can easily register your proprietorship firm online. Our team provides step-by-step guidance and a smooth, hassle-free process, ensuring that you can start your business quickly and with complete confidence.
+
+In a sole proprietorship, the owner and the business are considered the same. This means the owner gets to keep all the profits but is also personally responsible for any losses or debts. The owner makes all the decisions and manages the daily operations but also takes on the risk, as there is no limit to their personal liability.
+
+**Sole Proprietorship Registration**
+
+Registering a sole proprietorship means formally setting up a business that is owned and managed by a single individual. It is one of the simplest and most popular business structures in India, making it a great choice for small businesses, independent professionals, and local vendors who want to start their business easily and with minimal compliance.`,
   whyChooseUs: [
     {
       icon: "FileCheck",
@@ -58,39 +67,73 @@ export const proprietorshipData: ServiceData = {
       text: "A sole proprietorship is the simplest form of business to establish. The registration process involves minimal documentation and formalities, making it ideal for first-time entrepreneurs or small business owners who want to start quickly.",
     },
     {
-      icon: "Shield",
-      title: "Complete Control",
-      text: "The owner has full authority over all business decisions, operations, and strategies. There is no need for consensus or approval from partners or shareholders, allowing for faster decision-making and operational flexibility.",
+      icon: "Receipt",
+      title: "Tax Compliance",
+      text: "To ensure proper tax registration and compliance with GST, income tax, and other applicable laws.",
+    },
+  ],
+  eligibility: [
+    {
+      title:
+        "To register a sole proprietorship in India, the applicant must meet the",
+      items: [
+        "**Single Owner** -- The business must be owned and managed by one individual.",
+        "**Indian Resident** -- The proprietor should be a citizen and resident of India.",
+        "**Legal Age** -- The owner must be at least 18 years old.",
+        "**Valid Identity Proof** -- Government-issued ID like Aadhar card, PAN card, or passport is required.",
+        "**Unique Business Name** -- The business name should be distinct and not infringe on existing trademarks or registered businesses.",
+        "**Business Address** -- The proprietor should have a valid address for the business operations.",
+        "**No Legal Disabilities:\u00a0**The proprietor should not have any legal restrictions that prevent them from running a business.",
+        '**Lawful Business Activity:\u00a0**The business must operate legally and must not involve illegal goods or services. **Documents Required for Sole Proprietorship Registration in India** While there is no single, centralized registration for a sole proprietorship in India, its existence is established through various other registrations and licenses. The \\"checklist\\" for starting a sole proprietorship is therefore a list of these essential documents and registrations.',
+      ],
     },
     {
-      icon: "IndianRupee",
-      title: "Low Cost of Formation",
-      text: "Starting a sole proprietorship requires minimal capital investment, and the ongoing compliance costs are significantly lower than other business structures like private limited companies or partnerships.",
+      title: "1. Mandatory Documents of the Proprietor",
+      items: [
+        "Aadhaar Card: This is the primary identity and address proof.",
+        "PAN Card: A Permanent Account Number (PAN) is essential for all financial transactions and for filing income tax returns.",
+        "Passport-size Photographs: Recent passport-size photos are required for various applications.",
+      ],
     },
     {
-      icon: "HandCoins",
-      title: "Direct Profits",
-      text: "All profits generated by the business belong solely to the owner. There's no need to share earnings with partners or investors, which makes it highly rewarding for individuals running small or medium-scale ventures.",
+      title: "2. Business Address Proof",
+      items: [
+        "For Owned Property: ",
+        "Electricity Bill or any other utility bill (not older than two months).",
+        "Property Tax Receipt or Sale Deed. ",
+        "For Rented Property: ",
+        "Rent/Lease Agreement.",
+        "No-Objection Certificate (NOC) from the landlord.",
+        "Utility bill of the rented premises.",
+      ],
     },
     {
-      icon: "Files",
-      title: "Minimal Compliance",
-      text: "Unlike companies, sole proprietorships have fewer regulatory obligations. There's no need for complex reporting, board meetings, or extensive legal compliance, making it easier to focus on growing the business.",
+      title: "3. Key Registrations and Licenses",
+      items: [
+        "GST Registration (if applicable): ",
+        "Mandatory if your annual turnover exceeds \u20b940 lakhs for goods or \u20b920 lakhs for services.",
+        "It is also mandatory for e-commerce sellers and those involved in inter-state business. ",
+        "MSME/Udyam Registration (Highly Recommended): ",
+        "This is not mandatory, but registering as a Micro, Small, or Medium Enterprise (MSME) is highly beneficial.",
+        "It helps in availing government schemes, subsidies, and easy loan approvals. ",
+        "Shop and Establishment Act License: ",
+        "This license is mandatory for all businesses operating from a commercial space, such as a shop or office.",
+        "It is issued by the local Municipal Corporation or Department of Labour and regulates working conditions and hours. ",
+        "Industry-Specific Licenses: ",
+        "Depending on your business type, you may need additional licenses. Examples include: **FSSAI Licens**e: For food-related businesses like restaurants and cloud kitchens. **Trade License:** For specific trading activities as per local municipal laws.",
+      ],
     },
     {
-      icon: "Workflow",
-      title: "Flexibility in Operations",
-      text: "The owner can quickly adapt to market changes, modify business strategies, or expand operations without needing approval from others. The simplicity of this structure provides a high degree of operational flexibility.",
-    },
-    {
-      icon: "BadgeCheck",
-      title: "Enhanced Credibility",
-      text: "A registered sole proprietorship enjoys more credibility with customers, suppliers, and financial institutions. Legal recognition helps in building trust, which is crucial for business growth and establishing long-term relationships.",
-    },
-    {
-      icon: "Landmark",
-      title: "Access to Financial Services",
-      text: "Registration allows the proprietor to open business bank accounts, apply for loans, or seek credit from financial institutions. This makes it easier to manage finances and raise capital for business expansion.",
+      title: "4. Financial and Tax Compliance",
+      items: [
+        "Business Bank Account: ",
+        "Open a separate current bank account in the name of your business. This is crucial for maintaining a clear distinction between personal and business finances.",
+        "To open this account, banks will typically ask for two of the registrations mentioned above (e.g., GST Certificate and MSME Certificate). ",
+        "Professional Tax Registration (if applicable): ",
+        "Applicable in certain states for individuals earning income from a profession or business. ",
+        "Income Tax Compliance: ",
+        "File annual income tax returns (ITR). Business income is considered part of your personal income and is reported using forms like ITR-3 or ITR-4.",
+      ],
     },
   ],
   disadvantages: [
@@ -118,26 +161,6 @@ export const proprietorshipData: ServiceData = {
       icon: "UserX",
       title: "Limited Expertise",
       text: "The business's success is dependent on the owner's skills and knowledge, which can be limited.",
-    },
-  ],
-  eligibility: [
-    {
-      title: "Owner Requirements",
-      items: [
-        "Single Owner – The business must be owned and managed by one individual.",
-        "Indian Resident – The proprietor should be a citizen and resident of India.",
-        "Legal Age – The owner must be at least 18 years old.",
-        "Valid Identity Proof – Government-issued ID like Aadhar card, PAN card, or passport is required.",
-      ],
-    },
-    {
-      title: "Business Requirements",
-      items: [
-        "Unique Business Name – The business name should be distinct and not infringe on existing trademarks or registered businesses.",
-        "Business Address – The proprietor should have a valid address for the business operations.",
-        "No Legal Disabilities – The proprietor should not have any legal restrictions that prevent them from running a business.",
-        "Lawful Business Activity – The business must operate legally and must not involve illegal goods or services.",
-      ],
     },
   ],
   documents: [

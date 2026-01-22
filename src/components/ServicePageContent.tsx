@@ -147,11 +147,11 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="max-w-3xl mx-auto text-center md:text-justify text-lg md:text-xl text-white leading-relaxed font-medium"
+            className="max-w-2xl mx-auto text-center text-base text-white leading-relaxed font-medium line-clamp-4"
           >
             <MarkdownBoldRenderer
               as="p"
-              className="text-lg"
+              className="text-base"
               text={data.description || data.overview}
             />
           </motion.div>
@@ -168,6 +168,7 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
                 <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4 border-b border-orange-200 pb-2">
                   Quick Navigation
                 </h3>
+
                 <ul className="space-y-2">
                   {visibleSections.map((section) => (
                     <li key={section.id}>
@@ -214,12 +215,18 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
                     <span className="w-1 h-8 bg-gradient-to-b from-orange-500 to-orange-600 rounded-full mr-4"></span>
                     Service Overview
                   </h2>
-                  <div className="prose prose-lg max-w-none text-gray-800 text-justify leading-relaxed">
-                    <MarkdownBoldRenderer
-                      as="p"
-                      className="text-lg"
-                      text={data.overview}
-                    />
+                  <div className="prose prose-xl max-w-none text-gray-800 text-justify leading-relaxed">
+                    {data.overview
+                      .split(/\n\s*\n/)
+                      .filter((p) => p.trim())
+                      .map((paragraph, index) => (
+                        <MarkdownBoldRenderer
+                          key={index}
+                          as="p"
+                          className="text-xl mb-6"
+                          text={paragraph.trim()}
+                        />
+                      ))}
                   </div>
                 </div>
               </motion.section>

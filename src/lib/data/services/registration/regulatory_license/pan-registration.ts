@@ -8,7 +8,13 @@ export const panRegistrationData: ServiceData = {
   description:
     "Apply for new PAN or corrections for individuals and entities with e‑KYC and instant e‑PAN options for tax and KYC compliance.",
   overview:
-    "A **Permanent Account Number (PAN)** is a unique 10‑character alphanumeric identifier used by the Indian Income Tax Department to link virtually all significant taxable and reportable financial activities of a person or entity. It is compulsory for Income Tax Return filing, TDS/TCS credit mapping, capital market transactions, property dealings, and numerous KYC regimes. The structured code (AAAAA9999A) embeds entity type, surname/initial mapping, sequence and checksum. As a universal financial identity it underpins transparency and anti‑evasion measures by providing a single cross‑system key.",
+    `**PAN Registration in India** refers to the process of applying for and being allotted a **Permanent Account Number (PAN)** by the Income Tax Department of India.
+
+A PAN is a unique, 10-digit alphanumeric identifier issued as a laminated plastic card (**PAN Card**) or an e-PAN (digital file). It acts as a mandatory identification proof for almost all financial transactions in India.
+
+The primary purpose is to enable the Income Tax Department to link and track all financial activities, tax payments, and investments of an individual or entity to prevent tax evasion. It is compulsory for filing Income Tax Returns, opening a bank account (except basic savings accounts for minors), buying/selling property above a specified limit, and for many other high-value transactions.
+
+Applications for a new PAN are typically made by filling out **Form 49A** (for Indian citizens) and can be submitted online through the portals of authorized agencies like Protean (formerly NSDL) or UTIITSL, or through an Instant e-PAN facility using an Aadhaar number.`,
   advantages: [
     {
       icon: "FileText",

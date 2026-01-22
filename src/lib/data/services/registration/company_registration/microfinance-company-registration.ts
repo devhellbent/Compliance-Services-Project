@@ -7,8 +7,31 @@ export const microfinanceCompanyRegistrationData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Microfinance Company"],
   description:
     "Bridge the financial inclusion gap with purpose-driven lending. Microfinance Company registration enables provision of small-scale financial services to underserved communities, promoting entrepreneurship and economic empowerment at the grassroots level.",
-  overview:
-    "A **Microfinance Company** serves as a vital instrument for financial inclusion, providing small-scale financial services including micro-loans, savings facilities, insurance, and remittance services to low-income individuals, women entrepreneurs, and economically disadvantaged communities who traditionally lack access to formal banking channels. In India's regulatory landscape, microfinance operations can be structured either as a non-profit Section 8 Company focused on social impact or as a for-profit NBFC-MFI (Non-Banking Financial Company - Micro Finance Institution) licensed and regulated by the Reserve Bank of India under the NBFC-MFI Directions. The NBFC-MFI structure requires minimum Net Owned Funds of ₹5 crore (₹10 crore for North Eastern States) and mandates that at least 85% of net assets must be deployed as qualifying assets—loans to low-income borrowers meeting specific criteria including household income thresholds and loan amount limits. These institutions operate on the philosophy of providing collateral-free loans to individuals and self-help groups (SHGs), enabling income-generating activities, skill development, and sustainable livelihood creation. The microfinance model emphasizes group lending methodology where borrowers form joint liability groups, promoting peer monitoring, repayment discipline, and community support systems. Interest rate caps, loan amount restrictions, and mandatory client protection guidelines ensure borrower welfare and prevent predatory lending practices. The structure facilitates partnerships with banks, development finance institutions, and impact investors who provide bulk funding for onward micro-lending operations. Microfinance Companies play crucial roles in women empowerment, rural entrepreneurship, agricultural financing, and small business development, contributing significantly to poverty alleviation and economic mobility. The regulatory framework mandates transparent pricing, fair practices, grievance redressal mechanisms, and responsible lending standards, protecting vulnerable borrower segments. With growing emphasis on digital financial services, modern microfinance companies leverage technology for loan disbursement, repayment collection, and credit assessment, reducing operational costs and expanding reach. Whether structured for social mission or commercial viability, Microfinance Companies deliver transformative financial solutions to the bottom of the pyramid, fostering inclusive economic growth and sustainable development.",
+  overview: `**What Is Microfinance Company?**
+
+A **Microfinance Company (MFC)**, also known as a Microfinance Institution (MFI), is a financial entity dedicated to providing financial services to low-income individuals, households, and small businesses that are typically excluded from traditional banking services
+
+**Key Definition and Role:**
+
+-   **Financial Inclusion:** Their primary function is to promote financial inclusion by bridging the gap left by conventional banks, which often do not find it economically viable to offer small, collateral-free loans.
+
+-   **Target Population:** They specifically target the \"unbanked\" or \"underserved\" populations, particularly in rural or marginalized communities, including women and micro-entrepreneurs.
+
+-   **Services Offered:** While they are best known for **microcredit** (small loans, often under a specified limit like ₹1 lakh in India), their services also include:
+
+-   **Savings and Checking Accounts**
+
+-   **Micro-insurance** (e.g., health or life insurance)
+
+-   **Financial and Business Education** (Financial literacy programs)
+
+-   **Fund Transfers/Remittances**
+
+Microfinance Company Registration in India can be done in two ways: **NBFC-MFI** (regulated by RBI) and **Section 8 Company** (regulated by MCA).
+
+**NBFC-MFI** is suitable for larger lending operations. It requires a minimum capital of ₹5 crore (₹2 crore for North Eastern states), incorporation as a Private or Public Limited Company, and RBI approval. At least 85% of loans must be given to low-income groups, with specific income and loan limits prescribed by RBI. The process involves company incorporation, capital infusion, bank account opening, and applying to RBI for a Certificate of Registration. This process may take 3--6 months.
+
+**Section 8 Microfinance Company** is a simpler option for NGOs or small lending activities. It does not require RBI approval or high capital. It is registered under the Companies Act as a non-profit entity and can provide microloans from grants or own funds but cannot accept public deposits.`,
   whyChooseUs: [
     {
       icon: "HeartHandshake",
@@ -33,46 +56,114 @@ export const microfinanceCompanyRegistrationData: ServiceData = {
   ],
   advantages: [
     {
-      icon: "HeartHandshake",
-      title: "Social Impact",
-      text: "Directly contributes to poverty alleviation and financial inclusion by empowering small entrepreneurs.",
+      icon: "CheckCircle",
+      title:
+        "Registering a Microfinance Company (MFC) offers several significant",
+      text: "advantages, both for the organization itself and for the broader economic and social landscape, particularly in a developing economy like India.",
     },
     {
-      icon: "Users",
-      title: "Financial Inclusion",
-      text: "Provides essential financial services to the 'unbanked' population, fostering economic growth at the grassroots level.",
+      icon: "CheckCircle",
+      title: "For the Organization/Business",
+      text: "**",
+      subPoints: [
+        "**Legal Recognition and Credibility:** ",
+        "**NBFC-MFI:** Registration with the RBI provides immense credibility and trust among clients, investors, and other financial institutions. It signifies adherence to regulatory standards.",
+        "**Section 8 Company:** Legal registration under the Companies Act grants the organization a distinct legal identity, enhancing its legitimacy for social impact activities. ",
+        "**Access to Funding:** ",
+        "**NBFC-MFI:** Registered NBFC-MFIs can access a wider range of funding sources, including bank loans, institutional investors, foreign investments (FDI), and commercial papers, enabling larger-scale operations.",
+        "**Section 8 Company:** While not for profit, these entities can attract grants, donations, and CSR funds from corporations, as well as concessional loans from banks and financial institutions dedicated to social impact. ",
+        "**Scalability and Growth:** ",
+        "**NBFC-MFI:** With robust regulatory backing and access to capital, NBFC-MFIs have a clear path to expand their reach, increase their loan portfolio, and innovate their product offerings across geographies.",
+        "**Section 8 Company:** Can scale its social impact initiatives, build larger outreach programs, and establish partnerships with other NGOs or government bodies for broader community development. ",
+        "**Operational Efficiency and Best Practices:** Adhering to regulatory frameworks (RBI for NBFC-MFIs, MCA for Section 8) encourages the adoption of standardized operational procedures, risk management practices, and transparent accounting, leading to greater efficiency and sustainability.",
+        "**Professional Management:** A formal registration structure necessitates professional governance, clear management hierarchies, and accountability, which are crucial for long-term viability.",
+        "**Tax Benefits (for Section 8 Company):** Section 8 companies, due to their non-profit nature, can avail tax exemptions under the Income Tax Act, 1961 (e.g., Sections 12A and 80G), making them attractive for donors and for reinvesting funds into their social mission.",
+      ],
     },
     {
-      icon: "Landmark",
-      title: "Access to Grants",
-      text: "If registered as a Section 8 company, it can attract grants and donations from various national and international organizations.",
-    },
-    {
-      icon: "ShieldCheck",
-      title: "No Initial RBI Approval",
-      text: "A Section 8 microfinance company can start its operations without obtaining a license from the Reserve Bank of India.",
+      icon: "CheckCircle",
+      title: "For the Economy and Society (Broader Impact)",
+      text: "**",
+      subPoints: [
+        "**Financial Inclusion:** Directly addresses the gap in financial access for the unbanked and underserved populations, bringing more people into the formal financial system.",
+        "**Poverty Alleviation:** By providing capital for income-generating activities, MFCs empower individuals to lift themselves out of poverty, contributing to improved livelihoods and economic stability.",
+        "**Employment Generation:** Micro-enterprises supported by microfinance create jobs, both for the entrepreneurs themselves and often for others in their communities.",
+        "**Women\\'s Empowerment:** Many MFCs specifically target women, enhancing their economic independence, decision-making power, and overall social standing.",
+        "**Rural Development:** MFIs often have a significant presence in rural areas, stimulating local economies, reducing migration to urban centers, and fostering grassroots development.",
+        "**Economic Growth:** The cumulative effect of numerous small businesses growing through microfinance contributes significantly to the national Gross Domestic Product (GDP) and overall economic growth.",
+        "**Reduced Exploitation:** Provides a legitimate alternative to informal moneylenders, protecting vulnerable populations from predatory interest rates and exploitative practices.",
+      ],
     },
   ],
   disadvantages: [
     {
-      icon: "Briefcase",
-      title: "High Operational Costs",
-      text: "Managing a large number of small-ticket loans involves significant administrative and operational overhead.",
+      icon: "CheckCircle",
+      title:
+        "Registering a Microfinance Company (MFC) offers several significant",
+      text: "advantages, both for the organization itself and for the broader economic and social landscape, particularly in a developing economy like India.",
     },
     {
-      icon: "TrendingDown",
-      title: "Credit Risk",
-      text: "Lending to a high-risk demographic can lead to a higher rate of defaults on loans.",
+      icon: "CheckCircle",
+      title: "For the Organization/Business",
+      text: "**",
+      subPoints: [
+        "**Legal Recognition and Credibility:** ",
+        "**NBFC-MFI:** Registration with the RBI provides immense credibility and trust among clients, investors, and other financial institutions. It signifies adherence to regulatory standards.",
+        "**Section 8 Company:** Legal registration under the Companies Act grants the organization a distinct legal identity, enhancing its legitimacy for social impact activities. ",
+        "**Access to Funding:** ",
+        "**NBFC-MFI:** Registered NBFC-MFIs can access a wider range of funding sources, including bank loans, institutional investors, foreign investments (FDI), and commercial papers, enabling larger-scale operations.",
+        "**Section 8 Company:** While not for profit, these entities can attract grants, donations, and CSR funds from corporations, as well as concessional loans from banks and financial institutions dedicated to social impact. ",
+        "**Scalability and Growth:** ",
+        "**NBFC-MFI:** With robust regulatory backing and access to capital, NBFC-MFIs have a clear path to expand their reach, increase their loan portfolio, and innovate their product offerings across geographies.",
+        "**Section 8 Company:** Can scale its social impact initiatives, build larger outreach programs, and establish partnerships with other NGOs or government bodies for broader community development. ",
+        "**Operational Efficiency and Best Practices:** Adhering to regulatory frameworks (RBI for NBFC-MFIs, MCA for Section 8) encourages the adoption of standardized operational procedures, risk management practices, and transparent accounting, leading to greater efficiency and sustainability.",
+        "**Professional Management:** A formal registration structure necessitates professional governance, clear management hierarchies, and accountability, which are crucial for long-term viability.",
+        "**Tax Benefits (for Section 8 Company):** Section 8 companies, due to their non-profit nature, can avail tax exemptions under the Income Tax Act, 1961 (e.g., Sections 12A and 80G), making them attractive for donors and for reinvesting funds into their social mission.",
+      ],
     },
     {
-      icon: "FileWarning",
-      title: "Strict RBI Oversight (for NBFC-MFI)",
-      text: "To scale up as a for-profit NBFC-MFI, you must meet stringent capital requirements and are subject to strict RBI regulations.",
+      icon: "CheckCircle",
+      title: "For the Economy and Society (Broader Impact)",
+      text: "**",
+      subPoints: [
+        "**Financial Inclusion:** Directly addresses the gap in financial access for the unbanked and underserved populations, bringing more people into the formal financial system.",
+        "**Poverty Alleviation:** By providing capital for income-generating activities, MFCs empower individuals to lift themselves out of poverty, contributing to improved livelihoods and economic stability.",
+        "**Employment Generation:** Micro-enterprises supported by microfinance create jobs, both for the entrepreneurs themselves and often for others in their communities.",
+        "**Women\\'s Empowerment:** Many MFCs specifically target women, enhancing their economic independence, decision-making power, and overall social standing.",
+        "**Rural Development:** MFIs often have a significant presence in rural areas, stimulating local economies, reducing migration to urban centers, and fostering grassroots development.",
+        "**Economic Growth:** The cumulative effect of numerous small businesses growing through microfinance contributes significantly to the national Gross Domestic Product (GDP) and overall economic growth.",
+        "**Reduced Exploitation:** Provides a legitimate alternative to informal moneylenders, protecting vulnerable populations from predatory interest rates and exploitative practices.",
+      ],
     },
   ],
   eligibility: [
-    "For Section 8 Microfinance Company: Standard requirements for a Section 8 Company.",
-    "For NBFC-MFI (RBI License): Minimum Net Owned Fund (NOF) of ₹5 crore.",
+    {
+      title:
+        "The eligibility requirements for starting a Microfinance Company (MFI)",
+      items: [
+        "are differentiated based on the chosen legal structure: the highly regulated NBFC-MFI, or the non-profit Section 8 Company.",
+      ],
+    },
+    {
+      title:
+        "NBFC-MFI (Non-Banking Financial Company -- Micro Finance Institution) Eligibility:",
+      items: [
+        "**Company Incorporation:** The entity must be registered as either a Public or Private Limited Company under the Companies Act, 2013.",
+        "**Minimum Net Owned Fund (NOF):** A substantial minimum NOF of **\u20b95 Crore** must be maintained for operations across most states. This requirement is reduced to **\u20b92 Crore** for entities operating exclusively in the North Eastern region.",
+        "**Principal Business (Qualifying Assets Test):** The core business must comply with the rule that at least **60% of the company\\'s total assets** (netted off by intangible assets) must be in the form of \\'Qualifying Assets\\' on an ongoing basis.",
+        "**Qualifying Loan Criteria:** A \\'Qualifying Asset\\' is a loan that meets specific parameters, including caps on the borrower\\'s annual household income, a maximum limit on the loan amount and the borrower\\'s total indebtedness, and the condition that the loan must be extended **without collateral**.",
+        "**Management Integrity:** The directors and promoters must satisfy the RBI\\'s **\\'Fit and Proper\\' criteria**, demonstrating a strong financial history, professional integrity, and a relevant background.",
+      ],
+    },
+    {
+      title: "Section 8 Company (Non-Profit Microfinance) Eligibility:",
+      items: [
+        "**Legal Structure and Objective:** The company must be registered as a **Section 8 Company** with the primary objective of promoting social welfare and financial inclusion, with the clause that any profits generated are strictly used for furthering its objectives and are **not distributed as dividends** to members.",
+        "**Minimum Capital:** There is **no mandatory minimum Net Owned Fund (NOF)** requirement, making it easier for smaller organizations and NGOs to enter the sector.",
+        "**RBI Exemption & Restriction:** The company is **exempt from mandatory RBI registration** but is strictly **prohibited from accepting public deposits**.",
+        "**Loan Compliance:** While not directly regulated by the RBI, the company must comply with lending limits set for microfinance, typically restricted to unsecured loans (e.g., up to \u20b950,000 for business enterprises or \u20b91,25,000 for housing purposes).",
+      ],
+    },
   ],
   documents: [
     {
@@ -84,12 +175,15 @@ export const microfinanceCompanyRegistrationData: ServiceData = {
       ],
     },
     {
-      title: "For NBFC-MFI License",
-      items: [
-        "Certificate of Incorporation",
-        "MOA/AOA",
-        "Audited financial statements",
-      ],
+      tabTitle: "For NBFC-MFI License",
+      content: {
+        title: "For NBFC-MFI License",
+        items: [
+          "Certificate of Incorporation",
+          "MOA/AOA",
+          "Audited financial statements",
+        ],
+      },
     },
   ],
   registrationProcess: [

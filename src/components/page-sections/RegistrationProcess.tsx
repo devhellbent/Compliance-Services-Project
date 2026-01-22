@@ -1,4 +1,6 @@
 // components/page-sections/proprietorship/RegistrationProcess.tsx
+import { MarkdownBoldRenderer } from "../MarkdownBoldRenderer";
+
 type Step = {
   step: number | string;
   title: string;
@@ -32,7 +34,9 @@ export const RegistrationProcess: React.FC<RegistrationProcessProps> = ({
                 <h3 className="font-semibold text-lg text-gray-800">
                   {step.title}
                 </h3>
-                <p className="mt-1 text-gray-600">{step.description}</p>
+                <div className="mt-1 text-gray-600">
+                  <MarkdownBoldRenderer text={step.description} />
+                </div>
               </div>
             ))}
           </div>

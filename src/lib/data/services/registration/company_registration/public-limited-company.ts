@@ -7,8 +7,19 @@ export const publicLimitedCompanyData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Public Limited Company"],
   description:
     "Scale your enterprise to new heights with public market access. Public Limited Company registration enables businesses to raise substantial capital through public offerings, providing the foundation for large-scale operations and stock market listing.",
-  overview:
-    "A **Public Limited Company** represents the pinnacle of corporate structures in India, designed for large-scale enterprises seeking to raise substantial capital through public subscription and stock exchange listings. This prestigious business entity can offer its shares to the general public through Initial Public Offerings (IPOs), providing access to vast pools of capital from retail and institutional investors across the nation. As a separate legal entity with perpetual succession, a Public Limited Company operates independently from its shareholders, offering them limited liability protection while maintaining operational continuity regardless of ownership changes. The structure requires a minimum of seven shareholders and three directors, with no maximum limit, enabling massive scaling potential suitable for corporations with extensive operations. Public companies benefit from enhanced credibility and market visibility, as stock exchange listings mandate rigorous financial disclosures and corporate governance standards that build significant stakeholder confidence. The ability to freely transfer shares through stock market transactions provides liquidity to investors and facilitates easy entry and exit mechanisms. Regulatory compliance is stringent, governed by SEBI regulations, the Companies Act 2013, and stock exchange listing agreements, ensuring transparency and protecting investor interests. This structure offers multiple fundraising avenues including equity shares, preference shares, debentures, and bonds, providing financial flexibility for expansion and growth. Public Limited Companies can attract top talent through Employee Stock Option Plans (ESOPs) and enjoy preferential treatment in government contracts and international business dealings. While operational costs and compliance requirements are substantial, the benefits of massive capital access, enhanced valuation, and market credibility make this structure ideal for established businesses planning significant expansion, infrastructure projects, manufacturing units, and enterprises targeting national or international market leadership.",
+  overview: `**Public Limited Company Registration**
+
+A public limited company is a business structure that can offer shares to the general public through a stock exchange. Unlike a private limited company, it has no restriction on the number of members and a minimum of seven shareholders and three directors is required for registration. It is regulated by the Companies Act, 2013 and is a separate legal entity with perpetual succession and limited liability for its members.
+
+To register, the company must file an electronic application with the Registrar of Companies, including the Memorandum and Articles of Association, and obtain a certificate of incorporation. A key requirement is the issuance of a prospectus to the public for inviting subscriptions to its shares. Due to its public nature, it is subject to more stringent regulations, reporting requirements, and transparency norms compared to a private limited company.
+
+**What is Public Limited Company**
+
+A public limited company is a business structure that can issue shares to the general public through a stock exchange. Unlike a private limited company, it has no restriction on the number of members and requires a minimum of seven shareholders and three directors. As a separate legal entity, it provides limited liability to its members, protecting their personal assets from company debts. The shares are freely transferable, and the company is subject to more stringent regulations and transparency requirements from a body like the Securities and Exchange Board of India (SEBI). This structure is ideal for large enterprises seeking to raise significant capital from the public.
+
+**Features of a Public Limited Company**
+
+A public limited company is a business structure that can issue shares to the general public and has its stock typically traded on a stock exchange. This allows it to raise substantial capital from a wide investor base.`,
   whyChooseUs: [
     {
       icon: "Users",
@@ -33,61 +44,65 @@ export const publicLimitedCompanyData: ServiceData = {
   ],
   advantages: [
     {
-      icon: "TrendingUp",
-      title: "Access to Large Capital",
-      text: "Can raise substantial funds from the public through IPOs, FPOs, rights issues, and bonds. Ideal for large-scale expansion, mergers, and acquisitions.",
+      icon: "CheckCircle",
+      title: "",
+      text: "**High Compliance and Regulatory Burden:** Public limited companies are subject to strict regulations and extensive reporting requirements from governing bodies like the Ministry of Corporate Affairs (MCA) and the Securities and Exchange Board of India (SEBI). This includes mandatory annual audits, detailed financial disclosures, and holding regular board meetings, which can be time-consuming and costly.",
+      subPoints: [
+        "**Loss of Control:** Since ownership is distributed among a large number of public shareholders, the original founders or directors may lose a significant degree of control over the company\\'s decision-making and direction.",
+        "**Lack of Privacy:** Due to the high level of transparency required, a public limited company must disclose its financial and operational information to the public. This lack of confidentiality can be a disadvantage, as competitors can easily access sensitive business data.",
+        "**High Costs:** The process of registering and maintaining a public limited company is more expensive than other business structures. The costs include not only the initial setup fees but also continuous expenses for legal, auditing, and administrative compliance.",
+        "**Vulnerability to Market Fluctuations:** The company\\'s share price and valuation are subject to the volatile nature of the stock market. Economic downturns or negative news can lead to a drop in share prices, affecting the company\\'s market perception and value. **Eligibility Criteria for Public Limited Company Registration** To register a public limited company in India, certain eligibility criteria must be met, as per the Companies Act, 2013. These requirements ensure that the company is structured and governed in a way that protects the interests of its numerous shareholders and the public.",
+      ],
     },
     {
-      icon: "ArrowRightLeft",
-      title: "Free Transferability of Shares",
-      text: "Shares are freely transferable and can be listed on stock exchanges, providing high liquidity to shareholders and easy exit options.",
-    },
-    {
-      icon: "Award",
-      title: "Enhanced Credibility & Brand Value",
-      text: "Being publicly listed significantly boosts the company's reputation, trust, and brand value among customers, suppliers, investors, and financial institutions.",
-    },
-    {
-      icon: "Users",
-      title: "Unlimited Shareholders",
-      text: "No restriction on the maximum number of shareholders. Can have millions of investors, spreading ownership widely.",
-    },
-    {
-      icon: "ShieldCheck",
-      title: "Limited Liability",
-      text: "Shareholders' liability is limited to the unpaid amount on their shares. Personal assets are protected in case of company failure.",
-    },
-    {
-      icon: "Building2",
-      title: "Perpetual Succession",
-      text: "The company continues to exist irrespective of the death, insolvency, or exit of shareholders or directors. Ownership is easily transferable.",
+      icon: "CheckCircle",
+      title: "Eligibility Criteria",
+      text: "",
+      subPoints: [
+        "**Minimum Number of Directors:** A public limited company must have a minimum of **three directors**. ",
+        "At least one of the directors must be a **resident of India**, having stayed in India for a period of not less than 182 days in the previous calendar year.",
+        "All directors must have a valid **Director Identification Number (DIN)**. ",
+        "**Minimum Number of Shareholders:** A public limited company must have a minimum of **seven shareholders**. ",
+        "There is **no upper limit** on the maximum number of shareholders. ",
+        "**Minimum Authorized Capital:** Previously, there was a minimum authorized capital requirement of \u20b95,00,000. However, this requirement was **removed by the Companies (Amendment) Act, 2015**. Companies can now be incorporated with any amount of authorized capital.",
+        "**Unique Company Name:** The proposed company name must be **unique** and not identical or too similar to any existing company name or registered trademark. ",
+        'The name must end with the word \\"**Limited**\\" or \\"**Ltd.**\\". ',
+        "**Registered Office Address:** The company must have a **registered office address within India**. Proof of this address, such as a utility bill, rent agreement, or ownership documents, is required for registration.",
+        "**Digital Signature Certificate (DSC):** All individuals proposing to be directors and subscribers to the Memorandum of Association must obtain a **Class 3 Digital Signature Certificate (DSC)** for electronically signing the incorporation documents.",
+        "**Public Offer of Shares:** The company must be willing and able to offer its shares to the public through a prospectus. This is a defining characteristic of a public limited company.",
+      ],
     },
   ],
   disadvantages: [
     {
-      icon: "FileText",
-      title: "Extremely High Compliance & Regulatory Burden",
-      text: "Subject to stringent regulations from MCA and SEBI. Must file quarterly results, audited financials, hold AGMs, comply with SEBI LODR regulations, and undergo continuous scrutiny.",
+      icon: "CheckCircle",
+      title: "of a Public Limited Company",
+      text: "",
+      subPoints: [
+        "**High Compliance and Regulatory Burden:** Public limited companies are subject to strict regulations and extensive reporting requirements from governing bodies like the Ministry of Corporate Affairs (MCA) and the Securities and Exchange Board of India (SEBI). This includes mandatory annual audits, detailed financial disclosures, and holding regular board meetings, which can be time-consuming and costly.",
+        "**Loss of Control:** Since ownership is distributed among a large number of public shareholders, the original founders or directors may lose a significant degree of control over the company\\'s decision-making and direction.",
+        "**Lack of Privacy:** Due to the high level of transparency required, a public limited company must disclose its financial and operational information to the public. This lack of confidentiality can be a disadvantage, as competitors can easily access sensitive business data.",
+        "**High Costs:** The process of registering and maintaining a public limited company is more expensive than other business structures. The costs include not only the initial setup fees but also continuous expenses for legal, auditing, and administrative compliance.",
+        "**Vulnerability to Market Fluctuations:** The company\\'s share price and valuation are subject to the volatile nature of the stock market. Economic downturns or negative news can lead to a drop in share prices, affecting the company\\'s market perception and value. **Eligibility Criteria for Public Limited Company Registration** To register a public limited company in India, certain eligibility criteria must be met, as per the Companies Act, 2013. These requirements ensure that the company is structured and governed in a way that protects the interests of its numerous shareholders and the public.",
+      ],
     },
     {
-      icon: "Eye",
-      title: "Lack of Privacy",
-      text: "All financial statements, board decisions, major transactions, and shareholding patterns must be publicly disclosed. Business strategies and operations are exposed to competitors.",
-    },
-    {
-      icon: "AlertTriangle",
-      title: "Risk of Hostile Takeovers",
-      text: "Freely tradable shares make the company vulnerable to hostile takeovers. Any entity can acquire a controlling stake and change management.",
-    },
-    {
-      icon: "DollarSign",
-      title: "High Formation & Maintenance Costs",
-      text: "Incorporation, IPO costs, listing fees, compliance costs, audit fees, and professional fees are very high. Maintaining a public company is expensive.",
-    },
-    {
-      icon: "TrendingDown",
-      title: "Pressure from Shareholders & Market",
-      text: "Management faces constant pressure to deliver short-term profits and meet quarterly targets. Stock price fluctuations can impact morale and decisions.",
+      icon: "CheckCircle",
+      title: "Eligibility Criteria",
+      text: "",
+      subPoints: [
+        "**Minimum Number of Directors:** A public limited company must have a minimum of **three directors**. ",
+        "At least one of the directors must be a **resident of India**, having stayed in India for a period of not less than 182 days in the previous calendar year.",
+        "All directors must have a valid **Director Identification Number (DIN)**. ",
+        "**Minimum Number of Shareholders:** A public limited company must have a minimum of **seven shareholders**. ",
+        "There is **no upper limit** on the maximum number of shareholders. ",
+        "**Minimum Authorized Capital:** Previously, there was a minimum authorized capital requirement of \u20b95,00,000. However, this requirement was **removed by the Companies (Amendment) Act, 2015**. Companies can now be incorporated with any amount of authorized capital.",
+        "**Unique Company Name:** The proposed company name must be **unique** and not identical or too similar to any existing company name or registered trademark. ",
+        'The name must end with the word \\"**Limited**\\" or \\"**Ltd.**\\". ',
+        "**Registered Office Address:** The company must have a **registered office address within India**. Proof of this address, such as a utility bill, rent agreement, or ownership documents, is required for registration.",
+        "**Digital Signature Certificate (DSC):** All individuals proposing to be directors and subscribers to the Memorandum of Association must obtain a **Class 3 Digital Signature Certificate (DSC)** for electronically signing the incorporation documents.",
+        "**Public Offer of Shares:** The company must be willing and able to offer its shares to the public through a prospectus. This is a defining characteristic of a public limited company.",
+      ],
     },
   ],
   eligibility: [
@@ -97,12 +112,31 @@ export const publicLimitedCompanyData: ServiceData = {
   ],
   documents: [
     {
-      title: "For Directors/Shareholders",
-      items: ["PAN Card", "Identity Proof", "Address Proof", "Photograph"],
+      tabTitle: "2. Documents for the Registered Office",
+      content: {
+        title: "2. Documents for the Registered Office",
+        items: [
+          "**Proof of Address:** A recent utility bill (not older than two months) for the office premises.",
+          "**Proof of Ownership/Tenancy:** ",
+          "If owned: Sale deed or property ownership document.",
+          "If rented: Copy of the rental agreement. ",
+          "**No Objection Certificate (NOC):** A signed NOC from the property owner, consenting to the property being used as the company\\'s registered office",
+        ],
+      },
     },
     {
-      title: "For Registered Office",
-      items: ["Utility Bill", "NOC from the owner"],
+      tabTitle: "3. Company\\'s Legal and Foundational Documents",
+      content: {
+        title: "3. Company\\'s Legal and Foundational Documents",
+        items: [
+          "**Memorandum of Association (MoA):** This document outlines the company\\'s main business objectives, authorized share capital, and the state where its registered office is located.",
+          "**Articles of Association (AoA):** This document contains the internal rules and regulations for the company\\'s governance and management.",
+          "**Declarations and Consent Forms:** ",
+          "**Director\\'s Consent (Form DIR-2):** A signed declaration from the proposed directors consenting to act as directors.",
+          "**Director\\'s Declaration (Form INC-9):** A declaration confirming that the directors are not disqualified under the Companies Act.",
+          "**Professional\\'s Declaration:** A declaration from a professional (e.g., Chartered Accountant, Company Secretary) certifying that all legal compliances for the registration have been met.",
+        ],
+      },
     },
   ],
   registrationProcess: [

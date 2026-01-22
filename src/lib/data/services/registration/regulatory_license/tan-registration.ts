@@ -8,7 +8,15 @@ export const tanRegistrationData: ServiceData = {
   description:
     "Obtain TAN for TDS/TCS deduction and filing—mandatory for challans, quarterly returns and TDS certificates.",
   overview:
-    "A **Tax Deduction & Collection Account Number (TAN)** is a mandatory 10‑character alphanumeric identifier (e.g., MUMM12345A) issued by the Income Tax Department to every deductor/collector of tax at source (TDS/TCS). It must be quoted on all challans (ITNS‑281), quarterly returns (24Q, 26Q, 27Q, 27EQ), TDS/TCS certificates (Form 16/16A) and official correspondence. A single TAN covers both TDS and TCS obligations—duplication is prohibited (penalty ₹10,000). Unlike PAN (taxpayer identity), TAN specifically tracks tax deducted/collected flows enabling reconciliation of credits claimed by deductees.",
+    `TAN stands for **Tax Deduction and Collection Account Number**, a unique 10-digit alphanumeric code issued by the Income Tax Department of India. TAN registration is the mandatory process of obtaining this number for all individuals and entities responsible for deducting tax at source (TDS) or collecting tax at source (TCS) as per the Income Tax Act, 1961.
+
+The primary role of the TAN is to ensure that taxes deducted or collected on various payments (like salaries, rent, or professional fees) are properly tracked and deposited with the government. Without a valid TAN, a deductor/collector cannot file mandatory quarterly TDS/TCS returns, issue tax certificates (like Form 16/16A), or deposit the deducted amount with the government via challans.
+
+TAN is thus a crucial component of tax compliance in India. Entities eligible to deduct or collect tax must apply for TAN using **Form 49B**. Failure to obtain or correctly quote the TAN in specified documents attracts a penalty of ₹10,000 under the law.
+
+**What is TAN Registration Number?**
+
+The TAN Registration Number is the Tax Deduction and Collection Account Number, a mandatory 10-digit alphanumeric identifier issued by the Income Tax Department of India. It is required for all individuals and entities who are responsible for deducting tax at source (TDS) or collecting tax at source (TCS) on payments they make, such as salaries, interest, rent, or professional fees. The primary purpose of the TAN is to enable the Income Tax Department to track all TDS and TCS transactions effectively. It is compulsory to quote the TAN on all TDS/TCS returns, payment challans, certificates (like Form 16 and 16A), and in any official correspondence related to tax deduction or collection. Failure to comply with the mandate to obtain and quote a valid TAN can lead to financial penalties under the Income Tax Act.`,
   advantages: [
     {
       icon: "FileCheck",
@@ -59,16 +67,8 @@ export const tanRegistrationData: ServiceData = {
     },
   ],
   eligibility: [
-    {
-      title: "Who Needs a TAN?",
-      items: [
-        "Every person / entity required to deduct TDS or collect TCS under the Income Tax Act.",
-        "Employers deducting TDS on salaries (24Q).",
-        "Companies / Firms / LLPs paying professional fees, contractor bills, rent, interest, commission etc. above thresholds.",
-        "Individuals / HUFs subject to tax audit making specified payments (Section 194M/194C etc.).",
-        "Entities collecting TCS (e.g., sale of scrap, timber, specific goods under Section 206C).",
-      ],
-    },
+    "**Deducting Tax at Source (TDS)** on certain payments (like salaries, interest, rent, professional fees, payments to contractors, etc.) as per the Income Tax Act, 1961. **OR**",
+    "**Collecting Tax at Source (TCS)** on certain receipts (like sale of scrap, forest produce, etc.) as per the Income Tax Act, 1961.",
     {
       title: "Key Points",
       items: [
@@ -76,31 +76,23 @@ export const tanRegistrationData: ServiceData = {
         "Separate branches of large organizations may seek distinct TANs if acting independently.",
         "PAN is still needed; TAN does not replace PAN for returns of income.",
       ],
-    },
+    }
   ],
   documents: [
     {
-      tabTitle: "No Documents Required",
-      content: {
-        title: "Application is Document-Free",
-        items: [
-          "Apply using **Form 49B** (online via Protean / NSDL).",
-          "No physical supporting documents ordinarily required.",
-          "Ensure AO Code accuracy (Area, AO Type, Range, Number) before submission.",
-        ],
-      },
-    },
-    {
-      tabTitle: "Reference Data",
-      content: {
-        title: "Keep Ready",
-        items: [
-          "Deductor PAN (mandatory field).",
-          "Full legal name & address; contact email & phone.",
-          "Category of deductor (Company / Branch / Govt / Individual / Firm).",
-        ],
-      },
-    },
+        tabTitle: "The application for a new Tax Deduction and Collection Account Number",
+        content: {
+            title: "The application for a new Tax Deduction and Collection Account Number",
+            items: [
+                "**Duly filled and signed Form 49B:** This is the primary document, which requires accurate details such as:",
+                "Name and address of the deductor/collector.",
+                "Category of the deductor/collector (e.g., Company, Individual/Sole Proprietor, Firm, Government).",
+                "Permanent Account Number (PAN) of the applicant.",
+                "Details of the Assessing Officer (AO Code, Area Code, etc.).",
+                "**Payment of the Application Fee:** The fee must be paid as part of the application process."
+            ]
+        }
+    }
   ],
   registrationProcess: [
     {
