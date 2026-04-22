@@ -53,18 +53,48 @@ The **Limited Liability Partnership Act, 2008**, is a specific law enacted by th
   ],
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "Registering a Limited Liability Partnership (LLP) is a strategic move",
-        text: "for any business, as it provides a robust legal structure that offers the best of both a traditional partnership and a company. While a general partnership\\'s registration is optional, an LLP\\'s is mandatory, and the benefits it provides are significant, particularly in terms of risk mitigation and credibility. **Limited Liability Protection :** The most crucial benefit of an LLP is that it offers limited liability to its partners. This means that each partner\\'s liability is limited to their agreed-upon contribution to the business. Unlike a general partnership, a partner\\'s personal assets (like their house or car) are protected from the firm\\'s business debts and liabilities. This provides a crucial shield against financial risks and legal claims, allowing partners to focus on business growth without the fear of losing personal wealth. **Separate Legal Entity and Perpetual Succession :** An LLP is considered a separate legal entity, distinct from its partners. This means it can own assets, enter into contracts, and sue or be sued in its own name. This separation provides stability and professionalism to the business. Furthermore, an LLP has perpetual succession, meaning its existence is independent of its partners. The retirement, death, or insolvency of a partner does not dissolve the LLP, ensuring the business continues seamlessly. **Enhanced Credibility and Access to Capital :** A registered LLP is perceived as more credible and trustworthy by clients, suppliers, and financial institutions. This enhanced credibility makes it easier for the firm to open bank accounts, secure loans, and attract investment. Unlike an unregistered partnership, an LLP\\'s details are publicly available on the Ministry of Corporate Affairs (MCA) website, increasing transparency and building stakeholder trust. **Operational Flexibility and Tax Benefits :** An LLP operates with a flexible management structure, as the rights and duties of partners are governed by a mutually agreed-upon LLP Agreement. This avoids the rigid governance of a company. From a financial perspective, an LLP is treated as a partnership for tax purposes, which means it avoids the Dividend Distribution Tax (DDT). The profits are taxed at the firm level, and the partners are not taxed again on the income they receive from the LLP, making it a tax-efficient structure. Additionally, LLPs with a turnover below a specified threshold are exempt from mandatory audits, which reduces compliance costs."
-    }
-],
+      icon: "Shield",
+      title: "Limited Liability Protection",
+      text: "Each partner's liability is limited to their agreed contribution, protecting personal assets from business debts.",
+    },
+    {
+      icon: "Building2",
+      title: "Separate Legal Entity and Perpetual Succession",
+      text: "An LLP can own assets, enter contracts, and continue despite partner changes like retirement or death.",
+    },
+    {
+      icon: "BadgeCheck",
+      title: "Enhanced Credibility",
+      text: "Registered LLPs are viewed as more credible by clients, suppliers, and financial institutions.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Capital",
+      text: "A formal legal structure improves the ability to open bank accounts, secure loans, and attract investors.",
+    },
+    {
+      icon: "Settings",
+      title: "Operational Flexibility and Tax Efficiency",
+      text: "Partner rights are governed by an LLP agreement, and profits are taxed at firm level without dividend distribution tax.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "Registering a Limited Liability Partnership (LLP) is a strategic move",
-        text: "for any business, as it provides a robust legal structure that offers the best of both a traditional partnership and a company. While a general partnership\\'s registration is optional, an LLP\\'s is mandatory, and the benefits it provides are significant, particularly in terms of risk mitigation and credibility. **Limited Liability Protection :** The most crucial benefit of an LLP is that it offers limited liability to its partners. This means that each partner\\'s liability is limited to their agreed-upon contribution to the business. Unlike a general partnership, a partner\\'s personal assets (like their house or car) are protected from the firm\\'s business debts and liabilities. This provides a crucial shield against financial risks and legal claims, allowing partners to focus on business growth without the fear of losing personal wealth. **Separate Legal Entity and Perpetual Succession :** An LLP is considered a separate legal entity, distinct from its partners. This means it can own assets, enter into contracts, and sue or be sued in its own name. This separation provides stability and professionalism to the business. Furthermore, an LLP has perpetual succession, meaning its existence is independent of its partners. The retirement, death, or insolvency of a partner does not dissolve the LLP, ensuring the business continues seamlessly. **Enhanced Credibility and Access to Capital :** A registered LLP is perceived as more credible and trustworthy by clients, suppliers, and financial institutions. This enhanced credibility makes it easier for the firm to open bank accounts, secure loans, and attract investment. Unlike an unregistered partnership, an LLP\\'s details are publicly available on the Ministry of Corporate Affairs (MCA) website, increasing transparency and building stakeholder trust. **Operational Flexibility and Tax Benefits :** An LLP operates with a flexible management structure, as the rights and duties of partners are governed by a mutually agreed-upon LLP Agreement. This avoids the rigid governance of a company. From a financial perspective, an LLP is treated as a partnership for tax purposes, which means it avoids the Dividend Distribution Tax (DDT). The profits are taxed at the firm level, and the partners are not taxed again on the income they receive from the LLP, making it a tax-efficient structure. Additionally, LLPs with a turnover below a specified threshold are exempt from mandatory audits, which reduces compliance costs."
-    }
-],
+      icon: "FileWarning",
+      title: "Mandatory Annual Filings",
+      text: "LLPs must file annual return and statement of accounts; delays attract daily penalties.",
+    },
+    {
+      icon: "Scale",
+      title: "Penalty Risk for Non-Compliance",
+      text: "Failure to meet MCA filing and compliance requirements can lead to significant financial penalties.",
+    },
+    {
+      icon: "UserCog",
+      title: "Designated Partner Responsibility",
+      text: "Designated partners carry statutory compliance responsibilities and can be penalized personally for defaults.",
+    },
+  ],
   eligibility: [
     "**Minimum Number:** An LLP must have at least **two partners**. There is no upper limit on the maximum number of partners.",
     "**Unique Name:** The proposed name of the LLP must be unique and not identical or similar to any existing company, LLP, or registered trademark.",
@@ -75,6 +105,19 @@ The **Limited Liability Partnership Act, 2008**, is a specific law enacted by th
     "**Registered Office:** The LLP must have a registered office in India to receive all official communications and legal notices. Proof of this address, such as a rent agreement and a no-objection certificate from the landlord (if rented), must be submitted during the registration process."
   ],
   documents: [
+    {
+      tabTitle: "For Partners",
+      content: {
+        title: "For the Partners",
+        items: [
+          "PAN card (mandatory for Indian nationals)",
+          "Address proof (utility bill or bank statement not older than two months)",
+          "Passport-size photographs of all partners",
+          "Passport copy for foreign nationals (notarized/apostilled)",
+          "Class 3 DSC and DPIN for designated partners",
+        ],
+      },
+    },
     {
       tabTitle: "For the LLP",
       content: {

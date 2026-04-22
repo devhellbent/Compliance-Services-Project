@@ -40,42 +40,35 @@ A private limited company is a business structure that is a separate legal entit
   ],
   advantages: [
     {
-      icon: "CheckCircle",
-      title: "",
-      text: "**Complex and Lengthy Registration Process:** The incorporation process for a private limited company is more intricate than for a sole proprietorship or partnership. It involves multiple steps, including obtaining a Digital Signature Certificate (DSC), a Director Identification Number (DIN), and filing various documents with the Ministry of Corporate Affairs (MCA). This process can be time-consuming and often requires professional assistance, which adds to the cost.",
-      subPoints: [
-        "**High Compliance Burden:** Private limited companies are subject to stringent regulations and compliance requirements. This includes mandatory annual filings with the Registrar of Companies (RoC), conducting statutory audits, maintaining detailed financial records, and holding regular board and general meetings. The ongoing administrative and regulatory burden can be a significant challenge and cost.",
-        "**Lack of Privacy:** Since a private limited company is a registered entity, its key information, such as financial statements, director details, and annual returns, are publicly accessible on the MCA website. This lack of privacy can be a disadvantage, as competitors and the public can easily access sensitive business information.",
-        "**Higher Costs:** The overall costs of a private limited company are higher than other business structures. This includes not only the initial registration costs but also ongoing expenses for compliance, professional fees for auditors and company secretaries, and higher corporate tax rates.",
-        "**Restricted Share Transfer:** Unlike a public company, a private limited company cannot offer its shares to the public or trade them on a stock exchange. This limitation can make it difficult to raise large amounts of capital from the public and restricts the exit options for investors.",
-        "**Division of Ownership and Decision-Making:** With the requirement of a minimum of two directors and two shareholders, a private limited company can lead to a division of ownership and control. This can sometimes result in conflicts and make decision-making slower and more complex compared to a sole proprietorship.",
-        "**Complex Winding-Up Process:** The process of closing or winding up a private limited company is a legally intricate and time-consuming procedure, which can take several months to complete. **Eligibility Criteria for Private Limited Company Registration** To register a Private Limited Company in India, certain eligibility criteria must be met, primarily concerning the individuals involved and the company\\'s structure. These criteria ensure compliance with the Companies Act, 2013.",
-      ],
+      icon: "Shield",
+      title: "Limited Liability",
+      text: "Shareholders' personal assets are protected and liability remains limited to shareholding value.",
     },
     {
-      icon: "CheckCircle",
-      title: "Eligibility Criteria",
-      text: "1. Minimum Number of Directors:",
-      subPoints: [
-        "A Private Limited Company must have at least two directors.",
-        "One of these directors must be a resident of India, meaning they have stayed in India for a period of not less than 182 days in the previous calendar year.",
-        "All directors must have a valid Director Identification Number (DIN). If they don\\'t have one, it can be applied for during the company incorporation process. 2.  Minimum Number of Shareholders (Members):",
-        "The company must have at least two shareholders (subscribers to the memorandum).",
-        "A single person can act as both a director and a shareholder, but the minimum count of two distinct individuals (or a combination of individuals and corporate bodies) must be met for shareholders. 3.  Maximum Number of Shareholders:",
-        "A Private Limited Company cannot have more than 200 shareholders. This limit excludes past and present employee shareholders. 4.  Registered Office Address:",
-        "The company must have a registered office address within India. This address is where all official communications and notices from the Ministry of Corporate Affairs (MCA) will be sent. Proof of this address (e.g., utility bill, rent agreement with NOC from the owner) is required during registration. 5.  Unique Company Name:",
-        "The proposed company name must be unique and not identical or too similar to any existing company name or registered trademark.",
-        'The name must end with the words \\"Private Limited\\" or \\"Pvt. Ltd.\\". 6.  Digital Signature Certificate (DSC):',
-        "All individuals proposing to be directors and subscribers to the Memorandum of Association must obtain a Class 3 Digital Signature Certificate (DSC). This is necessary for electronically signing the incorporation documents. 7.  No Public Subscription to Shares:",
-        "A Private Limited Company is strictly prohibited from inviting the public to subscribe to its shares or debentures. 8.  Minimum Authorized Capital (No Longer Applicable):",
-        "Previously, there was a requirement for a minimum paid-up capital of \u20b91,00,000. However, this requirement was removed by the Companies (Amendment) Act, 2015. Companies can now be incorporated with any amount of authorized capital.",
-      ],
+      icon: "Building2",
+      title: "Separate Legal Entity",
+      text: "The company has an independent legal identity and can own assets, contract, and litigate in its own name.",
+    },
+    {
+      icon: "RefreshCw",
+      title: "Perpetual Existence",
+      text: "The company's existence continues regardless of changes in members or directors.",
+    },
+    {
+      icon: "Award",
+      title: "Enhanced Credibility",
+      text: "A registered private limited company improves trust among clients, suppliers, and financial institutions.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Easier Access to Funding",
+      text: "This structure is preferred by investors and lenders for growth-stage fundraising.",
     },
   ],
   disadvantages: [
     {
       icon: "CheckCircle",
-      title: "of a Private Limited Company",
+      title: "Key Disadvantages of a Private Limited Company",
       text: "",
       subPoints: [
         "**Complex and Lengthy Registration Process:** The incorporation process for a private limited company is more intricate than for a sole proprietorship or partnership. It involves multiple steps, including obtaining a Digital Signature Certificate (DSC), a Director Identification Number (DIN), and filing various documents with the Ministry of Corporate Affairs (MCA). This process can be time-consuming and often requires professional assistance, which adds to the cost.",
@@ -89,9 +82,30 @@ A private limited company is a business structure that is a separate legal entit
     },
   ],
   eligibility: [
-    "A minimum of two directors and two shareholders are required.",
-    "At least one director must be a resident of India.",
-    "No minimum capital requirement.",
+    {
+      title: "Director Requirements",
+      items: [
+        "A minimum of two directors is required.",
+        "At least one director must be a resident of India.",
+        "All directors must have a valid DIN.",
+      ],
+    },
+    {
+      title: "Shareholder and Name Requirements",
+      items: [
+        "A minimum of two shareholders is required.",
+        "Maximum shareholder limit is 200 (excluding certain employee shareholders).",
+        "Company name must be unique and end with **Private Limited** or **Pvt. Ltd.**",
+      ],
+    },
+    {
+      title: "Other Legal Requirements",
+      items: [
+        "Registered office address in India is mandatory.",
+        "All proposed directors/subscribers must obtain DSC for e-filing.",
+        "Private limited companies cannot invite public subscription to shares.",
+      ],
+    },
   ],
   documents: [
     {
@@ -179,10 +193,9 @@ A private limited company is a business structure that is a separate legal entit
       remarks: "For name reservation",
     },
     {
-      component: "Government/ROC Fees (SPICe+ Part B)",
-      fees: "₹1,000 - ₹4,500",
-      remarks:
-        "Depends on authorized capital (up to ₹1 lakh: ₹1,000; ₹1-5 lakh: ₹2,500; ₹5-10 lakh: ₹3,500; above ₹10 lakh: ₹4,500)",
+      component: "Government Fees & Stamp Duty",
+      fees: "₹2,000 - ₹7,000",
+      remarks: "Varies by state and authorized capital",
     },
     {
       component: "Stamp Duty",
@@ -190,16 +203,24 @@ A private limited company is a business structure that is a separate legal entit
       remarks: "0.2% to 0.7% of authorized capital (state-specific)",
     },
     {
-      component: "Professional Fees (CA/CS/Lawyer)",
-      fees: "₹8,000 - ₹20,000",
-      remarks:
-        "Includes documentation, filing, drafting MoA/AoA, and consultation",
+      component: "MoA & AoA Drafting and Filing",
+      fees: "₹1,500 - ₹3,000",
+      remarks: "Professional or legal drafting fees",
+    },
+    {
+      component: "Professional / Consultant Fees (CA/CS/Legal)",
+      fees: "₹3,000 - ₹10,000",
+      remarks: "Optional and depends on service provider",
+    },
+    {
+      component: "PAN & TAN (via SPICe+)",
+      fees: "Included in filing",
+      remarks: "Applied simultaneously during incorporation",
     },
     {
       component: "Total Estimated Cost",
-      fees: "₹12,000 - ₹30,000",
-      remarks:
-        "Varies based on state, authorized capital, and professional fees",
+      fees: "₹8,000 - ₹20,000+",
+      remarks: "Depends on authorized capital, state, and professional support",
     },
   ],
   faqs: [

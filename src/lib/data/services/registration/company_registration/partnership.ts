@@ -104,16 +104,58 @@ Once a partnership firm is registered, it becomes a legally recognized entity, g
     },
   ],
   eligibility: [
-    "**Minimum Number of Partners:** There must be at least two partners.",
-    "**Maximum Number of Partners:** The maximum number of partners is 50, as per the Companies Act, though it was formerly 20.",
-    "**Competent Partners:** All partners must be legally capable of entering into a contract. This means they must be ",
-    "Of sound mind.",
-    "At least 18 years old.",
-    "Not disqualified by any law from entering into a contract. ",
-    "**Lawful Business Activity:** The purpose of the partnership must be to carry on a legal business.",
-    "**Partnership Deed:** A written agreement (Partnership Deed) detailing the terms and conditions of the partnership is required. This document is crucial and should outline the partners\\' rights, duties, profit-sharing ratio, capital contribution, and other operational details. -",
+    {
+      title: "Minimum and Maximum Partners",
+      items: [
+        "**Minimum Number of Partners:** There must be at least two partners.",
+        "**Maximum Number of Partners:** The maximum number of partners is 50, as per the Companies Act.",
+      ],
+    },
+    {
+      title: "Competency of Partners",
+      items: [
+        "All partners must be legally capable of entering into a contract.",
+        "Partners must be of sound mind.",
+        "Partners must be at least 18 years old.",
+        "Partners should not be disqualified by law from entering into a contract.",
+      ],
+    },
+    {
+      title: "Business and Deed Requirements",
+      items: [
+        "**Lawful Business Activity:** The partnership must carry on a legal business.",
+        "**Partnership Deed:** A written agreement should define rights, duties, profit-sharing ratio, capital contribution, and operational terms.",
+      ],
+    },
   ],
   documents: [
+    {
+      tabTitle: "Partnership Deed",
+      content: {
+        title: "Partnership Deed",
+        items: [
+          "Name and address of the firm",
+          "Names and addresses of all partners",
+          "Nature of the business",
+          "Profit and loss sharing ratio",
+          "Capital contribution of each partner",
+          "Roles, responsibilities, and dispute resolution terms",
+          "Must be executed on stamp paper and notarized",
+        ],
+      },
+    },
+    {
+      tabTitle: "Partner Identity and Address Proof",
+      content: {
+        title: "Proof of Identity and Address of Partners",
+        items: [
+          "PAN Card copy of each partner",
+          "Government-issued address proof (Aadhaar/Voter ID/Passport/Driving License)",
+          "Recent utility bill if used as address proof",
+          "Passport-size photographs of all partners",
+        ],
+      },
+    },
     {
       tabTitle: "Proof of Business Address",
       content: {

@@ -30,13 +30,39 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
       {
         id: "advantages",
         title: "Advantages & Disadvantages",
-        show: data.advantages && data.disadvantages,
+        show:
+          Array.isArray(data.advantages) &&
+          data.advantages.length > 0 &&
+          Array.isArray(data.disadvantages) &&
+          data.disadvantages.length > 0,
       },
-      { id: "eligibility", title: "Eligibility", show: data.eligibility },
-      { id: "documents", title: "Documents", show: data.documents },
-      { id: "process", title: "Process", show: data.registrationProcess },
-      { id: "fees", title: "Fees", show: data.fees },
-      { id: "faqs", title: "FAQs", show: data.faqs },
+      {
+        id: "eligibility",
+        title: "Eligibility",
+        show: Array.isArray(data.eligibility) && data.eligibility.length > 0,
+      },
+      {
+        id: "documents",
+        title: "Documents",
+        show: Array.isArray(data.documents) && data.documents.length > 0,
+      },
+      {
+        id: "process",
+        title: "Process",
+        show:
+          Array.isArray(data.registrationProcess) &&
+          data.registrationProcess.length > 0,
+      },
+      {
+        id: "fees",
+        title: "Fees",
+        show: Array.isArray(data.fees) && data.fees.length > 0,
+      },
+      {
+        id: "faqs",
+        title: "FAQs",
+        show: Array.isArray(data.faqs) && data.faqs.length > 0,
+      },
     ],
     [data]
   );

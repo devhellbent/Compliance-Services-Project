@@ -92,22 +92,64 @@ An OPC is ideal for **freelancers, solo entrepreneurs, and small business owners
     },
   ],
   eligibility: [
-    "Only a natural person who is an Indian citizen and resident in India can form an OPC.",
-    "The individual cannot be a member or nominee of more than one OPC.",
+    {
+      title: "Eligibility Criteria for the Individual",
+      items: [
+        "Only a **natural person** can form an OPC.",
+        "The person must be an **Indian citizen**.",
+        "The person must be at least **18 years old**.",
+        "A person can be a member of only **one OPC** at a time and cannot be nominee in more than one OPC.",
+        "A **nominee** must be appointed at incorporation and give written consent.",
+      ],
+    },
+    {
+      title: "Business-Related Conditions",
+      items: [
+        "OPC cannot be formed for non-profit activities and cannot engage in restricted financial activities.",
+        "Name must be unique and end with **(OPC) Private Limited**.",
+        "Registered office address in India is mandatory.",
+        "If paid-up capital exceeds ₹50 lakh or turnover crosses ₹2 crore, conversion requirements apply as per law.",
+      ],
+    },
   ],
   documents: [
     {
       tabTitle: "For Director/Nominee",
       content: {
         title: "For Director/Nominee",
-        items: ["PAN Card", "Identity Proof", "Address Proof", "Photograph"],
+        items: [
+          "PAN card (mandatory for Indian citizens)",
+          "Identity proof (Aadhaar/Passport/Voter ID/Driving License)",
+          "Address proof (utility bill, bank statement, or mobile/telephone bill within two months)",
+          "Passport-size photographs",
+          "Nominee consent in Form INC-3 with nominee PAN and address proof",
+        ],
       },
     },
     {
       tabTitle: "For Registered Office",
       content: {
         title: "For Registered Office",
-        items: ["Utility Bill", "NOC from the owner"],
+        items: [
+          "Utility bill of registered office address (not older than two months)",
+          "Proof of ownership (sale deed) or tenancy (rent agreement)",
+          "No Objection Certificate (NOC) from property owner",
+        ],
+      },
+    },
+    {
+      tabTitle: "Company Foundational Documents",
+      content: {
+        title: "Company Legal and Foundational Documents",
+        items: [
+          "Memorandum of Association (MoA)",
+          "Articles of Association (AoA)",
+          "Digital Signature Certificate (DSC)",
+          "Director Identification Number (DIN)",
+          "Director's Consent (Form DIR-2)",
+          "Director's Declaration (Form INC-9)",
+          "Professional declaration for compliance",
+        ],
       },
     },
   ],
