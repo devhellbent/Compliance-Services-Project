@@ -1,14 +1,19 @@
 "use client";
 
+import type { ReactNode } from "react";
 import { useEffect, useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { AdvantagesDisadvantages } from "@/components/page-sections/AdvantagesDisadvantages";
 import { Eligibility } from "@/components/page-sections/Eligibility";
 import { DocumentsRequired } from "@/components/page-sections/DocumentsRequired";
 import { RegistrationProcess } from "@/components/page-sections/RegistrationProcess";
 import { FeesTable } from "@/components/page-sections/FeesTable";
 import { Faq } from "@/components/page-sections/Faq";
-import { MarkdownBoldRenderer } from "./MarkdownBoldRenderer";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
+import { getServiceHeroMarkdown } from "@/lib/getServiceHeroMarkdown";
+import { createServiceMarkdownComponents } from "./serviceMarkdownComponents";
 import { ServiceData } from "@/lib/types";
 import {
   ChevronRight,
@@ -21,9 +26,16 @@ import {
 
 interface ServicePageContentProps {
   data: ServiceData;
+  /** When true, sidebar includes “Full source text” and appendix `children` are rendered below FAQs. */
+  hasAppendix?: boolean;
+  children?: ReactNode;
 }
 
-export function ServicePageContent({ data }: ServicePageContentProps) {
+export function ServicePageContent({
+  data,
+  hasAppendix = false,
+  children,
+}: ServicePageContentProps) {
   const sections = useMemo(
     () => [
       { id: "overview", title: "Overview", show: true },
@@ -63,8 +75,13 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
         title: "FAQs",
         show: Array.isArray(data.faqs) && data.faqs.length > 0,
       },
+      {
+        id: "appendix",
+        title: "Full source text",
+        show: hasAppendix,
+      },
     ],
-    [data]
+    [data, hasAppendix]
   );
 
   const visibleSections = sections.filter((s) => s.show);
@@ -76,6 +93,26 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
     phone: "",
     message: "",
   });
+
+  const serviceMarkdownComponents = useMemo(
+    () =>
+      createServiceMarkdownComponents({
+        tone: "default",
+        promoteFlatParagraphs: true,
+      }),
+    []
+  );
+
+  const heroMarkdownComponents = useMemo(
+    () =>
+      createServiceMarkdownComponents({
+        tone: "hero",
+        promoteFlatParagraphs: false,
+      }),
+    []
+  );
+
+  const heroMarkdownText = useMemo(() => getServiceHeroMarkdown(data), [data]);
 
   // Back to top scroll listener
   useEffect(() => {
@@ -175,11 +212,14 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="max-w-2xl mx-auto text-center text-base text-white leading-relaxed font-medium line-clamp-4"
           >
-            <MarkdownBoldRenderer
-              as="p"
-              className="text-base"
-              text={data.description || data.overview}
-            />
+            <div className="service-markdown text-white">
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                components={heroMarkdownComponents}
+              >
+                {heroMarkdownText}
+              </ReactMarkdown>
+            </div>
           </motion.div>
         </div>
       </header>
@@ -241,24 +281,22 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
                     <span className="w-1 h-8 bg-gradient-to-b from-orange-500 to-orange-600 rounded-full mr-4"></span>
                     Service Overview
                   </h2>
-                  <div className="prose prose-xl max-w-none text-gray-800 text-justify leading-relaxed">
-                    {data.overview
-                      .split(/\n\s*\n/)
-                      .filter((p) => p.trim())
-                      .map((paragraph, index) => (
-                        <MarkdownBoldRenderer
-                          key={index}
-                          as="p"
-                          className="text-xl mb-6"
-                          text={paragraph.trim()}
-                        />
-                      ))}
+                  <div className="service-markdown max-w-none min-w-0 text-gray-800 leading-relaxed break-words [&_a]:break-all [&_table]:my-4 [&_table]:block [&_table]:max-w-full [&_table]:overflow-x-auto [&_th]:bg-gray-100 [&_td]:border [&_th]:border">
+                    <ReactMarkdown
+                      remarkPlugins={[remarkGfm]}
+                      components={serviceMarkdownComponents}
+                    >
+                      {normalizeCopyPastedEscapes(data.overview)}
+                    </ReactMarkdown>
                   </div>
                 </div>
               </motion.section>
 
               {/* Advantages Section */}
-              {data.advantages && data.disadvantages && (
+              {data.advantages &&
+                data.disadvantages &&
+                data.advantages.length > 0 &&
+                data.disadvantages.length > 0 && (
                 <motion.section
                   id="advantages"
                   initial={{ opacity: 0, y: 20 }}
@@ -275,7 +313,7 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
               )}
 
               {/* Eligibility Section */}
-              {data.eligibility && (
+              {data.eligibility && data.eligibility.length > 0 && (
                 <motion.section
                   id="eligibility"
                   initial={{ opacity: 0, y: 20 }}
@@ -289,7 +327,7 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
               )}
 
               {/* Documents Section */}
-              {data.documents && (
+              {data.documents && data.documents.length > 0 && (
                 <motion.section
                   id="documents"
                   initial={{ opacity: 0, y: 20 }}
@@ -303,7 +341,8 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
               )}
 
               {/* Process Section */}
-              {data.registrationProcess && (
+              {data.registrationProcess &&
+                data.registrationProcess.length > 0 && (
                 <motion.section
                   id="process"
                   initial={{ opacity: 0, y: 20 }}
@@ -317,7 +356,7 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
               )}
 
               {/* Fees Section */}
-              {data.fees && (
+              {data.fees && data.fees.length > 0 && (
                 <motion.section
                   id="fees"
                   initial={{ opacity: 0, y: 20 }}
@@ -331,7 +370,7 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
               )}
 
               {/* FAQs Section */}
-              {data.faqs && (
+              {data.faqs && data.faqs.length > 0 && (
                 <motion.section
                   id="faqs"
                   initial={{ opacity: 0, y: 20 }}
@@ -341,6 +380,24 @@ export function ServicePageContent({ data }: ServicePageContentProps) {
                   className="scroll-mt-28"
                 >
                   <Faq faqs={data.faqs} />
+                </motion.section>
+              )}
+              {hasAppendix && children && (
+                <motion.section
+                  id="appendix"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  className="scroll-mt-28"
+                >
+                  <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+                    <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center border-b border-orange-200 pb-4">
+                      <span className="w-1 h-8 bg-gradient-to-b from-orange-500 to-orange-600 rounded-full mr-4"></span>
+                      Full source text
+                    </h2>
+                    {children}
+                  </div>
                 </motion.section>
               )}
             </div>

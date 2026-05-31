@@ -79,12 +79,23 @@ import { statutoryAuditData } from "./mca/company_compliance/statutory-audit";
 import { taxAuditData } from "./mca/company_compliance/tax-audit";
 import { bookkeepingData } from "./mca/company_compliance/bookkeeping";
 import { partnershipComplianceData } from "./mca/company_compliance/partnership-compliance";
+import { subsidiaryCompanyComplianceData } from "./mca/company_compliance/subsidiary-company-compliance";
 import { chargeCreationData } from "./compliance/corporate_service/charge-creation";
+import { shareAllotmentTransferData } from "./compliance/corporate_service/share-allotment-transfer";
+import { rightIssuePrivatePlacementData } from "./compliance/corporate_service/right-issue-private-placement";
+import { buyBackOfSharesData } from "./compliance/corporate_service/buy-back-of-shares";
+import { issuePreferenceConvertibleDebenturesData } from "./compliance/corporate_service/issue-preference-convertible-debentures";
+import { reductionOfShareCapitalData } from "./compliance/corporate_service/reduction-of-share-capital";
+import { esopStructuringImplementationData } from "./compliance/corporate_service/esop-structuring-implementation";
+import { xbrlFilingData } from "./compliance/corporate_service/xbrl-filing";
+import { EXTRA_COMPLIANCE_PAGES } from "./compliance/extended-compliance-services";
+import { NAV_DOCUMENT_BACKED_SERVICE_DATA } from "./nav-document-backed-pages";
 
 export const serviceData = {
   proprietorship: proprietorshipData,
   partnership: partnershipData,
   "partnership-compliance": partnershipComplianceData,
+  "subsidiary-company-compliance": subsidiaryCompanyComplianceData,
   "private-company-compliance": privateLimitedComplianceData, // Alias
   "ngo-compliance": section8CompanyComplianceData, // Alias for Section 8
   "limited-liability-partnership": llpData,
@@ -140,7 +151,18 @@ export const serviceData = {
   "statutory-audit": statutoryAuditData,
   "tax-audit": taxAuditData,
   bookkeeping: bookkeepingData,
+  "charge-creation-modification-and-satisfaction": chargeCreationData,
   "charge-creation-modification-satisfaction": chargeCreationData,
+  "buyback-of-shares": buyBackOfSharesData,
+  "share-allotment-and-transfer": shareAllotmentTransferData,
+  "right-issue-private-placement": rightIssuePrivatePlacementData,
+  "buy-back-of-shares": buyBackOfSharesData,
+  "issue-of-preference-shares-convertible-debentures":
+    issuePreferenceConvertibleDebenturesData,
+  "reduction-of-share-capital": reductionOfShareCapitalData,
+  "esop-structuring-and-implementation": esopStructuringImplementationData,
+  "xbrl-filing": xbrlFilingData,
+  ...EXTRA_COMPLIANCE_PAGES,
   // Documentation services - mapped only when source exists in DOCUMENTS
   "all-legal-documents": allLegalDocumentsData,
   "commercial-rental-agreement": commercialRentalAgreementData,
@@ -165,4 +187,5 @@ export const serviceData = {
   "rental-agreement": rentalAgreementData,
   "employment-agreement": employmentAgreementData,
   esop: esopData,
+  ...NAV_DOCUMENT_BACKED_SERVICE_DATA,
 };

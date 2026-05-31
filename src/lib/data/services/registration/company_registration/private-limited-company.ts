@@ -15,7 +15,23 @@ This type of company is ideal for startups, small-to-medium businesses, and grow
 
 A private limited company (Pvt. Ltd.) is a type of business structure that is privately held and owned by a small group of stakeholders. In India, it is defined and regulated by the Companies Act, 2013. This business structure is a popular choice for startups and small to medium-sized enterprises (SMEs) because it combines the benefits of a corporate structure with a degree of privacy and operational flexibility.
 
-A private limited company is a business structure that is a separate legal entity from its owners, offering the key benefit of limited liability. This means the personal assets of the shareholders are protected and are not at risk for the company's debts.`,
+A private limited company is a business structure that is a separate legal entity from its owners, offering the key benefit of limited liability. This means the personal assets of the shareholders are protected and are not at risk for the company's debts.
+
+**Key features (Companies Act, 2013)**
+
+- **Separate legal entity** — can contract, own property, sue, and be sued in its own name.
+- **Limited liability** of members to unpaid amount on shares (for companies limited by shares).
+- **Perpetual succession** — continuity independent of changes in members or directors.
+- **Membership** — minimum **two** members and maximum **200** (with prescribed exclusions for employee shareholders).
+- **Share transfer restrictions** — AoA typically restricts free transfer; no public offer of securities.
+- **Directors** — minimum **two** directors (maximum **15**, extendable by special resolution); **at least one resident** director in India.
+- **No public subscription** — cannot invite the public to subscribe for shares or debentures.
+
+**Types of private limited companies**
+
+- **Company limited by shares:** Most common; liability limited to the unpaid amount on shares.
+- **Company limited by guarantee:** Members' liability is limited to a specific amount they guarantee to contribute if the company is wound up (common for non-profits).
+- **Unlimited company:** Rare; no cap on members' liability.`,
   whyChooseUs: [
     {
       icon: "Building2",
@@ -42,114 +58,119 @@ A private limited company is a business structure that is a separate legal entit
     {
       icon: "Shield",
       title: "Limited Liability",
-      text: "Shareholders' personal assets are protected and liability remains limited to shareholding value.",
+      text: "Protects personal assets of shareholders from company losses.",
     },
     {
       icon: "Building2",
       title: "Separate Legal Entity",
-      text: "The company has an independent legal identity and can own assets, contract, and litigate in its own name.",
+      text: "Provides a layer of security and high credibility to business operations.",
     },
     {
       icon: "RefreshCw",
       title: "Perpetual Existence",
-      text: "The company's existence continues regardless of changes in members or directors.",
+      text: "Ensures business stability and long-term continuity.",
     },
     {
       icon: "Award",
       title: "Enhanced Credibility",
-      text: "A registered private limited company improves trust among clients, suppliers, and financial institutions.",
+      text: "Signals professionalism to clients, suppliers, and financial institutions.",
     },
     {
       icon: "TrendingUp",
       title: "Easier Access to Funding",
-      text: "This structure is preferred by investors and lenders for growth-stage fundraising.",
+      text: "Highly favored by angel investors, VCs, and banks for capital raising.",
+    },
+    {
+      icon: "BadgePercent",
+      title: "Tax Benefits",
+      text: "May be eligible for lower corporate tax rates and various business expense deductions.",
+    },
+    {
+      icon: "ArrowRightLeft",
+      title: "Easy Transferability of Shares",
+      text: "Ownership can be transferred by selling shares to other individuals within the restricted group.",
     },
   ],
   disadvantages: [
     {
-      icon: "CheckCircle",
-      title: "Key Disadvantages of a Private Limited Company",
-      text: "",
-      subPoints: [
-        "**Complex and Lengthy Registration Process:** The incorporation process for a private limited company is more intricate than for a sole proprietorship or partnership. It involves multiple steps, including obtaining a Digital Signature Certificate (DSC), a Director Identification Number (DIN), and filing various documents with the Ministry of Corporate Affairs (MCA). This process can be time-consuming and often requires professional assistance, which adds to the cost.",
-        "**High Compliance Burden:** Private limited companies are subject to stringent regulations and compliance requirements. This includes mandatory annual filings with the Registrar of Companies (RoC), conducting statutory audits, maintaining detailed financial records, and holding regular board and general meetings. The ongoing administrative and regulatory burden can be a significant challenge and cost.",
-        "**Lack of Privacy:** Since a private limited company is a registered entity, its key information, such as financial statements, director details, and annual returns, are publicly accessible on the MCA website. This lack of privacy can be a disadvantage, as competitors and the public can easily access sensitive business information.",
-        "**Higher Costs:** The overall costs of a private limited company are higher than other business structures. This includes not only the initial registration costs but also ongoing expenses for compliance, professional fees for auditors and company secretaries, and higher corporate tax rates.",
-        "**Restricted Share Transfer:** Unlike a public company, a private limited company cannot offer its shares to the public or trade them on a stock exchange. This limitation can make it difficult to raise large amounts of capital from the public and restricts the exit options for investors.",
-        "**Division of Ownership and Decision-Making:** With the requirement of a minimum of two directors and two shareholders, a private limited company can lead to a division of ownership and control. This can sometimes result in conflicts and make decision-making slower and more complex compared to a sole proprietorship.",
-        "**Complex Winding-Up Process:** The process of closing or winding up a private limited company is a legally intricate and time-consuming procedure, which can take several months to complete.",
-      ],
+      icon: "Clock",
+      title: "Complex Registration Process",
+      text: "Involves multiple steps (DSC, DIN, MCA filings) and often requires professional assistance.",
+    },
+    {
+      icon: "FileWarning",
+      title: "High Compliance Burden",
+      text: "Subject to stringent regulations, mandatory annual filings, statutory audits, and regular meetings.",
+    },
+    {
+      icon: "EyeOff",
+      title: "Lack of Privacy",
+      text: "Key information (financials, director details) is publicly accessible on the MCA website.",
+    },
+    {
+      icon: "Wallet",
+      title: "Higher Costs",
+      text: "Involves significant setup costs, ongoing professional fees for auditors/CS, and higher corporate tax rates.",
     },
   ],
   eligibility: [
+    "To register a Private Limited Company in India, the following requirements must be met:",
     {
-      title: "Director Requirements",
+      title: "Requirements",
       items: [
-        "A minimum of two directors is required.",
-        "At least one director must be a resident of India.",
-        "All directors must have a valid DIN.",
+        "**Minimum two members:** At least two shareholders (maximum **200**). Shareholders can be individuals or corporate entities.",
+        "**Minimum two directors:** At least two directors (individuals only). **One must be a resident of India.**",
+        "**Digital Signature Certificate (DSC):** All directors must have a valid **Class 3 DSC**.",
+        "**Unique company name:** The name must be unique and must end with **Private Limited** or **Pvt Ltd.**",
+        "**Registered office:** A physical address in India is required for official correspondence.",
+        "**Minimum capital:** There is **no mandatory minimum paid-up capital** requirement.",
       ],
     },
     {
-      title: "Shareholder and Name Requirements",
+      title: "Checklist for registration",
       items: [
-        "A minimum of two shareholders is required.",
-        "Maximum shareholder limit is 200 (excluding certain employee shareholders).",
-        "Company name must be unique and end with **Private Limited** or **Pvt. Ltd.**",
-      ],
-    },
-    {
-      title: "Other Legal Requirements",
-      items: [
-        "Registered office address in India is mandatory.",
-        "All proposed directors/subscribers must obtain DSC for e-filing.",
-        "Private limited companies cannot invite public subscription to shares.",
+        "Finalize at least **two directors** and **two shareholders**.",
+        "Choose **1–2 unique names** for reservation.",
+        "Define the **authorised share capital**.",
+        "Prepare the main business objectives (**MoA**).",
+        "Identify the **registered office** address.",
+        "Obtain **DSC** for all directors.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "Documents for Directors and Shareholders",
+      tabTitle: "Directors and shareholders",
       content: {
-        title: "Documents for Directors and Shareholders",
+        title: "For the directors and shareholders",
         items: [
-          "**Identity Proof:** ",
-          "**Indian Nationals:** A self-attested copy of their PAN Card (mandatory), Aadhaar Card, Passport, Voter ID, or Driving License.",
-          "**Foreign Nationals:** A valid passport is mandatory. Address and identity proofs from their home country must be notarized or apostilled. ",
-          "**Address Proof:** A self-attested copy of a recent document (not older than two months) showing the individual\\'s current residential address. This can be: ",
-          "Latest utility bill (electricity, water, or gas)",
-          "Bank statement or passbook",
-          "Telephone or mobile bill ",
-          "**Photographs:** Recent passport-size photographs of all directors and shareholders.",
-          "**Digital Signature Certificate (DSC):** A Class 3 DSC is mandatory for all directors and subscribers to digitally sign the electronic forms.",
-          "**Director Identification Number (DIN):** All directors must have a DIN, which is a unique identification number issued by the MCA. This can be applied for within the main registration form (SPICe+).",
+          "**PAN card:** Mandatory for all Indian nationals.",
+          "**Identity proof:** Aadhaar Card, Voter ID, Passport, or Driving License.",
+          "**Address proof:** Latest bank statement, electricity bill, or telephone bill (not older than **2 months**).",
+          "**Photographs:** Recent passport-size photos.",
+          "**Foreign nationals:** Valid passport mandatory; identity and address proofs from the home country must be **notarized** or **apostilled** as applicable.",
         ],
       },
     },
     {
-      tabTitle: "Documents for the Registered Office",
+      tabTitle: "Registered office",
       content: {
-        title: "Documents for the Registered Office",
+        title: "For the registered office",
         items: [
-          "**Proof of Address:** A recent utility bill (not older than two months) for the office premises.",
-          "**Proof of Ownership/Tenancy:** ",
-          "If the property is owned, a sale deed or ownership document.",
-          "If the property is rented, a copy of the rental agreement. ",
-          "**No Objection Certificate (NOC):** A signed NOC from the property owner, stating that they have no objection to the property being used as the company\\'s registered office.",
+          "**Proof of address:** Latest utility bill (electricity, water, or gas) of the premises.",
+          "**Ownership proof:** Property deed or sale deed (if owned).",
+          "**Rented premises:** Registered rent/lease agreement and a **No Objection Certificate (NOC)** from the landlord.",
         ],
       },
     },
     {
-      tabTitle: "Company\\'s Legal and Foundational Documents",
+      tabTitle: "Foundational legal documents",
       content: {
-        title: "Company\\'s Legal and Foundational Documents",
+        title: "Foundational legal documents",
         items: [
-          "**Memorandum of Association (MoA):** This is the company\\'s charter document, outlining its business objectives and the scope of its activities.",
-          "**Articles of Association (AoA):** This document contains the internal rules and regulations for the company\\'s governance and management.",
-          "**Declarations and Consent Forms:** ",
-          "**Director\\'s Consent (Form DIR-2):** A signed declaration from the proposed directors consenting to act as directors.",
-          "**Director\\'s Declaration (Form INC-9):** A declaration confirming that the directors are not disqualified under the Companies Act.",
-          "**Professional\\'s Declaration:** A declaration from a professional (like a Chartered Accountant or Company Secretary) certifying that all legal compliances for the registration have been met.",
+          "**Memorandum of Association (MoA):** Outlining the company’s objects and scope.",
+          "**Articles of Association (AoA):** Containing internal rules and regulations.",
+          "**Consent and declarations:** Signed forms (**INC-9**, **DIR-2**) from directors and shareholders.",
         ],
       },
     },
@@ -157,70 +178,71 @@ A private limited company is a business structure that is a separate legal entit
   registrationProcess: [
     {
       step: 1,
-      title: "DSC & DIN",
-      description: "Obtain DSC and DIN for directors.",
+      title: "DSC for promoters",
+      description:
+        "Obtain **Class 3 DSC** for all proposed directors and subscribers who will sign e-forms.",
     },
     {
       step: 2,
-      title: "Name Approval",
-      description: "Reserve a unique name for the company.",
+      title: "SPICe+ Part A — Name reservation",
+      description:
+        "Reserve a unique name via **RUN** or **Part A of SPICe+**; align the name with **Rule 8** and trademark checks.",
     },
     {
       step: 3,
-      title: "Incorporation",
-      description: "File the SPICe+ form with the RoC.",
+      title: "SPICe+ Part B — Incorporation",
+      description:
+        "File **SPICe+ Part B** with proposed capital, subscriber details, **DIR** declarations, registered office proof, and linked **AGILE-PRO-S** where opted for **GSTIN / EPFO / ESIC / bank account**.",
     },
     {
       step: 4,
-      title: "Certificate of Incorporation",
-      description: "Issued by the RoC.",
+      title: "e-MoA and e-AoA",
+      description:
+        "Adopt **INC-33** (e-MoA) and **INC-34** (e-AoA) or custom AoA as permitted for your activity class.",
+    },
+    {
+      step: 5,
+      title: "RoC scrutiny",
+      description:
+        "Respond to **Registrar** queries if any; revise attachments or clarify objects if asked.",
+    },
+    {
+      step: 6,
+      title: "Certificate, PAN & TAN",
+      description:
+        "Receive **Certificate of Incorporation**, **Corporate PAN**, and **TAN**; complete post-incorporation registers and optional shop/GST registrations.",
     },
   ],
   fees: [
     {
-      component: "Digital Signature Certificate (DSC)",
-      fees: "₹1,000 - ₹2,000",
-      remarks: "Per director (valid for 2-3 years)",
+      component: "Digital Signature (DSC)",
+      fees: "₹2,000 – ₹4,000",
+      remarks: "For two directors (Class 3)",
     },
     {
-      component: "Director Identification Number (DIN)",
-      fees: "₹500 - ₹1,000",
-      remarks: "Per director (one-time)",
+      component: "Name reservation (RUN)",
+      fees: "₹0 – ₹1,000",
+      remarks: "If reserved separately; often included in SPICe+",
     },
     {
-      component: "Name Approval (SPICe+ Part A)",
-      fees: "₹1,000",
-      remarks: "For name reservation",
+      component: "Government fees & stamp duty",
+      fees: "₹2,000 – ₹7,000",
+      remarks: "Varies by state and authorised capital",
     },
     {
-      component: "Government Fees & Stamp Duty",
-      fees: "₹2,000 - ₹7,000",
-      remarks: "Varies by state and authorized capital",
-    },
-    {
-      component: "Stamp Duty",
-      fees: "Varies by state",
-      remarks: "0.2% to 0.7% of authorized capital (state-specific)",
-    },
-    {
-      component: "MoA & AoA Drafting and Filing",
-      fees: "₹1,500 - ₹3,000",
-      remarks: "Professional or legal drafting fees",
-    },
-    {
-      component: "Professional / Consultant Fees (CA/CS/Legal)",
-      fees: "₹3,000 - ₹10,000",
-      remarks: "Optional and depends on service provider",
+      component: "Professional fees (CA/CS/Legal)",
+      fees: "₹3,000 – ₹10,000",
+      remarks: "For drafting, filings, and end-to-end management",
     },
     {
       component: "PAN & TAN (via SPICe+)",
-      fees: "Included in filing",
-      remarks: "Applied simultaneously during incorporation",
+      fees: "Included",
+      remarks: "Applied simultaneously during registration",
     },
     {
-      component: "Total Estimated Cost",
-      fees: "₹8,000 - ₹20,000+",
-      remarks: "Depends on authorized capital, state, and professional support",
+      component: "Total estimated (₹1 lakh authorised capital)",
+      fees: "₹10,000 – ₹20,000",
+      remarks: "Typical range depending on state of registration",
     },
   ],
   faqs: [

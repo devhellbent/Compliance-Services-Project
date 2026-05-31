@@ -19,33 +19,58 @@ A **Trademark** is a form of **intellectual property** used to identify and dist
 It can be a **word, logo, phrase, or design** that represents a brand. The primary function of a trademark is to **prevent consumer confusion** by guaranteeing the source of a product or service. Formal registration grants the owner **exclusive legal rights** to use the mark and protection against unauthorized use by competitors, safeguarding the brand\'s reputation and goodwill.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of Trademark Registration",
-        text: "",
-        subPoints: [
-            "**Exclusive National Rights:** Grants the owner the sole, exclusive legal right to use the mark across the entire country for the goods and services registered.",
-            "**Prima Facie Legal Evidence:** The registration certificate acts as strong, presumptive legal proof of ownership in court, making infringement lawsuits more straightforward.",
-            "**Use of the \u00ae Symbol:** Allows the owner to use the **\u00ae** (Registered Trademark) symbol, which provides public notice of ownership and acts as a major deterrent against potential infringers.",
-            "**Creates an Intangible Asset:** The trademark becomes a valuable piece of **Intellectual Property (IP)** that can be sold, licensed, franchised, or used as collateral for loans, increasing business value.",
-            "**Deters Infringement:** The mark appears in public registers, allowing competitors to easily conduct searches and avoid using a similar mark, preventing future costly disputes.",
-            "**Foundation for Global Protection:** A domestic registration is often required as the \\\"base mark\\\" for seeking international protection through systems like the Madrid Protocol."
-        ]
-    }
-],
+      icon: "ShieldCheck",
+      title: "Exclusive Brand Ownership",
+      text: "Grants sole legal rights to use the mark nationwide for the registered goods and services, preventing competitors from using similar names.",
+    },
+    {
+      icon: "Award",
+      title: "Legal Protection",
+      text: "Provides prima facie evidence of ownership in court, making it significantly easier to win infringement lawsuits and stop brand dilution.",
+    },
+    {
+      icon: "BadgeCheck",
+      title: "Use of ® Symbol",
+      text: "Allows the use of the registered symbol, which builds immense consumer trust and acts as a strong deterrent to potential infringers.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Asset Value",
+      text: "A registered trademark is an intangible asset that increases business valuation and can be licensed, franchised, or sold.",
+    },
+    {
+      icon: "Globe",
+      title: "Global Recognition",
+      text: "Acts as a baseline for seeking international trademark protection in multiple countries through the Madrid Protocol system.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "of Trademark Registration",
-        text: "",
-        subPoints: [
-            "**Cost and Time:** The process involves mandatory **filing fees, attorney costs (optional but recommended)**, and can take a **long time (several months to over a year)** to complete.",
-            "**Geographical Limitation:** The protection is **territorial**; registration in one country does not protect the mark in any other country.",
-            "**Owner\\'s Enforcement Duty:** The government does not monitor the market. The trademark owner is **solely responsible** for actively searching for and pursuing legal action against infringers, which is a continuous expense.",
-            "**Rigidity of Classes and Mark:** Protection is **strictly limited** to the specific mark and the **classes of goods/services** listed in the application. Broadening product lines may require new applications.",
-            "**Risk of Third-Party Opposition:** The application is published, allowing competitors or others to file an **Opposition** (a challenge) to the registration, which can lead to lengthy and costly legal proceedings."
-        ]
-    }
-],
+      icon: "Banknote",
+      title: "Filing Expenses",
+      text: "Involves government filing fees and potentially professional fees for search, application, and managing objections.",
+    },
+    {
+      icon: "Clock",
+      title: "Time-Consuming",
+      text: "The registration process is lengthy, often taking 6 to 12 months (or more) from filing to final certification.",
+    },
+    {
+      icon: "Search",
+      title: "Enforcement Responsibility",
+      text: "The government does not monitor infringement; the owner is solely responsible for identifying and pursuing legal action against violators.",
+    },
+    {
+      icon: "Ban",
+      title: "Narrow Protection",
+      text: "Protection is strictly limited to the specific classes of goods or services mentioned in the application.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Public Opposition",
+      text: "Once published, any third party can file an opposition to your mark, which can lead to complex and costly legal battles.",
+    },
+  ],
   eligibility: [
     {
         title: "The eligibility criteria for Trademark Registration are primarily",

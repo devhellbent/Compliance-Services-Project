@@ -4,7 +4,12 @@ import { ServiceData } from "@/lib/types";
 
 export const publicLimitedCompanyData: ServiceData = {
   title: "Public Limited Company Registration",
-  breadcrumb: ["Home", "Registrations", "Public Limited Company"],
+  breadcrumb: [
+    "Home",
+    "Registrations",
+    "Company Registration",
+    "Public Limited Company",
+  ],
   description:
     "Scale your enterprise to new heights with public market access. Public Limited Company registration enables businesses to raise substantial capital through public offerings, providing the foundation for large-scale operations and stock market listing.",
   overview: `**Public Limited Company Registration**
@@ -17,18 +22,16 @@ To register, the company must file an electronic application with the Registrar 
 
 A public limited company is a business structure that can issue shares to the general public through a stock exchange. Unlike a private limited company, it has no restriction on the number of members and requires a minimum of seven shareholders and three directors. As a separate legal entity, it provides limited liability to its members, protecting their personal assets from company debts. The shares are freely transferable, and the company is subject to more stringent regulations and transparency requirements from a body like the Securities and Exchange Board of India (SEBI). This structure is ideal for large enterprises seeking to raise significant capital from the public.
 
-**Features of a Public Limited Company**
+**Features of a public limited company**
 
-A public limited company can issue shares to the general public and raise substantial capital from a wide investor base.
-
-- **Limited Liability**: Shareholder liability is limited to the value of shares held.
-- **Perpetual Succession**: The company continues despite member or director changes.
-- **Minimum Members**: At least seven shareholders are required.
-- **Free Transferability of Shares**: Shares are transferable in the open market.
-- **Minimum Directors**: At least three directors are required.
-- **Public Access to Capital**: Can invite public subscriptions through a prospectus.
-- **High Regulatory Compliance**: Subject to strict MCA and SEBI requirements.
-- **Name Suffix**: Name must end with "Limited" or "Ltd.".`,
+- **Separate legal entity:** The company is a distinct legal person, independent of its owners and directors.
+- **Limited liability:** Shareholder liability is limited to the **unpaid amount** on the shares they hold.
+- **Members:** A **minimum of seven** shareholders; **no upper limit** on the number of shareholders.
+- **Directors:** A **minimum of three** directors (maximum **15**); **at least one** must be an **Indian resident**.
+- **Public invitation for shares:** May invite the public to subscribe to shares, debentures, and other securities.
+- **Free transferability of shares:** Shares can be traded on the stock market (if listed) or transferred between persons.
+- **Perpetual succession:** The company’s existence is not affected by changes in membership or the death of a director.
+- **Stringent compliance:** High regulatory standards—including mandatory **Company Secretary** where applicable—and public disclosure of financial results.`,
   whyChooseUs: [
     {
       icon: "Users",
@@ -54,120 +57,126 @@ A public limited company can issue shares to the general public and raise substa
   advantages: [
     {
       icon: "TrendingUp",
-      title: "Access to Capital",
-      text: "Public limited companies can raise significant funds from the public by issuing shares.",
+      title: "Huge Capital Raising Potential",
+      text: "Ability to raise large amounts of funds from the public via shares and debentures.",
     },
     {
       icon: "Shield",
       title: "Limited Liability",
-      text: "Shareholders' liability is limited to the amount invested in shares.",
+      text: "Protects the personal wealth of shareholders from business risks and debts.",
     },
     {
       icon: "Award",
-      title: "Enhanced Credibility and Prestige",
-      text: "Public status improves confidence among investors, customers, and institutions.",
+      title: "Increased Credibility and Visibility",
+      text: "Public status enhances brand image and trust with global investors and partners.",
     },
     {
       icon: "ArrowRightLeft",
-      title: "Free Transferability of Shares",
-      text: "Shares are tradable, improving liquidity for shareholders.",
+      title: "Transferability of Shares",
+      text: "Provides liquidity to shareholders, allowing them to exit or enter the business easily.",
     },
     {
       icon: "RefreshCw",
       title: "Perpetual Existence",
-      text: "Business continuity remains unaffected by member/director changes.",
+      text: "Ensures the company remains a stable entity for long-term growth and succession.",
+    },
+    {
+      icon: "Globe",
+      title: "Global Expansion",
+      text: "Public status facilitates international trade, joint ventures, and global fundraising.",
     },
   ],
   disadvantages: [
     {
       icon: "FileWarning",
-      title: "High Compliance Burden",
-      text: "Public limited companies face extensive compliance, disclosures, and audit obligations.",
+      title: "Strict Regulatory Compliance",
+      text: "High volume of mandatory filings, audits, and public disclosures required by MCA and SEBI (if listed).",
     },
     {
-      icon: "Users",
-      title: "Loss of Control",
-      text: "Founders may lose strategic control due to broad shareholder ownership.",
+      icon: "Wallet",
+      title: "High Setup and Maintenance Costs",
+      text: "Registration and ongoing administrative costs are significantly higher than for other entities.",
     },
     {
       icon: "EyeOff",
       title: "Lack of Privacy",
-      text: "Financial and operational details are publicly available due to disclosure norms.",
+      text: "Financial statements, board reports, and major decisions must be made public or filed with regulators.",
     },
     {
-      icon: "Wallet",
-      title: "Higher Costs",
-      text: "Registration and ongoing legal, audit, and compliance expenses are comparatively high.",
+      icon: "AlertTriangle",
+      title: "Potential for Hostile Takeovers",
+      text: "Since shares are freely transferable, the company is vulnerable to takeovers by external groups.",
     },
     {
-      icon: "BarChart3",
-      title: "Market Volatility Exposure",
-      text: "Share price and valuation can be significantly affected by market and sentiment shifts.",
+      icon: "Users",
+      title: "Loss of Control",
+      text: "The original promoters may lose control as more shares are issued to the public and institutional investors.",
+    },
+    {
+      icon: "Gavel",
+      title: "Complex Decision-Making",
+      text: "Requires formal board meetings, general meetings, and resolutions for most major actions.",
     },
   ],
   eligibility: [
+    "To register a Public Limited Company in India, the following requirements must be met:",
     {
-      title: "Director and Shareholder Requirements",
+      title: "Requirements",
       items: [
-        "A public limited company must have at least **three directors**.",
-        "At least one director must be a resident of India.",
-        "A minimum of **seven shareholders** is required, with no upper limit.",
+        "**Minimum seven members:** At least seven shareholders are required at the time of incorporation.",
+        "**Minimum three directors:** At least three directors must be appointed.",
+        "**Digital Signature Certificate (DSC):** All directors must have a valid **Class 3 DSC**.",
+        "**Director Identification Number (DIN):** Every director must have a **DIN**.",
+        "**Minimum capital:** While there is **no mandatory minimum paid-up capital**, the **authorised capital** should be sufficient for the business scale.",
+        "**Unique company name:** The name must be unique and must end with **Limited.**",
+        "**Registered office:** A physical address in India is mandatory.",
       ],
     },
     {
-      title: "Name and Office Requirements",
+      title: "Checklist for registration",
       items: [
-        "The company name must be unique and end with **Limited** or **Ltd.**",
-        "A registered office address in India is mandatory.",
-      ],
-    },
-    {
-      title: "Other Compliance Requirements",
-      items: [
-        "All directors must hold valid DIN.",
-        "All proposed directors/subscribers need Class 3 DSC for e-filing.",
-        "The company must be able to offer shares to the public through a prospectus.",
+        "Identify at least **seven shareholders** and **three directors**.",
+        "Select a unique name ending with **Limited.**",
+        "Define the business objectives (**MoA**).",
+        "Decide on the **authorised share capital**.",
+        "Prepare the **registered office** address proof.",
+        "Ensure **at least one director** is an **Indian resident**.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "1. Directors and Shareholders",
+      tabTitle: "Directors and shareholders",
       content: {
-        title: "1. Documents for Directors and Shareholders",
+        title: "For directors and shareholders",
         items: [
-          "Identity proof (PAN mandatory for Indian nationals; passport mandatory for foreign nationals)",
-          "Address proof (utility bill, bank statement, or phone bill within two months)",
-          "Passport-size photographs of all proposed directors/shareholders",
-          "Digital Signature Certificate (DSC) for digital filing",
-          "Director Identification Number (DIN) for all proposed directors",
+          "**PAN card:** Mandatory for all Indian directors and shareholders.",
+          "**Identity proof:** Aadhaar Card, Voter ID, Passport, or Driving License.",
+          "**Address proof:** Latest bank statement, electricity bill, or telephone bill (not older than **2 months**).",
+          "**Photographs:** Recent passport-size photos.",
         ],
       },
     },
     {
-      tabTitle: "2. Documents for the Registered Office",
+      tabTitle: "Registered office",
       content: {
-        title: "2. Documents for the Registered Office",
+        title: "For the registered office",
         items: [
-          "**Proof of Address:** A recent utility bill (not older than two months) for the office premises.",
-          "**Proof of Ownership/Tenancy:** ",
-          "If owned: Sale deed or property ownership document.",
-          "If rented: Copy of the rental agreement. ",
-          "**No Objection Certificate (NOC):** A signed NOC from the property owner, consenting to the property being used as the company\\'s registered office",
+          "**Proof of address:** Latest utility bill (electricity, water, or gas) of the premises.",
+          "**Ownership proof:** Property deed or sale deed (if owned).",
+          "**Rented premises:** Registered rent/lease agreement.",
+          "**NOC from owner:** No Objection Certificate from the property owner for using the address as the registered office.",
         ],
       },
     },
     {
-      tabTitle: "3. Company\\'s Legal and Foundational Documents",
+      tabTitle: "Foundational legal documents",
       content: {
-        title: "3. Company\\'s Legal and Foundational Documents",
+        title: "Foundational legal documents",
         items: [
-          "**Memorandum of Association (MoA):** This document outlines the company\\'s main business objectives, authorized share capital, and the state where its registered office is located.",
-          "**Articles of Association (AoA):** This document contains the internal rules and regulations for the company\\'s governance and management.",
-          "**Declarations and Consent Forms:** ",
-          "**Director\\'s Consent (Form DIR-2):** A signed declaration from the proposed directors consenting to act as directors.",
-          "**Director\\'s Declaration (Form INC-9):** A declaration confirming that the directors are not disqualified under the Companies Act.",
-          "**Professional\\'s Declaration:** A declaration from a professional (e.g., Chartered Accountant, Company Secretary) certifying that all legal compliances for the registration have been met.",
+          "**Memorandum of Association (MoA):** Detailing the objects and capital structure.",
+          "**Articles of Association (AoA):** Defining the internal management rules.",
+          "**Consent and declarations:** **Form DIR-2** (director’s consent) and **Form INC-9** (declaration).",
         ],
       },
     },
@@ -175,68 +184,82 @@ A public limited company can issue shares to the general public and raise substa
   registrationProcess: [
     {
       step: 1,
-      title: "DSC & DIN",
-      description: "Obtain DSC and DIN for directors.",
+      title: "DSC for promoters",
+      description:
+        "Obtain **Class 3 DSC** for subscribers and directors signing incorporation forms.",
     },
     {
       step: 2,
-      title: "Name Approval",
-      description: "Reserve a unique name for the company.",
+      title: "Name reservation",
+      description:
+        "File **RUN** or **SPICe+ Part A** for a unique name ending with **Limited** or **Ltd.**",
     },
     {
       step: 3,
-      title: "Incorporation",
-      description: "File the SPICe+ form with the RoC.",
+      title: "SPICe+ Part B and attachments",
+      description:
+        "File incorporation with **e-MoA/e-AoA**, subscriber sheets, **DIR** declarations, and registered office proof; link **AGILE-PRO** filings where opted.",
     },
     {
       step: 4,
-      title: "Certificate of Incorporation",
-      description: "Issued by the RoC.",
+      title: "RoC approval",
+      description:
+        "Respond to **Registrar** clarifications; align objects and capital clauses if queried.",
     },
     {
       step: 5,
-      title: "Commencement of Business",
+      title: "Certificate, PAN, and TAN",
       description:
-        "File a declaration for commencement of business after incorporation.",
+        "Receive **Certificate of Incorporation**, **PAN**, and **TAN**; open bank account and plan **SEBI/ICDR** steps if listing is intended.",
+    },
+    {
+      step: 6,
+      title: "Commencement of business (Form INC-20A)",
+      description:
+        "File **INC-20A** after subscribers pay for shares taken—required before commencing business under **Section 10A**.",
     },
   ],
   fees: [
     {
-      component: "Digital Signature Certificate (DSC)",
-      fees: "₹1,000 - ₹2,000",
-      remarks: "Per director (valid for 2-3 years)",
+      component: "Name reservation (RUN)",
+      fees: "₹200",
+      remarks: "MCA statutory fee (verify current slab)",
     },
     {
-      component: "Director Identification Number (DIN)",
-      fees: "₹500 - ₹1,000",
-      remarks: "Per director (one-time)",
+      component: "Government fees (SPICe+ / incorporation)",
+      fees: "Varies",
+      remarks: "Based on authorised capital; significantly higher than for private companies",
     },
     {
-      component: "Name Approval (SPICe+ Part A)",
-      fees: "₹1,000",
-      remarks: "For name reservation",
-    },
-    {
-      component: "Government/ROC Fees (SPICe+ Part B)",
-      fees: "₹4,000 - ₹10,000",
-      remarks: "Depends on authorized capital (higher than private limited)",
-    },
-    {
-      component: "Stamp Duty",
+      component: "Stamp duty",
       fees: "Varies by state",
-      remarks: "0.3% to 0.7% of authorized capital (state-specific)",
+      remarks: "On authorised capital and MoA/AoA documents",
     },
     {
-      component: "Professional Fees (CA/CS/Lawyer)",
-      fees: "₹20,000 - ₹50,000",
-      remarks:
-        "Includes documentation, filing, drafting MoA/AoA, legal compliance, and consultation",
+      component: "Digital Signature (DSC)",
+      fees: "Varies",
+      remarks: "Costs for at least three directors (Class 3)",
     },
     {
-      component: "Total Estimated Cost",
-      fees: "₹30,000 - ₹75,000",
+      component: "Professional fees (CA/CS/Legal)",
+      fees: "₹15,000 – ₹30,000+",
+      remarks: "End-to-end management, drafting of complex MoA/AoA, and compliance assurance",
+    },
+    {
+      component: "PAN and TAN",
+      fees: "Included",
+      remarks: "Integrated into the incorporation process",
+    },
+    {
+      component: "Statutory audit (recurring)",
+      fees: "Ongoing",
+      remarks: "Mandatory annual audits; high recurring compliance cost at scale",
+    },
+    {
+      component: "Penalties for non-compliance",
+      fees: "As per law",
       remarks:
-        "Varies based on state, authorized capital, and professional fees",
+        "Failure to file annual returns can attract heavy daily fines; SEBI non-compliance (if listed) can lead to trading suspension and large penalties",
     },
   ],
   faqs: [

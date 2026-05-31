@@ -7,23 +7,21 @@ export const llpData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Company Registration", "LLP"],
   description:
     "Experience the perfect blend of partnership flexibility and corporate protection. LLP registration offers limited liability safeguards for partners while maintaining operational simplicity, making it ideal for professional service firms and modern startups.",
-  overview: `**Limited Liability Partnership (LLP) Registration in India**
+  overview: `**Limited Liability Partnership (LLP) registration in India**
 
-Registration of a Limited Liability Partnership (LLP) in India is a fully digital process managed by the Ministry of Corporate Affairs (MCA). An LLP is a business structure that combines the best features of a traditional partnership and a company. It provides the limited liability of a company, which protects the partners\' personal assets from the business\'s debts, while offering the flexibility of a partnership.
+Registration of a Limited Liability Partnership (LLP) in India is a fully digital process managed by the **Ministry of Corporate Affairs (MCA)**. An LLP combines the **limited liability** of a company with the **flexibility** of a partnership.
 
-**What is Limited Liability Partnership (LLP)**
+In an LLP, **one partner is not responsible or liable** for another partner’s **misconduct or negligence**. The structure is governed by the **Limited Liability Partnership Act, 2008**. It suits **small and medium-sized** businesses, service providers, and professionals who want corporate-style protection without the heaviest company compliance burden.
 
-A Limited Liability Partnership (LLP) is a modern business structure that combines the flexibility of a traditional partnership with the liability protection of a company. It is a separate legal entity from its partners, meaning the firm can own assets and be held liable for its own debts.
+**What is a Limited Liability Partnership (LLP)?**
 
-The key feature of an LLP is **limited liability**. This means that a partner\'s personal assets are protected from the firm\'s business debts and liabilities. In a general partnership, partners have unlimited liability and are personally responsible for all business debts, even if they were incurred by another partner. In contrast, an LLP partner\'s liability is limited to their agreed-upon capital contribution.
+An LLP is a **body corporate** and a **separate legal entity** from its partners. It has **perpetual succession**—the LLP continues despite partner changes. Mutual rights and duties are governed by an **LLP Agreement** between the partners (or between the LLP and its partners).
 
-An LLP also offers **perpetual succession**, meaning the firm continues to exist even if there are changes in partners, such as a death or a retirement. This provides stability and continuity to the business. It is a popular choice for professionals like accountants and lawyers who want to collaborate while shielding themselves from the negligence or misconduct of other partners.
+The key feature is **limited liability**: a partner’s personal assets are protected from the firm’s ordinary business debts; liability is generally limited to the partner’s **agreed contribution** (subject to law).
 
 **Limited Liability Partnership Act, 2008**
 
-The **Limited Liability Partnership** Act, 2008, is a specific law enacted by the Parliament of India to govern and regulate Limited Liability Partnerships (LLPs). It introduced a new business structure that combines the key features of a traditional partnership and a company, providing a flexible and legally sound framework for business operations.
-
-The **Limited Liability Partnership Act, 2008**, is a specific law enacted by the Parliament of India to govern and regulate Limited Liability Partnerships (LLPs). It introduced a new business structure that combines the key features of a traditional partnership and a company, providing a flexible and legally sound framework for business operations.`,
+The Act provides a flexible, legally sound framework for LLPs—merging partnership operational simplicity with protections closer to a company.`,
   whyChooseUs: [
     {
       icon: "ShieldCheck",
@@ -54,78 +52,105 @@ The **Limited Liability Partnership Act, 2008**, is a specific law enacted by th
   advantages: [
     {
       icon: "Shield",
-      title: "Limited Liability Protection",
-      text: "Each partner's liability is limited to their agreed contribution, protecting personal assets from business debts.",
+      title: "Protection of Personal Assets",
+      text: "Partners are only liable up to their agreed contribution, safeguarding personal wealth.",
     },
     {
       icon: "Building2",
-      title: "Separate Legal Entity and Perpetual Succession",
-      text: "An LLP can own assets, enter contracts, and continue despite partner changes like retirement or death.",
+      title: "Separate Legal Identity",
+      text: "Enhances business credibility and allows for owning assets and entering into legal contracts.",
     },
     {
-      icon: "BadgeCheck",
-      title: "Enhanced Credibility",
-      text: "Registered LLPs are viewed as more credible by clients, suppliers, and financial institutions.",
-    },
-    {
-      icon: "Landmark",
-      title: "Access to Capital",
-      text: "A formal legal structure improves the ability to open bank accounts, secure loans, and attract investors.",
+      icon: "BadgePercent",
+      title: "Lower Compliance Cost",
+      text: "Audit is only mandatory if turnover exceeds ₹40 lakhs or contribution exceeds ₹25 lakhs, making it cheaper to maintain than a company.",
     },
     {
       icon: "Settings",
-      title: "Operational Flexibility and Tax Efficiency",
-      text: "Partner rights are governed by an LLP agreement, and profits are taxed at firm level without dividend distribution tax.",
+      title: "Operational Flexibility",
+      text: "No strict requirement for board meetings or complex resolutions; management is governed by the LLP Agreement.",
+    },
+    {
+      icon: "Coins",
+      title: "No Dividend Distribution Tax (DDT)",
+      text: "Profits distributed to partners are not subject to DDT, making it tax-efficient for owners.",
+    },
+    {
+      icon: "UserPlus",
+      title: "Easy to Transfer Ownership",
+      text: "Partners can be easily added or removed, facilitating business continuity and succession.",
     },
   ],
   disadvantages: [
     {
-      icon: "FileWarning",
-      title: "Mandatory Annual Filings",
-      text: "LLPs must file annual return and statement of accounts; delays attract daily penalties.",
+      icon: "TrendingDown",
+      title: "Restricted Capital Raising",
+      text: "Cannot issue shares to the public or attract venture capital as easily as a private limited company.",
     },
     {
-      icon: "Scale",
-      title: "Penalty Risk for Non-Compliance",
-      text: "Failure to meet MCA filing and compliance requirements can lead to significant financial penalties.",
+      icon: "AlertCircle",
+      title: "Compliance Penalties",
+      text: "While lower in volume, the penalties for late filing of annual returns (Form 8 and Form 11) can be very high (₹100 per day per form).",
     },
     {
-      icon: "UserCog",
-      title: "Designated Partner Responsibility",
-      text: "Designated partners carry statutory compliance responsibilities and can be penalized personally for defaults.",
+      icon: "EyeOff",
+      title: "Public Disclosure",
+      text: "The LLP Agreement and financial statements are public documents accessible on the MCA portal.",
+    },
+    {
+      icon: "GitMerge",
+      title: "Limitation in Mergers",
+      text: "LLPs cannot easily merge with companies; the process is complex and restricted.",
+    },
+    {
+      icon: "Landmark",
+      title: "External Funding Challenges",
+      text: "Many banks and investors still prefer the more regulated structure of a private limited company.",
     },
   ],
   eligibility: [
-    "**Minimum Number:** An LLP must have at least **two partners**. There is no upper limit on the maximum number of partners.",
-    "**Unique Name:** The proposed name of the LLP must be unique and not identical or similar to any existing company, LLP, or registered trademark.",
-    "**Designated Partners:** Of the total partners, a minimum of **two** must be designated partners who are individuals. At least one of these designated partners must be a **resident of India**, meaning they have stayed in the country for at least 120 days during the financial year.",
-    "**Lawful Business Activity:** The purpose of the LLP must be to carry on a legal business. An LLP cannot be formed for illegal activities or those against public policy.",
-    "**Competence to Contract:** All partners must be legally competent to enter into a contract. This means they must be of sound mind and at least 18 years of age. A person cannot be a designated partner if they are an undischarged insolvent or have been convicted of a serious offense.",
-    "**Identification Numbers:** Every designated partner must obtain a **Designated Partner Identification Number (DPIN)** from the Ministry of Corporate Affairs (MCA). A **Digital Signature Certificate (DSC)** is also mandatory for all partners to file documents online.",
-    "**Registered Office:** The LLP must have a registered office in India to receive all official communications and legal notices. Proof of this address, such as a rent agreement and a no-objection certificate from the landlord (if rented), must be submitted during the registration process."
+    "To register an LLP in India, the following requirements must be met:",
+    "**Minimum two partners:** Must have at least two partners (individuals or bodies corporate).",
+    "**Designated partners:** At least two individuals must act as designated partners, with at least one being an Indian resident.",
+    "**Digital Signature Certificate (DSC):** All designated partners must have a valid Class 3 DSC.",
+    "**Director Identification Number (DIN/DPIN):** Every designated partner must have a DPIN (equivalent to DIN).",
+    "**Unique name:** The proposed name must be unique and comply with MCA naming guidelines.",
+    "**Registered office:** A valid physical address in India for official correspondence.",
+    "**Lawful object:** The business must be for-profit and engage in legal activities.",
   ],
   documents: [
     {
-      tabTitle: "For Partners",
+      tabTitle: "For the partners",
       content: {
-        title: "For the Partners",
+        title: "For the partners (designated partners)",
         items: [
-          "PAN card (mandatory for Indian nationals)",
-          "Address proof (utility bill or bank statement not older than two months)",
-          "Passport-size photographs of all partners",
-          "Passport copy for foreign nationals (notarized/apostilled)",
-          "Class 3 DSC and DPIN for designated partners",
+          "**PAN card:** Mandatory for all Indian partners.",
+          "**Identity proof:** Aadhaar Card, Voter ID, Passport, or Driving License.",
+          "**Address proof:** Latest bank statement, electricity bill, or telephone bill (not older than **2 months**).",
+          "**Photographs:** Recent passport-size photos.",
+          "Passport copy for **foreign nationals** (notarized/apostilled) where applicable.",
         ],
       },
     },
     {
-      tabTitle: "For the LLP",
+      tabTitle: "For the registered office",
       content: {
-        title: "For the LLP",
+        title: "For the registered office",
         items: [
-          "Proof of Registered Office Address: You must provide proof of the LLP's registered office in India. This can be a recent utility bill (not older than two months) in the name of the property owner.",
-          "No Objection Certificate (NOC): If the registered office is a rented property, a signed NOC from the landlord is required, giving consent for the address to be used as the LLP's official registered office. A valid rent agreement must also be provided.",
-          "LLP Agreement: This is a crucial legal document drafted on a non-judicial stamp paper. It outlines the mutual rights and duties of the partners, their capital contributions, and the firm's operational clauses. This document must be filed with the MCA within 30 days of the LLP's incorporation.",
+          "**Proof of address:** Latest utility bill (electricity, water, or gas) of the premises.",
+          "**Ownership proof:** Property deed or sale deed (if owned).",
+          "**Rented premises:** Registered rent/lease agreement.",
+          "**NOC from owner:** No Objection Certificate for using the address as the registered office.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Additional documents",
+      content: {
+        title: "Additional documents",
+        items: [
+          "**LLP agreement:** Drafted and signed on stamp paper after incorporation (file with MCA within **30 days**).",
+          "**Subscriber sheet:** Signed by all partners during the filing process.",
         ],
       },
     },
@@ -157,49 +182,48 @@ The **Limited Liability Partnership Act, 2008**, is a specific law enacted by th
   ],
   fees: [
     {
-      component: "RUN-LLP (Name Reservation)",
+      component: "Total cost (overview)",
+      fees: "—",
+      remarks:
+        "The total cost of LLP registration includes government fees, stamp duty, and professional charges.",
+    },
+    {
+      component: "Government fee (by capital contribution)",
+      fees: "₹500 – ₹5,000",
+      remarks:
+        "Up to ₹1 lakh: ₹500; ₹1–5 lakh: ₹2,000; ₹5–10 lakh: ₹4,000; above ₹10 lakh: varies up to ₹5,000",
+    },
+    {
+      component: "Name reservation (RUN-LLP)",
       fees: "₹200",
-      remarks: "Government fee for each name application",
+      remarks: "Per application",
     },
     {
-      component: "Filing of Incorporation (FiLLiP Form)",
-      fees: "₹500 – ₹5,000",
-      remarks: "Depends on capital contribution",
+      component: "Digital Signature (DSC)",
+      fees: "₹1,000 – ₹2,000",
+      remarks: "Per partner (Class 3)",
     },
     {
-      component: "Form 3 (LLP Agreement Filing)",
-      fees: "₹50 – ₹200",
-      remarks: "Based on capital contribution",
+      component: "Stamp duty",
+      fees: "Varies by state",
+      remarks: "On LLP Agreement and incorporation forms",
     },
     {
-      component: "PAN & TAN Application",
-      fees: "₹170",
-      remarks: "₹65 for PAN + ₹65 for TAN + GST",
+      component: "PAN & TAN",
+      fees: "≈ ₹170",
+      remarks: "Approximate combined filing cost",
     },
     {
-      component: "DIN (Director Identification Number)",
-      fees: "₹500 per partner",
-      remarks: "First two DINs are free if applied via FiLLiP",
-    },
-    {
-      component: "DSC (Digital Signature Certificate)",
-      fees: "₹800 – ₹1,500 per partner",
-      remarks: "Required for all designated partners",
-    },
-    {
-      component: "Professional/Consultant Fees",
+      component: "Professional / CA fees",
       fees: "₹4,000 – ₹10,000",
-      remarks: "For registration assistance and LLP Agreement drafting",
+      remarks:
+        "Consultant/CA fees typically cover the entire digital process—drafting, filings, and coordination",
     },
     {
-      component: "Stamp Duty for LLP Agreement",
-      fees: "₹500 – ₹5,000",
-      remarks: "State-specific, depends on capital contribution",
-    },
-    {
-      component: "Total Estimated Cost",
-      fees: "₹8,000 – ₹25,000",
-      remarks: "Total varies based on capital and state",
+      component: "Penalties (non-compliance)",
+      fees: "₹100/day",
+      remarks:
+        "Per late Form 8 / Form 11 (no upper cap); DPIN/KYC defaults may lead to deactivation and reactivation fees",
     },
   ],
   faqs: [

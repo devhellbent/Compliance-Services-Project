@@ -1,4 +1,18 @@
-import { MarkdownBoldRenderer } from "../MarkdownBoldRenderer";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
+import { createServiceMarkdownComponents } from "@/components/serviceMarkdownComponents";
+
+const eligibilityBlockMarkdownComponents = createServiceMarkdownComponents({
+  tone: "compact",
+  promoteFlatParagraphs: false,
+});
+
+const eligibilityListMarkdownComponents = createServiceMarkdownComponents({
+  tone: "compact",
+  promoteFlatParagraphs: false,
+  paragraphElement: "span",
+});
 
 type EligibilityCriterion = {
   title: string;
@@ -25,9 +39,14 @@ export const Eligibility = ({ criteria }: EligibilityProps) => {
                     key={index}
                     className="bg-white p-6 rounded-xl shadow-md border border-gray-200"
                   >
-                    <p className="text-lg text-gray-700">
-                      <MarkdownBoldRenderer text={criterion} />
-                    </p>
+                    <div className="text-lg text-gray-700 service-markdown min-w-0 break-words">
+                      <ReactMarkdown
+                        remarkPlugins={[remarkGfm]}
+                        components={eligibilityBlockMarkdownComponents}
+                      >
+                        {normalizeCopyPastedEscapes(criterion)}
+                      </ReactMarkdown>
+                    </div>
                   </div>
                 );
               }
@@ -42,7 +61,12 @@ export const Eligibility = ({ criteria }: EligibilityProps) => {
                   <ul className="space-y-3 text-lg text-gray-700 list-disc list-inside">
                     {criterion.items.map((item: string) => (
                       <li key={item}>
-                        <MarkdownBoldRenderer text={item} />
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          components={eligibilityListMarkdownComponents}
+                        >
+                          {normalizeCopyPastedEscapes(item)}
+                        </ReactMarkdown>
                       </li>
                     ))}
                   </ul>

@@ -7,11 +7,26 @@ export const partnershipData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Company Registration", "Partnership"],
   description:
     "Unite strengths, share success. Partnership firm registration enables two or more professionals to combine their expertise and resources, creating a legally recognized business structure that distributes profits, responsibilities, and growth opportunities among partners.",
-  overview: `**Partnership Firm Registration**
+  overview: `**Partnership firm registration**
 
-Partnership firm registration is the legal process of formally registering a business partnership with the Registrar of Firms, as per the Indian Partnership Act, 1932. While registration is not mandatory, it is highly recommended due to the significant benefits it offers
+Partnership firm registration in India is the process of legally establishing a business **owned and operated by two or more individuals** under the **Indian Partnership Act, 1932**. Partners agree to share **profits and losses**. Registration is **not mandatory**, but a **registered** firm gains important legal rights that an **unregistered** firm does not.
 
-Once a partnership firm is registered, it becomes a legally recognized entity, giving your business formal standing in the eyes of the law.In short, registration strengthens your business foundation and helps it grow with confidence and security.`,
+Partnerships suit **small and medium** businesses where people pool **resources, skills, and capital**—a balance between proprietorship simplicity and more formal structures.
+
+**What is a partnership?**
+
+A partnership is a relationship where two or more persons agree to carry on a business and share profits/losses. It is usually recorded in a **Partnership Deed** (written agreement).
+
+**Features of a partnership firm**
+
+- **Number of partners:** Minimum **two**; maximum **50** (Companies Act, 2013); **10** for banking.
+- **Partnership deed:** Written or oral agreement setting roles, profit share, and terms (written deed strongly recommended).
+- **Unlimited liability:** Partners are **personally** liable if the firm cannot pay debts.
+- **Mutual agency:** Each partner can bind the firm and other partners in the ordinary course of business.
+- **Profit and loss sharing:** As agreed in the deed.
+- **No separate legal entity:** Firm and partners are one in law; a **registered** firm can still sue and be sued in the firm name.
+- **Restriction on transfer:** A partner cannot transfer their share to an outsider without **consent** of the other partners.
+- **Registration:** Optional but important for legal standing and enforcement rights.`,
   whyChooseUs: [
     {
       icon: "Users",
@@ -51,80 +66,74 @@ Once a partnership firm is registered, it becomes a legally recognized entity, g
   ],
   advantages: [
     {
-      icon: "Scale",
-      title: "Legal Protection and Credibility",
-      text: "A registered firm and its partners have the legal right to file a lawsuit against third parties or other partners to enforce a right arising from a contract. Registration gives the firm a legal identity, enhancing its credibility with clients, suppliers, and government bodies.",
+      icon: "Gavel",
+      title: "Ability to Sue",
+      text: "A registered firm can file a lawsuit against third parties or other partners for matters related to the firm.",
     },
     {
-      icon: "TrendingUp",
-      title: "Access to Financial Opportunities",
-      text: "Registered firms are more likely to secure loans and credit facilities from banks and financial institutions. A registered entity can enter into contracts, acquire assets, and engage in legal transactions in its own name.",
+      icon: "Scale",
+      title: "Claiming Set-off",
+      text: "The firm can claim set-offs in any legal proceedings brought against it by a third party.",
+    },
+    {
+      icon: "FileCheck",
+      title: "Legal Evidence",
+      text: "The registration certificate serves as conclusive evidence of the firm's existence and its partners.",
+    },
+    {
+      icon: "Zap",
+      title: "Ease of Formation",
+      text: "Relatively simple to set up compared to a company or LLP.",
     },
     {
       icon: "Users",
-      title: "Dispute Resolution",
-      text: "The registration process involves a partnership deed, a legally binding document that outlines the rights, duties, and responsibilities of each partner. This serves as a clear reference for resolving internal conflicts and misunderstandings.",
+      title: "Combined Resources",
+      text: "Pool capital, skills, and expertise from multiple partners.",
     },
     {
       icon: "Receipt",
-      title: "Tax Benefits and Compliance",
-      text: "Registered firms are eligible for various tax benefits, deductions, and exemptions, which can help reduce the overall tax liability. A registered partnership can be more easily converted into a different business structure.",
-    },
-    {
-      icon: "Shield",
-      title: "Partner Protection and Continuity",
-      text: "The partnership deed registered with the Registrar of Firms provides clear documentation of the capital contributions, profit-sharing ratio, and liability of each partner. A registered firm can include provisions for seamless admission of new partners or withdrawal of existing ones.",
+      title: "Tax Benefits",
+      text: "Partnership firms are taxed as separate entities, often providing tax planning opportunities.",
     },
   ],
   disadvantages: [
     {
       icon: "AlertTriangle",
-      title: "Unlimited Liability",
-      text: "The biggest drawback is that partners in a general partnership have unlimited liability. Their personal assets can be used to pay off the firm's debts and obligations if the business fails.",
-    },
-    {
-      icon: "Building",
-      title: "Lack of Perpetual Succession",
-      text: "A partnership firm does not have a perpetual existence. It can be dissolved due to the death, retirement, or insolvency of a partner, which can disrupt the business.",
-    },
-    {
-      icon: "FileCheck",
-      title: "Compliance Requirements",
-      text: "While partnerships have fewer compliance requirements compared to companies, a registered firm must still inform the Registrar of Firms about any changes in the firm's name, address, or partners.",
-    },
-    {
-      icon: "Percent",
-      title: "High Tax Rate",
-      text: "Partnership firms are subject to a flat tax rate of 30% on their total income, regardless of the income slab. There is no progressive tax slab system like for individuals.",
+      title: "Unlimited Personal Liability",
+      text: "Partners' personal wealth is at risk for business debts.",
     },
     {
       icon: "Users",
-      title: "Limited Number of Partners",
-      text: "A partnership firm is limited to a maximum of 50 partners, which can restrict business expansion in some cases.",
+      title: "Mutual Responsibility",
+      text: "All partners are legally responsible for the actions of any one partner acting on behalf of the firm.",
+    },
+    {
+      icon: "Clock",
+      title: "Risk of Dissolution",
+      text: "The firm may automatically dissolve upon the death, insolvency, or retirement of a partner unless the deed states otherwise.",
+    },
+    {
+      icon: "AlertCircle",
+      title: "Potential for Conflict",
+      text: "Differences in opinion among partners can lead to disputes and slow down decision-making.",
+    },
+    {
+      icon: "TrendingDown",
+      title: "Limited Capital Access",
+      text: "Harder to raise large amounts of capital compared to a company as they cannot issue shares to the public.",
     },
   ],
   eligibility: [
+    "To form and register a partnership firm in India, the following requirements must be met:",
     {
-      title: "Minimum and Maximum Partners",
+      title: "Requirements",
       items: [
-        "**Minimum Number of Partners:** There must be at least two partners.",
-        "**Maximum Number of Partners:** The maximum number of partners is 50, as per the Companies Act.",
-      ],
-    },
-    {
-      title: "Competency of Partners",
-      items: [
-        "All partners must be legally capable of entering into a contract.",
-        "Partners must be of sound mind.",
-        "Partners must be at least 18 years old.",
-        "Partners should not be disqualified by law from entering into a contract.",
-      ],
-    },
-    {
-      title: "Business and Deed Requirements",
-      items: [
-        "**Lawful Business Activity:** The partnership must carry on a legal business.",
-        "**Partnership Deed:** A written agreement should define rights, duties, profit-sharing ratio, capital contribution, and operational terms.",
+        "**Number of partners:** Minimum of **two** and a maximum of **50**.",
+        "**Competence to contract:** Partners must be of sound mind, **18+**, and not disqualified by law.",
+        "**Lawful business:** The activity must be legal and not against public policy.",
+        "**Partnership deed:** A formal agreement must be drafted and signed by all partners.",
+        "**Registered office:** A valid physical address for the firm’s principal place of business.",
+        "**Unique firm name:** Must not be identical to an existing firm or trademark; avoid prohibited words.",
       ],
     },
   ],
@@ -134,25 +143,24 @@ Once a partnership firm is registered, it becomes a legally recognized entity, g
       content: {
         title: "Partnership Deed",
         items: [
-          "Name and address of the firm",
-          "Names and addresses of all partners",
-          "Nature of the business",
-          "Profit and loss sharing ratio",
-          "Capital contribution of each partner",
-          "Roles, responsibilities, and dispute resolution terms",
-          "Must be executed on stamp paper and notarized",
+          "The **Partnership Deed** is the most important document: printed on **stamp paper** of appropriate value and **notarized**. It must include:",
+          "Name and address of the firm and all partners.",
+          "Nature of the business.",
+          "Date of commencement.",
+          "Capital contribution by each partner.",
+          "Profit and loss sharing ratio.",
+          "Rules for admission, retirement, or death of a partner.",
         ],
       },
     },
     {
-      tabTitle: "Partner Identity and Address Proof",
+      tabTitle: "Partners (PAN & KYC)",
       content: {
-        title: "Proof of Identity and Address of Partners",
+        title: "Documents of the partners",
         items: [
-          "PAN Card copy of each partner",
-          "Government-issued address proof (Aadhaar/Voter ID/Passport/Driving License)",
-          "Recent utility bill if used as address proof",
-          "Passport-size photographs of all partners",
+          "**PAN Card:** Mandatory for all partners.",
+          "**Identity and address proof:** Aadhaar Card, Voter ID, Passport, or Driving License.",
+          "**Photographs:** Passport-sized photos of all partners.",
         ],
       },
     },
@@ -161,19 +169,28 @@ Once a partnership firm is registered, it becomes a legally recognized entity, g
       content: {
         title: "Proof of Business Address",
         items: [
-          "For Rented Premises: Copy of rent or lease agreement along with the latest utility bill of the property. A No Objection Certificate (NOC) from the landlord is also essential.",
-          "For Owned Premises: Copy of the property deed or ownership documents, along with the latest utility bill in the name of the owner (a partner).",
+          "**For rented premises:** Rent/Lease Agreement, latest utility bill, and a No Objection Certificate (NOC) from the landlord.",
+          "**For owned premises:** Property deed/ownership documents and the latest utility bill.",
         ],
       },
     },
     {
-      tabTitle: "Additional Documents",
+      tabTitle: "Form 1 & Affidavit",
       content: {
-        title: "Additional Documents",
+        title: "Form 1 and Affidavit",
         items: [
-          "Form 1: Application for registration under the Indian Partnership Act, 1932. It must be filled out with the firm's details, signed, and verified by all partners or their authorized agents.",
-          "Affidavit: An affidavit must be submitted, certifying that all the details provided in the application and the partnership deed are correct and that all partners are legally competent to enter into a contract.",
-          "Firm's PAN Card: It is important to apply for a PAN card in the firm's name. The PAN card is required for tax purposes and to open a bank account for the business.",
+          "**Form 1:** The official application for registration under the Indian Partnership Act, 1932.",
+          "**Affidavit:** A certified declaration that all details provided are correct and partners are legally competent.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Firm PAN & banking",
+      content: {
+        title: "Associated registrations",
+        items: [
+          "**Firm's PAN Card:** Approximately ₹110.",
+          "**Bank account setup:** Minimal initial deposit for a current account.",
         ],
       },
     },
@@ -224,37 +241,34 @@ Once a partnership firm is registered, it becomes a legally recognized entity, g
   ],
   fees: [
     {
-      component: "Stamp Duty (Partnership Deed)",
-      fees: "₹500 - ₹10,000+",
-      remarks:
-        "Varies by state and capital contribution. Higher capital means higher stamp duty.",
+      component: "Registration fee (Registrar of Firms)",
+      fees: "₹500 – ₹2,000",
+      remarks: "Varies by state",
     },
     {
-      component: "Registrar of Firms Fee",
-      fees: "₹500 - ₹2,000",
-      remarks: "Official government fee for registration, varies by state.",
+      component: "Stamp duty (Partnership Deed)",
+      fees: "Varies by state",
+      remarks: "Depends on capital and state rules",
     },
     {
-      component: "Notarization Charges",
-      fees: "₹500 - ₹1,000",
-      remarks: "For notarizing the partnership deed and other documents.",
+      component: "Affidavit and notary",
+      fees: "Varies",
+      remarks: "Notarizing the deed and filing the affidavit",
     },
     {
-      component: "PAN Application Fee",
-      fees: "₹110",
-      remarks: "One-time fee for applying for the firm's PAN card.",
+      component: "Professional fees (optional)",
+      fees: "₹2,000 – ₹5,000",
+      remarks: "CA/consultant for deed drafting and registration",
     },
     {
-      component: "Professional Fees (CA/Consultant)",
-      fees: "₹4,000 - ₹10,000",
-      remarks:
-        "For deed drafting, documentation, and filing assistance. Varies based on complexity.",
+      component: "Firm PAN",
+      fees: "≈ ₹110",
+      remarks: "One-time application",
     },
     {
-      component: "Total Estimated Cost",
-      fees: "₹6,000 - ₹25,000",
-      remarks:
-        "Total cost depends on state stamp duty and professional fees chosen.",
+      component: "Total estimated cost",
+      fees: "₹4,000 – ₹10,000",
+      remarks: "Typically, including stamp duty and professional help",
     },
   ],
   faqs: [

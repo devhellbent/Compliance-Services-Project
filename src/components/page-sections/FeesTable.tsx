@@ -1,4 +1,13 @@
-// components/page-sections/proprietorship/FeesTable.tsx
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
+import { createServiceMarkdownComponents } from "@/components/serviceMarkdownComponents";
+
+const feeCellMarkdownComponents = createServiceMarkdownComponents({
+  tone: "compact",
+  promoteFlatParagraphs: false,
+});
+
 type Fee = {
   component: string;
   fees: string | number;
@@ -8,6 +17,19 @@ type Fee = {
 type FeesTableProps = {
   fees: Fee[];
 };
+
+function FeeTextCell({ text }: { text: string }) {
+  return (
+    <div className="service-markdown min-w-0 max-w-md break-words text-sm">
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        components={feeCellMarkdownComponents}
+      >
+        {normalizeCopyPastedEscapes(text)}
+      </ReactMarkdown>
+    </div>
+  );
+}
 
 export const FeesTable = ({ fees }: FeesTableProps) => {
   return (
@@ -32,11 +54,21 @@ export const FeesTable = ({ fees }: FeesTableProps) => {
               </tr>
             </thead>
             <tbody>
-              {fees.map((fee: Fee) => (
-                <tr key={fee.component} className="border-b">
-                  <td className="p-4 text-gray-800">{fee.component}</td>
-                  <td className="p-4 text-gray-800">{fee.fees}</td>
-                  <td className="p-4 text-gray-600">{fee.remarks}</td>
+              {fees.map((fee: Fee, rowIndex: number) => (
+                <tr key={`${fee.component}-${rowIndex}`} className="border-b">
+                  <td className="p-4 text-gray-800 align-top">
+                    <FeeTextCell text={fee.component} />
+                  </td>
+                  <td className="p-4 text-gray-800 align-top">
+                    {typeof fee.fees === "number" ? (
+                      fee.fees
+                    ) : (
+                      <FeeTextCell text={fee.fees} />
+                    )}
+                  </td>
+                  <td className="p-4 text-gray-600 align-top">
+                    <FeeTextCell text={fee.remarks} />
+                  </td>
                 </tr>
               ))}
             </tbody>

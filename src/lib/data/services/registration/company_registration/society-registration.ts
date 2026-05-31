@@ -72,45 +72,68 @@ The main categories eligible for registration include societies formed for the p
   ],
   advantages: [
     {
-      icon: "CheckCircle",
-      title:
-        "Despite the benefits, societies come with certain limitations and",
-      text: "complexities that need to be considered. #",
+      icon: "Building2",
+      title: "Separate Legal Identity",
+      text: "Provides the group with a formal status, allowing it to lease property and open bank accounts.",
     },
     {
-      icon: "CheckCircle",
-      title: "Governance and Management Challenges",
-      text: "1.  **Compliance Burden:** Societies are subject to various compliance requirements, including mandatory annual filing of a list of governing body members, audited financial statements, and activity reports with the Registrar of Societies. Non-compliance can lead to penalties or even dissolution. 2.  **Democratic Management:** While often seen as an advantage, the democratic structure (where a Governing Body is elected by the General Body) can sometimes lead to internal politics, disputes, and slower decision-making processes. 3.  **Minimum Member Requirement:** The necessity of having at least seven members can be a challenge for very small groups or those with a highly specialized focus. 4.  **No Profit Distribution:** Societies are strictly non-profit; any surplus generated cannot be distributed to its members. All income must be used for the society\\'s stated objectives. #",
+      icon: "Shield",
+      title: "Limited Liability",
+      text: "Members are generally protected from personal liability for the society's obligations.",
     },
     {
-      icon: "CheckCircle",
-      title: "Structural and Regulatory Limitations",
-      text: "1.  **State-Specific Variations:** While the central Societies Registration Act, 1860, exists, many states have made amendments. This can lead to variations in registration processes, compliance requirements, and operational rules from one state to another. 2.  **Limited Scope for Commercial Activities:** A society\\'s primary purpose must be non-profit. Engaging in significant commercial activities, even to generate funds for its objectives, can lead to scrutiny or challenges to its non-profit status. 3.  **Challenges in Amendments:** Amending the Memorandum of Association or Rules and Regulations often requires specific procedures, including special resolutions and approval from the Registrar, which can be time-consuming. 4.  **Less Flexibility Compared to a Trust:** In some aspects, a society\\'s operational framework can be less flexible than that of a trust, particularly regarding internal governance and asset management, as it\\'s often bound by a more rigid democratic structure.",
+      icon: "BadgePercent",
+      title: "Tax Benefits",
+      text: "Registered societies can apply for tax exemptions under Sections 12AB and 80G of the Income Tax Act.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Grants",
+      text: "Eligible for government grants, subsidies, and local-level donations.",
+    },
+    {
+      icon: "Zap",
+      title: "Relative Simplicity",
+      text: "The registration process is often less complex and expensive than incorporating a Section 8 company.",
+    },
+    {
+      icon: "Settings",
+      title: "Operational Flexibility",
+      text: "By-laws can be easily adapted to suit the specific needs of the community or group.",
     },
   ],
   disadvantages: [
     {
-      icon: "CheckCircle",
-      title: "of Society Registration in India",
-      text: "Despite the benefits, societies come with certain limitations and complexities that need to be considered. #",
+      icon: "Eye",
+      title: "Lack of Professional Image",
+      text: "Generally perceived as less formal or professional compared to a Section 8 company.",
     },
     {
-      icon: "CheckCircle",
-      title: "Governance and Management Challenges",
-      text: "1.  **Compliance Burden:** Societies are subject to various compliance requirements, including mandatory annual filing of a list of governing body members, audited financial statements, and activity reports with the Registrar of Societies. Non-compliance can lead to penalties or even dissolution. 2.  **Democratic Management:** While often seen as an advantage, the democratic structure (where a Governing Body is elected by the General Body) can sometimes lead to internal politics, disputes, and slower decision-making processes. 3.  **Minimum Member Requirement:** The necessity of having at least seven members can be a challenge for very small groups or those with a highly specialized focus. 4.  **No Profit Distribution:** Societies are strictly non-profit; any surplus generated cannot be distributed to its members. All income must be used for the society\\'s stated objectives. #",
+      icon: "Users",
+      title: "Potential for Internal Disputes",
+      text: "Since management is democratic, differences among members can lead to gridlock or leadership changes.",
     },
     {
-      icon: "CheckCircle",
-      title: "Structural and Regulatory Limitations",
-      text: "1.  **State-Specific Variations:** While the central Societies Registration Act, 1860, exists, many states have made amendments. This can lead to variations in registration processes, compliance requirements, and operational rules from one state to another. 2.  **Limited Scope for Commercial Activities:** A society\\'s primary purpose must be non-profit. Engaging in significant commercial activities, even to generate funds for its objectives, can lead to scrutiny or challenges to its non-profit status. 3.  **Challenges in Amendments:** Amending the Memorandum of Association or Rules and Regulations often requires specific procedures, including special resolutions and approval from the Registrar, which can be time-consuming. 4.  **Less Flexibility Compared to a Trust:** In some aspects, a society\\'s operational framework can be less flexible than that of a trust, particularly regarding internal governance and asset management, as it\\'s often bound by a more rigid democratic structure.",
+      icon: "RefreshCw",
+      title: "Renewal Requirements",
+      text: "In many states, the registration must be renewed periodically (e.g., every five years).",
+    },
+    {
+      icon: "Ban",
+      title: "Strict Use of Funds",
+      text: "Funds must be strictly used for the society's objects; misappropriation can lead to de-registration.",
+    },
+    {
+      icon: "Globe",
+      title: "State-Specific Rules",
+      text: "Different states have different rules and procedures, which can be confusing for organizations operating across borders.",
     },
   ],
   eligibility: [
     {
-      title:
-        "The eligibility criteria for Society Registration in India are primarily",
+      title: "Governing Act",
       items: [
-        "governed by the Societies Registration Act, 1860, although specific rules and amendments may vary slightly from state to state.    Here is a breakdown of the essential eligibility criteria:",
+        "Societies are governed by the Societies Registration Act, 1860, with state-specific amendments.",
       ],
     },
     {
@@ -220,41 +243,6 @@ The main categories eligible for registration include societies formed for the p
           "A copy of the minutes of the first meeting where the members resolved to form the society, adopted the MoA and Rules/Regulations, and elected the first Governing Body. D.  **Consent Letters/Authority Letters**",
           "Written consent letters from the proposed members to join the society.",
           "An authority letter authorizing one member (usually the President or Secretary) to make the application for registration.",
-        ],
-      },
-    },
-    {
-      tabTitle: "Member and Governing Body Details",
-      content: {
-        title: "Member and Governing Body Details",
-        items: [
-          "A complete list of the members of the Governing Body, including their names, addresses, occupations, and **signatures**.",
-          "**Identity and Address Proof of all Members:** Copy of **PAN Card** of all proposed members.",
-          "Copy of **Residence Proof** (Aadhaar Card, Passport, Voter ID, Driving License, Utility Bill, or Bank Statement) of all proposed members.",
-          "**Passport-size photographs** of the members.",
-        ],
-      },
-    },
-    {
-      tabTitle: "Registered Office Documentation",
-      content: {
-        title: "Registered Office Documentation",
-        items: [
-          "Documents like a **Utility Bill** (electricity/water) or Property Tax Receipt for the premises.",
-          "If the premises are rented, a copy of the **Rent Agreement** or Lease Deed.",
-          "**No Objection Certificate (NOC):** A **No-Objection Certificate** from the landlord or owner of the premises, permitting the society to use the address as its registered office.",
-        ],
-      },
-    },
-    {
-      tabTitle: "Supporting Application Documents",
-      content: {
-        title: "Supporting Application Documents",
-        items: [
-          "A formal letter requesting registration, signed by all the founding members, stating the purpose of forming the society.",
-          "**Affidavit:** An affidavit (usually sworn by the President or Secretary) on non-judicial stamp paper, declaring: The name of the society is not identical to any other registered society. The documents submitted are true and correct. In some states, an affidavit stating that the subscribers are not blood relatives may also be required.",
-          "**Minutes of the First Meeting:** A copy of the minutes of the first meeting where the members resolved to form the society, adopted the MoA and Rules/Regulations, and elected the first Governing Body.",
-          "**Consent Letters/Authority Letters:** Written consent letters from the proposed members to join the society. An authority letter authorizing one member (usually the President or Secretary) to make the application for registration.",
         ],
       },
     },

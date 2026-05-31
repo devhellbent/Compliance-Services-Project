@@ -37,7 +37,38 @@ A successfully designed logo becomes the fundamental building block for all subs
         ]
     }
 ],
-  registrationProcess: [],
+  registrationProcess: [
+    {
+      step: 1,
+      title: "Brief & discovery",
+      description:
+        "Capture brand values, audience, competitors, and usage contexts (print, web, signage) so the creative direction matches business goals.",
+    },
+    {
+      step: 2,
+      title: "Concepts & shortlisting",
+      description:
+        "Explore multiple visual directions (wordmarks, symbols, combinations), refine typography and colour psychology, and shortlist 2–3 strong routes.",
+    },
+    {
+      step: 3,
+      title: "Revisions & lock-up",
+      description:
+        "Iterate on feedback, test legibility at small sizes, prepare monochrome and reversed variants, and agree final master artwork.",
+    },
+    {
+      step: 4,
+      title: "Deliverables & handover",
+      description:
+        "Supply vector and raster packs, colour specifications, and a simple usage guide; confirm IP assignment in the contract before handover.",
+    },
+    {
+      step: 5,
+      title: "Optional trademark filing",
+      description:
+        "If you want statutory protection, file a trademark application for the mark in the relevant classes once the logo is finalised.",
+    },
+  ],
   eligibility: [
     "The term **\\\"Eligible Criteria for Logo Design\\\"** typically refers to the characteristics a logo must possess to be **effective** for the brand and **legally registrable** as a trademark.  Here are the key criteria, focusing on both design efficacy and legal compliance:"
 ],

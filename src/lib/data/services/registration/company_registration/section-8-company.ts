@@ -40,87 +40,75 @@ By combining the credibility of a corporate entity with the purpose of a charita
   ],
   advantages: [
     {
-      icon: "CheckCircle",
-      title: "Separate Legal Entity",
-      text: "** It can own assets, enter into contracts, and manage its affairs independently, providing stability and longevity (perpetual succession).",
+      icon: "Award",
+      title: "High Credibility",
+      text: "Being registered under the Companies Act provides more trust and transparency than a trust or society.",
     },
     {
-      icon: "CheckCircle",
-      title: "Limited Liability",
-      text: "** It protects the personal assets of its directors and members from the company\\'s liabilities, encouraging more people to participate in social causes without personal financial risk.",
-    },
-    {
-      icon: "CheckCircle",
+      icon: "BadgePercent",
       title: "Tax Exemptions",
-      text: "** It becomes eligible to apply for significant tax benefits under the Income Tax Act (Sections 12A and 80G), which not only helps the organization save tax on its income but also provides **tax deductions to its donors**, thereby boosting fundraising capabilities.",
+      text: "Eligible for various tax benefits under the Income Tax Act (Sections 12AB and 80G).",
     },
     {
-      icon: "CheckCircle",
-      title: "Access to Corporate Social Responsibility (CSR) Funding",
-      text: "** Due to its credibility and structured compliance, a Section 8 Company is often the preferred and most eligible entity for receiving CSR funds from for-profit corporations.",
+      icon: "Banknote",
+      title: "No Minimum Capital",
+      text: "Can be incorporated with zero minimum capital.",
+    },
+    {
+      icon: "Shield",
+      title: "Limited Liability Protection",
+      text: "Protects members' personal assets from the company's liabilities.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Grants and CSR Funds",
+      text: "Highly favored by corporate donors for Corporate Social Responsibility (CSR) funding.",
+    },
+    {
+      icon: "Globe",
+      title: "Global Recognition",
+      text: "Easier to receive foreign contributions (subject to FCRA registration) due to its formal corporate structure.",
     },
   ],
   disadvantages: [
     {
-      icon: "CheckCircle",
-      title: "Charitable Objects",
-      text: "",
-      subPoints: [
-        "The company must be established **solely for the promotion** of commerce, art, science, sports, education, research, social welfare, religion, charity, protection of the environment, or any such other object.",
-      ],
+      icon: "FileWarning",
+      title: "Strict Compliance Burden",
+      text: "Subject to the same rigorous audit and filing requirements as other companies.",
     },
     {
-      icon: "HandCoins",
-      title: "Application of Profits/Income",
-      text: "",
-      subPoints: [
-        "The company must **intend to apply its profits, if any, or other income** solely for promoting its charitable objects.",
-        "It must **prohibit the payment of any dividend** to its members. Profits cannot be distributed to its members in any form.",
-      ],
+      icon: "Ban",
+      title: "No Profit Sharing",
+      text: "Members cannot receive any financial returns or dividends.",
+    },
+    {
+      icon: "Lock",
+      title: "Restricted Object Changes",
+      text: "Any change in the charitable objects requires prior approval from the Central Government.",
+    },
+    {
+      icon: "Clock",
+      title: "Difficult to Close",
+      text: "Winding up a Section 8 Company is a complex and highly regulated process.",
     },
     {
       icon: "Scale",
-      title: "Legal Structure and Members/Directors",
-      text: "",
-      subPoints: [
-        "**Applicants:** An individual or an association of persons (including firms, Hindu Undivided Families, and other companies) can apply.",
-        "**Minimum Directors/Members:** ",
-        "For a **Private Limited** Section 8 Company: **Minimum 2 Directors** and **2 Members/Subscribers**.",
-        "For a **Public Limited** Section 8 Company: **Minimum 3 Directors** and **7 Members/Subscribers**. ",
-        "**Resident Director:** At least **one director** must be a resident of India (i.e., stayed in India for a minimum of 182 days in the previous financial year).",
-        "**No Minimum Capital:** There is **no requirement** for a minimum paid-up capital.",
-      ],
-    },
-    {
-      icon: "CheckCircle",
-      title: "Government License",
-      text: "",
-      subPoints: [
-        "The Central Government (or the delegated authority, like the Registrar of Companies/Regional Director) must be satisfied with the application and issue a **license** to the person or association of persons to be registered as a Section 8 company.",
-      ],
-    },
-    {
-      icon: "CheckCircle",
-      title: "Name Requirement",
-      text: "",
-      subPoints: [
-        'The company\\\'s name must not include the words \\"**Limited**\\" or \\"**Private Limited**\\" but should typically include words like *Foundation, Forum, Association, Chamber, Council*, etc. **Forms Required for Section 8 Company Registration in India** The registration process for a Section 8 Company in India is now primarily conducted through the integrated electronic form on the Ministry of Corporate Affairs (MCA) portal. The main forms required for the *incorporation* and *grant of license* for a new Section 8 Company are:',
-      ],
-    },
-    {
-      icon: "CheckCircle",
-      title: "I. The Integrated e",
-      text: "Forms (SPICe+ and AGILE-PRO-S)** The current system streamlines the process by combining name reservation, incorporation, and several initial registrations into a single application. ------------------ --------------------------- ------------------------ **Form No.**       **Purpose**                 **Notes** **SPICe+ Part A**  For Name Reservation (or    Allows reservation of can be filed along with     one name. Part B). **SPICe+ Part B**  For Incorporation and       Automatically applies mandatory registrations     for DIN for directors (DIN, PAN, TAN).            without one (up to 3), PAN, and TAN. **e-MOA (INC-33)** Electronic Memorandum of    Mandatory Association.                attachment/part of the SPICe+ filing. **Must be in Form INC-13** for a Section 8 Company. **e-AOA (INC-34)** Electronic Articles of      Mandatory Association.                attachment/part of the SPICe+ filing. **AGILE-PRO-S**    Application for Goods and   Must be filed as a Services Tax Identification linked form with SPICe+. Number (GSTIN), Employees\\' Bank account opening is Provident Fund Organisation mandatory. (EPFO), Employees\\' State Insurance Corporation (ESIC), and opening a **Bank Account**. ------------------ --------------------------- ------------------------",
-    },
-    {
-      icon: "CheckCircle",
-      title: "II. Declarations and Consents (Required Attachments)",
-      text: "These forms are critical declarations that are submitted as attachments within the SPICe+ Part B form: ------------ ----------------------- --------------------------------------- **Form No.** **Purpose**             **Who Files/Signs It** **INC-12**   Application for Grant   Crucially, for *new* company of License under        incorporation, the application for the Section 8.              Section 8 license is now typically filed *through* SPICe+ Part B, in line with simplified rules. However, the requirement for the core supporting documents (see below) remains. INC-12 is still used for an *existing* company converting to Section 8. **INC-14**   Declaration by          A practicing Chartered Accountant (CA), Professional.           Company Secretary (CS), Cost Accountant (CMA), or an Advocate must declare that the draft MOA and AOA comply with Section 8 rules. **INC-15**   Declaration by          A declaration by each person applying Applicants.             for the license stating that the information provided is true and correct. **INC-9**    Declaration of          A declaration from all subscribers and Subscribers and First   first directors that they are not Directors.              disqualified to act as directors. This is generated electronically in most cases. **DIR-2**    Consent to Act as       Consent from each person named as a Director.               first director in the Articles of Association. ------------ ----------------------- ---------------------------------------",
+      title: "Strict Use of Funds",
+      text: "Funds can only be used for the specified objects; any diversion can lead to revocation of the license.",
     },
   ],
   eligibility: [
-    "A minimum of two directors are required.",
-    "The company's objectives must be for charitable purposes.",
+    {
+      title: "Mandatory Conditions",
+      items: [
+        "**Charitable Objects:** Established solely for the promotion of commerce, art, science, sports, education, research, social welfare, religion, charity, protection of the environment, etc.",
+        "**Application of Profits:** Must intend to apply its profits or income solely for promoting its charitable objects.",
+        "**No Dividends:** Must prohibit the payment of any dividend to its members.",
+        "**Minimum Directors:** At least 2 for Private Limited, 3 for Public Limited.",
+        "**Resident Director:** At least one director must be a resident of India.",
+        "**Government License:** Must obtain a license from the Central Government.",
+      ],
+    },
   ],
   documents: [
     {
@@ -168,6 +156,22 @@ By combining the credibility of a corporate entity with the purpose of a charita
           "**Declaration from a Professional (Form INC-14):** A declaration is required from a practicing Chartered Accountant (CA), Company Secretary (CS), or Cost Accountant (CWA) certifying that the draft MOA and AOA comply with the provisions of Section 8.",
           "**Estimate of Income and Expenditure:** A projection of the company\\'s estimated annual income and expenses for the next **three years**, detailing the sources of income and the objects of the expenditure.",
           "**Name Approval Letter:** Evidence of the approval of the proposed company name by the Registrar of Companies (RoC).",
+        ],
+      },
+    },
+    {
+      tabTitle: "Forms Required",
+      content: {
+        title: "Statutory Forms for Registration",
+        items: [
+          "**SPICe+ Part A:** For Name Reservation.",
+          "**SPICe+ Part B:** Integrated form for Incorporation, DIN, PAN, and TAN.",
+          "**e-MOA (INC-33/13):** Electronic Memorandum of Association.",
+          "**e-AOA (INC-34):** Electronic Articles of Association.",
+          "**AGILE-PRO-S:** For GSTIN, EPFO, ESIC, and Bank Account opening.",
+          "**INC-12:** Application for Grant of License.",
+          "**INC-14/15:** Declarations by Professionals and Applicants.",
+          "**DIR-2:** Consent to act as Director.",
         ],
       },
     },

@@ -13,33 +13,58 @@ export const fssaiLicenseData: ServiceData = {
 The primary benefit of FSSAI registration is to provide a mark of assurance to consumers, signifying safety, hygiene, and quality. The application process is primarily online through the Food Safety Compliance System (FoSCoS) portal, where businesses submit required documents like identity proof and product details. Obtaining this registration is vital for legal compliance, helps build consumer trust, and avoids penalties for non-compliance.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of FSSAI Registration/License",
-        text: "FSSAI registration or license provides a legal stamp of approval that is essential for operating a food business and offers multiple strategic benefits:",
-        subPoints: [
-            "**Legal Compliance:** It grants the food business **legal authorization** to operate in India, preventing heavy penalties, fines, or even closure for non-compliance with the Food Safety and Standards Act, 2006.",
-            "**Enhanced Consumer Trust and Credibility:** Displaying the FSSAI logo and 14-digit registration/license number assures customers about the **safety, hygiene, and quality** of the food, which is crucial for building goodwill and fostering repeat business.",
-            "**Business Expansion and Market Reach:** It is mandatory for listing on popular **online food platforms** (like Swiggy, Zomato) and e-commerce portals. It also facilitates easier expansion into new markets, partnerships, and enables supplying to large institutions (like government bodies, schools).",
-            "**Brand Building and Reputation:** The FSSAI mark acts as a **mark of quality** and validity, distinguishing the business from unlicensed competitors and significantly enhancing the overall brand reputation.",
-            "**Access to Government Schemes and Funding:** Possessing a valid FSSAI license makes the business eligible to avail **government schemes**, subsidies, and secure easier access to bank loans and funding for expansion.",
-            "**Standardized Procedures:** It encourages the adoption of the mandated Food Safety Management System (FSMS), ensuring the maintenance of **minimum hygiene and safety standards** in preparation, storage, and handling."
-        ]
-    }
-],
+      icon: "ShieldCheck",
+      title: "Legal Authorization",
+      text: "Grants the legal right to operate a food business in India, ensuring compliance with the Food Safety and Standards Act, 2006.",
+    },
+    {
+      icon: "Award",
+      title: "Consumer Trust",
+      text: "The FSSAI logo is a mark of quality and safety, building immense credibility and trust among customers.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Business Expansion",
+      text: "Mandatory for listing on food delivery platforms like Swiggy/Zomato and for selling products in established retail chains.",
+    },
+    {
+      icon: "Globe",
+      title: "Market Reach",
+      text: "Facilitates easier entry into new markets and enables participation in government tenders and international trade.",
+    },
+    {
+      icon: "FileCheck",
+      title: "Standardized Operations",
+      text: "Encourages the adoption of food safety management systems, ensuring consistent hygiene and quality standards.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "and Challenges of FSSAI Registration/License",
-        text: "While FSSAI compliance is beneficial, it also introduces certain requirements and administrative burdens, particularly for smaller businesses:",
-        subPoints: [
-            "**Compliance Costs:** There are **fees** associated with the application and mandatory periodic renewal of the registration or license, which can be an added expense, especially for small-scale and startup FBOs.",
-            "**Documentation and Application Complexity:** The process, especially for State and Central licenses, involves **detailed documentation** (like layout plans, water test reports, list of equipment, etc.) and rigorous scrutiny, which can be complex and time-consuming for first-time applicants.",
-            "**Strict Regulatory Standards:** FBOs must adhere to **strict and comprehensive safety and quality standards** across all operations (manufacturing, storage, packaging, and labeling). Maintaining these standards requires consistent effort, resources, and employee training.",
-            "**Renewal Requirement:** The license is **not a one-time approval** and must be renewed regularly (typically 1 to 5 years). Failure to renew the license on time can lead to late fees and penalties, and a lapse will make the business illegal.",
-            "**Risk of Penalties and Suspension:** Non-compliance with any FSSAI regulation---such as sub-standard food, misbranding, or unhygienic practices---can lead to **heavy fines, product recalls, or license suspension/cancellation**, posing a significant financial and reputational risk."
-        ]
-    }
-],
+      icon: "Banknote",
+      title: "Compliance Costs",
+      text: "Involves application fees and recurring renewal costs, which can be a burden for micro-businesses.",
+    },
+    {
+      icon: "FileWarning",
+      title: "Rigorous Documentation",
+      text: "Requires detailed paperwork, including layout plans and water test reports for state and central licenses.",
+    },
+    {
+      icon: "Clock",
+      title: "Periodic Renewal",
+      text: "Licenses are not permanent and must be renewed every 1-5 years, requiring ongoing administrative tracking.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Strict Inspection",
+      text: "Food businesses are subject to regular inspections; non-compliance can lead to heavy fines or license suspension.",
+    },
+    {
+      icon: "ShieldAlert",
+      title: "Product Recalls",
+      text: "Safety violations can lead to mandatory product recalls, causing significant financial and reputational damage.",
+    },
+  ],
   eligibility: [
     {
         title: "Based on Annual Turnover",

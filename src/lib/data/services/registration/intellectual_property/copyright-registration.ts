@@ -12,31 +12,57 @@ The primary purpose of registering a copyright is to **strengthen the creator\'s
 Moreover, registration provides access to significant legal advantages that are unavailable for unregistered works. For instance, in many jurisdictions, registration is a prerequisite for **filing an infringement lawsuit** and allows the copyright holder to seek **statutory damages** (fixed monetary awards) and **attorney\'s fees** in a successful court case. These remedies make enforcing one\'s exclusive rights, such as reproduction and distribution, financially viable and provide a stronger deterrent against potential infringers.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of Copyright Registration",
-        text: "Copyright registration provides several significant legal and commercial benefits:",
-        subPoints: [
-            "**Prerequisite for Infringement Lawsuits:** In many jurisdictions (like the U.S.), registration (or a refusal of registration) is a mandatory step before you can file a copyright infringement lawsuit in court.",
-            "**Evidence of Validity (Prima Facie Evidence):** If you register your work within a specific timeframe (often within five years of publication), the registration certificate serves as *prima facie* evidence in court. This means the court presumes the copyright is valid and you are the rightful owner, shifting the burden of proof to the defendant to argue otherwise.",
-            "**Eligibility for Statutory Damages and Attorney\\'s Fees:** This is one of the most powerful incentives. If registration is completed before infringement begins (or within a short period after publication), you become eligible to seek **statutory damages** (a fixed monetary award set by law, which avoids the difficult process of proving actual financial loss) and to recover your **attorney\\'s fees** and court costs. Without timely registration, you may be limited to recovering only actual damages and the infringer\\'s profits, which can be nominal or hard to quantify.",
-            "**Public Record of Ownership:** Registration creates a public record of your ownership claim, giving official notice to the world that the work is protected. This can act as a deterrent to potential infringers.",
-            "**Basis for International Protection:** While copyright exists internationally under treaties like the Berne Convention, registration in your home country can be a necessary formality for enforcing your rights or registering in other specific countries.",
-            "**Increased Commercial Value:** A registered copyright can simplify the process of licensing, selling, or using the work as collateral for a loan, as it provides a clear, official record of ownership."
-        ]
-    }
+      icon: "ShieldCheck",
+      title: "Legal Proof of Ownership",
+      text: "The registration certificate serves as prima facie evidence in court, establishing you as the rightful owner of the creative work.",
+    },
+    {
+      icon: "Gavel",
+      title: "Infringement Lawsuits",
+      text: "Registration is a mandatory prerequisite in many jurisdictions for filing a lawsuit against unauthorized use of your work.",
+    },
+    {
+      icon: "Banknote",
+      title: "Statutory Damages",
+      text: "Allows creators to seek statutory damages and attorney's fees, which are often much higher than actual financial loss from infringement.",
+    },
+    {
+      icon: "Eye",
+      title: "Public Record",
+      text: "Creates a permanent public record of the work's existence and your ownership claim, acting as a strong deterrent to piracy.",
+    },
+    {
+      icon: "Globe",
+      title: "International Protection",
+      text: "Facilitates enforcement of rights in other countries through international treaties like the Berne Convention.",
+    },
   ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "of Copyright Registration",
-        text: "While the advantages often outweigh the drawbacks for commercially valuable works, there are certain disadvantages to consider:",
-        subPoints: [
-            "**Cost and Time:** The registration process requires paying a government filing fee, and the administrative process can be time-consuming, sometimes taking several months to complete (though expedited processing is often available for an extra fee).",
-            "**Public Disclosure:** Registering your work means the information you submit (including details about the author and a copy of the work itself) becomes part of the public record, which is accessible to anyone who searches the copyright database. Creators who wish to keep their work completely private may view this disclosure as a drawback.",
-            "**Administrative Burden for Modifications:** If you make substantial changes or create new versions of a registered work, you may need to file additional registrations or amendments to ensure those new elements are also protected, adding to the administrative and financial burden over time.",
-            "**Errors and Omissions:** The registration form requires accurate information. If errors or omissions occur, correcting them can be a complicated administrative process, and serious mistakes could potentially impact the enforceability of the copyright."
-        ]
-    }
+      icon: "Clock",
+      title: "Registration Time",
+      text: "The process can be slow, often taking several months for the copyright office to issue the final certificate.",
+    },
+    {
+      icon: "FileSearch",
+      title: "Public Disclosure",
+      text: "Details of the author and a copy of the work become part of the public record, which may not be desirable for private works.",
+    },
+    {
+      icon: "Banknote",
+      title: "Filing Fees",
+      text: "Requires payment of non-refundable government fees for each application, which can add up for multiple works.",
+    },
+    {
+      icon: "RefreshCw",
+      title: "Maintenance Burden",
+      text: "Significant modifications to a registered work may require new applications to ensure continued protection.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Application Errors",
+      text: "Errors in the application form can lead to delays or potentially weaken the enforceability of the copyright.",
+    },
   ],
   eligibility: [
     "The eligible criteria for copyright protection and registration fundamentally center on two key elements of the work itself, plus the category of the work."

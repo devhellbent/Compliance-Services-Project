@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
 
 // Define the component's props
 interface MarkdownBoldRendererProps {
@@ -28,7 +29,12 @@ export const MarkdownBoldRenderer: React.FC<MarkdownBoldRendererProps> = ({
       return { __html: "" };
     }
 
-    let html = text;
+    const trimmed = text.trim();
+    if (trimmed === "**" || /^\*+$/.test(trimmed)) {
+      return { __html: "" };
+    }
+
+    let html = normalizeCopyPastedEscapes(text);
 
     // First, handle properly paired markdown bold (**text**) to HTML <strong> tags
     // Using non-greedy match to handle multiple bold sections in one string
@@ -44,9 +50,9 @@ export const MarkdownBoldRenderer: React.FC<MarkdownBoldRendererProps> = ({
 
     // Strip accidental outer <p> tags if present to avoid nesting when parent is also a <p>
     // This is defensive – only removes ONE pair of wrapping <p> .. </p>
-    const trimmed = html.trim();
-    if (trimmed.startsWith("<p>") && trimmed.endsWith("</p>")) {
-      html = trimmed.slice(3, trimmed.length - 4).trim();
+    const htmlTrimmed = html.trim();
+    if (htmlTrimmed.startsWith("<p>") && htmlTrimmed.endsWith("</p>")) {
+      html = htmlTrimmed.slice(3, htmlTrimmed.length - 4).trim();
     }
     return { __html: html };
   }, [text]);

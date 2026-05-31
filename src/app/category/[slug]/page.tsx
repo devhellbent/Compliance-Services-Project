@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { navigationData } from "@/lib/navigation";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
 
 type CategoryPageProps = {
   params: Promise<{ slug: string }>;
@@ -45,7 +46,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                           : "text-slate-800 hover:bg-slate-300"
                       }`}
                     >
-                      {subCategory.subHead}
+                      {normalizeCopyPastedEscapes(subCategory.subHead)}
                     </Link>
                   );
                 })}
@@ -55,9 +56,11 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             <main className="bg-slate-100 p-6 md:p-8">
               <div className="mb-6">
                 <h1 className="text-3xl font-bold text-slate-900">
-                  {activeCategory.subHead}
+                  {normalizeCopyPastedEscapes(activeCategory.subHead)}
                 </h1>
-                <p className="mt-2 text-slate-600">{activeCategory.description}</p>
+                <p className="mt-2 text-slate-600">
+                  {normalizeCopyPastedEscapes(activeCategory.description)}
+                </p>
               </div>
 
               <div className="grid grid-cols-1 gap-x-10 gap-y-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -67,7 +70,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                     href={item.slug}
                     className="text-2xl font-medium text-slate-700 transition-colors hover:text-orange-600"
                   >
-                    {item.name}
+                    {normalizeCopyPastedEscapes(item.name)}
                   </Link>
                 ))}
               </div>

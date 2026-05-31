@@ -26,16 +26,56 @@ The Darpan Registration, managed by NITI Aayog, is a digital initiative with sev
 -   **Streamlined Government Engagement:** The registration acts as a single point of data submission for multiple government purposes. It facilitates **smoother communication and collaboration** with the government, making it easier for Ministries to share timely updates, policy changes, and project-related information directly with registered organizations across the country.`,
   advantages: [
     {
-      icon: "CheckCircle",
-      title: "of Darpan Registration",
-      text: "1.  **Bureaucratic Hurdles and Complexity:** While designed to streamline, the registration process can sometimes involve significant bureaucratic hurdles. NGOs, especially smaller ones with limited resources, may find the online application, documentation requirements, and subsequent verification process time-consuming and complex. 2.  **Mandatory Information Disclosure:** For some organizations, the requirement to publicly disclose detailed information about their finances, board members, and activities might be seen as a disadvantage. While it promotes transparency, some NGOs might prefer a higher degree of privacy, especially concerning sensitive operational details. 3.  **Dependence on Digital Access and Literacy:** The entire process is online, which can be a barrier for NGOs operating in remote areas with limited internet access or for those whose staff lack sufficient digital literacy. This digital divide can exclude smaller, grassroots organizations from the benefits of registration. 4.  **Continuous Compliance and Updates:** Registration is not a one-time event; NGOs are expected to keep their information updated regularly. Failing to maintain current details can lead to issues with government interactions or even suspension of their UIN, adding an ongoing administrative burden. 5.  **No Automatic Guarantee of Funding:** While Darpan registration is a prerequisite for many government grants, it does not guarantee funding. NGOs still need to compete based on their project proposals, impact, and alignment with government priorities. The registration merely qualifies them to apply.",
+      icon: "ShieldCheck",
+      title: "Government Recognition",
+      text: "Provides a unique ID that acts as an official digital identity for NGOs, recognized by all government departments.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Grants",
+      text: "Mandatory for applying for various central and state government grants, schemes, and funding opportunities.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Enhanced Credibility",
+      text: "Increases the organization's transparency and accountability, making it more attractive to donors and CSR partners.",
+    },
+    {
+      icon: "Users",
+      title: "Networking Opportunities",
+      text: "Enables NGOs to connect with various ministries and departments for collaboration on social development projects.",
+    },
+    {
+      icon: "FileCheck",
+      title: "Simplified Verification",
+      text: "The centralized database allows for quick verification of the NGO's legitimacy by government and private entities.",
     },
   ],
   disadvantages: [
     {
-      icon: "CheckCircle",
-      title: "of Darpan Registration",
-      text: "1.  **Bureaucratic Hurdles and Complexity:** While designed to streamline, the registration process can sometimes involve significant bureaucratic hurdles. NGOs, especially smaller ones with limited resources, may find the online application, documentation requirements, and subsequent verification process time-consuming and complex. 2.  **Mandatory Information Disclosure:** For some organizations, the requirement to publicly disclose detailed information about their finances, board members, and activities might be seen as a disadvantage. While it promotes transparency, some NGOs might prefer a higher degree of privacy, especially concerning sensitive operational details. 3.  **Dependence on Digital Access and Literacy:** The entire process is online, which can be a barrier for NGOs operating in remote areas with limited internet access or for those whose staff lack sufficient digital literacy. This digital divide can exclude smaller, grassroots organizations from the benefits of registration. 4.  **Continuous Compliance and Updates:** Registration is not a one-time event; NGOs are expected to keep their information updated regularly. Failing to maintain current details can lead to issues with government interactions or even suspension of their UIN, adding an ongoing administrative burden. 5.  **No Automatic Guarantee of Funding:** While Darpan registration is a prerequisite for many government grants, it does not guarantee funding. NGOs still need to compete based on their project proposals, impact, and alignment with government priorities. The registration merely qualifies them to apply.",
+      icon: "FileWarning",
+      title: "Bureaucratic Complexity",
+      text: "The registration and subsequent verification process can be time-consuming and administratively complex.",
+    },
+    {
+      icon: "Eye",
+      title: "Public Disclosure",
+      text: "Requires public disclosure of board members and financial details, which some organizations may find intrusive.",
+    },
+    {
+      icon: "Clock",
+      title: "Ongoing Maintenance",
+      text: "Requires regular profile updates; failure to maintain current information can lead to suspension of the Darpan ID.",
+    },
+    {
+      icon: "ZapOff",
+      title: "Digital Divide",
+      text: "The entirely online process can be a challenge for grassroots NGOs with limited internet access or digital literacy.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "No Funding Guarantee",
+      text: "Registration is merely a prerequisite and does not guarantee that the government will provide any funding or grants.",
     },
   ],
   eligibility: [

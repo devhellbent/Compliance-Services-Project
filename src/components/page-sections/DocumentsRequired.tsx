@@ -1,8 +1,17 @@
 // components/page-sections/proprietorship/DocumentsRequired.tsx
 "use client";
 import { useState } from "react";
-import { MarkdownBoldRenderer } from "../MarkdownBoldRenderer";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { DocumentTab, SimpleDocument } from "@/lib/types";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
+import { createServiceMarkdownComponents } from "@/components/serviceMarkdownComponents";
+
+const docListMarkdownComponents = createServiceMarkdownComponents({
+  tone: "compact",
+  promoteFlatParagraphs: false,
+  paragraphElement: "span",
+});
 
 interface DocumentsRequiredProps {
   documents: (DocumentTab | SimpleDocument)[];
@@ -35,10 +44,15 @@ export const DocumentsRequired: React.FC<DocumentsRequiredProps> = ({
                 <h3 className="text-2xl font-bold text-blue-600 mb-4">
                   {doc.title}
                 </h3>
-                <ul className="space-y-3 text-lg text-gray-700 list-disc list-inside">
+                <ul className="space-y-3 text-lg text-gray-700 list-disc list-inside service-markdown min-w-0 break-words">
                   {doc.items.map((item: string) => (
                     <li key={item}>
-                      <MarkdownBoldRenderer text={item} />
+                      <ReactMarkdown
+                        remarkPlugins={[remarkGfm]}
+                        components={docListMarkdownComponents}
+                      >
+                        {normalizeCopyPastedEscapes(item)}
+                      </ReactMarkdown>
                     </li>
                   ))}
                 </ul>
@@ -99,10 +113,15 @@ export const DocumentsRequired: React.FC<DocumentsRequiredProps> = ({
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               {docTabs[activeTab].content.title}
             </h3>
-            <ul className="space-y-4 text-lg text-gray-700 list-disc list-inside">
+            <ul className="space-y-4 text-lg text-gray-700 list-disc list-inside service-markdown min-w-0 break-words">
               {docTabs[activeTab].content.items.map((item: string) => (
                 <li key={item}>
-                  <MarkdownBoldRenderer text={item} />
+                  <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    components={docListMarkdownComponents}
+                  >
+                    {normalizeCopyPastedEscapes(item)}
+                  </ReactMarkdown>
                 </li>
               ))}
             </ul>

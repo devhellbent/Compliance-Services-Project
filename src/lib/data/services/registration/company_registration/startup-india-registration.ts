@@ -15,7 +15,39 @@ The registration process is simple and free. First, incorporate your business un
 
 Once approved, a DPIIT recognition certificate is issued within 2 working days. Recognized startups get tax benefits, funding support, self-certification compliance, IPR support, and easier participation in government tenders. This initiative encourages new ventures to grow faster and attract investment.
 
-**Types of Startups Eligible for Registration in India**`,
+## Types of Startups Eligible for Registration in India
+
+Technology-Based Startups
+
+Technology-based startups focus on leveraging advanced technologies to create innovative products or services. They often work in areas such as Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Robotics, Cloud Computing, and Software-as-a-Service (SaaS). These startups aim to solve real-world problems or make existing processes more efficient by using cutting-edge technology. Examples include AI-powered analytics platforms, IoT-enabled smart devices, or Blockchain-based financial solutions.
+
+Innovative Startups
+
+Innovative startups are those that introduce entirely new products, services, or processes, or significantly improve existing ones. The focus is on creativity, novelty, and scalability. These startups often disrupt traditional industries by offering unique solutions. Examples include wearable technology, smart appliances, renewable energy devices, or apps that provide new ways of delivering services.
+
+Knowledge-Based Startups
+
+Knowledge-based startups are driven by research, development, and expertise in a particular field. They often operate in highly specialized areas such as biotechnology, pharmaceuticals, scientific research, or data analytics. The main goal of these startups is to generate value from knowledge and expertise rather than just products or services.
+
+Social Impact Startups
+
+Social impact startups aim to solve societal or environmental challenges. These startups focus on creating positive change while being commercially viable. They may work in areas such as affordable healthcare, clean water solutions, renewable energy, education for underprivileged communities, or social welfare projects. Their primary objective is to make a meaningful impact on society while generating sustainable business growth.
+
+Manufacturing Startups
+
+Manufacturing startups are engaged in the production of goods with a focus on innovation or technological advancement. They aim to create products that are new, improved, or more efficient than existing alternatives. Examples include electric vehicles, smart devices, eco-friendly packaging, or advanced machinery for industrial use. These startups often combine traditional manufacturing with modern technology to enhance efficiency and reduce costs.
+
+Service-Oriented Startups
+
+Service-oriented startups focus on providing innovative services rather than products. They aim to improve efficiency, reduce costs, or disrupt traditional service delivery models. Examples include logistics services, digital financial platforms, online education (EdTech), healthcare consulting, and technology-enabled customer support solutions.
+
+EdTech Startups
+
+EdTech startups focus on transforming education through technology. They provide online learning platforms, skill development courses, interactive tutorials, and AI-driven tutoring systems. These startups aim to make education more accessible, engaging, and personalized for learners of all ages.
+
+E-Commerce and Retail Startups
+
+E-commerce and retail startups operate online platforms to sell products or services, often targeting niche markets or offering innovative delivery methods. Examples include subscription-based e-commerce services, niche product marketplaces, hyperlocal delivery platforms, and digital retail solutions.`,
   whyChooseUs: [
     {
       icon: "BadgePercent",
@@ -40,16 +72,61 @@ Once approved, a DPIIT recognition certificate is issued within 2 working days. 
   ],
   advantages: [
     {
-      icon: "CheckCircle",
-      title: "of Startup India Registration",
-      text: "**Recognition as a Startup**\\ Official recognition from the Government of India gives a startup a formal identity. This recognition increases credibility among investors, customers, and partners. Being officially recognized also builds trust, making it easier to form collaborations and partnerships. **Tax Benefits**\\ Registered startups can avail tax exemptions under Section 80-IAC of the Income Tax Act, including a **3-year tax holiday** in their first 10 years. They may also get exemptions on capital gains tax under certain investments. These benefits reduce financial burdens, helping startups focus on growth and innovation. **Easier Access to Funding**\\ Registration opens doors to various government funding schemes such as the **Fund of Funds for Startups (FFS)**. Additionally, recognized startups are more visible to angel investors and venture capitalists, which increases the chances of securing investments. **Simplified Compliance**\\ Startups get relaxed norms for company incorporation, filing annual returns, and certain statutory requirements. For specific sectors, regulatory burdens like labor or environmental clearances are also simplified, reducing administrative overheads. **Government Schemes & Incentives**\\ Registered startups gain access to incubation centers, accelerators, and mentorship programs offered by the government. They are also eligible for **IPR benefits**, such as fast-tracked patent filings and reduced fees, which encourage innovation and protect intellectual property. **Networking & Market Access**\\ Being part of the Startup India initiative provides opportunities to participate in government-organized events, exhibitions, and international trade fairs. It also encourages collaboration with other startups, academic institutions, and corporates, which can help in business expansion and knowledge sharing. **Protection & Support**\\ The government provides legal and policy support for registered startups facing operational or financial challenges. This includes easier dispute resolution and guidance, ensuring that startups can navigate hurdles without excessive risk.",
+      icon: "BadgePercent",
+      title: "Huge Tax Savings",
+      text: "Three-year tax holiday significantly improves cash flow for growing startups.",
+    },
+    {
+      icon: "Copyright",
+      title: "Low Cost of IP Protection",
+      text: "Massive rebates on patent and trademark filings encourage innovation and branding.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Government Contracts",
+      text: "Easier for new startups to compete with established companies for government tenders.",
+    },
+    {
+      icon: "FileCheck",
+      title: "Reduced Compliance Burden",
+      text: "Self-certification saves time and prevents harassment from inspectors.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Investor Attraction",
+      text: "DPIIT recognition acts as a mark of quality, making it easier to attract venture capital and angel investment.",
+    },
+    {
+      icon: "Users",
+      title: "Networking Opportunities",
+      text: "Access to the Startup India hub, learning programs, and government-organized startup fests and events.",
     },
   ],
   disadvantages: [
     {
-      icon: "CheckCircle",
-      title: "of Startup India Registration",
-      text: "**Eligibility Criteria Restrictions**\\ Only companies less than 10 years old with a turnover of less than \u20b9100 crore can register. The startup must also be involved in innovation, development, or improvement of products, processes, or services. Startups not meeting these criteria are ineligible. **Compliance & Documentation**\\ Registration requires detailed documentation, including business plans, KYC documents, and patents (if applicable). After registration, startups must also submit periodic reports to maintain their recognition. Failure to comply can lead to cancellation of registration. **Limited Tax Benefits**\\ Tax exemptions are only available for a limited period and under specific conditions. While helpful, startups are still required to pay GST, TDS, and other statutory dues, meaning tax liabilities are not completely eliminated. **Government Scrutiny**\\ Registered startups are subject to verification and scrutiny by government authorities. They must prove innovation, financial records, and operational claims. Any misrepresentation or failure to meet criteria can result in penalties or cancellation of registration. **Not a Guarantee of Funding**\\ Although registration improves credibility, it does not automatically guarantee investments. Startups still need a strong business model, proper pitch, and networking to attract investors. Registration is a support tool, not a substitute for business viability.",
+      icon: "AlertCircle",
+      title: "Strict Eligibility Criteria",
+      text: 'The definition of "innovation" is subjective and must be approved by the Inter-Ministerial Board.',
+    },
+    {
+      icon: "Eye",
+      title: "High Scrutiny for Tax Benefits",
+      text: "Obtaining the Section 80-IAC tax exemption is a separate, highly competitive process.",
+    },
+    {
+      icon: "FileWarning",
+      title: "Complex Application Process",
+      text: "Requires a detailed pitch deck or explanation of how the product/service is innovative or scalable.",
+    },
+    {
+      icon: "Clock",
+      title: "Limited Validity",
+      text: "Startup recognition is valid for only 10 years from the date of incorporation or until turnover exceeds ₹100 Crores.",
+    },
+    {
+      icon: "ClipboardList",
+      title: "Ongoing Reporting",
+      text: "Must maintain the innovative nature of the business; any major shift away from the approved object can lead to revocation.",
     },
   ],
   eligibility: [

@@ -13,41 +13,58 @@ The primary purpose of Udyam is to formally recognize and classify an enterprise
 Holding a Udyam Certificate is the gateway to significant benefits, including **priority sector lending** from banks, access to **collateral-free loans** under CGTMSE, subsidies on patent/trademark registration and electricity bills, and preferential treatment in **government tenders**. It also grants protection against delayed payments through the MSME Samadhaan portal, making it a crucial tool for an MSME\'s growth, credibility, and financial stability.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of MSME/Udyam Registration",
-        text: "Udyam Registration is a free, simple, and permanent online process that grants a business formal recognition and unlocks various government benefits.",
-        subPoints: [
-            "**Priority Sector Lending (PSL):** Registered MSMEs are eligible for loans under the Priority Sector Lending guidelines of the RBI, ensuring they get priority access to credit from banks.",
-            "**Collateral-Free Loans:** Businesses can avail of loans without pledging collateral through the Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE) scheme, making finance more accessible.",
-            "**Lower Interest Rates:** Banks and financial institutions often offer loans to registered MSMEs at **concessional interest rates**, which are typically 1% to 2% lower than standard business loan rates.",
-            "**Protection Against Delayed Payments:** Under the MSMED Act, 2006, registered MSMEs are legally protected. If a buyer delays payment beyond 45 days, the MSME is entitled to charge **compound interest** at three times the bank rate notified by the RBI.",
-            "**Government Tender Benefits:** MSMEs receive an advantage in securing government tenders, including: ",
-            "Exemption from paying **Earnest Money Deposit (EMD)**.",
-            "Exemption from paying security deposits in some cases.",
-            "Mandatory procurement by government entities (Public Procurement Policy). ",
-            "**Subsidies and Concessions:** They are eligible for various subsidies and reimbursements, such as: ",
-            "Subsidy under the **Credit Linked Capital Subsidy Scheme (CLCSS)** for technology upgrade.",
-            "Reimbursement of expenses for **ISO Certification**.",
-            "Concessions on electricity bills in several states. ",
-            "**Tax Benefits:** MSMEs can claim specific tax exemptions and carry forward the **Minimum Alternate Tax (MAT)** credit for up to 15 years.",
-            "**IPR Fee Reduction:** Significant **rebates (up to 50%)** on government fees for filing patents and trademarks, helping protect intellectual property at a lower cost."
-        ]
-    }
-],
+      icon: "Landmark",
+      title: "Priority Sector Lending",
+      text: "Registered MSMEs get priority access to credit from banks at concessional interest rates, typically 1% to 2% lower than standard rates.",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "Collateral-Free Loans",
+      text: "Enables businesses to avail of loans without pledging collateral through the Credit Guarantee Fund Trust (CGTMSE) scheme.",
+    },
+    {
+      icon: "Handshake",
+      title: "Payment Protection",
+      text: "Statutory protection against delayed payments; buyers must pay interest if payments are delayed beyond 45 days.",
+    },
+    {
+      icon: "Gavel",
+      title: "Government Tenders",
+      text: "Exclusive benefits in securing government tenders, including exemption from Earnest Money Deposit (EMD) and security deposits.",
+    },
+    {
+      icon: "BadgePercent",
+      title: "IPR Rebates",
+      text: "Significant rebates (up to 50%) on government fees for filing patents and trademarks, helping protect intellectual property.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "and Challenges",
-        text: "While the registration itself has no direct legal disadvantage, it introduces certain compliance requirements and challenges that small enterprises must manage:",
-        subPoints: [
-            "**Increased Compliance Burden:** Being a formally recognized entity means the MSME must adhere to increased **regulatory compliance** and periodic reporting requirements, which can be challenging for very small, resource-constrained businesses.",
-            "**Automatic Upgradation Risks:** The Udyam system is integrated with the GST and Income Tax systems. If a business\\'s investment or turnover crosses the ceiling limit of its current category (e.g., Micro to Small), it is **automatically upgraded**. This could lead to the loss of benefits and schemes specifically designed for the lower (Micro) category.",
-            "**Loan Application Process:** Despite the priority status, the procedure for sanctioned loans under government schemes can still be **time-consuming and documentation-heavy**, requiring detailed financial records and audits.",
-            "**Penalty for Misrepresentation:** The registration is based on self-declaration. Any deliberate **misrepresentation or suppression of facts** to remain within a particular MSME category can attract fines and penalties as per the MSMED Act.",
-            "**Focus Shift:** Managing the necessary compliance, documentation, and regulatory updates to avail of benefits can sometimes divert the focus and time of the entrepreneur away from core business operations and growth."
-        ]
-    }
-],
+      icon: "FileWarning",
+      title: "Regulatory Compliance",
+      text: "Formal recognition requires adherence to increased reporting standards, which can be challenging for micro-enterprises.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Automatic Upgradation",
+      text: "Integrated with GST/IT systems; crossing turnover limits triggers an automatic upgrade, potentially losing micro-category benefits.",
+    },
+    {
+      icon: "Clock",
+      title: "Loan Sanction Time",
+      text: "Despite priority status, the actual sanctioning of government-backed loans can be time-consuming and documentation-heavy.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Misrepresentation Risks",
+      text: "Any deliberate misrepresentation of turnover or investment to remain in a lower category can attract heavy fines and penalties.",
+    },
+    {
+      icon: "ZapOff",
+      title: "Administrative Overhead",
+      text: "Managing the necessary documentation to avail of specific subsidies can divert focus from core business operations.",
+    },
+  ],
   eligibility: [
     "The eligibility for Udyam Registration (MSME Registration) in India is determined by a Composite Criterion based on the enterprise's Investment in Plant & Machinery or Equipment and its Annual Turnover. An enterprise must satisfy the limits for both criteria to be classified under a particular category. Effective from April 1, 2025, the MSME classification limits have been revised to the following:"
   ],

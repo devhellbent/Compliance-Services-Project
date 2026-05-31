@@ -5,6 +5,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { navigationData } from "@/lib/navigation";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -79,10 +80,10 @@ export const ServicesHighlightSection = () => {
                   )}
                   <div className="flex-grow">
                     <h3 className="text-xl font-bold text-gray-900 mb-3">
-                      {service.title}
+                      {normalizeCopyPastedEscapes(service.title)}
                     </h3>
                     <p className="text-gray-500 text-sm leading-relaxed">
-                      {service.parent.subHead}
+                      {normalizeCopyPastedEscapes(service.parent.subHead)}
                     </p>
                   </div>
                   <div className="mt-6">

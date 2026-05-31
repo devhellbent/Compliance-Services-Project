@@ -1,4 +1,10 @@
 // lib/navigation.ts
+import { CORPORATE_SERVICE_NAV_ITEMS } from "@/lib/data/services/compliance/corporate-service-nav";
+import {
+  AUDIT_DUE_DILIGENCE_NAV_ITEMS,
+  CORPORATE_RESTRUCTURING_NAV_ITEMS,
+  SEBI_COMPLIANCE_NAV_ITEMS,
+} from "@/lib/data/services/compliance/extended-compliance-services";
 import {
   Building,
   Briefcase,
@@ -458,65 +464,20 @@ export const navigationData = [
         slug: "/category/corporate-service",
         icon: CheckSquare,
         description: "Ongoing compliance management for smooth operations.",
-        items: [
-          {
-            name: "Charge Creation, Modification & Satisfaction",
-            slug: createServiceSlug(
-              "Charge Creation, Modification & Satisfaction"
-            ),
-          },
-          {
-            name: "Share Allotment & Transfer",
-            slug: createServiceSlug("Share Allotment & Transfer"),
-          },
-          {
-            name: "Right Issue / Private Placement",
-            slug: createServiceSlug("Right Issue Private Placement"),
-          },
-          {
-            name: "Buy-Back of Shares",
-            slug: createServiceSlug("Buy-Back of Shares"),
-          },
-          {
-            name: "Issue of Preference Shares / Convertible Debentures",
-            slug: createServiceSlug(
-              "Issue of Preference Shares Convertible Debentures"
-            ),
-          },
-          {
-            name: "Reduction of Share Capital",
-            slug: createServiceSlug("Reduction of Share Capital"),
-          },
-          {
-            name: "ESOP Structuring and Implementation",
-            slug: createServiceSlug("ESOP Structuring and Implementation"),
-          },
-          { name: "XBRL Filing", slug: createServiceSlug("XBRL Filing") },
-        ],
+        items: CORPORATE_SERVICE_NAV_ITEMS.map((entry) => ({
+          name: entry.name,
+          slug: entry.path,
+        })),
       },
       {
         subHead: "SEBI Compliance",
         slug: "/category/sebi-compliance",
         icon: ShieldCheck,
         description: "Expert guidance on SEBI regulations and filings.",
-        items: [
-          {
-            name: "Compliance with LODR Regulations",
-            slug: createServiceSlug("Compliance with LODR Regulations"),
-          },
-          {
-            name: "Insider Trading Regulations Compliance",
-            slug: createServiceSlug("Insider Trading Regulations Compliance"),
-          },
-          {
-            name: "Listing of Securities on Stock Exchanges",
-            slug: createServiceSlug("Listing of Securities on Stock Exchanges"),
-          },
-          {
-            name: "Posh Policy & Compliance",
-            slug: createServiceSlug("Posh Policy & Compliance"),
-          },
-        ],
+        items: SEBI_COMPLIANCE_NAV_ITEMS.map((entry) => ({
+          name: entry.name,
+          slug: entry.path,
+        })),
       },
       {
         subHead: "Audit & Due Diligence",
@@ -524,24 +485,10 @@ export const navigationData = [
         icon: Search,
         description:
           "Thorough audits and diligence for informed decision-making.",
-        items: [
-          {
-            name: "Secretarial Audit",
-            slug: createServiceSlug("Secretarial Audit"),
-          },
-          {
-            name: "Legal Due Diligence",
-            slug: createServiceSlug("Legal Due Diligence"),
-          },
-          {
-            name: "Corporate Governance",
-            slug: createServiceSlug("Corporate Governance"),
-          },
-          {
-            name: "Internal Audit & Process Review",
-            slug: createServiceSlug("Internal Audit & Process Review"),
-          },
-        ],
+        items: AUDIT_DUE_DILIGENCE_NAV_ITEMS.map((entry) => ({
+          name: entry.name,
+          slug: entry.path,
+        })),
       },
       {
         subHead: "Corporate Restructuring Compliance",
@@ -549,21 +496,10 @@ export const navigationData = [
         icon: Handshake,
         description:
           "Navigating mergers, demergers, and insolvency with expertise.",
-        items: [
-          {
-            name: "Amalgamation, Merger & Demerger Advisory",
-            slug: createServiceSlug("Amalgamation Merger & Demerger Advisory"),
-          },
-          {
-            name: "Drafting of Scheme of Arrangement",
-            slug: createServiceSlug("Drafting of Scheme of Arrangement"),
-          },
-          {
-            name: "NCLT Filing & Approvals",
-            slug: createServiceSlug("NCLT Filing & Approvals"),
-          },
-          { name: "Policy Making", slug: createServiceSlug("Policy Making") },
-        ],
+        items: CORPORATE_RESTRUCTURING_NAV_ITEMS.map((entry) => ({
+          name: entry.name,
+          slug: entry.path,
+        })),
       },
     ],
   },

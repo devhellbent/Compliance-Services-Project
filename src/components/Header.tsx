@@ -5,6 +5,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { navigationData } from "@/lib/navigation";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
 import { Button } from "./ui/button";
 import { ChevronDown, Menu, X, Search } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -125,9 +126,12 @@ const Header = () => {
                     onClick={() => handleSearchSelect(service.slug)}
                     className="w-full text-left px-4 py-3 hover:bg-orange-50 transition-colors border-b border-gray-100 last:border-b-0"
                   >
-                    <div className="font-medium text-gray-900">{service.name}</div>
+                    <div className="font-medium text-gray-900">
+                      {normalizeCopyPastedEscapes(service.name)}
+                    </div>
                     <div className="text-sm text-gray-500 mt-1">
-                      {service.category} • {service.subCategory}
+                      {normalizeCopyPastedEscapes(service.category)} •{" "}
+                      {normalizeCopyPastedEscapes(service.subCategory)}
                     </div>
                   </button>
                 ))}
@@ -162,7 +166,7 @@ const Header = () => {
                 href={""}
                 className="flex items-center px-4 h-full text-sm font-semibold text-slate-300 hover:text-orange-500 transition-colors"
               >
-                <span>{mainItem.mainHead}</span>
+                <span>{normalizeCopyPastedEscapes(mainItem.mainHead)}</span>
                 {mainItem.subCategories &&
                   mainItem.subCategories.length > 0 && (
                     <ChevronDown
@@ -199,7 +203,7 @@ const Header = () => {
                             : "text-gray-700 hover:bg-slate-200"
                         }`}
                       >
-                        {subCategory.subHead}
+                        {normalizeCopyPastedEscapes(subCategory.subHead)}
                       </button>
                     ))}
                   </div>
@@ -212,11 +216,11 @@ const Header = () => {
                           activeSubCategoryIndex
                         ].items.map((item) => (
                           <Link
-                            key={item.name}
+                            key={item.slug}
                             href={item.slug}
                             className="block text-sm text-gray-600 hover:text-orange-600 p-2 min-h-[2.5rem] rounded hover:bg-slate-50"
                           >
-                            {item.name}
+                            {normalizeCopyPastedEscapes(item.name)}
                           </Link>
                         ))}
                       </div>
@@ -289,9 +293,12 @@ const Header = () => {
                     }}
                     className="w-full text-left px-4 py-3 hover:bg-orange-50 transition-colors border-b border-gray-100 last:border-b-0"
                   >
-                    <div className="font-medium text-gray-900">{service.name}</div>
+                    <div className="font-medium text-gray-900">
+                      {normalizeCopyPastedEscapes(service.name)}
+                    </div>
                     <div className="text-sm text-gray-500 mt-1">
-                      {service.category} • {service.subCategory}
+                      {normalizeCopyPastedEscapes(service.category)} •{" "}
+                      {normalizeCopyPastedEscapes(service.subCategory)}
                     </div>
                   </button>
                 ))}
@@ -305,7 +312,7 @@ const Header = () => {
                 {mainItem.subCategories && mainItem.subCategories.length > 0 ? (
                   <details className="group">
                     <summary className="flex justify-between items-center font-semibold cursor-pointer py-3 list-none">
-                      <span>{mainItem.mainHead}</span>
+                      <span>{normalizeCopyPastedEscapes(mainItem.mainHead)}</span>
                       <ChevronDown
                         size={20}
                         className="group-open:rotate-180 transition-transform"
@@ -319,7 +326,7 @@ const Header = () => {
                           onClick={handleMobileLinkClick}
                           className="text-gray-700 hover:text-orange-600 py-1"
                         >
-                          {subCategory.subHead}
+                          {normalizeCopyPastedEscapes(subCategory.subHead)}
                         </Link>
                       ))}
                     </div>
@@ -330,7 +337,7 @@ const Header = () => {
                     onClick={handleMobileLinkClick}
                     className="font-semibold py-3 block"
                   >
-                    {mainItem.mainHead}
+                    {normalizeCopyPastedEscapes(mainItem.mainHead)}
                   </Link>
                 )}
               </div>

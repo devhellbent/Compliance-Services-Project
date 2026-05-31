@@ -24,16 +24,56 @@ For establishments with 20 or more employees (where the scheme is mandatory):
 This combined contribution accumulates with an annual interest rate, declared by the government, creating a substantial retirement fund for the employee.`,
   advantages: [
     {
-      icon: "CheckCircle",
-      title: "of PF Registration",
-      text: "1.  **Employee Financial Security:** The most significant advantage is the creation of a substantial **retirement corpus** for employees through mandatory, regular savings. This ensures financial stability post-retirement and provides a safety net during emergencies. 2.  **Pension and Insurance Benefits:** Registration automatically includes employees in the **Employees\\' Pension Scheme (EPS)**, providing a monthly pension, and the **Employees\\' Deposit Linked Insurance Scheme (EDLI)**, offering life insurance coverage to nominees in case of death while in service. 3.  **Mandatory Legal Compliance:** For employers with **20 or more employees**, PF registration is a **legal requirement** under the EPF Act, 1952. Compliance helps avoid legal penalties, interest charges, and potential prosecution by the EPFO. 4.  **Tax Benefits:** Both employer and employee contributions to PF are eligible for **tax benefits**. Employer contributions are deductible as a business expense, while employee contributions qualify for deductions under Section 80C of the Income Tax Act. 5.  **Enhanced Reputation & Retention:** Adhering to PF regulations demonstrates a commitment to employee welfare, which can significantly **boost company reputation**, aid in **talent attraction**, and improve employee morale and retention.",
+      icon: "ShieldCheck",
+      title: "Employee Security",
+      text: "Creates a substantial retirement corpus for employees, ensuring long-term financial stability and peace of mind.",
+    },
+    {
+      icon: "Heart",
+      title: "Social Safety Net",
+      text: "Includes pension benefits under EPS and life insurance coverage under EDLI, providing protection for the employee's family.",
+    },
+    {
+      icon: "BadgePercent",
+      title: "Tax Benefits",
+      text: "Contributions are eligible for tax deductions under Section 80C for employees and are deductible as business expenses for employers.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "High Returns",
+      text: "PF accounts earn a competitive annual interest rate declared by the government, often higher than standard savings accounts.",
+    },
+    {
+      icon: "UserCheck",
+      title: "Employee Retention",
+      text: "Providing social security benefits improves company reputation and helps attract and retain skilled talent.",
     },
   ],
   disadvantages: [
     {
-      icon: "CheckCircle",
-      title: "and Challenges of PF Registration",
-      text: "1.  **Financial Burden on Employer:** Employers bear a significant financial responsibility as they must contribute **12% of basic wages plus DA** for each eligible employee to the PF account, in addition to administrative charges. This adds to the overall operational cost. 2.  **Administrative Compliance:** Employers are responsible for a range of administrative tasks, including timely registration, accurate monthly calculations and remittances, filing of **Electronic Challan-cum-Return (ECR)**, and managing employee UANs and KYC. This requires dedicated resources and attention. 3.  **Strict Penalties for Non-Compliance:** Failure to register, make timely contributions, or file accurate returns can lead to **heavy financial penalties**, interest on delayed payments, and even **legal action** against the employer, posing a significant risk. 4.  **Limited Employee Liquidity:** While a long-term benefit, the mandatory nature of PF contributions reduces the immediate take-home salary for employees, which some might view as a disadvantage, especially for those with immediate financial needs. 5.  **Complexity for Small Businesses:** While mandatory for 20+ employees, the administrative and financial complexities can be challenging for growing small and medium-sized enterprises (SMEs) that may not have dedicated HR/compliance teams.",
+      icon: "Banknote",
+      title: "Employer Contribution",
+      text: "Employers must bear 12% of basic wages as their share of contribution, adding to the total cost of employment.",
+    },
+    {
+      icon: "FileWarning",
+      title: "Compliance Effort",
+      text: "Requires timely monthly remittances and accurate filing of Electronic Challan-cum-Returns (ECR) to avoid penalties.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Strict Penalties",
+      text: "Delays in payment or non-compliance can lead to heavy fines, interest charges, and potential legal prosecution.",
+    },
+    {
+      icon: "Clock",
+      title: "Lower Take-Home Pay",
+      text: "The mandatory 12% employee contribution reduces the immediate take-home salary, which some workers may find restrictive.",
+    },
+    {
+      icon: "ZapOff",
+      title: "Administrative Complexity",
+      text: "Managing UANs, KYC, and employee transfers can be administratively intensive for small businesses without HR teams.",
     },
   ],
   eligibility: [

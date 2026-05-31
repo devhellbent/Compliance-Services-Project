@@ -11,18 +11,58 @@ export const importExportCodeData: ServiceData = {
 The registration process is entirely **online** through the official DGFT portal. Since the introduction of GST, the issued IEC number is the same as the applicant\'s **Permanent Account Number (PAN)**. The code holds **lifetime validity**, meaning no annual renewal is required, simplifying compliance. Obtaining the IEC is the crucial first step that enables traders to expand into the global market, access government export promotion benefits, and establish credibility in cross-border transactions.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of IEC Code Registration",
-        text: "1.  **Legal Mandate for Trade:** The IEC is the **official license** issued by the DGFT that grants an individual or business the legal authority to engage in **importing goods into India** and **exporting goods/services** out of India. Without it, customs clearance is impossible. 2.  **Lifetime Validity and Low Maintenance:** The IEC is issued for the entire life of the business and generally **does not require periodic renewal** (unlike many other licenses). This drastically reduces the administrative burden and compliance fees over time. 3.  **Access to Export Incentives:** A valid IEC is a mandatory prerequisite for claiming all major export promotion schemes and benefits offered by the Government of India, such as **Duty Drawback** and the **RoDTEP/RoSCTL** schemes, which significantly boost profitability. 4.  **Simplified Customs and Banking:** The code facilitates **seamless customs clearance** for both import and export shipments. It is also required by banks to process and verify foreign currency transactions, ensuring smooth financial operations. 5.  **PAN-Based Simplification:** The issued IEC number is now the same as the applicant\\'s **PAN**, integrating the trade identity with the tax identity and simplifying verification across government departments."
-    }
-],
+      icon: "Globe",
+      title: "Global Market Access",
+      text: "The IEC is the mandatory license for anyone wanting to start an import-export business in India, opening doors to global markets.",
+    },
+    {
+      icon: "BadgePercent",
+      title: "Export Incentives",
+      text: "Allows businesses to claim various government subsidies and tax refunds like Duty Drawback and RoDTEP/RoSCTL schemes.",
+    },
+    {
+      icon: "RefreshCw",
+      title: "Lifetime Validity",
+      text: "Once issued, the IEC is valid for the lifetime of the business and does not require periodic renewal.",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "Legal Compliance",
+      text: "Ensures that all international trade transactions are conducted legally, preventing shipment delays and legal issues with customs.",
+    },
+    {
+      icon: "Zap",
+      title: "Fast Registration",
+      text: "The process is entirely online and relatively fast, with the IEC issued almost immediately upon successful verification.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "and Challenges of IEC Code Registration",
-        text: "1.  **Mandatory Annual Update:** While the IEC has lifetime validity, the DGFT has made it **mandatory to update and validate the IEC details online every year** (typically between April and June), even if no changes have occurred. Failure to do this can lead to the temporary **deactivation** of the code, disrupting trade. 2.  **Documentation and Application Errors:** Despite the online process being simple, applications can be rejected due to **incomplete or inconsistent documentation**. Details entered must precisely match those recorded with other agencies like the Income Tax Department and the GSTN, which can be a point of friction. 3.  **Penalty Risk:** Failure to adhere to the mandatory annual update/validation deadline or conducting trade without a valid IEC can result in the deactivation of the code, leading to **shipment delays, financial penalties**, and the inability to access export incentives. 4.  **Compliance with Foreign Trade Policy (FTP):** Obtaining the IEC is just the first step. Traders must then navigate the complexities of the constantly changing FTP, export control compliance (SCOMET), and other customs regulations, which often requires hiring specialized consultants."
-    }
-],
+      icon: "Clock",
+      title: "Mandatory Annual Update",
+      text: "Even though it has lifetime validity, details must be validated online every year to keep the code active.",
+    },
+    {
+      icon: "FileWarning",
+      title: "Documentation Accuracy",
+      text: "Incomplete or inconsistent documentation can lead to application rejection and delays in starting trade operations.",
+    },
+    {
+      icon: "Ban",
+      title: "Deactivation Risk",
+      text: "Failure to perform the annual update can lead to deactivation, causing immediate disruption to import/export activities.",
+    },
+    {
+      icon: "Scale",
+      title: "Regulatory Complexity",
+      text: "Traders must stay compliant with the frequently changing Foreign Trade Policy (FTP) and customs regulations.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Transaction Limits",
+      text: "Some banks and shipping lines may have their own internal checks beyond the IEC, requiring additional paperwork.",
+    },
+  ],
   eligibility: [
     {
         title: "The eligibility criteria for obtaining an IEC (Importer-Exporter",

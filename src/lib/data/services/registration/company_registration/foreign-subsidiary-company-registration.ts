@@ -7,23 +7,57 @@ export const foreignSubsidiaryCompanyRegistrationData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Foreign Subsidiary"],
   description:
     "Expand your business footprint across borders. Foreign Subsidiary Company registration establishes Indian parent company control in international markets, enabling global expansion with complete ownership, operational autonomy, and strategic market positioning worldwide.",
-  overview: `**Foreign subsidiary company registration**
+  overview: `Foreign subsidiary company registration
 
 Establishing a foreign subsidiary is a comprehensive process that allows a foreign company (the parent or holding company) to establish a legal entity in another country (the host country), with the parent company retaining more than 50% ownership and control.
 
 Since the registration process is heavily governed by the local laws of the host country, the following explanation outlines the general steps and requirements, using India as a common example jurisdiction.
 
-## **What is a Foreign Subsidiary Company?** 
+## What is a Foreign Subsidiary Company?
 
-A foreign subsidiary is a local company incorporated in the host country, but whose majority of the share capital (more than 50%) is held by a foreign corporation. This arrangement makes the foreign corporation the **Parent** or **Holding Company**, and the local company its **Subsidiary**.
+A foreign subsidiary is a local company incorporated in the host country, but whose majority of the share capital (more than 50%) is held by a foreign corporation. This arrangement makes the foreign corporation the Parent or Holding Company, and the local company its Subsidiary.
 
 The key feature is that the subsidiary is treated as a separate legal entity under the host country's laws (e.g., an Indian Private Limited Company under the Companies Act, 2013, in India), even though its control lies with the foreign parent.
 
-**Set Up Your Subsidiary in India**
+## Set Up Your Subsidiary in India
 
 Setting up a foreign subsidiary in India is a strategic move for global expansion, offering a host of significant advantages. The top reasons for establishing a subsidiary in India revolve around its massive market potential, strong talent pool, legal benefits, and cost efficiencies.
 
 Here are the top reasons to set up your subsidiary in India:
+
+### Access to a Massive and Growing Market
+
+**Vast Consumer Base:** With a population exceeding 1.4 billion and a rapidly expanding middle class, India offers a huge, diverse consumer market. A local subsidiary provides direct access to this booming market, leading to increased revenue potential.
+
+**Customization and Local Presence:** A subsidiary is a local entity, which allows you to tailor your products, services, and marketing strategies to match local preferences and cultural nuances, fostering stronger brand loyalty and market penetration.
+
+### Access to a Deep and Skilled Talent Pool
+
+**Abundant and Cost-Effective Workforce:** India is home to a massive pool of educated, skilled professionals, particularly in the fields of IT, engineering, science, and finance.
+
+**English Proficiency:** The widespread use of English in the corporate sector significantly reduces language barriers, making it easier to integrate your local team with the parent company's global operations.
+
+### Legal and Risk Mitigation Benefits
+
+**Separate Legal Entity and Limited Liability:** A foreign subsidiary is registered as an Indian company, distinct from its parent company. This crucial feature provides limited liability protection, shielding the assets of the parent company from the debts, losses, or legal obligations of the Indian subsidiary.
+
+**Operational Control:** For a Wholly Owned Subsidiary (WOS), the parent company retains 100% ownership and complete control over strategic decisions, operations, and intellectual property.
+
+### Financial and Tax Advantages
+
+**Tax Benefits and DTAA:** As an Indian company, the subsidiary can take advantage of the country's tax structure, including a concessional corporate tax rate for new manufacturing companies. Furthermore, India has signed Double Taxation Avoidance Agreements (DTAAs) with over 90 countries, which helps foreign companies avoid being taxed twice on the same income.
+
+**Cost Efficiency:** India generally offers lower operational, manufacturing, and labor costs compared to many developed economies, which can substantially reduce production and service delivery expenses.
+
+**Local Financial Access:** Being a domestic entity, the subsidiary can access local capital markets, bank financing, and government incentives, which can lower financing costs and reduce exposure to foreign exchange fluctuations.
+
+### Enhanced Credibility and Business Operations
+
+**Increased Local Credibility:** Incorporating locally demonstrates a long-term commitment to the Indian market. This significantly boosts credibility and trust with local clients, vendors, government authorities, and regulators.
+
+**Full Spectrum of Business Activities:** Unlike a Branch Office or Liaison Office, which have restricted activities, a subsidiary can engage in the full range of commercial activities, including trading, manufacturing, and providing services.
+
+**Favorable Regulatory Environment:** The Indian government has continuously introduced reforms to improve the "Ease of Doing Business," making the incorporation and compliance process more streamlined for foreign investors.
 `,
   eligibility: [
     {
@@ -40,6 +74,34 @@ Here are the top reasons to set up your subsidiary in India:
         "Foreign parent company must be legally incorporated and provide proof (Certificate of Incorporation, Charter Documents).",
         "Board Resolution from parent company authorizing Indian subsidiary setup and nominating directors/subscribers.",
         "Proposed business activity must comply with India’s FDI policy (most sectors allow 100% FDI under Automatic Route; some require approval).",
+      ],
+    },
+    {
+      title: "I. Corporate structure and capital",
+      items: [
+        "Minimum two (2) Directors are mandatory for a Private Limited Company.",
+        "At least one (1) Director must be a Resident in India (stayed in India at least 182 days in the immediately preceding financial year).",
+        "Minimum two (2) Shareholders: the foreign parent, a nominee, or other corporate bodies or individuals.",
+        "Foreign parent must hold more than 50% of share capital or control the Board; 100% for a Wholly-Owned Subsidiary (WOS).",
+        "No minimum paid-up capital under the Companies Act, 2013, but infuse sufficient funds for initial expenses.",
+        "Verifiable Registered Office address in India from incorporation date with proof (rent agreement, utility bill, NOC from owner).",
+      ],
+    },
+    {
+      title: "II. Directors and shareholders (individuals)",
+      items: [
+        "Every director must have a DIN; new directors usually apply during incorporation (SPICe+).",
+        "Directors and MoA subscribers need a valid DSC for MCA e-filing.",
+        "Indian nationals: PAN (mandatory), Aadhaar, Passport, Voter ID, or Driving Licence; address proof not older than two months.",
+        "Foreign nationals: valid Passport (mandatory); address proof not older than two months, apostilled or notarized in home country.",
+      ],
+    },
+    {
+      title: "III. Foreign parent company",
+      items: [
+        "Foreign parent must be legally incorporated in its home country (Certificate of Incorporation, charter documents).",
+        "Board Resolution authorizing the Indian subsidiary and nominating directors/subscribers.",
+        "Proposed activities must comply with India’s FDI policy (Automatic Route vs Approval Route as applicable).",
       ],
     },
   ],
@@ -74,59 +136,61 @@ Here are the top reasons to set up your subsidiary in India:
   ],
   advantages: [
     {
-      icon: "CheckCircle",
-      title: "Enhanced Credibility and Business Operations",
-      text: "",
-      subPoints: [
-        "**Increased Local Credibility:** Incorporating locally demonstrates a long-term commitment to the Indian market. This significantly boosts credibility and trust with local clients, vendors, government authorities, and regulators.",
-        "**Full Spectrum of Business Activities:** Unlike a Branch Office or Liaison Office, which have restricted activities, a subsidiary can engage in the full range of commercial activities, including trading, manufacturing, and providing services.",
-        '**Favorable Regulatory Environment:** The Indian government has continuously introduced reforms to improve the \\"Ease of Doing Business,\\" making the incorporation and compliance process more streamlined for foreign investors.',
-      ],
+      icon: "Globe",
+      title: "Direct Market Access",
+      text: "Allows the parent company to engage directly with Indian customers and vendors.",
+    },
+    {
+      icon: "Shield",
+      title: "Limited Risk",
+      text: "Parent company's global assets are protected from the liabilities of the Indian entity.",
+    },
+    {
+      icon: "Briefcase",
+      title: "Full Operational Control",
+      text: "The foreign parent can define the strategy, management, and operations of the subsidiary.",
+    },
+    {
+      icon: "Award",
+      title: "Brand Expansion",
+      text: "Facilitates the building of a strong, localized brand presence in the Indian market.",
+    },
+    {
+      icon: "Users",
+      title: "Access to Local Talent",
+      text: "Can directly hire and manage a workforce in India.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Fundraising Capability",
+      text: "Can raise capital in India through local debt or equity markets.",
     },
   ],
   disadvantages: [
     {
-      icon: "CheckCircle",
-      title: "of a Foreign Subsidiary Company Registration",
-      text: "The drawbacks are primarily related to the complexity, cost, and compliance burden of operating a full-fledged local entity. **1. High Setup and Operational Costs:** The initial process is capital-intensive, involving significant costs for legal fees, company registration, stamp duties, and meeting any mandated minimum capital requirements. Ongoing operational costs, including dedicated office space and hiring a full local staff, are also substantial. **2. Complex and Time-Consuming Setup:** Incorporation is often a lengthy administrative process that requires meticulous paperwork, notarization/apostille of foreign documents, and compliance with various regulatory bodies (e.g., Registrar of Companies, Tax Authorities, Foreign Exchange Regulators). **3. Burden of Local Compliance:** The subsidiary must comply with **all** local corporate laws, labor laws, tax regulations, and foreign exchange regulations (such as FEMA). This requires constant monitoring and the hiring of specialized local legal and accounting professionals, adding to the administrative overhead. **4. Exposure to Local Market Risks:** The subsidiary is fully exposed to the host country\\'s political instability, adverse changes in government policy, economic downturns, and currency fluctuation risks, which can significantly impact its profitability. **5. Transfer Pricing Complexity:** Transactions between the parent company and the subsidiary (e.g., sales of components, intellectual property fees, management charges) are scrutinized under strict Transfer Pricing regulations. Failure to comply can result in heavy penalties and additional tax liabilities. **6. Difficulty in Closure/Liquidation:** If the business venture fails, winding up or dissolving a registered subsidiary is a complex, long, and expensive legal procedure that requires numerous clearances and regulatory filings. **Eligible criteria of Foreign Subsidiary Company Registration** A Foreign Subsidiary Company in India is primarily registered as a **Private Limited Company** under the Companies Act, 2013. The eligibility hinges on meeting the statutory requirements for forming such a company and complying with India\\'s Foreign Direct Investment (FDI) policy. Here are the key eligibility criteria and minimum requirements:",
+      icon: "FileWarning",
+      title: "Stringent Compliance",
+      text: "Must follow all Indian statutory laws, including regular audits and FEMA reporting.",
     },
     {
-      icon: "CheckCircle",
-      title: "I. Corporate Structure & Capital Requirements",
-      text: "",
-      subPoints: [
-        "**Minimum Directors:** A minimum of **two (2) Directors** is mandatory for a Private Limited Company.",
-        '**Resident Director:** At least **one (1) of the Directors** must be a \\"Resident in India.\\" A \\"Resident in India\\" for this purpose is defined as a person who has stayed in India for a minimum period of **182 days** during the immediately preceding financial year.',
-        "**Minimum Shareholders:** A minimum of **two (2) Shareholders** is required. These can be: ",
-        "The foreign parent company itself (as a corporate body).",
-        "A nominee of the foreign parent company (who can also be one of the directors, including the resident director).",
-        "Other corporate bodies or individuals (domestic or foreign). ",
-        '**Shareholding:** For the company to be classified as a \\"subsidiary\\" of the foreign entity, the foreign parent company must hold **more than 50%** of the total share capital or control the composition of the Board of Directors. For a **Wholly-Owned Subsidiary (WOS)**, the parent company holds 100% of the shares.',
-        "**Minimum Paid-Up Capital:** As per the Companies Act, 2013, there is **no minimum paid-up capital** requirement for a Private Limited Company. However, a sensible amount is typically infused to cover initial expenses.",
-        "**Registered Office:** A verifiable **Registered Office Address** within India is mandatory from the date of incorporation. Proof of this address (e.g., rent agreement, utility bill, NOC from owner) must be submitted.",
-      ],
+      icon: "Wallet",
+      title: "High Setup Costs",
+      text: "Registration, legalizing documents (apostille), and initial capitalization involve significant costs.",
     },
     {
-      icon: "CheckCircle",
-      title: "II. Director and Shareholder Eligibility (Individuals)",
-      text: "All proposed Directors and individual Shareholders (or their authorized representatives if a corporate shareholder) must meet the following:",
-      subPoints: [
-        "**Director Identification Number (DIN):** Every director must possess a DIN. For new directors, this is typically applied for during the incorporation process itself (via the SPICe+ form).",
-        "**Digital Signature Certificate (DSC):** All directors (and subscribers to the Memorandum of Association) who will be digitally signing electronic forms with the Ministry of Corporate Affairs (MCA) must obtain a valid DSC.",
-        "**Proof of Identity & Address:** ",
-        "**For Indian Nationals:** PAN Card (mandatory), Aadhaar Card, Passport, Voter ID, Driving License. Address proof (utility bill, bank statement) not older than 2 months.",
-        "**For Foreign Nationals:** Valid Passport (mandatory). Valid address proof (utility bill, bank statement, or residency card from their home country) not older than 2 months, which must be **apostilled or notarized** in their country of origin.",
-      ],
+      icon: "GitBranch",
+      title: "Complex Entry Process",
+      text: "Requires coordination between multiple regulators (MCA, RBI, and home country authorities).",
     },
     {
-      icon: "CheckCircle",
-      title: "III. Foreign Parent Company Eligibility",
-      text: "",
-      subPoints: [
-        "**Legal Existence:** The foreign parent company must be legally incorporated and existing in its home country. Proof of this (e.g., Certificate of Incorporation, Charter Documents) will be required.",
-        "**Board Resolution:** The parent company must pass a Board Resolution authorizing the incorporation of the Indian subsidiary and nominating its directors and subscribers.",
-        "**FDI Policy Compliance:** The proposed business activity of the Indian subsidiary must be compliant with India\\'s **Foreign Direct Investment (FDI) policy**. Most sectors allow 100% FDI under the **Automatic Route** (no prior government approval required). However, certain sectors have caps on foreign investment or require prior government approval (**Approval Route**). The foreign company must ensure its intended business falls under an eligible route.",
-      ],
+      icon: "UserCheck",
+      title: "Mandatory Local Director",
+      text: "Finding and appointing a reliable local resident director can be a challenge.",
+    },
+    {
+      icon: "Lock",
+      title: "Exit Restrictions",
+      text: "Closing or selling an Indian subsidiary is a highly regulated and time-consuming process.",
     },
   ],
   registrationProcess: [

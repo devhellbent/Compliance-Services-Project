@@ -6,10 +6,17 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:compliance-map": "node tools/validate-compliance-mappings.mjs",
+    "validate:service-appendix": "node tools/validate-service-appendix.mjs",
+    "audit:documents": "node tools/audit-lib-data-vs-documents.mjs",
+    "audit:documents:verbatim": "AUDIT_ARTICLE_BODIES=1 AUDIT_FREE_LEGAL_STRICT=1 node tools/audit-lib-data-vs-documents.mjs",
+    "audit:appendix-vs-structured": "node tools/audit-appendix-vs-structured-service-data.mjs",
+    "audit:adv-dis-registration": "node tools/audit-advantages-disadvantages-vs-md.mjs",
+    "audit:quick-nav": "node tools/audit-service-quick-nav.mjs",
+    "audit:four-pillars": "node tools/audit-four-pillars.mjs"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.2",
     "framer-motion": "^12.23.24",
     "gsap": "^3.13.0",
     "lucide-react": "^0.544.0",
@@ -17,7 +24,9 @@
     "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-intersection-observer": "^10.0.0"
+    "react-intersection-observer": "^10.0.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

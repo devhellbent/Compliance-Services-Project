@@ -10,11 +10,25 @@ export const onePersonCompanyData: ServiceData = {
   ],
   description:
     "Empower your solo entrepreneurial vision with corporate advantages. One Person Company registration provides single-member businesses with limited liability protection and corporate structure benefits, perfect for individual entrepreneurs seeking formal business recognition.",
-  overview: `**One Person Company (OPC) Registration**
+  overview: `**One Person Company (OPC) registration**
 
-**One Person Company (OPC) registration** is the process of legally forming a company in India that is owned and managed by a single individual. This structure was introduced under the **Companies Act, 2013** to promote entrepreneurship by giving individuals the benefits of a corporate entity while maintaining full control over business decisions.
+**One Person Company (OPC) registration** in India is a structure under the **Companies Act, 2013** for **solo entrepreneurs**. It gives **limited liability** and a **separate legal identity** while a **single individual** acts as shareholder and director. Before OPCs, a sole person typically used a **sole proprietorship**, with **unlimited** personal exposure.
 
-An OPC is ideal for **freelancers, solo entrepreneurs, and small business owners** who want to start a company without needing partners. It provides a **separate legal identity**, **limited liability protection**, and **better credibility** compared to a sole proprietorship.`,
+An OPC blends **sole control** with a **credible corporate** image—useful when banks, suppliers, or large clients expect a registered company.
+
+**What is a One Person Company?**
+
+An OPC is a type of **private** company with **only one member**. It is a **separate legal entity** and can own assets and contract in its own name. The member must appoint a **nominee** so that membership can continue if the member dies or is unable to contract.
+
+**Features of an OPC**
+
+- **Single shareholder and director:** Only one natural person as member; can be the sole director (up to **15** directors allowed).
+- **Separate legal entity:** Distinct from the owner; can own property and sue or be sued.
+- **Limited liability:** Liability is limited to the **unpaid** amount on shares; personal assets are not exposed for ordinary company debts.
+- **Perpetual succession:** The company continues after the owner’s death—the **nominee** becomes the member as per law.
+- **Minimum capital:** **No** mandatory minimum **paid-up** capital.
+- **Nominee:** **Mandatory** nomination of a person who becomes member if the original member dies or cannot contract.
+- **Lower compliance:** Certain relaxations vs other companies (for example **no Annual General Meeting** requirement).`,
   whyChooseUs: [
     {
       icon: "User",
@@ -40,115 +54,111 @@ An OPC is ideal for **freelancers, solo entrepreneurs, and small business owners
   advantages: [
     {
       icon: "Shield",
-      title: "Limited Liability Protection",
-      text: "The most significant advantage. The owner's personal assets are not at risk for the company's debts. Liability is limited to the capital contributed, protecting from financial ruin in case of business failure.",
+      title: "Protection of Personal Assets",
+      text: "Limited liability ensures that the owner's home, car, and savings are safe from business liabilities.",
     },
     {
-      icon: "Building2",
-      title: "Separate Legal Entity",
-      text: "The company has its own legal identity, distinct from its owner. The OPC can enter into contracts, own property, and sue or be sued in its own name, providing a professional and trustworthy image.",
+      icon: "User",
+      title: "Full Control",
+      text: "The sole owner makes all decisions without the need for board resolutions or consensus from partners.",
     },
     {
-      icon: "Zap",
-      title: "Easy to Manage",
-      text: "With only one owner, there is no need for board meetings, complex decision-making processes, or resolving conflicts among multiple shareholders. This allows for quick and efficient management with full control.",
+      icon: "Award",
+      title: "Enhanced Credibility",
+      text: 'Being a registered "Private Limited" entity builds trust with banks, suppliers, and large corporate clients.',
     },
     {
       icon: "TrendingUp",
-      title: "Access to Funding",
-      text: "An OPC, as a formal corporate entity, has better access to credit and loans from banks and financial institutions compared to an unregistered proprietorship.",
+      title: "Easier Access to Loans",
+      text: "Banks and financial institutions prefer lending to companies rather than sole proprietorships due to their formal structure.",
     },
     {
       icon: "RefreshCw",
-      title: "Perpetual Succession",
-      text: "The OPC's existence is not dependent on the life of its owner. The mandatory appointment of a nominee ensures the company can continue to operate in the event of the owner's death or incapacitation.",
+      title: "Continuous Existence",
+      text: "The nominee system ensures that the business does not shut down abruptly upon the owner's death.",
+    },
+    {
+      icon: "BadgePercent",
+      title: "Tax Planning",
+      text: "OPCs may benefit from certain corporate tax deductions and lower tax rates compared to individuals in higher income brackets.",
     },
   ],
   disadvantages: [
     {
-      icon: "TrendingDown",
-      title: "Limited Growth Potential",
-      text: "An OPC can have only one shareholder. This restricts the ability to raise capital through issuing equity shares, making it difficult to attract venture capitalists or angel investors.",
+      icon: "UserX",
+      title: "Restricted Ownership",
+      text: "Only one person can be a member. It cannot easily bring in equity investors like a standard private limited company.",
     },
     {
       icon: "ArrowRightLeft",
-      title: "Conversion Thresholds",
-      text: "If an OPC's paid-up share capital exceeds ₹50 lakhs or its average annual turnover exceeds ₹2 crores for three consecutive years, it must compulsorily convert into a private or public limited company.",
+      title: "Compulsory Conversion",
+      text: "If the annual turnover exceeds ₹2 Crores or the paid-up capital exceeds ₹50 Lakhs, it must be converted into a Private Limited Company.",
     },
     {
-      icon: "FileCheck",
-      title: "Higher Compliance than Proprietorship",
-      text: "While an OPC has relaxed compliance compared to other companies, it still has more legal requirements than a sole proprietorship, including maintaining proper books, statutory audits, and annual returns.",
+      icon: "FileWarning",
+      title: "Compliance Burden",
+      text: "While lower than other companies, it still requires annual filings, statutory audits, and maintenance of minutes.",
     },
     {
-      icon: "Ban",
-      title: "Restrictions on Business Activities",
-      text: "An OPC cannot engage in non-banking financial investment activities or be converted into a Section 8 company (with charitable objects).",
+      icon: "Wallet",
+      title: "High Setup Costs",
+      text: "Registration fees, professional charges, and mandatory digital signatures make it more expensive to start than a proprietorship.",
     },
     {
-      icon: "User",
-      title: "Dependency on a Single Person",
-      text: "The success and continuity heavily rely on the sole owner's skills and health. The nominee's role is to ensure continuity but they may not have the same expertise or vision.",
+      icon: "Globe",
+      title: "Limitation for NRI/Foreigners",
+      text: "Only an Indian citizen and resident can form an OPC in India.",
     },
   ],
   eligibility: [
+    "To register an OPC in India, the following requirements must be met:",
     {
-      title: "Eligibility Criteria for the Individual",
+      title: "Requirements",
       items: [
-        "Only a **natural person** can form an OPC.",
-        "The person must be an **Indian citizen**.",
-        "The person must be at least **18 years old**.",
-        "A person can be a member of only **one OPC** at a time and cannot be nominee in more than one OPC.",
-        "A **nominee** must be appointed at incorporation and give written consent.",
-      ],
-    },
-    {
-      title: "Business-Related Conditions",
-      items: [
-        "OPC cannot be formed for non-profit activities and cannot engage in restricted financial activities.",
-        "Name must be unique and end with **(OPC) Private Limited**.",
-        "Registered office address in India is mandatory.",
-        "If paid-up capital exceeds ₹50 lakh or turnover crosses ₹2 crore, conversion requirements apply as per law.",
+        "**Single individual member:** Only a **natural person** who is an **Indian citizen** and **resident** of India may incorporate an OPC.",
+        "**Nominee:** The member must nominate **one person** (also an Indian citizen and resident).",
+        "**Minimum one director:** The member may be the **sole director**, or the company may have up to **15** directors.",
+        "**No multiple OPCs:** A person can be a member (and nominee) in **only one OPC** at a time.",
+        "**Not for minors:** A minor cannot be a member or nominee or hold shares with beneficial interest.",
+        "**No non-profit activities:** An OPC cannot be incorporated or converted into a **Section 8** (non-profit) company.",
+        "**No financial-investment business:** An OPC cannot carry on **non-banking financial investment** activities, including investment in securities of any body corporate.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "For Director/Nominee",
+      tabTitle: "Member and nominee",
       content: {
-        title: "For Director/Nominee",
+        title: "For the member and nominee",
         items: [
-          "PAN card (mandatory for Indian citizens)",
-          "Identity proof (Aadhaar/Passport/Voter ID/Driving License)",
-          "Address proof (utility bill, bank statement, or mobile/telephone bill within two months)",
-          "Passport-size photographs",
-          "Nominee consent in Form INC-3 with nominee PAN and address proof",
+          "**Nominee consent (Form INC-3):** Filed with incorporation; includes nominee PAN and address proof as prescribed.",
+          "**PAN card:** Mandatory for identity proof.",
+          "**Identity proof:** Aadhaar Card, Voter ID, Passport, or Driving License.",
+          "**Address proof:** Latest bank statement, electricity bill, or telephone bill (not older than **2 months**).",
+          "**Photographs:** Recent passport-size photos.",
         ],
       },
     },
     {
-      tabTitle: "For Registered Office",
+      tabTitle: "Registered office",
       content: {
-        title: "For Registered Office",
+        title: "For the registered office",
         items: [
-          "Utility bill of registered office address (not older than two months)",
-          "Proof of ownership (sale deed) or tenancy (rent agreement)",
-          "No Objection Certificate (NOC) from property owner",
+          "**Proof of address:** Latest utility bill (electricity, water, or gas) of the premises.",
+          "**Ownership proof:** Property deed or sale deed (if owned).",
+          "**Rented premises:** Registered rent/lease agreement.",
+          "**NOC from owner:** No Objection Certificate for using the address as the registered office.",
         ],
       },
     },
     {
-      tabTitle: "Company Foundational Documents",
+      tabTitle: "Foundational company documents",
       content: {
-        title: "Company Legal and Foundational Documents",
+        title: "Foundational company documents",
         items: [
-          "Memorandum of Association (MoA)",
-          "Articles of Association (AoA)",
-          "Digital Signature Certificate (DSC)",
-          "Director Identification Number (DIN)",
-          "Director's Consent (Form DIR-2)",
-          "Director's Declaration (Form INC-9)",
-          "Professional declaration for compliance",
+          "**Digital Signature Certificate (DSC):** For the sole director to sign electronic forms.",
+          "**Director Identification Number (DIN):** Allotted during incorporation.",
+          "**Memorandum of Association (MoA) and Articles of Association (AoA):** Defining the company’s objects and internal rules.",
         ],
       },
     },
@@ -178,39 +188,45 @@ An OPC is ideal for **freelancers, solo entrepreneurs, and small business owners
   ],
   fees: [
     {
-      component: "Digital Signature Certificate (DSC)",
-      fees: "₹1,000 - ₹2,000",
-      remarks: "Required for director to sign forms electronically",
+      component: "Name reservation (RUN)",
+      fees: "₹200",
+      remarks: "Reserving a unique name",
     },
     {
-      component: "Director Identification Number (DIN)",
-      fees: "₹500 - ₹1,000",
-      remarks: "Mandatory for director",
+      component: "Incorporation fee (SPICe+)",
+      fees: "Varies",
+      remarks:
+        "Depends on authorised capital; for lower slabs government fee may be nil but stamp duty applies",
     },
     {
-      component: "Name Approval (SPICe+ Part A)",
-      fees: "₹1,000",
-      remarks: "For reserving unique company name",
-    },
-    {
-      component: "Government/ROC Fees (Incorporation)",
-      fees: "₹1,000 - ₹4,000",
-      remarks: "Depends on authorized capital",
-    },
-    {
-      component: "Stamp Duty",
+      component: "Stamp duty",
       fees: "Varies by state",
-      remarks: "Based on authorized capital and state regulations",
+      remarks: "On authorised capital and MoA/AoA",
     },
     {
-      component: "Professional Fees (CA/CS)",
-      fees: "₹6,000 - ₹15,000",
-      remarks: "For documentation, filing, and consultation",
+      component: "Digital Signature Certificate (DSC)",
+      fees: "₹1,000 – ₹2,000",
+      remarks: "For the sole director (Class 3)",
     },
     {
-      component: "Total Estimated Cost",
-      fees: "₹10,000 - ₹25,000",
-      remarks: "Total varies based on state and professional fees",
+      component: "PAN and TAN",
+      fees: "Included",
+      remarks: "Usually integrated in SPICe+ incorporation",
+    },
+    {
+      component: "Nominee consent",
+      fees: "Minor",
+      remarks: "Drafting and notarizing nominee consent",
+    },
+    {
+      component: "Professional / CA fees",
+      fees: "₹5,000 – ₹10,000",
+      remarks: "Typical range for legal and digital process",
+    },
+    {
+      component: "Total estimated (₹1 lakh authorised capital)",
+      fees: "₹7,000 – ₹12,000",
+      remarks: "Including government and professional fees",
     },
   ],
   faqs: [

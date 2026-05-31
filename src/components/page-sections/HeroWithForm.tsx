@@ -1,7 +1,15 @@
 // components/page-sections/proprietorship/HeroWithForm.tsx
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
-import { MarkdownBoldRenderer } from "../MarkdownBoldRenderer";
+import { getServiceHeroMarkdown } from "@/lib/getServiceHeroMarkdown";
+import { createServiceMarkdownComponents } from "@/components/serviceMarkdownComponents";
+
+const heroFormMarkdownComponents = createServiceMarkdownComponents({
+  tone: "compact",
+  promoteFlatParagraphs: false,
+});
 
 interface HeroWithFormProps {
   title: string;
@@ -26,7 +34,14 @@ export const HeroWithForm = ({
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
               {title}
             </h1>
-            <MarkdownBoldRenderer text={overview} />
+            <div className="mt-4 text-gray-600 max-w-xl service-markdown min-w-0 break-words">
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                components={heroFormMarkdownComponents}
+              >
+                {getServiceHeroMarkdown({ overview })}
+              </ReactMarkdown>
+            </div>
             <div className="mt-6 flex items-center space-x-6">
               <div className="flex items-center">
                 <div className="flex text-yellow-400">

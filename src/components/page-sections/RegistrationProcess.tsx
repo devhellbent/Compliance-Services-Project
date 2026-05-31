@@ -1,5 +1,14 @@
 // components/page-sections/proprietorship/RegistrationProcess.tsx
-import { MarkdownBoldRenderer } from "../MarkdownBoldRenderer";
+import type { FC } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
+import { createServiceMarkdownComponents } from "@/components/serviceMarkdownComponents";
+
+const processStepMarkdownComponents = createServiceMarkdownComponents({
+  tone: "compact",
+  promoteFlatParagraphs: false,
+});
 
 type Step = {
   step: number | string;
@@ -11,7 +20,7 @@ interface RegistrationProcessProps {
   steps: Step[];
 }
 
-export const RegistrationProcess: React.FC<RegistrationProcessProps> = ({
+export const RegistrationProcess: FC<RegistrationProcessProps> = ({
   steps,
 }) => {
   return (
@@ -34,8 +43,13 @@ export const RegistrationProcess: React.FC<RegistrationProcessProps> = ({
                 <h3 className="font-semibold text-lg text-gray-800">
                   {step.title}
                 </h3>
-                <div className="mt-1 text-gray-600">
-                  <MarkdownBoldRenderer text={step.description} />
+                <div className="mt-1 text-gray-600 service-markdown min-w-0 break-words">
+                  <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    components={processStepMarkdownComponents}
+                  >
+                    {normalizeCopyPastedEscapes(step.description)}
+                  </ReactMarkdown>
                 </div>
               </div>
             ))}

@@ -7,44 +7,11 @@ export const indianSubsidiaryData: ServiceData = {
   breadcrumb: ["Home", "Registrations", "Indian Subsidiary"],
   description:
     "Establish strategic presence in India's dynamic market. Indian Subsidiary registration enables foreign companies to incorporate domestic entities with complete compliance, ensuring FDI adherence while accessing India's vast consumer base and growth opportunities.",
-  overview:
-    `Indian Subsidiary Registration is the process of setting up a private limited company in India where a foreign corporation holds more than 50% of the share capital, granting it control. This legal entity provides limited liability protection to the parent company. The registration process is governed by the Companies Act, 2013, and typically begins with obtaining a Digital Signature Certificate (DSC) and a Director Identification Number (DIN) for the proposed directors, one of whom must be an Indian Resident. Key steps include reserving a unique company name with the Ministry of Corporate Affairs (MCA), drafting the Memorandum and Articles of Association (MoA and AoA), and submitting the integrated incorporation application (SPICe+ form). Upon approval, the MCA issues the Certificate of Incorporation, along with the company's Permanent Account Number (PAN) and Tax Deduction and Collection Account Number (TAN), after which the subsidiary must open a local bank account and comply with foreign investment reporting requirements.
+  overview: `Indian Subsidiary Registration is the process of setting up a private limited company in India where a foreign corporation holds more than 50% of the share capital, granting it control. This legal entity provides limited liability protection to the parent company.
 
-**What is an Indian Subsidiary Company?**
+An Indian Subsidiary Company is a business entity incorporated in India as a Private Limited Company that is controlled by a foreign entity, known as the Holding or Parent Company. As per the Companies Act, 2013, a company is classified as a subsidiary if the parent company controls the composition of its Board of Directors or exercises control over more than one-half of the total share capital.
 
-An Indian Subsidiary Company is a business entity incorporated in India as a Private Limited Company that is controlled by a foreign entity, known as the Holding or Parent Company.
-
-As per the **Companies Act, 2013**, a company is classified as a subsidiary if the parent company:
-
--   **Controls the composition of its Board of Directors** (can appoint or remove a majority of the directors); **OR**
-
--   **Exercises or controls more than one-half (over 50%) of the total share capital** (equity and convertible preference capital), either on its own or together with its other subsidiaries.
-
-It is treated as an **Indian company** and operates as a **separate legal entity** with limited liability, meaning the parent company\'s liability is typically limited to its investment. It allows a foreign business to establish a local presence, access the Indian market, and manage its operations while complying with local laws and tax regulations. A common form is a **Wholly Owned Subsidiary (WOS)**, where the foreign parent holds 100% of the shares
-
-**How a Subsidiary is a Separate Indian Company**
-
-An Indian subsidiary is considered a separate Indian company primarily due to the fundamental principle of **Separate Legal Entity** in Indian company law.
-
-Here\'s a breakdown of how this works under the **Companies Act, 2013**
-
-1.  **Incorporation as a distinct entity:** A subsidiary, whether wholly-owned or partially-owned by a parent company (foreign or domestic), must be incorporated and registered in India under the Companies Act, 2013, just like any other Indian company. Once incorporated, it receives a **Certificate of Incorporation** and becomes a **body corporate**---a legal person separate from its shareholders (including the parent company).
-
-2.  **Independent Legal Identity:** This separate legal status means the subsidiary can:
-
--   **Own assets and property** in its own name. The assets of the subsidiary are not the assets of the parent company.
-
--   **Enter into contracts** in its own name.
-
--   **Sue and be sued** in its own name.Incur its **own debts and liabilities**.
-
-3.  **Limited Liability:** The key benefit of this separation is **limited liability**. The financial liability of the parent company is generally limited to its investment (the value of its shares) in the subsidiary. The parent company\'s other assets are protected from the debts and obligations of the subsidiary.
-
-4.  **Compliance with Indian Laws:** Since it is an Indian company, the subsidiary must comply with all Indian laws and regulations, including the Companies Act, Income Tax Act, and other statutory requirements, irrespective of the parent company\'s country of origin.
-
-5.  **Separate Management and Governance:** Although the parent company controls the subsidiary (usually by holding more than 50% of the voting power or controlling the composition of its Board of Directors), the subsidiary has its own **Board of Directors** responsible for its day-to-day operations and management.
-
-6.`,
+It is treated as an Indian company and operates as a separate legal entity with limited liability, meaning the parent company's liability is typically limited to its investment. This structure allows a foreign business to establish a local presence, access the Indian market, and manage its operations while complying with local laws and tax regulations.`,
   whyChooseUs: [
     {
       icon: "FileSignature",
@@ -64,41 +31,61 @@ Here\'s a breakdown of how this works under the **Companies Act, 2013**
   ],
   advantages: [
     {
-      icon: "Library",
-      title: "Separate Legal Entity",
-      text: "The subsidiary is a distinct legal entity from its foreign parent, with its own assets, liabilities, and legal standing in India.",
+      icon: "Briefcase",
+      title: "Full Control",
+      text: "The foreign parent company can maintain 100% control over its Indian operations (as a WOS).",
     },
     {
-      icon: "ShieldCheck",
+      icon: "Shield",
       title: "Limited Liability",
-      text: "The liability of the foreign parent company is limited to the capital it has invested in the subsidiary's shares.",
+      text: "Protects the assets of the parent company from the liabilities and risks of the Indian subsidiary.",
+    },
+    {
+      icon: "Landmark",
+      title: "Permanent Presence",
+      text: "Allows the foreign brand to establish a long-term, credible presence in the Indian market.",
     },
     {
       icon: "TrendingUp",
-      title: "Market Credibility",
-      text: "Operating as a registered Indian company builds trust and credibility with local customers, employees, and partners.",
+      title: "Access to Local Market",
+      text: "Can engage in all types of commercial activities, including trading, manufacturing, and services.",
     },
     {
-      icon: "FileCheck",
-      title: "Full FDI Compliance",
-      text: "It is a clear and compliant route for Foreign Direct Investment (FDI) into India, eligible for benefits under tax treaties.",
+      icon: "BadgePercent",
+      title: "FDI Benefits",
+      text: "Can leverage India's liberal FDI policies and government incentives for foreign investors.",
+    },
+    {
+      icon: "Banknote",
+      title: "Independent Funding",
+      text: "Can raise capital in India through equity, debt, or bank loans.",
     },
   ],
   disadvantages: [
     {
       icon: "FileWarning",
-      title: "Higher Compliance Burden",
-      text: "The subsidiary must comply with the Indian Companies Act, 2013, as well as FEMA and RBI regulations for foreign investment.",
-    },
-    {
-      icon: "Landmark",
-      title: "Repatriation of Profits",
-      text: "Sending profits back to the foreign parent company (as dividends) is subject to Indian taxes like Dividend Distribution Tax.",
+      title: "High Compliance Burden",
+      text: "Subject to all the regulations of the Companies Act, FEMA, and RBI reporting.",
     },
     {
       icon: "UserCheck",
-      title: "Resident Director Requirement",
-      text: "The company must have at least one director who is a resident of India, adding an administrative requirement.",
+      title: "Mandatory Resident Director",
+      text: "Finding and appointing a trustworthy local resident director is a prerequisite.",
+    },
+    {
+      icon: "Receipt",
+      title: "Corporate Tax",
+      text: "Subject to Indian corporate tax rates, which can be higher than in some other jurisdictions.",
+    },
+    {
+      icon: "Clock",
+      title: "Complexity in Exit",
+      text: "Winding up or closing an Indian subsidiary is a time-consuming and regulated process.",
+    },
+    {
+      icon: "Scale",
+      title: "Transfer Pricing",
+      text: 'Transactions with the parent company must adhere to strict "Arm\'s Length" pricing regulations.',
     },
   ],
   eligibility: [

@@ -13,22 +13,58 @@ This registration is a crucial first step for any NPO starting its operations. O
 The most significant benefit of holding 12A registration is the **complete exemption of the NPO\'s income** used for charitable or religious purposes from income tax, as per Sections 11 and 12 of the Income Tax Act, 1961. This not only ensures that maximum funds are available for the organization\'s mission but also builds **credibility** for the NPO. Furthermore, having 12A registration is a prerequisite for obtaining **80G registration**, which allows donors to claim a deduction on their taxable income for contributions made to the NPO.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of 12A Registration",
-        text: "1.  **Income Tax Exemption:** This is the primary and most significant advantage. An NPO with 12A registration can claim full exemption from income tax on its surplus income, provided the income is utilized for its charitable or religious objectives. This allows the organization to dedicate more funds directly to its mission rather than paying taxes. 2.  **Enhanced Credibility and Trust:** 12A registration acts as an official recognition by the Income Tax Department that the organization is genuinely involved in charitable or religious activities. This significantly boosts the NPO\\'s credibility and builds trust among potential donors, beneficiaries, and the public. 3.  **Gateway to Funding and 80G:**",
-        subPoints: [
-            "**80G Registration:** It is a mandatory prerequisite for applying for 80G registration. With 80G, donors can claim a tax deduction on their contributions, which is a huge incentive for individuals and corporations to donate.",
-            "**Access to Grants:** Many government grants, corporate social responsibility (CSR) funds, and international funding agencies often require the recipient organization to have valid 12A (and sometimes 80G) registration. 4.  **Accumulation of Income:** Registered organizations are permitted to accumulate up to 15% of their income without it being taxed. This flexibility allows NPOs to save for future projects or unforeseen expenses."
-        ]
-    }
-],
+      icon: "BadgePercent",
+      title: "Tax Exemption",
+      text: "The primary benefit is full exemption from income tax on the surplus income of the NPO, provided it is used for charitable purposes.",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "Government Recognition",
+      text: "Acts as an official recognition by the Income Tax Department, significantly boosting the organization's credibility and public trust.",
+    },
+    {
+      icon: "Coins",
+      title: "Prerequisite for 80G",
+      text: "Having 12A registration is a mandatory requirement for applying for 80G registration, which allows donors to claim tax deductions.",
+    },
+    {
+      icon: "Landmark",
+      title: "Access to Grants",
+      text: "Essential for applying for government grants, CSR funds, and international funding from various development agencies.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Income Accumulation",
+      text: "Registered NGOs are permitted to accumulate up to 15% of their income for future projects without it being taxed.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "of 12A Registration",
-        text: "1.  **Stringent Compliance and Reporting:** NPOs with 12A registration are subject to stricter compliance requirements. They must maintain meticulous books of accounts, get them audited (if applicable), and file their income tax returns (ITR-7) annually, detailing the application of funds. Non-compliance can lead to the cancellation of registration. 2.  **Strict \\\"Application of Income\\\" Rules:** To maintain the tax-exempt status, organizations generally must apply at least 85% of their income towards their charitable or religious objectives within the financial year. Failure to do so can result in the unapplied portion being taxed. 3.  **Renewal Burden (Every 5 Years):** Under the revised provisions (post-Finance Act, 2020), 12A registration is no longer a one-time lifetime registration. It is initially provisional for three years, and then requires **renewal every five years**. This introduces an administrative burden and recurring compliance costs for the NPO. 4.  **Restrictions on Business Income:** While some incidental business activities are allowed, if the income from such activities exceeds 20% of the total receipts of the organization, the entire income may become taxable. The primary objective must remain charitable. 5.  **Potential for Cancellation:** If an NPO is found to be engaged in non-charitable activities, or if there are violations of the Income Tax Act provisions, its 12A registration can be cancelled by the Commissioner of Income Tax, leading to the loss of all tax benefits."
-    }
-],
+      icon: "FileWarning",
+      title: "Compliance Burden",
+      text: "Requires meticulous record-keeping, annual audits, and timely filing of Form ITR-7 to maintain tax-exempt status.",
+    },
+    {
+      icon: "Clock",
+      title: "Mandatory Renewal",
+      text: "Registration is no longer lifetime; it must be renewed every 5 years, adding to the administrative and financial workload.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Strict Spending Rules",
+      text: "NGOs must apply at least 85% of their income toward charitable activities within the year; failure to do so can lead to taxation.",
+    },
+    {
+      icon: "Ban",
+      title: "Business Income Cap",
+      text: "Incidental business income is capped at 20% of total receipts; exceeding this can jeopardize the entire tax exemption.",
+    },
+    {
+      icon: "ShieldAlert",
+      title: "Cancellation Risk",
+      text: "Non-compliance with the Income Tax Act or engagement in non-charitable activities can lead to the revocation of registration.",
+    },
+  ],
   eligibility: [
     {
         title: "Assuming you are referring to 12A Registration (under Section",

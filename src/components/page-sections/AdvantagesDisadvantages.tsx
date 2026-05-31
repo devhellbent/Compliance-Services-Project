@@ -3,9 +3,23 @@
 import React from "react";
 import { Check, X } from "lucide-react";
 import * as Icons from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 import { AdvantageDisadvantageItem } from "@/lib/types";
-import { MarkdownBoldRenderer } from "../MarkdownBoldRenderer";
+import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
+import { createServiceMarkdownComponents } from "@/components/serviceMarkdownComponents";
+
+const advBodyMarkdownComponents = createServiceMarkdownComponents({
+  tone: "compact",
+  promoteFlatParagraphs: false,
+});
+
+const advListMarkdownComponents = createServiceMarkdownComponents({
+  tone: "compact",
+  promoteFlatParagraphs: false,
+  paragraphElement: "span",
+});
 
 type AdvantagesDisadvantagesProps = {
   advantages: AdvantageDisadvantageItem[];
@@ -29,13 +43,13 @@ export const AdvantagesDisadvantages: React.FC<
               Advantages
             </h3>
             <div className="space-y-6">
-              {advantages.map((item: AdvantageDisadvantageItem) => {
+              {advantages.map((item: AdvantageDisadvantageItem, idx) => {
                 const IconName = item.icon as keyof typeof Icons;
                 const Icon = Icons[IconName] as React.ComponentType<
                   React.SVGProps<SVGSVGElement>
                 >;
                 return (
-                  <div key={item.title} className="flex items-start">
+                  <div key={`adv-${idx}-${item.title}`} className="flex items-start">
                     <div className="flex-shrink-0 w-10 h-10 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mr-4">
                       {Icon && <Icon />}
                     </div>
@@ -43,14 +57,24 @@ export const AdvantagesDisadvantages: React.FC<
                       <h4 className="font-semibold text-gray-800">
                         {item.title}
                       </h4>
-                      <div className="text-gray-600 text-sm">
-                        <MarkdownBoldRenderer text={item.text} />
+                      <div className="text-gray-600 text-sm service-markdown min-w-0 break-words">
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          components={advBodyMarkdownComponents}
+                        >
+                          {normalizeCopyPastedEscapes(item.text)}
+                        </ReactMarkdown>
                       </div>
                       {item.subPoints && item.subPoints.length > 0 && (
                         <ul className="mt-2 space-y-1 list-disc list-inside text-sm text-gray-500">
                           {item.subPoints.map((point, idx) => (
                             <li key={idx}>
-                              <MarkdownBoldRenderer text={point} />
+                              <ReactMarkdown
+                                remarkPlugins={[remarkGfm]}
+                                components={advListMarkdownComponents}
+                              >
+                                {normalizeCopyPastedEscapes(point)}
+                              </ReactMarkdown>
                             </li>
                           ))}
                         </ul>
@@ -68,13 +92,13 @@ export const AdvantagesDisadvantages: React.FC<
               Disadvantages
             </h3>
             <div className="space-y-6">
-              {disadvantages.map((item: AdvantageDisadvantageItem) => {
+              {disadvantages.map((item: AdvantageDisadvantageItem, idx) => {
                 const IconName = item.icon as keyof typeof Icons;
                 const Icon = Icons[IconName] as React.ComponentType<
                   React.SVGProps<SVGSVGElement>
                 >;
                 return (
-                  <div key={item.title} className="flex items-start">
+                  <div key={`dis-${idx}-${item.title}`} className="flex items-start">
                     <div className="flex-shrink-0 w-10 h-10 bg-red-100 text-red-600 rounded-lg flex items-center justify-center mr-4">
                       {Icon && <Icon />}
                     </div>
@@ -82,14 +106,24 @@ export const AdvantagesDisadvantages: React.FC<
                       <h4 className="font-semibold text-gray-800">
                         {item.title}
                       </h4>
-                      <div className="text-gray-600 text-sm">
-                        <MarkdownBoldRenderer text={item.text} />
+                      <div className="text-gray-600 text-sm service-markdown min-w-0 break-words">
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          components={advBodyMarkdownComponents}
+                        >
+                          {normalizeCopyPastedEscapes(item.text)}
+                        </ReactMarkdown>
                       </div>
                       {item.subPoints && item.subPoints.length > 0 && (
                         <ul className="mt-2 space-y-1 list-disc list-inside text-sm text-gray-500">
                           {item.subPoints.map((point, idx) => (
                             <li key={idx}>
-                              <MarkdownBoldRenderer text={point} />
+                              <ReactMarkdown
+                                remarkPlugins={[remarkGfm]}
+                                components={advListMarkdownComponents}
+                              >
+                                {normalizeCopyPastedEscapes(point)}
+                              </ReactMarkdown>
                             </li>
                           ))}
                         </ul>
