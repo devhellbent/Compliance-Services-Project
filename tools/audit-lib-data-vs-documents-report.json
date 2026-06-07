@@ -1,0 +1,23 @@
+{
+  "mirrorMissing": [],
+  "mirrorMismatches": [],
+  "registrationMasterMissing": null,
+  "registrationSliceGaps": [],
+  "slugMissingAppendix": [],
+  "slugMissingMdFile": [],
+  "slugUnknownSymbol": [],
+  "slugMissingTs": [],
+  "tsStringsNotInAppendix": [],
+  "appendixParagraphsNotInTs": [],
+  "appendixNoExtractedSource": [],
+  "appendixParagraphsNotInRootDocumentsExtracted": [],
+  "zipMissing": [],
+  "zipUnreadable": [],
+  "zipDocxEntryMissing": [],
+  "extractedMdMissingForDocx": [],
+  "articleBodiesNotInCategoryMds": null,
+  "articleBodiesAudit": "skipped (set AUDIT_ARTICLE_BODIES=1 to diff vs category MDs)",
+  "orphanModules": [],
+  "freeLegalDocx": "ok, extracted 50956 chars (set AUDIT_FREE_LEGAL_STRICT=1 for TS vs Word substring audit)",
+  "freeLegalTsNotInDocx": null
+}

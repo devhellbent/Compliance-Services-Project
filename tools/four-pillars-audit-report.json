@@ -1,0 +1,1092 @@
+{
+  "generatedAt": "2026-05-13T14:23:50.817Z",
+  "pillars": [
+    "Registrations",
+    "MCA",
+    "Compliance",
+    "Taxation"
+  ],
+  "summary": {
+    "pillarServiceSlugs": 115,
+    "advDisStandardSectionCompared": 14,
+    "advDisRowsWithBulletIssues": 0,
+    "navBackedSkipped": 65,
+    "noStandardAdvDisInMd": 36,
+    "appendixGapSubset": {
+      "slugsInReport": 115,
+      "nonStubStrictGaps": 50,
+      "nonStubFuzzyResidual": 48
+    }
+  },
+  "advDisRows": [
+    {
+      "slug": "12a-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/legal-registration.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "15ca-15cb-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "80g-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/legal-registration.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "additional-place-of-business-in-gst",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "adt-1-filing",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "agm",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "aoa-amendment",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "aoc-4-aoc-4-xbrl",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "approval-of-director",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "authorized-capital-increase",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "business-tax-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "change-in-llp-agreement",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "commencement-inc-20a",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "copyright-objection",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "copyright-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "darpan-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/legal-registration.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "demat-of-shares",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "digital-signature-certificate",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/regulatory-license.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 1,
+      "tsDisCount": 1,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "din-reactivation",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "din-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/regulatory-license.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "dormant-status-filing",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "dpt-3-filing",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "e-voting",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "esic-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/labour-law-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "esic-return-filling",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "fc-gpr-fc-trs-filings",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "fema-rbi-compliance",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "foreign-subsidiary-company-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/foreign-subsidiary-company-registration.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "fssai-license",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/regulatory-license.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "gst-amendment",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "gst-annual-return-filing-gstr-9",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "gst-registration",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "gst-registration-for-e-commerce",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "gst-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "gst-return-filing-for-e-commerce",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "gst-revocation",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "gstr-10",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "gumasta-shop-act-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/labour-law-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "icegate-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/legal-registration.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 1,
+      "tsDisCount": 1,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "import-export-code",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/legal-registration.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "income-tax-notice",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "indian-subsidiary",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/indian-subsidiary.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "indian-subsidiary-winding-up",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "infringement-notice",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "isin-number",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "iso-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/regulatory-license.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 1,
+      "tsDisCount": 1,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "itr-1-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "itr-2-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "itr-3-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "itr-4-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "itr-5-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "itr-6-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "itr-7-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "kyc-dir-3-kyc",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "limited-liability-partnership",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/limited-liability-partnership.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "llp-compliance",
+      "pillar": "MCA",
+      "appendixFile": "src/content/documents/categories/company-compliance.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "llp-form-11-filing",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "llp-to-private-company",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "llp-winding-up",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "logo-designing",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 1,
+      "tsDisCount": 1,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "mgt-7-mgt-7a",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "microfinance-company-compliance",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "microfinance-company-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/microfinance-company-registration.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "moa-amendment",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "msme-filling",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "msme-udyam-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/legal-registration.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "name-change-company",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "ngo-compliance",
+      "pillar": "MCA",
+      "appendixFile": "src/content/documents/categories/company-compliance.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "nidhi-company-compliance",
+      "pillar": "MCA",
+      "appendixFile": "src/content/documents/categories/company-compliance.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "nidhi-company-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/nidhi-company.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "nidhi-winding-up",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "one-person-company",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/one-person-company.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "opc-compliance",
+      "pillar": "MCA",
+      "appendixFile": "src/content/documents/categories/company-compliance.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "opc-to-private-limited",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "pan-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/regulatory-license.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 4,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "partnership",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/partnership.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "partnership-compliance",
+      "pillar": "MCA",
+      "appendixFile": "src/content/documents/categories/company-compliance.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "pas-6",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "patent-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "pf-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/labour-law-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "pf-return-filling",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "private-company-compliance",
+      "pillar": "MCA",
+      "appendixFile": "src/content/documents/categories/company-compliance.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "private-limited-company",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/private-limited-company.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 7,
+      "tsDisCount": 4,
+      "mdAdvCount": 7,
+      "mdDisCount": 4,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "private-limited-winding-up",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "private-to-public-company",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "producer-company",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/producer-company.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "producer-company-compliance",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "professional-tax-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/regulatory-license.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "professional-tax-return-filling",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "proprietor-to-llp-company",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "proprietorship",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/proprietorship.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 7,
+      "tsDisCount": 5,
+      "mdAdvCount": 7,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "public-limited-company",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/public-limited-company.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 6,
+      "mdAdvCount": 6,
+      "mdDisCount": 6,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "public-limited-company-compliance",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "registered-office-change",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "removal-of-director",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "rta-services",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "section-8-ngo-company",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/section-8-company.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "section-8-winding-up",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "share-transfer",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "society-compliance",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "society-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/society-registration.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "startup-india-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/startup-india-registration.md",
+      "appendixKind": "dedicated",
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "mdStandardAdvDisSection": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "slug": "statutory-registers-and-minutes-maintenance",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "subsidiary-company-compliance",
+      "pillar": "MCA",
+      "appendixFile": "src/content/documents/categories/company-compliance.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 4,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "tan-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/regulatory-license.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 4,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "tds-return-filing",
+      "pillar": "Taxation",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "trade-license",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/regulatory-license.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_section",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "trademark-hearing",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 1,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "trademark-protection",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 1,
+      "tsDisCount": 1,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "trademark-rectification",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 1,
+      "tsDisCount": 4,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "trademark-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "trademark-renewal",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 4,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "trademark-transfer",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/categories/intellectual-property-services.md",
+      "appendixKind": "category",
+      "appendixSliceNote": "categorySection",
+      "tsAdvCount": 3,
+      "tsDisCount": 3,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    },
+    {
+      "slug": "trust-compliance",
+      "pillar": "MCA",
+      "navStub": true,
+      "skipAdvDisCompare": true,
+      "note": "Nav-backed stub: advantages/disadvantages live in appendix merge + Full source text."
+    },
+    {
+      "slug": "trust-registration",
+      "pillar": "Registrations",
+      "appendixFile": "src/content/documents/registration/trust-registration.md",
+      "appendixKind": "dedicated",
+      "appendixSliceNote": "full_file",
+      "tsAdvCount": 5,
+      "tsDisCount": 5,
+      "mdStandardAdvDisSection": false,
+      "mdParseNote": "no_adv_dis_subheads",
+      "message": "No 'Advantages and Disadvantages' + hyphen bullets in appendix slice (may use Benefits/sections prose—manual or prior XBRL-style sync)."
+    }
+  ]
+}

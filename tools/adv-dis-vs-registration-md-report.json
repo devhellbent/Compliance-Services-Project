@@ -1,0 +1,234 @@
+{
+  "rows": [
+    {
+      "mdFile": "12a-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "80g-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "darpan-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "din-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "dsc-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "foreign-subsidiary-company-registration.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/foreign-subsidiary-company-registration.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "fssai-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "icegate-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "import-export-code.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "indian-subsidiary.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/indian-subsidiary.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "iso-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "limited-liability-partnership.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/limited-liability-partnership.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "microfinance-company-registration.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/microfinance-company-registration.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "msme-udyam-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "ngo-darpan-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "nidhi-company.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/nidhi-company.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "one-person-company.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/one-person-company.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "pan-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "partnership.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/partnership.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "private-limited-company.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/private-limited-company.ts",
+      "mdAdvCount": 7,
+      "mdDisCount": 4,
+      "tsAdvCount": 7,
+      "tsDisCount": 4,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "producer-company.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/producer-company.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "professional-tax-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "proprietorship.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/proprietorship.ts",
+      "mdAdvCount": 7,
+      "mdDisCount": 5,
+      "tsAdvCount": 7,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "public-limited-company.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/public-limited-company.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 6,
+      "tsAdvCount": 6,
+      "tsDisCount": 6,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "section-8-company.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/section-8-company.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "society-registration.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/society-registration.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "startup-india-registration.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/startup-india-registration.ts",
+      "mdAdvCount": 6,
+      "mdDisCount": 5,
+      "tsAdvCount": 6,
+      "tsDisCount": 5,
+      "issueCount": 0,
+      "issues": []
+    },
+    {
+      "mdFile": "tan-registration.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "trade-license.md",
+      "tsFile": null,
+      "skip": "no_matching_ts"
+    },
+    {
+      "mdFile": "trust-registration.md",
+      "tsFile": "src/lib/data/services/registration/company_registration/trust-registration.ts",
+      "mdAdvCount": null,
+      "mdDisCount": null,
+      "tsAdvCount": null,
+      "tsDisCount": null,
+      "issueCount": 0,
+      "issues": [],
+      "skip": "trust_md_prose_not_bullet_list"
+    }
+  ],
+  "summary": {
+    "files": 30,
+    "withIssues": 0
+  }
+}

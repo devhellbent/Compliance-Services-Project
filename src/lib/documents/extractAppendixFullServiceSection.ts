@@ -4,10 +4,10 @@ import {
 } from "@/lib/documents/extractAppendixOverviewExcerpt";
 
 const serviceBoundaryRe =
-  /\n\n(#\s*)?([^\n#|][^\n]{1,200}?)\s*\n\n(?i:overview)\s*\n/g;
+  /\n\n(#\s*)?([^\n#|][^\n]{1,200}?)\s*\n\n(?:overview)\s*\n/gi;
 
 const fileStartBoundaryRe =
-  /^(#\s*)?([^\n#|][^\n]{1,200}?)\s*\n\n(?i:overview)\s*\n/m;
+  /^(#\s*)?([^\n#|][^\n]{1,200}?)\s*\n\n(?:overview)\s*\n/im;
 
 /**
  * Counts `Title` + blank line + `Overview` blocks — used to tell multi-chapter
@@ -38,14 +38,15 @@ export function extractAppendixFullServiceSection(
   for (const c of candidates) {
     const esc = escapeRegExp(c);
     const mid = new RegExp(
-      `\\n\\n#*\\s*${esc}\\s*\\n\\n(?i:overview)\\s*\\n`
+      `\\n\\n#*\\s*${esc}\\s*\\n\\n(?:overview)\\s*\\n`,
+      "i"
     );
     const mMid = mid.exec(md);
     if (mMid) {
       start = mMid.index + 2;
       break;
     }
-    const top = new RegExp(`^#*\\s*${esc}\\s*\\n\\n(?i:overview)\\s*\\n`, "m");
+    const top = new RegExp(`^#*\\s*${esc}\\s*\\n\\n(?:overview)\\s*\\n`, "im");
     const mTop = top.exec(md);
     if (mTop) {
       start = mTop.index;

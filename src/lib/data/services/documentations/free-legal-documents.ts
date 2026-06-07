@@ -19,13 +19,13 @@ const baseData = (title: string, overview: string, points: string[]): ServiceDat
   breadcrumb: ["Home", "Documentations", "Free Legal Documents", title],
   description: overview,
   overview,
-  advantages: points.slice(0, 5).map((text) => ({ icon: "FileText", title: "Key Clause", text })),
+  advantages: [],
   disadvantages: [],
-  eligibility: ["Document details and party details must be filled before use."],
-  documents: [{ title: "Template Sections", items: points }],
-  registrationProcess: commonProcess,
-  fees: commonFees,
-  faqs: commonFaqs,
+  eligibility: [],
+  documents: [],
+  registrationProcess: [],
+  fees: [],
+  faqs: [],
 });
 
 export const allLegalDocumentsData = baseData(

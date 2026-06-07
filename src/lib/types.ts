@@ -58,6 +58,7 @@ export interface ServiceData {
   documents: (DocumentTab | SimpleDocument)[];
   registrationProcess: RegistrationStep[];
   fees: Fee[];
+  feesMarkdown?: string;
   faqs: FaqItem[];
   typesOfPartnership?: {
     title: string;

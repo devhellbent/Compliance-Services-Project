@@ -6,119 +6,127 @@ export const partnershipComplianceData: ServiceData = {
   title: "Partnership Compliance",
   breadcrumb: ["Home", "MCA", "Partnership Compliance"],
   description:
-    "Partnership deed, PAN, ITR-5, GST, TDS, books of account, and labour-law thresholds—mapped to how your firm actually operates so nothing statutory is missed.",
-  overview: `**Partnership compliance** covers the legal, tax, and regulatory duties of a firm carrying on business as a **partnership** under the **Indian Partnership Act, 1932**. At the centre is a **Partnership Deed** (or agreement) recording profit share, capital, duties, and admission or retirement of partners.
+    "Partnership Compliance refers to the mandatory legal, regulatory, and financial obligations that a business operating as a partnership firm must adhere to.",
+  overview: `Partnership Compliance refers to the mandatory legal, regulatory, and financial obligations that a business operating as a partnership firm must adhere to. This includes the fundamental requirement of creating a Partnership Deed or Agreement, which outlines the rights, responsibilities, and profit-sharing among partners.
 
-For **tax**, a partnership firm is generally treated as a **separate taxable entity**. **ITR-5** is the usual annual return; firms under **presumptive taxation** may use **ITR-4** where turnover and scheme conditions are met. Filing is **mandatory even in a loss year or with nil business**, subject to applicable exemptions.
+Crucially, compliance involves consistent adherence to tax laws, such as obtaining a Permanent Account Number (PAN) for the firm, filing annual Income Tax Returns (ITR), and, if applicable, registering for and filing Goods and Services Tax (GST) returns.
 
-**Registration** with the **Registrar of Firms** is **optional**. A **registered** firm gains stronger **enforceability** of contract rights and clearer standing with banks. An **unregistered** firm remains valid but faces **Section 69** disabilities (for example, limited ability to sue on firm contracts).
+### Types of Partnership Firms
 
-Beyond income tax, compliance may include **GST** (turnover thresholds), **TAN and TDS** returns if the firm deducts tax, **tax audit** when **Section 44AB** triggers, **books of account** rules, and **EPF/ESI** when employee counts and wage limits are crossed.`,
+A Partnership Firm is governed by the Indian Partnership Act, 1932. Registration with the Registrar of Firms is optional, leading to two main types:
+
+*   **Registered Partnership Firm:** Officially recorded in the Register of Firms. Has formal legal recognition, can sue third parties for breach of contract, and partners can sue each other to enforce rights under the agreement. Registration enhances credibility for bank loans and contracts.
+*   **Unregistered Partnership Firm:** Operates based on a partnership deed but has not been officially recorded. The partnership agreement is still valid, but the firm cannot sue a third party, cannot allow a partner to sue the firm, and cannot claim a "set-off" exceeding a nominal amount. However, a third party can still sue an unregistered firm.
+
+### What is a Partnership Firm Tax Return Filing
+
+A Partnership Firm Tax Return Filing is the mandatory annual process of submitting ITR-5 to the Income Tax Department. This filing is compulsory regardless of profit or loss. The firm must declare its total income, claim eligible deductions for interest/remuneration paid to partners (within limits), and compute the total tax liability (generally a flat rate of 30%). The firm must file electronically by the due date (usually July 31st or October 31st if an audit is required).`,
   advantages: [
     {
       icon: "Shield",
-      title: "Legal standing and enforceability",
-      text: "Registered firms and clean records support contracts, disputes, and third-party claims; compliance reduces exposure to interest and penalties.",
-    },
-    {
-      icon: "Award",
-      title: "Credibility with banks and clients",
-      text: "Consistent ITR and GST history improves access to credit, tenders, and large commercial relationships.",
-    },
-    {
-      icon: "BadgePercent",
-      title: "Optimised tax outcomes",
-      text: "Proper ITR-5 filing supports allowable deductions, including partner interest and remuneration within prescribed limits.",
+      title: "Legal Protection and Credibility",
+      text: "Timely compliance ensures the firm avoids hefty fines, interest charges, and potential legal proceedings. A fully compliant firm is viewed as trustworthy by banks, suppliers, and government agencies, which is vital for securing large contracts or tenders.",
     },
     {
       icon: "TrendingUp",
-      title: "Easier future restructuring",
-      text: "Audited, compliant books speed up conversion to a **private limited company** or **LLP** when partners scale up.",
+      title: "Easier Access to Credit and Funding",
+      text: "Banks and financial institutions prefer lending to firms with consistent compliance records and audited financial statements. A clean tax history makes it significantly easier to secure business loans and higher credit limits.",
     },
     {
-      icon: "Users",
-      title: "Transparency among partners",
-      text: "Structured accounts and filings reduce disputes on profits, drawings, and capital balances.",
+      icon: "Wallet",
+      title: "Tax Optimization and Deductions",
+      text: "Compliance ensures the firm correctly files its taxes (ITR-5), allowing it to legally claim deductions for allowable expenses, including interest and remuneration paid to partners (within prescribed limits), thereby optimizing taxable income.",
+    },
+    {
+      icon: "Activity",
+      title: "Operational Transparency",
+      text: "Preparing for tax and regulatory filings requires maintaining accurate financial records. This fosters trust and clear accountability among partners, reducing the risk of internal conflicts or disagreements over profits and losses.",
     },
   ],
   disadvantages: [
     {
-      icon: "Clock",
-      title: "Calendar-heavy obligations",
-      text: "GST-registered firms face monthly or quarterly cycles in addition to annual tax work.",
+      icon: "ShieldAlert",
+      title: "Unlimited Personal Liability",
+      text: "Unlike an LLP or a Company, partners in a standard partnership have unlimited personal liability for the firm's debts. Personal assets can be used to settle the business's legal obligations if the firm cannot.",
     },
     {
-      icon: "Wallet",
-      title: "Cost scales with activity",
-      text: "High transaction volume, tax audit, or multi-state GST increases professional and software fees.",
+      icon: "XCircle",
+      title: "Legal Enforceability Risks",
+      text: "Unregistered firms cannot sue third parties for contractual breaches and partners cannot sue the firm or each other for their rights under the deed, leaving them legally vulnerable.",
     },
     {
-      icon: "AlertTriangle",
-      title: "Unregistered firm limits",
-      text: "Without Registrar registration, **Section 69** can block certain suits and set-offs—partners should understand the trade-off.",
+      icon: "FileText",
+      title: "Compliance-Linked Disabilities",
+      text: "Failure to adhere to tax laws or maintain proper records can lead to the 'Best Judgment Assessment' by tax officers, where liabilities are estimated at a flat 30% without benefit of deductions.",
+    },
+    {
+      icon: "AlertCircle",
+      title: "Risk of Hefty Penalties",
+      text: "Late filing of Income Tax Returns (ITR-5) or GST returns leads to immediate monetary penalties and interest, which can accumulate significantly for high-turnover firms.",
     },
   ],
   eligibility: [
     {
-      title: "Mandatory for every partnership firm (tax lens)",
+      title: "Mandatory Core Compliance Criteria",
       items: [
-        "**PAN** for the firm for banking and filings.",
-        "**Income tax return** each year—typically **ITR-5**, or **ITR-4** if eligible under **Section 44AD** and within turnover limits.",
-        "**TAN** and **quarterly TDS returns** if the firm deducts TDS on rent, salary, professional fees, or other prescribed payments.",
+        "**Firm PAN Card:** Mandatory for the firm to operate a business bank account and file annual tax returns.",
+        "**ITR-5 Filing:** Compulsory annual filing of the firm's income tax return, regardless of profit or loss status.",
+        "**Partnership Deed:** Must maintain a valid and updated partnership deed outlining profit-sharing and partner duties.",
       ],
     },
     {
-      title: "Turnover-based triggers",
+      title: "Threshold-Based Compliance Criteria",
       items: [
-        "**GST registration** if aggregate turnover exceeds **₹40 lakh** (goods) or **₹20 lakh** (services)—lower limits apply in **special category** states; thereafter **GSTR-1**, **GSTR-3B**, and **GSTR-9** (as applicable).",
-        "**Tax audit (Section 44AB)** if **business** sales/turnover exceed **₹1 crore** (with a higher **₹10 crore** threshold where **cash** receipts and payments are each under **5%** of totals), or **₹50 lakh** for **profession** gross receipts.",
-        "**Books of account** rules if receipts exceed **₹25 lakh** in any of **three** preceding years or income from business exceeds **₹2.5 lakh** in any of those years (verify current law for your year).",
+        "**Income Tax Audit:** Mandatory if business turnover exceeds ₹1 Crore (subject to 95% digital transaction rules) or professional receipts exceed ₹50 Lakhs.",
+        "**GST Registration:** Mandatory if aggregate annual turnover exceeds ₹40 Lakhs (for Goods) or ₹20 Lakhs (for Services).",
+        "**Maintenance of Books:** Compulsory if turnover exceeds ₹25 Lakhs or income exceeds ₹2.5 Lakhs in any of the preceding years.",
       ],
     },
     {
-      title: "Employee-based triggers",
+      title: "Statutory Employee Criteria",
       items: [
-        "**EPF** when **20 or more** employees are engaged (subject to the Employees' Provident Funds Act scheme applicability).",
-        "**ESI** when **10 or more** employees (in most states) earn wages up to **₹21,000** per month—confirm state-specific thresholds.",
+        "**TDS Compliance:** Mandatory (TAN registration) if the firm pays salaries, rent, or professional fees above specified thresholds.",
+        "**EPF Registration:** Compulsory for firms employing 20 or more persons.",
+        "**ESI Registration:** Mandatory for firms employing 10 or more persons (with wages below specified limits).",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "Firm documents",
+      tabTitle: "Constitution",
       content: {
-        title: "Core firm records",
+        title: "Constitution and ID records",
         items: [
-          "**Partnership Deed** (amended copies if partners, capital, or profit share changed).",
-          "**PAN** of the firm.",
-          "**Address proof** of business: ownership papers and utility bill, or rent agreement, **NOC** from owner, and utility bill.",
-          "**Certificate of Registration** with the Registrar of Firms, if registered.",
-          "**Bank proof**: cancelled cheque or statement showing firm name, account number, **IFSC**, and **MICR**.",
+          "Original Partnership Deed: Outlining rights and profit-sharing.",
+          "PAN Card of the Firm: Primary corporate tax identity.",
+          "Certificate of Registration: Issued by the Registrar of Firms (if registered).",
+          "Address Proof of Firm: Sale Deed/Tax Receipt or Rent Agreement + NOC.",
+          "Cancelled cheque or latest bank statement of the firm's account.",
         ],
       },
     },
     {
-      tabTitle: "Partner documents",
+      tabTitle: "Partner KYC",
       content: {
-        title: "Identity and authorisation",
+        title: "Identity proofs of all partners",
         items: [
-          "**PAN** and **Aadhaar** of all partners (Aadhaar often used for e-verification).",
-          "**Address proof** of partners: passport, voter ID, driving licence, or recent utility bill.",
-          "**Photographs** of partners.",
-          "**Letter of authority** designating the partner or professional who will sign GST and other portals.",
+          "PAN Cards of all individual partners.",
+          "Aadhaar Cards of all partners (mandatory for authorized signatory).",
+          "Address Proof: Passport, Voter ID, or Utility Bills of each partner.",
+          "Latest passport-sized Photographs of all partners.",
         ],
       },
     },
     {
-      tabTitle: "Financial and tax records",
+      tabTitle: "Financial Records",
       content: {
-        title: "For ITR, GST, and audit",
+        title: "Inputs for ITR and Audit",
         items: [
-          "**Books of account** and ledgers; bank statements for all firm accounts.",
-          "**Sales and purchase** registers, invoices, and expense vouchers.",
-          "**GST returns** (GSTR-1, GSTR-3B, GSTR-9) if registered.",
-          "**TDS certificates** (Form 16A / 27D) and challans if TDS applies.",
-          "**Partners' capital accounts**, remuneration and interest workings as per deed and Act limits.",
+          "Audited Financial Statements (Balance Sheet and Profit & Loss Account).",
+          "Sales, Purchase, and Expense Registers with supporting vouchers.",
+          "Bank Statements for all business accounts for the financial year.",
+          "Tax Audit Report (Form 3CB/3CD) certified by a CA (if applicable).",
+          "Copies of previously filed GST and TDS returns for the year.",
         ],
       },
     },
@@ -126,80 +134,62 @@ Beyond income tax, compliance may include **GST** (turnover thresholds), **TAN a
   registrationProcess: [
     {
       step: 1,
-      title: "Year-end books and reconciliation",
-      description:
-        "Close ledgers, reconcile bank and GST data, and capture partner drawings, interest, and salary as per deed.",
+      title: "Data Compilation",
+      description: "Aggregate all bank statements, purchase/sales invoices, and expense vouchers for the entire financial year (April to March).",
     },
     {
       step: 2,
-      title: "Determine special filings",
-      description:
-        "Assess **44AB** audit need, GST annual return, and TDS return completeness.",
+      title: "Financial Finalization",
+      description: "Prepare the final Trial Balance and Financial Statements (Balance Sheet and P&L Account) based on the consolidated records.",
     },
     {
       step: 3,
-      title: "Prepare and file ITR-5",
-      description:
-        "Compute firm income, claim deductions, pay advance tax if due, and e-file by **31 July** or **31 October** (if audit applies).",
+      title: "Statutory Audit",
+      description: "Engage a Chartered Accountant to conduct a Tax Audit if the firm's turnover crosses the mandatory ₹1 Crore threshold.",
     },
     {
       step: 4,
-      title: "GST and labour filings",
-      description:
-        "Complete periodic GST returns; complete **EPF/ESI** challans and returns when applicable.",
+      title: "Tax Computation",
+      description: "Calculate the firm's tax liability (flat 30%) after adjusting for allowable partner remunerations and interests under Section 40(b).",
     },
     {
       step: 5,
-      title: "Deed and Registrar updates",
-      description:
-        "File amended deed or Form A/C with the Registrar of Firms when partners or terms change.",
+      title: "E-Filing of ITR-5",
+      description: "Submit the final Income Tax Return electronically before the prescribed July 31st or October 31st deadlines.",
     },
   ],
-  fees: [
-    {
-      component: "ITR-5 filing (professional)",
-      fees: "₹3,000 – ₹7,000+",
-      remarks: "Depends on partners, transactions, and supporting data quality.",
-    },
-    {
-      component: "Bookkeeping and accounting",
-      fees: "₹10,000 – ₹35,000+",
-      remarks: "Driven mainly by monthly transaction volume.",
-    },
-    {
-      component: "Tax audit (Section 44AB)",
-      fees: "₹15,000 – ₹50,000+",
-      remarks: "When turnover or professional receipts cross audit thresholds.",
-    },
-    {
-      component: "GST compliance (annual)",
-      fees: "₹8,000 – ₹25,000+",
-      remarks: "Monthly vs quarterly filing and invoice volume change cost.",
-    },
-    {
-      component: "TDS return handling",
-      fees: "₹5,000 – ₹15,000+",
-      remarks: "Varies with number of deductee types and challans.",
-    },
-    {
-      component: "Government penalties",
-      fees: "Variable",
-      remarks:
-        "Late ITR (e.g. Section 234F up to ₹5,000 in prescribed cases) and GST late fees (e.g. per-day components on GSTR-3B/GSTR-1 subject to caps)—avoid by timely filing.",
-    },
-  ],
+  fees: [],
+  feesMarkdown: `
+The compliance fees for a Partnership Firm depend on the transaction volume and the requirement for a mandatory tax audit.
+
+### Annual Professional Compliance Table
+
+| Compliance Service | Applicability | Estimated Professional Fee (Annual) | Key Factors Affecting Cost |
+| --- | --- | --- | --- |
+| ITR-5 Filing | Mandatory for all firms | Rs.3,500 to Rs.8,000+ | Complexity and partner volume. |
+| Tax Audit (Sec 44AB) | Turnover > ₹1 Cr | Rs.15,000 to Rs.40,000+ | Complexity of finances and time. |
+| Bookkeeping Services | All firms | Rs.10,000 to Rs.35,000+ | Monthly transaction count. |
+| GST Compliances | Registered for GST | Rs.8,000 to Rs.25,000+ | Monthly vs Quarterly filing frequency. |
+| TDS Compliances | If deducting TDS | Rs.5,000 to Rs.15,000+ | Number of quarterly challans. |
+
+### Statutory Late Filing Penalties
+
+*   **Late ITR Filing (Sec 234F):** Up to ₹5,000 (₹1,000 if total income is under ₹5 Lakh).
+*   **Late GST Return Filing:** ₹50 per day (₹20 for Nil returns) with a maximum cap.
+*   **Late Tax Audit Filing:** 0.5% of the turnover or ₹1,50,000 (whichever is lower).
+`,
   faqs: [
     {
-      q: "Must we file ITR if the firm made no profit?",
-      a: "Generally **yes**—partnership firms file **ITR-5** (or eligible **ITR-4**) even in a **loss** or **nil** year unless a specific exemption applies for that year.",
+      q: "Is it mandatory to file ITR even if the firm had a loss?",
+      a: "Yes. Every partnership firm is a separate taxable entity and must file its return using **ITR-5**, regardless of profit or loss.",
     },
     {
-      q: "Is Registrar registration compulsory?",
-      a: "No. It is **optional**, but registration improves **enforceability** of firm and partner rights and practical credibility.",
+      q: "What is the tax rate for a partnership firm?",
+      a: "Partnership firms are taxed at a **flat rate of 30%** on their total income, plus applicable surcharge and cess.",
     },
     {
-      q: "When does GST apply to a partnership?",
-      a: "When **aggregate turnover** crosses the **prescribed threshold** for goods or services (with special rules for interstate and e-commerce). Once registered, periodic returns are mandatory.",
+      q: "Can an unregistered partnership firm file for a loan?",
+      a: "While technically possible, most banks **require registration** with the Registrar of Firms and a clear compliance history for processing business loans.",
     },
   ],
 };

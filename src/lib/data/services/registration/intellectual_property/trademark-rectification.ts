@@ -13,33 +13,38 @@ The **grounds for rectification** are varied, including clerical or typographica
 The process typically involves filing a petition or an application, often with the Registrar of Trademarks or the High Court (depending on the jurisdiction and gravity of the change). The concerned parties are given an opportunity to be heard. Successful rectification results in the necessary **alteration, variation, or cancellation** of the entry on the register, restoring clarity and protecting the interests of all legitimate parties.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of Trademark Rectification",
-        text: ""
-    }
-],
+      icon: "FileCheck",
+      title: "Correction of Public Record",
+      text: "Rectification ensures the Trademark Register accurately reflects the true details of a mark, maintaining the integrity and reliability of the public record for all stakeholders.",
+    },
+    {
+      icon: "Shield",
+      title: "Protection Against Wrongful Marks",
+      text: "It provides a legal mechanism for aggrieved persons to challenge and remove trademarks that were wrongfully registered, such as those that are deceptively similar to their own marks.",
+    },
+    {
+      icon: "Scale",
+      title: "Removes Non-Used Marks",
+      text: "The non-use provision (Section 47) ensures that trademarks which have not been genuinely used for over five years can be removed, freeing up valuable brand space for active businesses.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "of Trademark Rectification",
-        text: ""
+      icon: "IndianRupee",
+      title: "High Cost and Complexity",
+      text: "The rectification process is a **quasi-judicial procedure** before the Registrar or the High Court. This requires specialized knowledge of trademark law, necessitating the hiring of intellectual property lawyers, leading to **significant legal fees**.",
     },
     {
-        icon: "IndianRupee",
-        title: "High Cost and Complexity",
-        text: "The rectification process is a **quasi-judicial procedure** before the Registrar or the High Court (depending on jurisdiction). This requires specialized knowledge of trademark law, necessitating the hiring of intellectual property lawyers. This leads to **significant legal fees** and associated administrative costs (such as evidence gathering and official filing fees), making the process **financially demanding** for the parties involved."
+      icon: "Clock",
+      title: "Lengthy and Unpredictable Timeline",
+      text: "Rectification proceedings are **not swift**. They involve filing detailed petitions, submission of evidence via affidavits, counter-statements, and potentially multiple hearings. The entire process can span **many months or even years**.",
     },
     {
-        icon: "Clock",
-        title: "Lengthy and Unpredictable Timeline",
-        text: "Rectification proceedings are **not swift**. They involve the filing of detailed petitions, submission of evidence via affidavits, counter-statements, and potentially multiple hearings. If the matter is contested (especially in cases of non-use or wrongful entry), the entire process can be **protracted, often spanning many months or even years**. This uncertainty in timeline can delay business decisions for both the registered owner and the applicant."
+      icon: "AlertTriangle",
+      title: "Risk of Total Cancellation for the Owner",
+      text: "For a registered proprietor, defending a rectification action carries a significant risk. If the Tribunal finds in favor of the applicant, the owner's mark may be **cancelled entirely**, leading to the loss of all exclusive rights.",
     },
-    {
-        icon: "CheckCircle",
-        title: "Risk of Total Cancellation for the Owner",
-        text: "For a registered proprietor, defending a rectification action (filed by a third party) carries a significant risk. If the Tribunal finds in favor of the applicant, the owner\\'s mark may be **cancelled entirely**, leading to the loss of all exclusive rights and investment made in the brand name. Furthermore, even if the owner is seeking rectification to fix an error, the application might **open the door** for competitors to oppose the change or challenge the mark on other grounds."
-    }
-],
+  ],
   eligibility: [
     {
       title: "Who Can File for Rectification?",
@@ -51,16 +56,36 @@ The process typically involves filing a petition or an application, often with t
   ],
   documents: [
     {
-        tabTitle: "A.  Core Documents Required for All Rectification Filings",
+        tabTitle: "Core documents",
         content: {
-            title: "A.  Core Documents Required for All Rectification Filings",
+            title: "Core Documents Required for All Rectification Filings",
             items: [
                 "**Prescribed Form:** The completed and signed application form (usually **Form TM-P** or **Form TM-M** depending on the request, or **Form TM-O** if the matter is before the High Court or a tribunal).",
-                "**Identity and Address Proof of the Applicant:**",
-                "**Individual:** PAN Card, Aadhaar Card, or Passport of the individual.",
-                "**Company/LLP:** Certificate of Incorporation/LLP Deed, and PAN Card of the entity.",
-                "**Power of Attorney (PoA):** If the application is filed through a Trademark Agent or Attorney, a duly executed Power of Attorney is mandatory to authorize them to act on the applicant\\'s behalf.",
-                "**Trademark Registration Certificate Copy:** A copy of the existing Registration Certificate or a printout of the Register entry for the trademark that is being challenged or amended.  B.  **Documents Required for Rectification by the Proprietor (Owner)** When the owner files to correct an error or make an alteration, the key is to prove the necessity of the change. ------------------------ ---------------------------------------------- **Purpose of             **Specific Supporting Documents** Rectification** Correction of Clerical   Proof of Original Error: Documents that Error (Form TM-M)        clearly show the mistake (e.g., the original application form, a true copy of the owner\\'s legal name, correct class details). Change of Name/Address   Legal Proof of Change: A notarized copy of the legal name change certificate, merger/acquisition documents, or updated business registration (e.g., GST certificate, Incorporation Certificate). Restriction of           Board Resolution/Affidavit: A formal Goods/Services           resolution from the company or an affidavit from the proprietor stating the specific goods/services to be removed and the intent behind the restriction. ------------------------ ---------------------------------------------- C.  **Documents Required for Cancellation by an Aggrieved Person (Third Party)** When a competitor or public member files for cancellation (typically using **Form TM-O** or **TM-P**), the documentation must provide overwhelming proof of the statutory grounds."
+                "**Identity and Address Proof of the Applicant:** For individuals: PAN Card, Aadhaar Card, or Passport. For Company/LLP: Certificate of Incorporation/LLP Deed, and PAN Card of the entity.",
+                "**Power of Attorney (PoA):** If the application is filed through a Trademark Agent or Attorney, a duly executed Power of Attorney is mandatory.",
+                "**Trademark Registration Certificate Copy:** A copy of the existing Registration Certificate or a printout of the Register entry for the trademark that is being challenged or amended.",
+            ]
+        }
+    },
+    {
+        tabTitle: "Rectification by proprietor",
+        content: {
+            title: "Documents Required for Rectification by the Proprietor (Owner)",
+            items: [
+                "**Correction of clerical error (Form TM-M):** Proof of Original Error — documents that clearly show the mistake (e.g., the original application form, a true copy of the owner's legal name, correct class details).",
+                "**Change of name/address:** Legal Proof of Change — a notarized copy of the legal name change certificate, merger/acquisition documents, or updated business registration (e.g., GST certificate, Incorporation Certificate).",
+                "**Restriction of goods/services:** Board Resolution/Affidavit — a formal resolution from the company or an affidavit from the proprietor stating the specific goods/services to be removed and the intent behind the restriction.",
+            ]
+        }
+    },
+    {
+        tabTitle: "Cancellation by third party",
+        content: {
+            title: "Documents Required for Cancellation by an Aggrieved Person",
+            items: [
+                "**Detailed statement of case / Affidavit:** Explaining how the applicant is an **\\\"Aggrieved Person\\\"**, the **legal grounds** for the application (e.g., Section 47 for non-use, Section 57 for wrongful entry), and a factual narrative supporting the claim.",
+                "**Evidence of Non-Use:** Search reports from public databases (like the Trademark Journal) showing no advertisement or presence of the mark, and affidavits from trade/industry members confirming they have never encountered the mark.",
+                "**Evidence for Wrongful Entry (Section 57):** Evidence of applicant's prior use (invoices, advertisements, sales figures, annual reports) and prior trademark registration certificate, if the challenged mark is deceptively similar.",
             ]
         }
     },

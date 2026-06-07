@@ -1,71 +1,105 @@
-// lib/data/services/statutory-audit.ts
+// lib/data/services/mca/company_compliance/statutory-audit.ts
 
 import { ServiceData } from "@/lib/types";
 
 export const statutoryAuditData: ServiceData = {
-  title: "Statutory Audit",
+  title: "Statutory Audit Services",
   breadcrumb: ["Home", "MCA", "Statutory Audit"],
-  overview:
-    "A **Statutory Audit** is a legally required, independent examination of a company's financial statements and records. 🧐 Its primary purpose is to express an opinion on whether the financial statements provide a **'true and fair' view** of the company's financial position and are free from material misstatement. The audit is conducted by a qualified, independent **Chartered Accountant (CA)** and is mandated by laws like the Companies Act, 2013.",
+  description:
+    "Statutory Audit is a legally mandated review of the accuracy of a company's financial statements and records by an independent Chartered Accountant.",
+  overview: `A Statutory Audit is a mandatory annual review of the financial records of a business to ensure that the financial statements—Balance Sheet, Profit & Loss Account, and Cash Flow Statement—present a 'true and fair' view of its financial position. Governed by Section 139 of the Companies Act, 2013, and the LLP Act, 2008, this audit must be conducted by a practicing Chartered Accountant (CA) who is independent of the company's management. The primary objective is to provide assurance to shareholders, creditors, and government regulators that the financial information provided by the company is reliable, accurate, and compliant with Indian Accounting Standards (Ind AS) or GAAP.`,
   advantages: [
     {
-      icon: "Gavel",
-      title: "Mandatory Legal Requirement",
-      text: "Fulfills the legal obligation for all registered companies, preventing penalties and legal action for non-compliance.",
+      icon: "Award",
+      title: "Highest Level of Financial Credibility",
+      text: "An audited financial statement is the 'Gold Standard' for reliability. It provides external stakeholders, including banks, investors, and vendors, with the confidence that the business's financial data is verified by an independent expert.",
     },
     {
-      icon: "ShieldCheck",
-      title: "Enhances Credibility",
-      text: "Audited financial statements have higher credibility and are trusted by investors, lenders, and government authorities.",
+      icon: "Shield",
+      title: "Ensures Legal Compliance",
+      text: "Statutory audits ensure the company adheres to all mandates of the Companies Act, including proper disclosure of director interests, related party transactions, and adherence to accounting standards, preventing legal notices or penalties.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Improved Internal Controls",
+      text: "During the audit process, auditors identify weaknesses in the company's internal accounting and operational systems. This feedback allows management to strengthen controls, improve efficiency, and prevent future financial leakages.",
     },
     {
       icon: "Search",
-      title: "Detection of Fraud & Errors",
-      text: "A thorough audit can help in identifying and preventing financial discrepancies, errors, and potential fraud.",
-    },
-    {
-      icon: "Lightbulb",
-      title: "Improves Internal Controls",
-      text: "The auditor often provides valuable insights and recommendations for improving the company's internal financial controls and processes.",
+      title: "Detection of Errors & Frauds",
+      text: "A thorough examination of records helps in uncovering accounting errors, reconciliation gaps, or potential fraudulent activities within the organization that might have otherwise gone unnoticed by the management.",
     },
   ],
   disadvantages: [
     {
-      icon: "CircleDollarSign",
-      title: "Additional Business Cost",
-      text: "The audit fee is a significant annual expense for the company, especially for small businesses.",
+      icon: "AlertCircle",
+      title: "Mandatory Recurring Expense",
+      text: "Every registered company must conduct a statutory audit annually, regardless of whether it has made a profit or even started operations. This represents a significant fixed cost for small businesses.",
     },
     {
       icon: "Clock",
-      title: "Time-Consuming & Disruptive",
-      text: "The audit process can be disruptive to daily operations as it requires time and resources from the company's finance team.",
+      title: "Time and Resource Intensive",
+      text: "The audit process requires significant time from the company's accounts team and management to provide documents, explanations, and evidence for every major transaction, often during the busy year-end period.",
     },
     {
-      icon: "Info",
-      title: "Provides Reasonable Assurance Only",
-      text: "An audit is based on sampling and provides 'reasonable assurance,' not an absolute guarantee that the financials are 100% error-free.",
+      icon: "FileWarning",
+      title: "Risk of Adverse Opinion",
+      text: "If the auditor finds significant discrepancies or lack of evidence, they may issue a 'Qualified' or 'Adverse' report. This can severely damage the company's reputation and make it nearly impossible to secure future loans or investments.",
     },
   ],
   eligibility: [
     {
-      title: "Applicability",
+      title: "Mandatory Thresholds",
       items: [
-        "A statutory audit is **mandatory for all companies** registered under the Companies Act, 2013, including Private Limited, OPC, Public Limited, and Section 8 companies.",
-        "It is also mandatory for **Limited Liability Partnerships (LLPs)** if their annual turnover exceeds ₹40 lakh or their capital contribution exceeds ₹25 lakh.",
+        "**Private Limited/Public Limited/OPC:** Mandatory for all companies incorporated under the Companies Act, 2013, regardless of turnover.",
+        "**LLPs:** Mandatory only if annual turnover exceeds ₹40 Lakhs OR capital contribution exceeds ₹25 Lakhs.",
+        "**Foreign Subsidiaries:** Mandatory for all Indian subsidiaries of foreign parent companies.",
+      ],
+    },
+    {
+      title: "Auditor Appointment Rules",
+      items: [
+        "First Auditor must be appointed within 30 days of incorporation by the Board.",
+        "Subsequent Auditors are appointed for a term of 5 years at the AGM.",
+        "Form ADT-1 must be filed with the ROC within 15 days of the appointment.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "Documents Required for Audit",
+      tabTitle: "Financial Records",
       content: {
-        title: "Financial Records & Statutory Registers",
+        title: "Primary audit evidence",
         items: [
-          "Complete Books of Accounts (Ledgers, Journals, etc.).",
-          "All bank statements for the financial year.",
-          "Invoices for all sales and purchases.",
-          "Statutory registers (e.g., Register of Members, Register of Directors).",
-          "Minutes of Board Meetings and Annual General Meetings.",
+          "Final Trial Balance, Balance Sheet, and P&L Account.",
+          "Complete General Ledger and Cash/Bank books.",
+          "Bank Reconciliation Statements (BRS) for all accounts.",
+          "Fixed Asset Register with depreciation calculations.",
+          "Inventory/Stock valuation sheets as of March 31st.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Vouching Docs",
+      content: {
+        title: "Supporting transaction proofs",
+        items: [
+          "Sales and Purchase invoices with supporting delivery notes.",
+          "Expense vouchers and salary registers.",
+          "Loan agreements and bank sanction letters.",
+          "TDS/GST return copies and reconciliation with books.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Statutory Docs",
+      content: {
+        title: "Internal governance proofs",
+        items: [
+          "MOA and AOA of the company.",
+          "Minutes of Board Meetings and AGM held during the year.",
+          "Statutory Registers (Members, Directors, Charges).",
+          "Director disclosure forms (MBP-1 and DIR-8).",
         ],
       },
     },
@@ -73,55 +107,61 @@ export const statutoryAuditData: ServiceData = {
   registrationProcess: [
     {
       step: 1,
-      title: "Appointment of Auditor",
-      description:
-        "A practicing Chartered Accountant or a CA firm is appointed by the company's shareholders in the Annual General Meeting (AGM).",
+      title: "Auditor Appointment",
+      description: "Appoint a practicing CA firm and file Form ADT-1 with the ROC within 15 days of the board meeting or AGM.",
     },
     {
       step: 2,
-      title: "Audit Planning & Scoping",
-      description:
-        "The auditor understands the company's business environment, assesses risks, and plans the scope and methodology of the audit.",
+      title: "Planning & Scoping",
+      description: "The auditor reviews the company's accounting systems and internal controls to plan the depth and timeline of the audit.",
     },
     {
       step: 3,
-      title: "Examination of Records",
-      description:
-        "The audit team examines the company's books of accounts, internal controls, supporting documents, and compliance with accounting standards.",
+      title: "Execution & Field Work",
+      description: "The audit team verifies bank balances, inspects physical assets, and performs 'vouching' of major sale/purchase transactions.",
     },
     {
       step: 4,
-      title: "Verification & Vouching",
-      description:
-        "The auditor independently verifies assets, liabilities, income, and expenses by checking against supporting evidence.",
+      title: "Audit Report Generation",
+      description: "The auditor issues the final Audit Report, providing an opinion (Unqualified/Qualified) on the 'true and fair' status of the financials.",
     },
     {
       step: 5,
-      title: "Issuance of Audit Report",
-      description:
-        "After the examination, the auditor forms an opinion and issues a formal Audit Report, which is attached to the financial statements and presented to the shareholders.",
+      title: "MCA Filing (AOC-4)",
+      description: "Submit the final audited financial statements and auditor's report to the MCA within 30 days of the AGM.",
     },
   ],
-  fees: [
-    {
-      component: "Audit Fee",
-      fees: "Varies Highly",
-      remarks:
-        "The fee is not fixed and depends on the size and complexity of the company, the volume of transactions, and the reputation of the audit firm. Starts from ₹10,000 - ₹15,000 for small companies.",
-    },
-  ],
+  fees: [],
+  feesMarkdown: `
+Statutory Audit fees are highly variable and depend on the transaction volume, industry complexity, and the number of branches.
+
+### Professional Fee Structure for Statutory Audit
+
+| Company Category | Turnover Range | Estimated Audit Fee (Annual) | Key Factors Affecting Cost |
+| --- | --- | --- | --- |
+| Small Company / OPC | Nil to ₹1 Crore | Rs.10,000 to Rs.20,000 | Quality of bookkeeping and number of bank accounts. |
+| Medium-Sized Company | ₹1 Cr to ₹10 Crore | Rs.25,000 to Rs.60,000+ | Complexity of inventory, debt, and related party trades. |
+| Large / Subsidiary | ₹10 Crore+ | Rs.75,000 to Rs.2,50,000+ | Number of locations and consolidation requirements. |
+| LLP (Above Thresholds) | >₹40L Turnover | Rs.10,000 to Rs.25,000 | Accuracy of contribution records and partner transactions. |
+
+### Statutory Penalty Costs for Audit Delay
+
+*   **Late Filing of ADT-1:** ₹100 per day (after the 15-day window).
+*   **Late Filing of AOC-4 (Audited Accounts):** ₹100 per day per form with no upper limit.
+*   **Professional Misconduct:** High penalties for directors if accounts are filed without an audit or with a falsified audit report.
+`,
   faqs: [
     {
-      q: "Who can be a statutory auditor?",
-      a: "Only a practicing Chartered Accountant (CA) or a firm of Chartered Accountants can be appointed as the statutory auditor of a company.",
+      q: "Can my company's internal accountant do the statutory audit?",
+      a: "No. The auditor must be an **independent, practicing Chartered Accountant** (CA) who is not an employee or director of the company.",
     },
     {
-      q: "What is the difference between a statutory audit and an internal audit?",
-      a: "A statutory audit is an independent audit mandated by law, focused on giving an opinion on the truth and fairness of financial statements. An internal audit is a voluntary or board-mandated review of a company's internal controls and operational efficiency.",
+      q: "What is the difference between a 'Qualified' and 'Unqualified' report?",
+      a: "An **Unqualified report** means the auditor is satisfied with the accounts. A **Qualified report** means the auditor has reservations about certain entries or lack of evidence.",
     },
     {
-      q: "What does a 'qualified' audit report mean?",
-      a: "A 'qualified' opinion in an audit report means that the auditor has found some material misstatement or was unable to obtain sufficient evidence for certain items, but the rest of the financial statements are presented fairly. It is a red flag for investors and lenders.",
+      q: "Is a statutory audit mandatory even if there was no business?",
+      a: "Yes. For companies, the audit is mandatory even in a **'Nil' activity year** to maintain the entity's active status with the MCA.",
     },
   ],
 };

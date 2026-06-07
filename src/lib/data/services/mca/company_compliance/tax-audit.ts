@@ -1,72 +1,103 @@
-// lib/data/services/tax-audit.ts
+// lib/data/services/mca/company_compliance/tax-audit.ts
 
 import { ServiceData } from "@/lib/types";
 
 export const taxAuditData: ServiceData = {
-  title: "Tax Audit",
+  title: "Tax Audit Services (Section 44AB)",
   breadcrumb: ["Home", "MCA", "Tax Audit"],
-  overview:
-    "A **Tax Audit** is an audit of a taxpayer's books of accounts, conducted by a practicing Chartered Accountant, as required by the **Income Tax Act, 1961**. 🧾 Its purpose is to ensure that the taxpayer has properly maintained their books and that their income and deductions are correctly computed and reported as per tax laws. The audit report is filed in **Form 3CA/3CB and 3CD**.",
+  description:
+    "Tax Audit is a mandatory audit of accounts of taxpayers under Section 44AB of the Income Tax Act to ensure compliance with tax laws and accurate income calculation.",
+  overview: `A Tax Audit is a mandatory audit of a taxpayer's accounts under Section 44AB of the Income Tax Act, 1961. Conducted by a practicing Chartered Accountant, it ensures that the business or professional taxpayer has correctly calculated their taxable income and complied with all tax laws, such as TDS, GST, and allowable business expenses. The audit report, consisting of Form 3CA/3CB and the detailed Form 3CD, must be filed electronically on the Income Tax portal. Unlike a Statutory Audit which focuses on 'true and fair' financials, a Tax Audit is specifically designed to prevent tax evasion and ensure accurate tax payments to the government.`,
   advantages: [
     {
-      icon: "Gavel",
-      title: "Mandatory Legal Requirement",
-      text: "Fulfills the legal obligation under Section 44AB of the Income Tax Act for eligible taxpayers, avoiding penalties.",
+      icon: "Shield",
+      title: "Avoidance of Massive Penalties",
+      text: "Completing a mandatory tax audit on time protects the taxpayer from the heavy penalty under Section 271B, which can be 0.5% of the total turnover or ₹1,50,000, whichever is lower.",
     },
     {
-      icon: "Calculator",
-      title: "Ensures Accurate Tax Calculation",
-      text: "An independent review of accounts helps in the correct computation of taxable income, deductions, and tax liability.",
+      icon: "CheckCircle",
+      title: "Accurate Tax Liability Calculation",
+      text: "The audit process involves a line-by-line verification of business expenses, ensuring that you only pay tax on your actual net income after claiming all legitimate deductions and exemptions allowed under the law.",
     },
     {
-      icon: "SearchCheck",
-      title: "Early Detection of Discrepancies",
-      text: "Helps in identifying any accounting errors or non-compliance with tax laws before the tax return is filed.",
+      icon: "Activity",
+      title: "Minimizes Risk of Income Tax Scrutiny",
+      text: "An audited return is verified by a professional CA, which significantly reduces the chances of receiving a scrutiny notice or inquiry from the Income Tax Department regarding discrepancies in income or expenses.",
     },
     {
-      icon: "ShieldCheck",
-      title: "Increases Reliability",
-      text: "Audited financial statements are considered more reliable by the Income Tax Department, which can reduce the chances of a scrutiny assessment.",
+      icon: "TrendingUp",
+      title: "Systematic Financial Record-Keeping",
+      text: "Preparing for a tax audit forces businesses to maintain disciplined financial records and ledgers throughout the year, which improves the overall financial health and operational efficiency of the organization.",
     },
   ],
   disadvantages: [
     {
-      icon: "AlertTriangle",
-      title: "Penalty for Non-Compliance",
-      text: "Failure to get the accounts audited and file the report can lead to a penalty of 0.5% of the total turnover, up to a maximum of ₹1.5 lakh.",
-    },
-    {
-      icon: "CircleDollarSign",
-      title: "Additional Business Cost",
-      text: "The fee for the tax audit is an additional annual expense for the business.",
+      icon: "Clock",
+      title: "Extremely Tight Deadlines",
+      text: "The deadline for filing the tax audit report is September 30th every year. Missing this deadline by even one day can trigger the full penalty and lead to higher interest charges on tax due.",
     },
     {
       icon: "FileWarning",
-      title: "Requires Meticulous Bookkeeping",
-      text: "The business must maintain detailed and accurate books of accounts and supporting documents throughout the year for the audit.",
+      title: "High Professional Fee Burden",
+      text: "A tax audit is a complex, time-consuming process that requires a high degree of CA expertise, making it one of the more expensive annual compliance requirements for high-turnover businesses.",
+    },
+    {
+      icon: "Search",
+      title: "Increased Compliance Scrutiny",
+      text: "The detailed Form 3CD requires disclosure of almost every minor tax non-compliance (like late TDS payments). Once disclosed in the audit report, these automatically trigger interest and late fees from the department.",
     },
   ],
   eligibility: [
     {
-      title: "Applicability (Under Section 44AB)",
+      title: "Mandatory Thresholds (Business)",
       items: [
-        "**Business**: Total sales or turnover exceeds **₹1 crore** in a financial year. (This limit is extended to ₹10 crore if cash receipts and payments are 5% or less of the total).",
-        "**Profession**: Gross receipts exceed **₹50 lakh** in a financial year.",
-        "**Presumptive Taxation**: If you are under the presumptive scheme (44AD, 44AE) but claim your income is lower than the presumed profit.",
+        "**Standard Case:** Mandatory if total sales, turnover, or gross receipts exceed ₹1 Crore in a financial year.",
+        "**Low-Cash Case:** Limit extended to ₹10 Crores if cash receipts and payments are less than 5% of the total.",
+        "**Presumptive Case:** Mandatory if a taxpayer opts out of Sec 44AD despite their income being below the prescribed limit.",
+      ],
+    },
+    {
+      title: "Mandatory Thresholds (Profession)",
+      items: [
+        "**Professional Services:** Mandatory if gross receipts from a profession exceed ₹50 Lakhs in a financial year.",
+        "**Presumptive Case:** Mandatory if a professional opts for presumptive tax under Sec 44ADA but claims income lower than the prescribed rate.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "Documents Required for Audit",
+      tabTitle: "Form 3CD Inputs",
       content: {
-        title: "Financial Records & Supporting Documents",
+        title: "Required for the audit report",
         items: [
-          "Complete Books of Accounts (Ledgers, Journals, Cash Book).",
-          "All bank statements for the financial year.",
-          "Copies of all sales and purchase invoices.",
-          "Details of assets, liabilities, income, and expenses.",
-          "Copies of GST returns filed during the year.",
+          "Audited Financial Statements (Balance Sheet & P&L).",
+          "GST reconciliation statement matching books with GST returns.",
+          "TDS/TCS records and proof of timely deposit of taxes.",
+          "Details of any payments made to related parties (Sec 40A(2)(b)).",
+          "Details of any loans or deposits accepted/repaid >₹20,000 (Sec 269SS/T).",
+        ],
+      },
+    },
+    {
+      tabTitle: "Vouching Docs",
+      content: {
+        title: "Verification evidence",
+        items: [
+          "Sales and Purchase registers with tax-compliant invoices.",
+          "Stock Register and closing stock valuation proofs.",
+          "Expense vouchers exceeding ₹10,000 paid in cash (to be disallowed).",
+          "Bank Statements for the entire financial year.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Identity / IT",
+      content: {
+        title: "For e-filing",
+        items: [
+          "PAN and Aadhaar of the Taxpayer (Proprietor/Partner/Director).",
+          "Login credentials for the Income Tax E-filing portal.",
+          "Digital Signature Certificate (DSC) of the Taxpayer and the Auditor.",
         ],
       },
     },
@@ -74,55 +105,60 @@ export const taxAuditData: ServiceData = {
   registrationProcess: [
     {
       step: 1,
-      title: "Appointment of Chartered Accountant",
-      description:
-        "The taxpayer must appoint a practicing Chartered Accountant to conduct the tax audit.",
+      title: "Auditor Appointment",
+      description: "Select a practicing Chartered Accountant and provide the 'Audit Assignment' on the Income Tax portal.",
     },
     {
       step: 2,
-      title: "Examination of Books",
-      description:
-        "The CA examines the books of accounts to ensure they comply with the provisions of the Income Tax Act and are accurately maintained.",
+      title: "Data Verification & Vouching",
+      description: "The CA team verifies ledgers, TDS compliance, GST reconciliation, and checks for any prohibited cash transactions.",
     },
     {
       step: 3,
-      title: "Preparation of Audit Report",
-      description:
-        "The CA prepares the audit report in the prescribed forms (Form 3CA/3CB and a detailed statement in Form 3CD).",
+      title: "Preparation of Form 3CD",
+      description: "Draft the detailed 44-point annexure (Form 3CD) detailing every tax-relevant aspect of the business operations.",
     },
     {
       step: 4,
-      title: "Filing the Audit Report",
-      description:
-        "The taxpayer must upload the signed audit report on the Income Tax e-filing portal on or before the due date (typically 30th September).",
+      title: "E-filing of Audit Report",
+      description: "The Auditor uploads the report (3CA/3CB and 3CD) to the portal using their DSC before the September 30th deadline.",
     },
     {
       step: 5,
-      title: "Filing the Income Tax Return",
-      description:
-        "After the audit report is filed, the taxpayer must file their Income Tax Return. The due date for taxpayers subject to audit is typically 31st October.",
+      title: "Taxpayer Approval",
+      description: "The taxpayer logs into their portal to 'Accept' the uploaded audit report, completing the legal filing requirement.",
     },
   ],
-  fees: [
-    {
-      component: "Tax Audit Fee",
-      fees: "Varies",
-      remarks:
-        "The fee is not fixed and depends on the complexity of the business, the volume of transactions, and the time involved. Starts from ₹15,000 - ₹20,000.",
-    },
-  ],
+  fees: [],
+  feesMarkdown: `
+Tax Audit fees depend on the volume of transactions, the number of GST/TDS returns to be reconciled, and the complexity of the business.
+
+### Professional Fee Structure for Tax Audit
+
+| Entity Category | Turnover Range | Estimated Tax Audit Fee | Key Factors Affecting Cost |
+| --- | --- | --- | --- |
+| Professional | ₹50 Lakh to ₹2 Crore | Rs.10,000 to Rs.20,000 | Number of professional expense vouchers. |
+| Small Business | ₹1 Crore to ₹5 Crore | Rs.15,000 to Rs.35,000 | Volume of purchase/sale invoices and GST reconciliations. |
+| Large Business | ₹5 Crore to ₹10 Crore+ | Rs.40,000 to Rs.1,00,000+ | Complexity of inventory and numerous TDS entries. |
+| Presumptive Cases | Below Threshold | Rs.7,500 to Rs.15,000 | Reason for opting out of presumptive taxation schemes. |
+
+### Statutory Penalty for Non-Compliance
+
+*   **Section 271B:** Failure to get accounts audited can attract a penalty of **0.5% of the turnover** or **₹1,50,000**, whichever is lower.
+*   **Late Filing of ITR:** If the audit is late, the ITR will also be delayed, leading to additional penalties under Sec 234F (up to ₹5,000) and interest on tax due (Sec 234A).
+`,
   faqs: [
     {
-      q: "Who can perform a tax audit?",
-      a: "Only a practicing Chartered Accountant (CA) is authorized to conduct a tax audit under the Income Tax Act, 1961.",
+      q: "What is the deadline for filing the Tax Audit report?",
+      a: "The deadline is **September 30th** of the assessment year. The Income Tax Return (ITR) for these cases must be filed by **October 31st**.",
     },
     {
-      q: "What is the due date for a tax audit?",
-      a: "The due date for filing the tax audit report is typically 30th September of the assessment year. The due date for filing the Income Tax Return for taxpayers under audit is 31st October.",
+      q: "When is the ₹10 Crore limit applicable instead of ₹1 Crore?",
+      a: "The ₹10 Cr limit applies if **cash receipts** are ≤ 5% of total receipts AND **cash payments** are ≤ 5% of total payments.",
     },
     {
-      q: "What is the difference between a statutory audit and a tax audit?",
-      a: "A statutory audit is mandated by the Companies Act and focuses on providing a 'true and fair' view of the financial statements for shareholders. A tax audit is mandated by the Income Tax Act and focuses on ensuring correct computation of taxable income for the tax authorities.",
+      q: "Can the same CA do both Statutory and Tax Audit?",
+      a: "Yes. In fact, most companies prefer the **same auditor** for both as they are already familiar with the books, saving time and effort.",
     },
   ],
 };

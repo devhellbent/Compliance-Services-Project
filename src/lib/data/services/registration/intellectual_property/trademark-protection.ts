@@ -43,35 +43,63 @@ A trademark is a word, logo, symbol, or design that uniquely identifies and dist
 > *Example:* The **Netflix \"ta-dum\"** sound at the start of a show`,
   advantages: [
     {
-        icon: "Shield",
-        title: "of Trademark Protection",
-        text: "",
-        subPoints: [
-            "**Exclusive Rights:** Grants the registered owner the sole right to use the mark nationwide for the goods/services specified.",
-            "**Legal Proof:** The registration certificate is **prima facie evidence** of the mark\\'s validity and ownership, making court cases simpler.",
-            "**Consumer Trust:** Assures customers of the consistent source and quality of the product, building goodwill and brand loyalty.",
-            "**Valuable Asset:** The trademark becomes an **intangible asset** on the company\\'s balance sheet; it can be licensed, franchised, or sold.",
-            "**Notice to Public:** Allows the legal use of the symbol, publicly warning potential infringers.",
-            "**Deterrent:** Registration appears in official search results, discouraging competitors from adopting similar marks.",
-            "**Long-Term Protection:** Protection is potentially indefinite, renewable every 10 years, ensuring long-term market presence."
-        ]
-    }
-],
+      icon: "Shield",
+      title: "Exclusive Rights",
+      text: "Grants the registered owner the sole right to use the mark nationwide for the goods/services specified.",
+    },
+    {
+      icon: "Scale",
+      title: "Legal Proof",
+      text: "The registration certificate is prima facie evidence of the mark's validity and ownership, making court cases simpler.",
+    },
+    {
+      icon: "Users",
+      title: "Consumer Trust",
+      text: "Assures customers of the consistent source and quality of the product, building goodwill and brand loyalty.",
+    },
+    {
+      icon: "Briefcase",
+      title: "Valuable Asset",
+      text: "The trademark becomes an intangible asset on the company's balance sheet; it can be licensed, franchised, or sold.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Deterrent to Infringers",
+      text: "Registration appears in official search results, discouraging competitors from adopting similar marks and publicly warning potential infringers.",
+    },
+    {
+      icon: "Clock",
+      title: "Long-Term Protection",
+      text: "Protection is potentially indefinite, renewable every 10 years, ensuring long-term market presence.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "Shield",
-        title: "of Trademark Protection",
-        text: "",
-        subPoints: [
-            "**Initial Cost & Time:** The registration process involves government fees, legal costs, and can take many months or over a year to complete.",
-            "**Geographical Limit:** Protection is typically only valid in the country where it is registered; global protection requires multiple filings.",
-            "**Enforcement Duty:** The owner bears the responsibility and cost of constantly monitoring the market for infringement and taking legal action.",
-            "**Renewal Obligation:** Rights must be maintained by paying a renewal fee (usually every 10 years); failure to renew results in loss of protection.",
-            "**Protection Scope Limit:** The protection is restricted to the specific goods and services (classes) listed in the application, not the entire market.",
-            "**Rigidity:** Making significant changes to the mark (logo, name style) often requires filing an entirely new application."
-        ]
-    }
-],
+      icon: "IndianRupee",
+      title: "Initial Cost and Time",
+      text: "The registration process involves government fees, legal costs, and can take many months or over a year to complete.",
+    },
+    {
+      icon: "Globe",
+      title: "Geographical Limit",
+      text: "Protection is typically only valid in the country where it is registered; global protection requires multiple filings.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Enforcement Duty",
+      text: "The owner bears the responsibility and cost of constantly monitoring the market for infringement and taking legal action.",
+    },
+    {
+      icon: "RefreshCw",
+      title: "Renewal Obligation",
+      text: "Rights must be maintained by paying a renewal fee (usually every 10 years); failure to renew results in loss of protection.",
+    },
+    {
+      icon: "FileWarning",
+      title: "Protection Scope Limit",
+      text: "The protection is restricted to the specific goods and services (classes) listed in the application, not the entire market.",
+    },
+  ],
   eligibility: [
     "Here's a clear summary of the Eligibility Criteria for Trademark     Protection in India, as per the Trade Marks Act, 1999 and Trade     Marks Rules, 2017"
 ],

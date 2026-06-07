@@ -123,20 +123,43 @@ A Producer Company is primarily governed by the Companies Act, 2013, specificall
   ],
   documents: [
     {
-      title: "For Directors/Shareholders",
-      items: [
-        "PAN Card",
-        "Identity Proof",
-        "Address Proof",
-        "Photograph",
-        "Proof of being a producer",
-      ],
+      tabTitle: "Directors & members",
+      content: {
+        title: "Documents for directors and members",
+        items: [
+          "All proposed directors and members must provide:",
+          "**Identity proof:** A self-attested copy of the **PAN Card** (mandatory for Indian nationals). Additionally, any one of the following: **Aadhaar Card**, **Passport**, **Voter ID**, or **Driving License**. For foreign nationals, a valid passport is mandatory.",
+          "**Address proof:** A self-attested copy of a recent document (not older than **two months**) showing the current residential address, such as a **Bank Statement**, utility bill (electricity, water, or gas), or telephone bill.",
+          "**Photographs:** A recent **passport-size** photograph.",
+          "**Producer proof:** A self-declaration or a certificate from a local authority (like a **Tehsildar** or **Gram Panchayat**) confirming that the individual is a **primary producer**.",
+          "**Director Identification Number (DIN):** All directors must have a DIN, which can be applied for within the main registration form.",
+          "**Digital Signature Certificate (DSC):** A **Class 3 DSC** is mandatory for all directors and members to digitally sign the electronic forms.",
+        ],
+      },
     },
     {
-      tabTitle: "For Registered Office",
+      tabTitle: "Registered office",
       content: {
-        title: "For Registered Office",
-        items: ["Utility Bill", "NOC from the owner"],
+        title: "Documents for the registered office",
+        items: [
+          "The company must have a registered office address in India. The following documents are required to prove this address:",
+          "**Proof of address:** A recent utility bill (not older than **two months**) for the office premises.",
+          "**Proof of Ownership/Tenancy:**",
+          "**If owned:** A sale deed or property ownership document.",
+          "**If rented:** A copy of the rental agreement.",
+          "**No Objection Certificate (NOC):** A signed NOC from the property owner, consenting to the property being used as the company's registered office.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Legal & foundational",
+      content: {
+        title: "Legal and foundational documents",
+        items: [
+          "**Memorandum of Association (MoA):** This document outlines the company's business objectives and the scope of its activities.",
+          "**Articles of Association (AoA):** This document contains the internal rules and regulations for the company's governance and management.",
+          "**Declarations and consent forms:** Signed declarations from the directors (**Form DIR-2**) and members stating their consent to act in their respective capacities. A declaration from a professional (like a Chartered Accountant) certifying that all legal compliances have been met is also required.",
+        ],
       },
     },
   ],

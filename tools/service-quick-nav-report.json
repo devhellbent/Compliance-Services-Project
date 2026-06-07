@@ -1,0 +1,3424 @@
+{
+  "generatedAt": "2026-05-13T12:45:15.241Z",
+  "legend": {
+    "overview": "Always shown",
+    "advantagesDisadvantages": "Shown only when BOTH advantages[] and disadvantages[] are non-empty (ServicePageContent)",
+    "eligibility": "eligibility.length > 0",
+    "documents": "documents.length > 0",
+    "process": "registrationProcess.length > 0",
+    "fees": "fees.length > 0",
+    "faqs": "faqs.length > 0",
+    "freeLegalBaseData": "Free Legal Document services use `baseData()` with `disadvantages: []`, so Advantages & Disadvantages never appears in Quick Nav (ServicePageContent requires both arrays)."
+  },
+  "summary": {
+    "totalSlugs": 188,
+    "navBackedSlugs": 85,
+    "bespokeSlugs": 103,
+    "asymmetricAdvDis": 23,
+    "hidden": {
+      "advantagesDisadvantages": 108,
+      "eligibility": 85,
+      "documents": 85,
+      "process": 85,
+      "fees": 85,
+      "faqs": 85,
+      "fullSourceText": 0
+    },
+    "bespokeGaps": {
+      "advantagesDisadvantages": 23,
+      "eligibility": 0,
+      "documents": 0,
+      "process": 0,
+      "fees": 0,
+      "faqs": 0,
+      "fullSourceText": 0
+    },
+    "bespokeMissingProcessSlugs": []
+  },
+  "slugs": [
+    {
+      "slug": "12a-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/legal_registration/12a-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "15ca-15cb-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "80g-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/legal_registration/80g-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "additional-place-of-business-in-gst",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "adt-1-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "affidavit-format",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "agm",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "all-legal-documents",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "amalgamation-merger-and-demerger-advisory",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "aoa-amendment",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "aoc-4-aoc-4-xbrl",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "appointment-letter",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "approval-of-director",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "authorised-signatory-in-gst",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "authorized-capital-increase",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "bookkeeping",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/bookkeeping.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "business-tax-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "buy-back-of-shares",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/buy-back-of-shares.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "buyback-of-shares",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/buy-back-of-shares.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "change-in-llp-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "charge-creation-modification-and-satisfaction",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/charge-creation.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "charge-creation-modification-satisfaction",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/charge-creation.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "commencement-inc-20a",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "commercial-rental-agreement",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "compliance-with-lodr-regulations",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "consent-letter-for-gst-registration",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "consultancy-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "copyright-objection",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/copyright-objection.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "copyright-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/copyright-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "corporate-governance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "darpan-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/legal_registration/darpan-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "delivery-challan",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "demat-of-shares",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "digital-signature-certificate",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/regulatory_license/digital-signature-certificate.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "din-reactivation",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "din-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/regulatory_license/din-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "dormant-status-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "dpt-3-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "drafting-of-scheme-of-arrangement",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "e-voting",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "employment-agreement",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "esic-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/labor_law_service/esic-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "esic-return-filling",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "esop",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "esop-structuring-and-implementation",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/esop-structuring-implementation.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "experience-letter",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "fc-gpr-fc-trs-filings",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "fema-rbi-compliance",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "finance-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "foreign-subsidiary-company-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/foreign-subsidiary-company-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "franchise-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "fssai-license",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/regulatory_license/fssai-license.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gift-deed",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gst-amendment",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gst-annual-return-filing-gstr-9",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gst-invoice",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "gst-registration",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gst-registration-for-e-commerce",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gst-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gst-return-filing-for-e-commerce",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gst-revocation",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gstr-10",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "gumasta-shop-act-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/labor_law_service/gumasta-shop-act-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "icegate-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/legal_registration/icegate-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "import-export-code",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/legal_registration/import-export-code.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "income-certificate",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "income-tax-notice",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "indian-subsidiary",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/indian-subsidiary.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "indian-subsidiary-winding-up",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "infringement-notice",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/infringement-notice.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "insider-trading-regulations-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "internal-audit-and-process-review",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "isin-number",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "iso-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/regulatory_license/iso-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "issue-of-preference-shares-convertible-debentures",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/issue-preference-convertible-debentures.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "itr-1-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "itr-2-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "itr-3-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "itr-4-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "itr-5-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "itr-6-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "itr-7-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "joint-venture-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "kyc-dir-3-kyc",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "legal-due-diligence",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "legal-heir-certificate",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "legal-notice",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "limited-liability-partnership",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/limited-liability-partnership.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "listing-of-securities-on-stock-exchanges",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "llp-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/llp-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "llp-form-11-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "llp-to-private-company",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "llp-winding-up",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "logo-designing",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/logo-designing.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "master-service-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "memorandum-of-understanding",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "mgt-7-mgt-7a",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "microfinance-company-compliance",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "microfinance-company-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/microfinance-company-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "moa-amendment",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "msme-filling",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "msme-udyam-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/legal_registration/msme-udyam-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "name-change-company",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "nclt-filing-and-approvals",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "ngo-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/section-8-company-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "nidhi-company",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/nidhi-company.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "nidhi-company-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/nidhi-company-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "nidhi-company-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/nidhi-company.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "nidhi-winding-up",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "no-objection-certificate",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "non-disclosure-agreement-nda",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "noncompete-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "offer-letter",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "one-person-company",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/one-person-company.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "opc-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/opc-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "opc-to-private-limited",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "pan-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/regulatory_license/pan-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "partnership",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/partnership.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "partnership-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/partnership-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "partnership-deed",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "pas-6",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "patent-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/patent-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "patent-search",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/patent-search.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "payroll-maintenance",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "pf-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/labor_law_service/pf-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "pf-return-filling",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "policy-making",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "posh-policy-and-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "power-of-attorney",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "private-company-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/private-limited-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "private-limited-company",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/private-limited-company.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "private-limited-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/private-limited-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "private-limited-winding-up",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "private-to-public-company",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "probate-of-will",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "producer-company",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/producer-company.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "producer-company-compliance",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "professional-tax-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/regulatory_license/professional-tax-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "professional-tax-return-filling",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "proprietor-to-llp-company",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "proprietorship",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/proprietorship.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "public-limited-company",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/public-limited-company.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "public-limited-company-compliance",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "reduction-of-share-capital",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/reduction-of-share-capital.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "registered-office-change",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "relieving-letter",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "removal-of-director",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "rent-receipt",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "rental-agreement",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "rental-tenant-notice",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "resignation-letter",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "right-issue-private-placement",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/right-issue-private-placement.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "rta-services",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "salary-slip",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "sale-deed",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "scope-of-work-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "secretarial-audit",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/extended-compliance-services.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "section-8-company",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/section-8-company.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "section-8-company-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/section-8-company-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "section-8-ngo-company",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/section-8-company.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "section-8-winding-up",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "service-level-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "share-allotment-and-transfer",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/share-allotment-transfer.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "share-purchase-agreement",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "share-transfer",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "shareholders-agreement",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/documentations/free-legal-documents.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": true
+      }
+    },
+    {
+      "slug": "society-compliance",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "society-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/society-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "startup-india-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/startup-india-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "statutory-audit",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/statutory-audit.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "statutory-registers-and-minutes-maintenance",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "subsidiary-company-compliance",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/subsidiary-company-compliance.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "succession-certificate",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "tan-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/regulatory_license/tan-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "tax-audit",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/mca/company_compliance/tax-audit.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "tds-return-filing",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trade-license",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/regulatory_license/trade-license.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trademark-hearing",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/trademark-hearing.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trademark-protection",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/trademark-protection.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trademark-rectification",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/trademark-rectification.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trademark-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/trademark-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trademark-renewal",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/trademark-renewal.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trademark-transfer",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/intellectual_property/trademark-transfer.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trust-compliance",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "trust-registration",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/registration/company_registration/trust-registration.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "vendor-agreement",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "will-registration",
+      "navBackedStub": true,
+      "tsModule": "src/lib/data/services/nav-document-backed-pages.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": false,
+        "eligibility": false,
+        "documents": false,
+        "process": false,
+        "fees": false,
+        "faqs": false,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    },
+    {
+      "slug": "xbrl-filing",
+      "navBackedStub": false,
+      "tsModule": "src/lib/data/services/compliance/corporate_service/xbrl-filing.ts",
+      "quickNav": {
+        "overview": true,
+        "advantagesDisadvantages": true,
+        "eligibility": true,
+        "documents": true,
+        "process": true,
+        "fees": true,
+        "faqs": true,
+        "fullSourceText": true
+      },
+      "flags": {
+        "asymmetricAdvDis": false
+      }
+    }
+  ]
+}

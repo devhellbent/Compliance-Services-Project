@@ -13,58 +13,50 @@ The transfer is executed through a **Trademark Assignment Agreement** which is a
 Trademark transfer is crucial for various business scenarios, such as the sale of a business, corporate mergers and acquisitions, or internal restructuring. Unlike **licensing**, which only grants permission to *use* the trademark while the original owner retains ownership, assignment involves the **complete transfer of proprietary rights**. This transfer must be officially recorded with the relevant national Trademark Office to provide the new owner with legal recognition and the full right to enforce and protect the mark`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of Trademark Assignment",
-        text: ""
+      icon: "IndianRupee",
+      title: "Monetization of IP",
+      text: "The Assignor can generate substantial revenue by selling a trademark they no longer intend to use, turning an idle asset into immediate financial return.",
     },
     {
-        icon: "CheckCircle",
-        title: "For the Assignor (Seller)",
-        text: "",
-        subPoints: [
-            "**Permanent Loss of Rights:** The Assignor irrevocably loses all future control, use, and potential growth value of the trademark in the assigned scope, which can limit future strategic options.",
-            "**Compliance Burden:** The Assignor must ensure the transfer complies with all legal requirements, including executing a legally valid assignment deed and cooperating with the official recordal process, which involves legal fees and time."
-        ]
+      icon: "Briefcase",
+      title: "Instant Brand Equity for Buyer",
+      text: "The Assignee acquires an established brand with existing consumer recognition, goodwill, and market presence, significantly reducing the time and cost of building a new brand from scratch.",
     },
     {
-        icon: "CheckCircle",
-        title: "For the Assignee (Buyer)",
-        text: "",
-        subPoints: [
-            "**Risk of \\\"Assignment In Gross\\\" (Without Goodwill):** If the assignment is improperly structured and separates the mark from its associated goodwill (especially if the Assignee uses the mark for similar goods), courts may deem the assignment an \\\"assignment in gross.\\\" This can render the transfer **null and void**, causing the Assignee to lose all rights to the mark.",
-            "**Inheritance of Liabilities:** The Assignee may inadvertently assume responsibility for any past legal or quality control issues tied to the brand, requiring due diligence and possibly subsequent remediation efforts.",
-            "**Integration Challenge:** The Assignee must ensure the continuity of quality and business standards to maintain the inherited goodwill. Failure to do so can quickly erode the brand value they just paid to acquire."
-        ]
-    }
-],
+      icon: "TrendingUp",
+      title: "Business Expansion and Restructuring",
+      text: "Trademark assignment facilitates mergers, acquisitions, and internal corporate restructuring by allowing seamless transfer of brand assets between entities.",
+    },
+    {
+      icon: "Shield",
+      title: "Legal Certainty",
+      text: "Once properly executed and recorded, the assignment provides legally enforceable exclusive rights to the Assignee, protecting the brand from third-party infringement.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "of Trademark Assignment",
-        text: ""
+      icon: "AlertTriangle",
+      title: "Permanent Loss of Rights (For Assignor)",
+      text: "The Assignor irrevocably loses all future control, use, and potential growth value of the trademark in the assigned scope, which can limit future strategic options.",
     },
     {
-        icon: "CheckCircle",
-        title: "For the Assignor (Seller)",
-        text: "",
-        subPoints: [
-            "**Permanent Loss of Rights:** The Assignor irrevocably loses all future control, use, and potential growth value of the trademark in the assigned scope, which can limit future strategic options.",
-            "**Compliance Burden:** The Assignor must ensure the transfer complies with all legal requirements, including executing a legally valid assignment deed and cooperating with the official recordal process, which involves legal fees and time."
-        ]
+      icon: "Scale",
+      title: "Risk of Assignment In Gross",
+      text: "If the assignment is improperly structured and separates the mark from its associated goodwill, courts may deem the transfer null and void, causing the Assignee to lose all rights to the mark.",
     },
     {
-        icon: "CheckCircle",
-        title: "For the Assignee (Buyer)",
-        text: "",
-        subPoints: [
-            "**Risk of \\\"Assignment In Gross\\\" (Without Goodwill):** If the assignment is improperly structured and separates the mark from its associated goodwill (especially if the Assignee uses the mark for similar goods), courts may deem the assignment an \\\"assignment in gross.\\\" This can render the transfer **null and void**, causing the Assignee to lose all rights to the mark.",
-            "**Inheritance of Liabilities:** The Assignee may inadvertently assume responsibility for any past legal or quality control issues tied to the brand, requiring due diligence and possibly subsequent remediation efforts.",
-            "**Integration Challenge:** The Assignee must ensure the continuity of quality and business standards to maintain the inherited goodwill. Failure to do so can quickly erode the brand value they just paid to acquire."
-        ]
-    }
-],
+      icon: "FileWarning",
+      title: "Inheritance of Liabilities (For Assignee)",
+      text: "The Assignee may inadvertently assume responsibility for any past legal or quality control issues tied to the brand, requiring thorough due diligence before completing the transfer.",
+    },
+    {
+      icon: "Users",
+      title: "Integration Challenge",
+      text: "The Assignee must ensure the continuity of quality and business standards to maintain the inherited goodwill. Failure to do so can quickly erode the brand value they paid to acquire.",
+    },
+  ],
   eligibility: [
-    "The eligible criteria for a valid Trademark Transfer/Assignment are the mandatory legal and procedural requirements that must be satisfied by the parties (the Assignor/Seller and the Assignee/Buyer) to ensure the change of ownership is legally binding and enforceable. These criteria are typically grouped into four main areas:"
+    "The eligible criteria for a valid Trademark Transfer/Assignment are the mandatory legal and procedural requirements that must be satisfied by the parties (the Assignor/Seller and the Assignee/Buyer) to ensure the change of ownership is legally binding and enforceable. These criteria are typically grouped into four main areas:",
   ],
   documents: [
     {

@@ -12,31 +12,53 @@ The design process is far more than just creating a pretty picture; it is a vita
 A successfully designed logo becomes the fundamental building block for all subsequent branding efforts. It is the visual shorthand that fosters **immediate recognition and recall**, turning a nameless business into a trusted, identifiable entity that customers can emotionally connect with and remain loyal to over time.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of Logo Design",
-        text: "",
-        subPoints: [
-            "**Instant Recognition and Recall:** A professionally designed logo acts as the visual shorthand for the brand, allowing customers to instantly identify and recall the company, even without seeing the brand name (e.g., the Nike Swoosh).",
-            "**Builds Trust and Professionalism:** A polished, well-thought-out logo communicates stability, quality, and commitment to customers, making the business appear established, credible, and reliable from the first impression.",
-            "**Differentiates the Brand:** In a crowded market, a unique and distinctive logo helps a business stand out from competitors, ensuring that the company's identity is not easily confused with others.",
-            "**Fosters Brand Loyalty:** The logo becomes a symbol of the customer's positive experience. Over time, seeing the logo evokes positive emotions, reinforcing brand loyalty and encouraging repeat business.",
-            "**Legal Protection:** When registered as a Trademark, the logo provides legal grounds to prevent other businesses from copying the visual mark, securing the brand's long-term market exclusivity."
-        ]
-    }
-],
+      icon: "Eye",
+      title: "Instant Recognition and Recall",
+      text: "A professionally designed logo acts as the visual shorthand for the brand, allowing customers to instantly identify and recall the company, even without seeing the brand name.",
+    },
+    {
+      icon: "Shield",
+      title: "Builds Trust and Professionalism",
+      text: "A polished, well-thought-out logo communicates stability, quality, and commitment to customers, making the business appear established, credible, and reliable from the first impression.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Differentiates the Brand",
+      text: "In a crowded market, a unique and distinctive logo helps a business stand out from competitors, ensuring that the company's identity is not easily confused with others.",
+    },
+    {
+      icon: "Users",
+      title: "Fosters Brand Loyalty",
+      text: "The logo becomes a symbol of the customer's positive experience. Over time, seeing the logo evokes positive emotions, reinforcing brand loyalty and encouraging repeat business.",
+    },
+    {
+      icon: "Scale",
+      title: "Legal Protection",
+      text: "When registered as a Trademark, the logo provides legal grounds to prevent other businesses from copying the visual mark, securing the brand's long-term market exclusivity.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "of Logo Design",
-        text: "",
-        subPoints: [
-            "**Initial Cost and Time:** Hiring a professional designer or agency can be a significant upfront financial investment. Furthermore, the design process requires time for research, concept development, and revisions, which can delay launch schedules.",
-            "**Risk of Poor Design:** A badly designed, unprofessional, or generic logo can convey the wrong message, confuse customers, and undermine the brand\\'s credibility, making the business look amateurish or cheap.",
-            "**Difficulty in Changing:** Once a logo is established and deployed across packaging, signage, and marketing materials, changing or rebranding it becomes extremely time-consuming and expensive, risking the loss of accumulated brand recognition.",
-            "**Limited Scope:** A logo is only one part of the brand. Focusing too heavily on the logo and neglecting other elements like customer experience, tone of voice, or mission can lead to an inconsistent and ineffective overall brand strategy."
-        ]
-    }
-],
+      icon: "IndianRupee",
+      title: "Initial Cost and Time",
+      text: "Hiring a professional designer or agency can be a significant upfront financial investment. The design process requires time for research, concept development, and revisions, which can delay launch schedules.",
+    },
+    {
+      icon: "AlertTriangle",
+      title: "Risk of Poor Design",
+      text: "A badly designed, unprofessional, or generic logo can convey the wrong message, confuse customers, and undermine the brand's credibility, making the business look amateurish.",
+    },
+    {
+      icon: "RefreshCw",
+      title: "Difficulty in Changing",
+      text: "Once a logo is established and deployed across packaging, signage, and marketing materials, changing or rebranding it becomes extremely time-consuming and expensive, risking the loss of accumulated brand recognition.",
+    },
+    {
+      icon: "FileWarning",
+      title: "Limited Scope",
+      text: "A logo is only one part of the brand. Focusing too heavily on the logo and neglecting other elements like customer experience or mission can lead to an inconsistent and ineffective overall brand strategy.",
+    },
+  ],
   registrationProcess: [
     {
       step: 1,

@@ -31,23 +31,13 @@ The Act does not divide registration into formal *types* but specifies the broad
 
 The main categories eligible for registration include societies formed for the promotion of:
 
-1.  **Literary or Scientific Purposes:**
+1.  **Literary or Scientific Purposes:** For example, research institutions, science clubs, and academic associations.
 
--   For example, research institutions, science clubs, and academic associations.
+2.  **Charitable Purposes:** Societies for poverty relief, welfare of the underprivileged, or general public good.
 
-2.  **Charitable Purposes:**
+3.  **Fine Arts or the Diffusion of Useful Knowledge:** Examples include cultural associations, music or drama groups, and vocational training centers.
 
--   Societies for poverty relief, welfare of the underprivileged, or general public good.
-
-3.  **Fine Arts or the Diffusion of Useful Knowledge:**
-
--   Examples include cultural associations, music or drama groups, and vocational training centers.
-
-4.  **Other Specific Purposes mentioned in Section 20 of the Act:**
-
--   Foundation or maintenance of libraries, public museums, or galleries.
-
--   Diffusion of political education (in the context of governance/civic awareness).`,
+4.  **Other Specific Purposes mentioned in Section 20 of the Act:** Foundation or maintenance of libraries, public museums, or galleries; and diffusion of political education (in the context of governance/civic awareness).`,
   whyChooseUs: [
     {
       icon: "Users",
@@ -160,9 +150,10 @@ The main categories eligible for registration include societies formed for the p
         "**Fine Arts**",
         "**Diffusion of Useful Knowledge** (including the diffusion of political education)",
         "**Foundation/Maintenance of Libraries or Reading Rooms, Public Museums, or Galleries**",
-        '**Collections of Natural History, Mechanical/Philosophical Inventions** The core principle is that the society must operate on a **\\"No Profit, No Loss\\"** basis, meaning any income generated must be applied solely towards achieving the stated objectives, and cannot be distributed as profit to its members.',
+        "**Collections of Natural History, Mechanical/Philosophical Inventions**",
       ],
     },
+    "The core principle is that the society must operate on a **\\\"No Profit, No Loss\\\"** basis, meaning any income generated must be applied solely towards achieving the stated objectives, and cannot be distributed as profit to its members.",
     {
       title: "Documentation and Governing Structure",
       items: [
@@ -187,32 +178,30 @@ The main categories eligible for registration include societies formed for the p
   ],
   documents: [
     {
-      tabTitle: "Foundational Documents of the Society",
+      tabTitle: "Memorandum of Association",
       content: {
-        title: "Foundational Documents of the Society",
+        title: "Memorandum of Association (MoA)",
         items: [
-          "This is the charter document and must contain: ",
-          "The **Name** of the proposed society.",
-          "The **Objectives** for which the society is established.",
-          "The full details (name, address, designation, and occupation) of the members of the **Governing Body**.",
-          "The address of the **Registered Office** of the society. ",
-          "It must be signed by all the founding members. B.  **Rules and Regulations (or By-Laws)**",
-          "This document outlines the internal management of the society, including: ",
-          "Membership eligibility and cessation.",
-          "Rules for holding meetings (General and Governing Body).",
-          "Powers and duties of office bearers (President, Secretary, Treasurer, etc.).",
-          "Financial rules, audit, and management of funds.",
-          "Procedures for amendment and dissolution of the society. ",
-          "It must be certified as a correct copy by at least **three** members of the Governing Body.",
+          "**Charter Document (MoA):** This is the charter document and must contain the **Name** of the proposed society, its **Objectives**, the full details of the **Governing Body**, and the address of the **Registered Office**. It must be signed by all the founding members.",
         ],
       },
     },
     {
-      tabTitle: "Member and Governing Body Details",
+      tabTitle: "Rules & regulations",
+      content: {
+        title: "Rules and Regulations (or By-Laws)",
+        items: [
+          "**Internal Management Document:** This document outlines the internal management of the society, including membership eligibility, rules for holding meetings, powers of office bearers, financial rules, and procedures for amendment and dissolution.",
+          "**Certification:** It must be certified as a correct copy by at least **three** members of the Governing Body.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Member details",
       content: {
         title: "Member and Governing Body Details",
         items: [
-          "A complete list of the members of the Governing Body, including their names, addresses, occupations, and **signatures**. B.  **Identity and Address Proof of all Members**",
+          "A complete list of the members of the **Governing Body**, including their names, addresses, occupations, and **signatures**.",
           "Copy of **PAN Card** of all proposed members.",
           "Copy of **Residence Proof** (Aadhaar Card, Passport, Voter ID, Driving License, Utility Bill, or Bank Statement) of all proposed members.",
           "**Passport-size photographs** of the members.",
@@ -220,29 +209,26 @@ The main categories eligible for registration include societies formed for the p
       },
     },
     {
-      tabTitle: "Registered Office Documentation",
+      tabTitle: "Office documentation",
       content: {
         title: "Registered Office Documentation",
         items: [
-          "Documents like a **Utility Bill** (electricity/water) or Property Tax Receipt for the premises.",
-          "If the premises are rented, a copy of the **Rent Agreement** or Lease Deed. B.  **No Objection Certificate (NOC)**",
-          "A **No-Objection Certificate** from the landlord or owner of the premises, permitting the society to use the address as its registered office.",
+          "**Proof of address:** Documents like a **Utility Bill** (electricity/water) or Property Tax Receipt for the premises.",
+          "**Rent agreement:** If the premises are rented, a copy of the **Rent Agreement** or Lease Deed.",
+          "**No Objection Certificate (NOC):** A **No-Objection Certificate** from the landlord or owner of the premises, permitting the society to use the address as its registered office.",
         ],
       },
     },
     {
-      tabTitle: "Supporting Application Documents",
+      tabTitle: "Supporting documents",
       content: {
         title: "Supporting Application Documents",
         items: [
-          "A formal letter requesting registration, signed by all the founding members, stating the purpose of forming the society. B.  **Affidavit**",
-          "An affidavit (usually sworn by the President or Secretary) on non-judicial stamp paper, declaring: ",
-          "The name of the society is not identical to any other registered society.",
-          "The documents submitted are true and correct.",
-          "In some states, an affidavit stating that the subscribers are not blood relatives may also be required. C.  **Minutes of the First Meeting**",
-          "A copy of the minutes of the first meeting where the members resolved to form the society, adopted the MoA and Rules/Regulations, and elected the first Governing Body. D.  **Consent Letters/Authority Letters**",
-          "Written consent letters from the proposed members to join the society.",
-          "An authority letter authorizing one member (usually the President or Secretary) to make the application for registration.",
+          "**Covering letter:** A formal letter requesting registration, signed by all the founding members, stating the purpose of forming the society.",
+          "**Affidavit:** An affidavit (usually sworn by the President or Secretary) on non-judicial stamp paper, declaring the name of the society is not identical to any other registered society and that the documents submitted are true and correct. In some states, an affidavit stating that the subscribers are not blood relatives may also be required.",
+          "**Minutes of the first meeting:** A copy of the minutes of the first meeting where the members resolved to form the society, adopted the MoA and Rules/Regulations, and elected the first Governing Body.",
+          "**Consent letters:** Written consent letters from the proposed members to join the society.",
+          "**Authority letter:** An authority letter authorizing one member (usually the President or Secretary) to make the application for registration.",
         ],
       },
     },

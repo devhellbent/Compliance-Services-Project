@@ -92,33 +92,27 @@ It formally establishes the trust and defines the terms and conditions under whi
     },
   ],
   eligibility: [
-    {
-      title:
-        "The eligibility criteria for Trust registration in India primarily",
-      items: [
-        "revolve around the key parties involved and the foundational document (the Trust Deed). These requirements are largely consistent for both Public Charitable Trusts and Private (Family) Trusts, based on the Indian Trusts Act, 1882, and state-specific laws.",
-      ],
-    },
+    "The eligibility criteria for Trust registration in India primarily revolve around the key parties involved and the foundational document (the Trust Deed). These requirements are largely consistent for both Public Charitable Trusts and Private (Family) Trusts, based on the Indian Trusts Act, 1882, and state-specific laws.",
     {
       title: "1. Competency of the Parties Involved",
       items: [
-        "A Trust must involve three main parties, each of whom must meet specific legal prerequisites:  #",
+        "A Trust must involve three main parties, each of whom must meet specific legal prerequisites.",
       ],
     },
     {
       title: "A. The Settlor (or Author)",
       items: [
-        "**A Major:** At least 18 years of age.",
-        "**Of Sound Mind:** Legally and mentally capable of making rational decisions.",
-        "**Owner of the Property:** The settlor must be the rightful owner of the movable or immovable property that is being transferred to the Trust. #",
+        "**A major:** At least **18 years** of age.",
+        "**Of sound mind:** Legally and mentally capable of making rational decisions.",
+        "**Owner of the property:** The settlor must be the rightful owner of the movable or immovable property that is being transferred to the Trust.",
       ],
     },
     {
       title: "B. The Trustee(s)",
       items: [
         "**Competency:** Trustees must also be competent to contract (a major and of sound mind).",
-        "**Minimum Number:** Generally, there must be a minimum of **two Trustees** (though state laws can sometimes vary this, especially for private trusts, the common practice is two or more).",
-        "**Acceptance:** The appointed person must accept the role of the Trustee. #",
+        "**Minimum number:** Generally, there must be a minimum of **two Trustees** (though state laws can sometimes vary this, especially for private trusts, the common practice is two or more).",
+        "**Acceptance:** The appointed person must accept the role of the Trustee.",
       ],
     },
     {
@@ -131,43 +125,62 @@ It formally establishes the trust and defines the terms and conditions under whi
     {
       title: "2. Foundational Legal Conditions",
       items: [
-        "It must be drafted on **Non-Judicial Stamp Paper** of the value prescribed by the specific state where the Trust\\'s registered office is located.",
-        "It must be signed by the Settlor and the Trustees, and witnessed by at least two individuals.",
-        "It must be registered with the **Sub-Registrar of Assurances** of the area where the Trust\\'s office is situated.",
+        "It must be drafted on **Non-Judicial Stamp Paper** of the value prescribed by the specific state where the Trust's registered office is located.",
+        "It must be signed by the Settlor and the Trustees, and witnessed by at least **two** individuals.",
+        "It must be registered with the **Sub-Registrar of Assurances** of the area where the Trust's office is situated.",
       ],
     },
     {
       title: "3. Eligibility for Tax Benefits (Public Trusts Only)",
       items: [
-        'For a **Public Charitable Trust** to be fully eligible to receive tax exemptions on its income, it must meet additional criteria under the Income Tax Act, 1961:  **A. Charitable Objectives:** The Trust\'s activities must exclusively serve a \\"charitable or religious purpose\\" as defined under the Income Tax Act.  **B. 12AB Registration:** The Trust must apply for and obtain registration under **Section 12AB** of the Income Tax Act. This step makes its income exempt from tax (subject to specific conditions).  **C. 80G Registration:** To make the Trust eligible to issue receipts that allow donors to claim a tax deduction, it must separately apply for and receive **Section 80G** registration.',
+        "For a **Public Charitable Trust** to be fully eligible to receive tax exemptions on its income, it must meet additional criteria under the Income Tax Act, 1961.",
+        "**Charitable objectives:** The Trust's activities must exclusively serve a \"charitable or religious purpose\" as defined under the Income Tax Act.",
+        "**12AB Registration:** The Trust must apply for and obtain registration under **Section 12AB** of the Income Tax Act. This step makes its income exempt from tax (subject to specific conditions).",
+        "**80G Registration:** To make the Trust eligible to issue receipts that allow donors to claim a tax deduction, it must separately apply for and receive **Section 80G** registration.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle:
-        "Here\\'s a comprehensive list of documents typically required:",
+      tabTitle: "Trust deed",
       content: {
-        title: "Here\\'s a comprehensive list of documents typically required:",
+        title: "Trust deed draft",
         items: [
-          "**Trust Deed Draft:**",
-          "This is the most critical document, which outlines the trust\\'s name, objectives, details of the settlor, trustees, beneficiaries, trust property, rules for management, etc.",
-          "It will be drafted on Non-Judicial Stamp Paper of appropriate value, as prescribed by the specific state where the trust is being registered. The stamp duty varies significantly from state to state.",
-          "**Identity Proof of Settlor and all Trustees:**",
-          "Indian Nationals: PAN Card (mandatory), Aadhaar Card, Voter ID, Passport, or Driving License.",
-          "Foreign Nationals/NRIs: Passport (mandatory, notarized and apostilled/consularized), OCI/PIO Card (if applicable).",
-          "**Address Proof of Settlor and all Trustees:**",
-          "Indian Nationals: Latest Bank Statement, Electricity Bill, Telephone Bill, Mobile Bill (should not be older than two months).",
-          "Foreign Nationals/NRIs: Latest Bank Statement or Utility Bill (not older than two months, notarized and apostilled/consularized).",
-          "**Registered Office Address Proof:**",
-          "If Owned: Copy of the Sale Deed/Property Tax Receipt.",
-          "If Rented/Leased: Notarized copy of the Rent/Lease Agreement.",
-          "Common Requirement: A copy of a recent Utility Bill (Electricity, Gas, or Water bill) for the registered office address, not older than two months.",
-          "NOC: A No Objection Certificate (NOC) from the property owner, if the premises are rented or used with permission, explicitly allowing the trust to use the address as its registered office.",
-          "**Passport-sized Photographs:**",
-          "Recent passport-sized photographs of the Settlor and all Trustees.",
-          "**Witnesses:**",
-          "Identity and address proof of two witnesses who will attest the Trust Deed during registration.",
+          "**Trust Deed Draft:** This is the most critical document, which outlines the trust's name, objectives, details of the settlor, trustees, beneficiaries, trust property, rules for management, etc.",
+          "**Stamp Paper:** It must be drafted on Non-Judicial Stamp Paper of appropriate value, as prescribed by the specific state where the trust is being registered.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Identity & address proof",
+      content: {
+        title: "Identity and address proof of settlor and all trustees",
+        items: [
+          "**Identity Proof (Indian Nationals):** PAN Card (mandatory), Aadhaar Card, Voter ID, Passport, or Driving License.",
+          "**Address Proof (Indian Nationals):** Latest Bank Statement, Electricity Bill, Telephone Bill, or Mobile Bill (should not be older than two months).",
+          "**Identity Proof (Foreign Nationals/NRIs):** Passport (mandatory, notarized and apostilled/consularized), OCI/PIO Card (if applicable).",
+          "**Address Proof (Foreign Nationals/NRIs):** Latest Bank Statement or Utility Bill (not older than two months, notarized and apostilled/consularized).",
+        ],
+      },
+    },
+    {
+      tabTitle: "Office address proof",
+      content: {
+        title: "Registered office address proof",
+        items: [
+          "**Utility Bill:** A copy of a recent Utility Bill (Electricity, Gas, or Water bill) for the registered office address, not older than two months.",
+          "**Property Documents:** If owned, a copy of the Sale Deed or Property Tax Receipt. If rented/leased, a notarized copy of the Rent/Lease Agreement.",
+          "**NOC:** A No Objection Certificate from the property owner explicitly allowing the trust to use the address as its registered office.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Photos & witnesses",
+      content: {
+        title: "Photographs and witnesses",
+        items: [
+          "**Photographs:** Recent passport-sized photographs of the Settlor and all Trustees.",
+          "**Witnesses:** Identity and address proof of two witnesses who will attest the Trust Deed during registration.",
         ],
       },
     },

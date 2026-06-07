@@ -12,43 +12,41 @@ The hearing provides the applicant or their authorized legal representative with
 Following the presentation of arguments and evidence, the Hearing Officer will decide to either **accept the trademark application** (leading to its publication in the Trademark Journal and eventual registration), or **reject the application** if the objections are not adequately addressed. Given the high stakes, failing to attend or adequately prepare for a trademark hearing can result in the refusal of the application, making it a pivotal moment in securing **legal protection and exclusive rights** for a brand.`,
   advantages: [
     {
-      icon: "CheckCircle",
-      title: "Risk of Final Refusal",
-      text: "The biggest drawback is the risk of an unfavorable outcome. If the Hearing Officer remains unconvinced by the arguments, they can issue a **Refusal Order** immediately, which permanently blocks the application unless an appeal is filed.",
+      icon: "Scale",
+      title: "Opportunity to Defend Your Mark",
+      text: "The hearing provides a formal, final opportunity to present your case directly to the Hearing Officer, allowing you to argue why your trademark deserves registration despite initial objections.",
     },
     {
-      icon: "CheckCircle",
-      title: "Increased Costs and Time",
-      text: "The hearing process adds to the overall cost of registration. It necessitates the hiring of an experienced trademark attorney, preparation of detailed legal submissions, and the time commitment for attendance and follow-up, increasing the total expense for the business.",
+      icon: "FileCheck",
+      title: "Direct Dialogue with the Registrar",
+      text: "Unlike written replies, the hearing allows for a direct dialogue where you can clarify misunderstandings, answer questions in real-time, and present nuanced arguments that are difficult to convey in writing.",
     },
     {
-      icon: "CheckCircle",
-      title: "Mandatory Appearance Requirement",
-      text: '**Failure to attend** the hearing without securing a valid adjournment is a grave error. The application will almost certainly be marked as **\\"Abandoned,\\"** causing the applicant to lose the priority filing date and all associated fees.',
-    },
-    {
-      icon: "CheckCircle",
-      title: "Legal Complexity",
-      text: "The hearing is a formal, quasi-judicial proceeding. Successfully navigating the arguments requires deep knowledge of the Trademark Act and legal precedents. Without expert legal counsel, the applicant\\'s chances of success are significantly reduced.",
-    },
-    {
-      icon: "CheckCircle",
-      title: "Uncertainty and Delay",
-      text: 'Even if the hearing goes well, the officer may \\"hold\\" the decision, leading to further **delays** in the registration process. This uncertainty can stall business decisions reliant on the trademark\\\'s secured status.',
+      icon: "Shield",
+      title: "Evidence-Based Resolution",
+      text: "The hearing allows you to submit substantial evidence like usage affidavits, sales invoices, and advertising material to demonstrate your mark's distinctiveness and commercial value in the marketplace.",
     },
   ],
   disadvantages: [
     {
-      icon: "CheckCircle",
-      title: "of the Trademark Hearing",
-      text: "",
-      subPoints: [
-        "**Risk of Final Refusal:** The biggest drawback is the risk of an unfavorable outcome. If the Hearing Officer remains unconvinced by the arguments, they can issue a **Refusal Order** immediately, which permanently blocks the application unless an appeal is filed.",
-        "**Increased Costs and Time:** The hearing process adds to the overall cost of registration. It necessitates the hiring of an experienced trademark attorney, preparation of detailed legal submissions, and the time commitment for attendance and follow-up, increasing the total expense for the business.",
-        '**Mandatory Appearance Requirement:** **Failure to attend** the hearing without securing a valid adjournment is a grave error. The application will almost certainly be marked as **\\"Abandoned,\\"** causing the applicant to lose the priority filing date and all associated fees.',
-        "**Legal Complexity:** The hearing is a formal, quasi-judicial proceeding. Successfully navigating the arguments requires deep knowledge of the Trademark Act and legal precedents. Without expert legal counsel, the applicant\\'s chances of success are significantly reduced.",
-        '**Uncertainty and Delay:** Even if the hearing goes well, the officer may \\"hold\\" the decision, leading to further **delays** in the registration process. This uncertainty can stall business decisions reliant on the trademark\\\'s secured status.',
-      ],
+      icon: "AlertTriangle",
+      title: "Risk of Final Refusal",
+      text: "If the Hearing Officer remains unconvinced by the arguments, they can issue a Refusal Order immediately, which permanently blocks the application unless an appeal is filed.",
+    },
+    {
+      icon: "IndianRupee",
+      title: "Increased Costs and Time",
+      text: "The hearing process adds to the overall cost of registration. It necessitates the hiring of an experienced trademark attorney, preparation of detailed legal submissions, and the time commitment for attendance and follow-up.",
+    },
+    {
+      icon: "Clock",
+      title: "Mandatory Appearance Requirement",
+      text: "Failure to attend the hearing without securing a valid adjournment is a grave error. The application will almost certainly be marked as Abandoned, causing the applicant to lose the priority filing date and all associated fees.",
+    },
+    {
+      icon: "Scale",
+      title: "Legal Complexity",
+      text: "The hearing is a formal, quasi-judicial proceeding. Successfully navigating the arguments requires deep knowledge of the Trademark Act and legal precedents. Without expert legal counsel, the applicant's chances of success are significantly reduced.",
     },
   ],
   eligibility: [

@@ -13,29 +13,43 @@ The core purpose of ICEGATE registration is to facilitate **secure and efficient
 The mandatory online registration process requires verification of essential business credentials, like the **IEC, GSTIN, and PAN**, and critically, the use of a **Class 3 Digital Signature Certificate (DSC)** for authentication. This structured approach ensures data security and compliance, drastically streamlining the customs clearance procedure.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: "of ICEGATE Registration",
-        text: "",
-        subPoints: [
-            "**Digital and Paperless Filing:** The core benefit is the ability to **e-file** all critical customs documents, such as Bills of Entry (imports) and Shipping Bills (exports). This minimizes manual paperwork, printing, and administrative costs.",
-            "**Faster Customs Clearance:** Automation, quick electronic acknowledgment, and reduced human intervention significantly **expedite the clearance process**. This leads to faster inventory turnover, lower demurrage charges at ports, and improved supply chain efficiency.",
-            "**Real-Time Tracking and Transparency:** Registered users can access the **Document Tracking System** to monitor the live status of their submissions, the assessment process, and the progress of **IGST/Drawback refund claims** 24/7, providing greater control and predictability.",
-            "**Secure E-Payments:** The portal facilitates the secure, online **e-payment** of customs duties and other charges, streamlining the financial aspect of international trade and ensuring proper revenue collection for the government."
-        ]
-    }
-],
+      icon: "FileCheck",
+      title: "Digital and Paperless Filing",
+      text: "The core benefit is the ability to e-file all critical customs documents, such as Bills of Entry (imports) and Shipping Bills (exports). This minimizes manual paperwork, printing, and administrative costs.",
+    },
+    {
+      icon: "Zap",
+      title: "Faster Customs Clearance",
+      text: "Automation, quick electronic acknowledgment, and reduced human intervention significantly expedite the clearance process. This leads to faster inventory turnover and lower demurrage charges at ports.",
+    },
+    {
+      icon: "Eye",
+      title: "Real-Time Tracking and Transparency",
+      text: "Registered users can access the Document Tracking System to monitor the live status of their submissions, the assessment process, and the progress of IGST/Drawback refund claims 24/7.",
+    },
+    {
+      icon: "Shield",
+      title: "Secure E-Payments",
+      text: "The portal facilitates the secure, online e-payment of customs duties and other charges, streamlining the financial aspect of international trade.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: "and Challenges of ICEGATE Registration",
-        text: "",
-        subPoints: [
-            "**Technical Glitches and Downtime:** As a central digital platform, ICEGATE can occasionally suffer from **server slowdowns or technical issues**. When this occurs, it can critically halt the customs clearance process, leading to immediate and costly delays in cargo movement.",
-            "**Complexity and Strict Validation:** The **Full Registration** process is often considered tedious. It requires the mandatory use of a **Class 3 Digital Signature Certificate (DSC)** and involves strict verification of credentials (IEC, GSTIN, PAN). Minor discrepancies between the applicant\\'s data and other government records (like DGFT or GSTN) are a common cause of **application rejection**.",
-            "**Dependency on Expertise:** Using the system for filing documents often requires technical knowledge of EDI protocols or the use of specific software. This creates a **steep learning curve**, which can be challenging for MSMEs or first-time importers/exporters, often forcing reliance on Customs Brokers (CHAs)."
-        ]
-    }
-],
+      icon: "AlertTriangle",
+      title: "Technical Glitches and Downtime",
+      text: "As a central digital platform, ICEGATE can occasionally suffer from server slowdowns or technical issues, which can critically halt the customs clearance process, leading to immediate and costly delays.",
+    },
+    {
+      icon: "FileWarning",
+      title: "Complexity and Strict Validation",
+      text: "The Full Registration process requires the mandatory use of a Class 3 DSC and involves strict verification of credentials (IEC, GSTIN, PAN). Minor discrepancies between records are a common cause of application rejection.",
+    },
+    {
+      icon: "Users",
+      title: "Dependency on Expertise",
+      text: "Using the system for filing documents often requires technical knowledge of EDI protocols. This creates a steep learning curve, especially challenging for MSMEs or first-time importers/exporters.",
+    },
+  ],
   eligibility: [
     "The eligibility criteria for ICEGATE (Indian Customs Electronic Data     Interchange Gateway) registration primarily depend on the user\\'s     role in the international trade and logistics chain. It is open to     any entity that needs to file documents electronically with the     Indian Customs Department."
 ],

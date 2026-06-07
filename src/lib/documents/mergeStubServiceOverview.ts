@@ -13,7 +13,9 @@ const EXCERPT_NON_STUB_FALLBACK = 200_000;
  * Share of appendix “content tokens” (len ≥ 4) that already appear in `overview`.
  * Above this → structured TS already embeds the same material → skip prepend.
  */
-const OVERVIEW_COVERAGE_SKIP = 0.91;
+const OVERVIEW_COVERAGE_SKIP = 0.65;
+/** Lower threshold for pages with rich structured data (advantages, eligibility, documents already filled). */
+const RICH_DATA_COVERAGE_SKIP = 0.45;
 /** When prepended text covers at least this fraction of the appendix file, omit the duplicate block below. */
 const APPENDIX_INLINE_FRACTION_HIDE_BELOW = 0.9;
 
@@ -35,13 +37,14 @@ function normForOverlap(s: string): string {
     .toLowerCase();
 }
 
-/** True when appendix text is largely the same wording already present in structured overview. */
-function appendixAlreadyLargelyInOverview(excerpt: string, overview: string): boolean {
+/** True when appendix text is largely the same wording already present in structured page data. */
+function appendixAlreadyLargelyInOverview(excerpt: string, overview: string, fullStructuredText?: string, hasRichStructuredData?: boolean): boolean {
   const ex = excerpt.trim();
-  const ov = overview.trim();
-  if (ex.length < 80) return ov.length > 0 && normForOverlap(ov).includes(normForOverlap(ex));
+  // Use the full structured text (all sections combined) when available for better overlap detection
+  const haystack = fullStructuredText?.trim() || overview.trim();
+  if (ex.length < 80) return haystack.length > 0 && normForOverlap(haystack).includes(normForOverlap(ex));
 
-  const h = normForOverlap(ov);
+  const h = normForOverlap(haystack);
   const n = normForOverlap(ex);
   const tokens = [
     ...new Set(n.split(/[^a-z0-9]+/).filter((t) => t.length >= 4)),
@@ -53,7 +56,8 @@ function appendixAlreadyLargelyInOverview(excerpt: string, overview: string): bo
   for (const t of tokens) {
     if (h.includes(t)) hits++;
   }
-  return hits / tokens.length >= OVERVIEW_COVERAGE_SKIP;
+  const threshold = hasRichStructuredData ? RICH_DATA_COVERAGE_SKIP : OVERVIEW_COVERAGE_SKIP;
+  return hits / tokens.length >= threshold;
 }
 
 /**
@@ -68,7 +72,9 @@ function appendixAlreadyLargelyInOverview(excerpt: string, overview: string): bo
 export function mergeAppendixExcerptIntoStubOverview(
   overview: string,
   appendixMarkdown: string | null | undefined,
-  title: string
+  title: string,
+  fullStructuredText?: string,
+  hasRichStructuredData?: boolean
 ): AppendixOverviewMerge {
   if (!appendixMarkdown?.trim()) {
     return {
@@ -103,7 +109,15 @@ export function mergeAppendixExcerptIntoStubOverview(
     };
   }
 
-  if (!isStub && appendixAlreadyLargelyInOverview(excerpt, overview)) {
+  // Pages with complete structured data never get appendix prepended — it's shown at the bottom only
+  if (!isStub && hasRichStructuredData) {
+    return {
+      overview: overview.trim(),
+      showAppendixMarkdownBelow: appendixLen > 0,
+    };
+  }
+
+  if (!isStub && appendixAlreadyLargelyInOverview(excerpt, overview, fullStructuredText, hasRichStructuredData)) {
     return {
       overview: overview.trim(),
       showAppendixMarkdownBelow: appendixLen > 0,

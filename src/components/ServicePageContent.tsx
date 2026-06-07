@@ -15,6 +15,8 @@ import { normalizeCopyPastedEscapes } from "@/lib/normalizeCopyPastedEscapes";
 import { getServiceHeroMarkdown } from "@/lib/getServiceHeroMarkdown";
 import { createServiceMarkdownComponents } from "./serviceMarkdownComponents";
 import { ServiceData } from "@/lib/types";
+import { DocumentTemplate, documentTemplates } from "@/lib/document-templates";
+import { DocumentGenerator } from "./DocumentGenerator";
 import {
   ChevronRight,
   Mail,
@@ -28,16 +30,20 @@ interface ServicePageContentProps {
   data: ServiceData;
   /** When true, sidebar includes “Full source text” and appendix `children` are rendered below FAQs. */
   hasAppendix?: boolean;
+  templateId?: string;
   children?: ReactNode;
 }
 
 export function ServicePageContent({
   data,
   hasAppendix = false,
+  templateId,
   children,
 }: ServicePageContentProps) {
+  const template = templateId ? documentTemplates[templateId] : undefined;
   const sections = useMemo(
     () => [
+      { id: "generator", title: "Document Generator", show: !!template },
       { id: "overview", title: "Overview", show: true },
       {
         id: "advantages",
@@ -68,7 +74,7 @@ export function ServicePageContent({
       {
         id: "fees",
         title: "Fees",
-        show: Array.isArray(data.fees) && data.fees.length > 0,
+        show: (Array.isArray(data.fees) && data.fees.length > 0) || !!data.feesMarkdown,
       },
       {
         id: "faqs",
@@ -81,7 +87,7 @@ export function ServicePageContent({
         show: hasAppendix,
       },
     ],
-    [data, hasAppendix]
+    [data, hasAppendix, template]
   );
 
   const visibleSections = sections.filter((s) => s.show);
@@ -268,6 +274,26 @@ export function ServicePageContent({
           {/* Main Content Area */}
           <main className="flex-1 min-w-0">
             <div className="max-w-4xl mx-auto space-y-12">
+              {/* Document Generator Section */}
+              {template && (
+                <motion.section
+                  id="generator"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  className="scroll-mt-28"
+                >
+                  <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+                    <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center border-b border-orange-200 pb-4">
+                      <span className="w-1 h-8 bg-gradient-to-b from-orange-500 to-orange-600 rounded-full mr-4"></span>
+                      Generate {template.title}
+                    </h2>
+                    <DocumentGenerator template={template} />
+                  </div>
+                </motion.section>
+              )}
+
               {/* Overview Section */}
               <motion.section
                 id="overview"
@@ -356,7 +382,7 @@ export function ServicePageContent({
               )}
 
               {/* Fees Section */}
-              {data.fees && data.fees.length > 0 && (
+              {((data.fees && data.fees.length > 0) || data.feesMarkdown) && (
                 <motion.section
                   id="fees"
                   initial={{ opacity: 0, y: 20 }}
@@ -365,7 +391,24 @@ export function ServicePageContent({
                   transition={{ duration: 0.5 }}
                   className="scroll-mt-28"
                 >
-                  <FeesTable fees={data.fees} />
+                  {data.feesMarkdown ? (
+                    <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+                      <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center border-b border-orange-200 pb-4">
+                        <span className="w-1 h-8 bg-gradient-to-b from-orange-500 to-orange-600 rounded-full mr-4"></span>
+                        Registration Fees
+                      </h2>
+                      <div className="service-markdown max-w-none min-w-0 text-gray-800 leading-relaxed break-words [&_table]:my-4 [&_table]:block [&_table]:max-w-full [&_table]:overflow-x-auto [&_th]:bg-gray-100 [&_td]:border [&_th]:border">
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          components={serviceMarkdownComponents}
+                        >
+                          {normalizeCopyPastedEscapes(data.feesMarkdown)}
+                        </ReactMarkdown>
+                      </div>
+                    </div>
+                  ) : (
+                    <FeesTable fees={data.fees} />
+                  )}
                 </motion.section>
               )}
 

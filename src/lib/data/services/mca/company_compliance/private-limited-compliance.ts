@@ -1,71 +1,147 @@
-// lib/data/services/private-limited-compliance.ts
+// lib/data/services/mca/company_compliance/private-limited-compliance.ts
 
 import { ServiceData } from "@/lib/types";
 
 export const privateLimitedComplianceData: ServiceData = {
-  title: "Private Limited Company Annual Compliance",
+  title: "Private Limited Compliance",
   breadcrumb: ["Home", "MCA", "Private Limited Compliance"],
-  overview:
-    "**Private Limited Company Annual Compliance** is a set of mandatory legal and financial obligations that every registered private limited company in India must fulfill each year. ⚖️ This primarily involves conducting board meetings, holding an Annual General Meeting (AGM), getting accounts audited, and filing key documents like the **Annual Financial Statements (Form AOC-4)** and the **Annual Return (Form MGT-7)** with the Ministry of Corporate Affairs (MCA).",
+  description:
+    "Compliance for a Private Limited Company is mandatory under the Companies Act, 2013, to maintain its active status, limited liability, and credibility.",
+  overview: `Compliance for a Private Limited Company is mandatory under the Companies Act, 2013, to maintain its active status, limited liability, and credibility. Regardless of size, all private companies must file the Annual Return (MGT-7/7A) and Financial Statements (AOC-4), conduct a Statutory Audit, and file a Corporate Income Tax Return (ITR-6).
+
+### Annual Compliance (The Yearly Cycle)
+
+These tasks must be performed every financial year (April 1st to March 31st):
+
+*   **Board Meetings:** At least four Board Meetings in a calendar year, with a gap of no more than 120 days between consecutive meetings. Proper minutes must be maintained.
+*   **Annual General Meeting (AGM):** Must be conducted once a year by September 30th to adopt audited financial statements, appoint auditors, and transact other ordinary business.
+*   **Statutory Audit:** All Private Limited Companies must appoint a Statutory Auditor (practicing CA). The appointment must be intimated to the RoC using Form ADT-1 within 15 days of the AGM.
+*   **Filing of Financial Statements (AOC-4):** Audited Balance Sheet, Profit & Loss Account, and Director's Report filed within 30 days of the AGM.
+*   **Filing of Annual Return (MGT-7/MGT-7A):** Shareholding pattern, directors, and changes filed within 60 days of the AGM.
+*   **Director KYC (DIR-3 KYC):** Annual KYC for every individual holding a DIN, due by September 30th.
+*   **Income Tax Return (ITR-6):** Corporate Income Tax Return due by September 30th (if tax audit applicable).
+
+### Event-Based Compliance
+
+These filings are triggered only when a specific change or event occurs:
+
+*   **Change in Leadership:** Appointment, resignation, or change in Director/KMP details requires filing Form DIR-12.
+*   **Share Allotment:** Issuance of new shares requires Form PAS-3.
+*   **Charge Creation/Modification:** Secured loans must be registered via Form CHG-1 or CHG-9.
+*   **Special Resolutions:** Altering the MoA or AoA requires Form MGT-14 within 30 days.
+
+### Other Regulatory Compliance
+
+*   **GST:** Timely filing of monthly, quarterly, or annual GST returns if registered.
+*   **TDS/TCS:** Timely deposits and filing of quarterly returns.
+*   **Labour Laws:** Obligations under EPF, ESI, and Professional Tax laws based on employee count and location.`,
   advantages: [
     {
-      icon: "ShieldCheck",
-      title: "Maintains Legal Standing",
-      text: "Ensures the company remains compliant and active on the MCA register, safeguarding its legal status.",
+      icon: "Shield",
+      title: "Protection of Separate Legal Entity",
+      text: "Maintaining strict compliance ensures the 'Corporate Veil' remains intact. This shields the personal assets of the directors and shareholders from the company's financial liabilities and legal obligations.",
+    },
+    {
+      icon: "Activity",
+      title: "Structured Corporate Governance",
+      text: "Adhering to mandatory requirements like holding four Board Meetings and an Annual General Meeting (AGM) formalizes the decision-making process, creating a professional and accountable management environment.",
     },
     {
       icon: "TrendingUp",
-      title: "Enhances Credibility",
-      text: "A strong compliance history builds trust with banks, investors, and other stakeholders, making it easier to secure funding.",
+      title: "Investor and Lender Confidence",
+      text: "Compliance is a prerequisite for any external funding. Venture Capitalists (VCs) and banks perform thorough due diligence on statutory records (AOC-4/MGT-7) before sanctioning investments or business loans.",
     },
     {
-      icon: "FileWarning",
-      title: "Avoids Heavy Penalties",
-      text: "Timely filing prevents the imposition of heavy daily penalties and saves the directors from potential disqualification.",
-    },
-    {
-      icon: "Gavel",
-      title: "Good Corporate Governance",
-      text: "Regular compliance promotes transparency and accountability in the company's management and operations.",
+      icon: "CheckCircle",
+      title: "Eligibility for Government Incentives",
+      text: "Only compliant companies can apply for or maintain 'DPIIT Startup' recognition, which unlocks significant tax exemptions, patent subsidies, and relaxed labor law requirements.",
     },
   ],
   disadvantages: [
     {
-      icon: "AlertTriangle",
-      title: "Hefty Daily Penalties",
-      text: "The penalty for late filing of MCA forms is ₹100 per day for each overdue form, with no maximum limit.",
+      icon: "AlertCircle",
+      title: "Highest Recurring Compliance Costs",
+      text: "Private limited companies face the most complex compliance burden, including mandatory statutory audits, maintaining multiple statutory registers, and filing various event-based forms.",
+    },
+    {
+      icon: "Clock",
+      title: "Infinite Penalty Accumulation",
+      text: "Late filing of mandatory ROC forms attracts a penalty of ₹100 per day per form with no upper limit. A one-year delay for two forms can result in over ₹70,000 in penalties.",
     },
     {
       icon: "UserX",
-      title: "Director Disqualification",
-      text: "Failure to file annual returns for three consecutive years can lead to the disqualification of all company directors.",
+      title: "Director KYC Penalties",
+      text: "Any delay in filing the annual DIR-3 KYC beyond September 30th results in a flat penalty of ₹5,000 per director to re-activate their DIN status.",
     },
     {
-      icon: "FileX",
+      icon: "FileWarning",
       title: "Risk of Strike-Off",
-      text: "The Registrar of Companies (RoC) can strike the company's name from the register for continuous non-compliance.",
+      text: "Failure to file annual returns for two or more consecutive years can lead to the Registrar of Companies (ROC) striking off the company's name, ending its legal existence.",
     },
   ],
   eligibility: [
     {
-      title: "Applicability",
+      title: "Mandatory Post-Incorporation Criteria",
       items: [
-        "Annual compliance is **mandatory for all registered Private Limited Companies**.",
-        "This applies regardless of the company's turnover or whether it has conducted any business during the financial year.",
+        "**Form INC-20A:** Mandatory filing of the Declaration of Commencement of Business within 180 days of incorporation.",
+        "**Statutory Auditor:** Compulsory appointment of the first Statutory Auditor within 30 days of registration.",
+        "**Board Meetings:** Mandatory requirement to hold a minimum of four board meetings annually, with a gap of not more than 120 days.",
+      ],
+    },
+    {
+      title: "Annual Statutory Filing Criteria",
+      items: [
+        "**Statutory Audit:** Compulsory annual audit of the financial statements by a practicing Chartered Accountant (CA).",
+        "**Form AOC-4:** Mandatory filing of the audited financial statements within 30 days of the Annual General Meeting (AGM).",
+        "**Form MGT-7/7A:** Compulsory filing of the Annual Return detailing shareholding and management within 60 days of the AGM.",
+        "**Director KYC:** Annual mandatory verification of DIN details for every director via Form DIR-3 KYC.",
+      ],
+    },
+    {
+      title: "Small Company and Startup Thresholds",
+      items: [
+        "**Small Company:** Paid-up capital ≤₹4 Crores AND Turnover ≤₹40 Crores (enjoys relaxed board meeting and filing rules).",
+        "**DPIIT Recognized Startup:** Must be within 10 years of incorporation and turnover not exceeding ₹100 Crores (enjoys significant tax and labor law relaxations).",
+        "**Company Secretary:** Mandatory to appoint a full-time CS if the paid-up share capital is ₹10 Crore or more.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "Documents to be Prepared",
+      tabTitle: "Statutory Records",
       content: {
-        title: "Financials, Audit & Meeting Records",
+        title: "Internal records to maintain",
         items: [
-          "Complete Financial Statements (Balance Sheet, Profit & Loss Account).",
-          "**Statutory Audit Report** prepared by a Chartered Accountant.",
-          "**Director's Report** and Board Meeting Minutes.",
-          "Annual General Meeting (AGM) Minutes.",
-          "Digital Signature Certificates (DSCs) of the directors.",
+          "Register of Members (MGT-1): Details of all shareholders.",
+          "Register of Directors & KMP: List of all officers and their DINs.",
+          "Minute Books: Signed records of Board and General Meetings (AGM/EGM).",
+          "Register of Charges (CHG-7): Details of secured loans/mortgages.",
+          "Photos of Registered Office (Inside/Outside view with display board).",
+        ],
+      },
+    },
+    {
+      tabTitle: "Annual Statutory",
+      content: {
+        title: "Attachments for AOC-4 & MGT-7",
+        items: [
+          "Audited Balance Sheet and Statement of Profit & Loss.",
+          "Statutory Auditor's Report and detailed Notes to Accounts.",
+          "Board's Report: Including performance review and mandatory disclosures.",
+          "List of Shareholders as of March 31st.",
+          "Notice of the Annual General Meeting (AGM).",
+        ],
+      },
+    },
+    {
+      tabTitle: "Director & KYC",
+      content: {
+        title: "Forms from each director",
+        items: [
+          "Form MBP-1: Annual disclosure of interest in other entities.",
+          "Form DIR-8: Declaration of non-disqualification under Companies Act.",
+          "Digital Signature Certificate (DSC) of all directors.",
+          "Identity and address proofs for DIR-3 KYC filing.",
         ],
       },
     },
@@ -73,72 +149,66 @@ export const privateLimitedComplianceData: ServiceData = {
   registrationProcess: [
     {
       step: 1,
-      title: "Conduct Board Meetings",
-      description:
-        "Hold a minimum of four board meetings in a calendar year, with a gap of not more than 120 days between two consecutive meetings.",
+      title: "Statutory Audit Process",
+      description: "Appoint a Statutory Auditor and conduct the annual audit of the company's financial statements after the financial year ends.",
     },
     {
       step: 2,
-      title: "Statutory Audit of Accounts",
-      description:
-        "Appoint a statutory auditor and get the company's financial statements audited for the financial year.",
+      title: "Board and AGM",
+      description: "Hold a Board Meeting to approve the financials and then conduct the AGM (within 6 months of FY end) for shareholder approval.",
     },
     {
       step: 3,
-      title: "Hold Annual General Meeting (AGM)",
-      description:
-        "Conduct an AGM within six months from the end of the financial year (i.e., by 30th September).",
+      title: "Form AOC-4 Submission",
+      description: "Submit the audited financial statements, auditor's report, and board report to the MCA within 30 days of the AGM.",
     },
     {
       step: 4,
-      title: "File Financial Statements (Form AOC-4)",
-      description:
-        "File the audited financial statements and Director's Report with the MCA within 30 days of the AGM.",
+      title: "Form MGT-7 Submission",
+      description: "Complete and file the comprehensive Annual Return detailing shareholding and governance data within 60 days of the AGM.",
     },
     {
       step: 5,
-      title: "File Annual Return (Form MGT-7)",
-      description:
-        "File the company's annual return, containing details of directors, shareholders, etc., with the MCA within 60 days of the AGM.",
-    },
-    {
-      step: 6,
-      title: "File Income Tax Return (Form ITR-6)",
-      description:
-        "File the company's annual Income Tax Return. The due date is typically 31st October, as an audit is mandatory.",
+      title: "Tax and KYC Completion",
+      description: "File the Corporate Income Tax Return (ITR-6) and complete the DIR-3 KYC for all directors before their respective deadlines.",
     },
   ],
-  fees: [
-    {
-      component: "Government Fees (AOC-4 & MGT-7)",
-      fees: "₹300 - ₹600 per form",
-      remarks:
-        "Varies based on the company's authorized capital. This is for on-time filing.",
-    },
-    {
-      component: "Penalty for Late Filing",
-      fees: "₹100 per day, per form",
-      remarks: "This penalty has no maximum limit.",
-    },
-    {
-      component: "Professional & Audit Fees",
-      fees: "₹15,000 - ₹30,000+ per year",
-      remarks:
-        "Includes accounting, mandatory audit, and filing of all annual returns with MCA and the Income Tax department.",
-    },
-  ],
+  fees: [],
+  feesMarkdown: `
+Private Limited compliance involves government filing fees (based on capital) and professional fees for audits and records.
+
+### Annual Professional Compliance Table
+
+| Compliance Service | Applicability | Estimated Professional Fee (Annual) | Key Factors Affecting Cost |
+| --- | --- | --- | --- |
+| Statutory Audit (CA) | Mandatory for all PLCs | Rs.15,000 to Rs.40,000+ | Volume of transactions and complexity. |
+| MCA Annual Filings | AOC-4 and MGT-7 | Rs.8,000 to Rs.25,000+ | Number of directors and meetings held. |
+| Comprehensive Service | Bookkeeping / GST / TDS | Rs.25,000 to Rs.60,000+ | Frequency of reporting and transaction count. |
+| Director KYC (DIR-3) | Per Director | Rs.1,500 to Rs.3,000 | Timely filing vs penalty cases. |
+
+### Statutory Government (MCA) Filing Fees
+
+| Authorized Share Capital | Normal ROC Fee (Per Form) | Late Filing Penalty |
+| --- | --- | --- |
+| Less than ₹1,00,000 | ₹200 | ₹100 per day per form |
+| ₹1,00,000 to ₹4,99,999 | ₹300 | ₹100 per day per form |
+| ₹5,00,000 to ₹24,99,999 | ₹400 | ₹100 per day per form |
+| ₹25,00,000 or more | ₹600 | ₹100 per day per form |
+
+*Note: DIR-3 KYC has NIL government fee if filed on time, otherwise a ₹5,000 penalty applies.*
+`,
   faqs: [
     {
-      q: "Is a statutory audit mandatory for a private limited company?",
-      a: "Yes, a statutory audit conducted by a practicing Chartered Accountant is mandatory for every private limited company, irrespective of its turnover or profitability.",
+      q: "What is a 'Small Company' for compliance purposes?",
+      a: "A company with **Paid-up Capital <₹4 Crores** AND **Turnover <₹40 Crores**. They enjoy relaxations like fewer board meetings.",
     },
     {
-      q: "What is an Annual General Meeting (AGM)?",
-      a: "An AGM is a mandatory annual meeting of the company's shareholders. In this meeting, the audited financial statements are approved, directors are appointed, and dividends are declared.",
+      q: "What happens if I miss the AGM deadline?",
+      a: "Missing the AGM requires applying for an extension with the ROC. Failure to hold it can lead to heavy penalties for the company and directors.",
     },
     {
-      q: "What happens if we don't file the annual returns on time?",
-      a: "Late filing attracts a steep penalty of ₹100 per day for each overdue form. Continuous failure for three years can lead to the disqualification of directors and the company's name being struck off from the register.",
+      q: "Is a Cash Flow Statement mandatory for all companies?",
+      a: "**Small Companies** and **DPIIT Recognized Startups** (for the first 5 years) are generally exempted from preparing a Cash Flow Statement.",
     },
   ],
 };

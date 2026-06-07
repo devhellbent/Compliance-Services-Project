@@ -13,34 +13,53 @@ export const isoRegistrationData: ServiceData = {
 By obtaining ISO certification, companies demonstrate their commitment to maintaining consistent quality and operational excellence. It also helps them gain a competitive edge in both domestic and international markets. Common ISO standards include **ISO 9001** for Quality Management, **ISO 14001** for Environmental Management, and **ISO 27001** for Information Security.`,
   advantages: [
     {
-        icon: "CheckCircle",
-        title: ")",
-        text: "",
-        subPoints: [
-            "**Increased Customer Confidence and Satisfaction:** Certification assures customers that the organization meets internationally recognized standards for quality, safety, or security. This builds trust and can lead to increased customer loyalty and repeat business.",
-            "**Enhanced Market Access and Competitive Advantage:** Many clients, especially in government contracts, large corporations, or international markets, require their suppliers to be ISO certified. Certification can open doors to new business opportunities and give you an edge over non-certified competitors.",
-            "**Improved Brand Image and Credibility:** Being ISO certified signals to the market that an organization is committed to quality, efficiency, and compliance. This enhances the brand\\'s reputation and credibility within its industry.",
-            "**Better Supplier Relationships:** ISO-certified organizations often have better-defined requirements for their suppliers, leading to clearer expectations, improved quality from the supply chain, and more reliable partnerships.",
-            "**Compliance with Regulatory Requirements:** For certain industries (e.g., medical devices, food safety), ISO certification can help organizations comply with national and international regulations, reducing legal risks and facilitating market entry.",
-            "**Easier Integration with Other Management Systems:** Many ISO standards are designed to be compatible, making it easier for an organization to integrate multiple management systems (e.g., Quality, Environmental, Health & Safety) into a single, cohesive framework."
-        ]
-    }
-],
+      icon: "Users",
+      title: "Increased Customer Confidence",
+      text: "Certification assures customers that the organization meets internationally recognized standards for quality, safety, or security, building trust and leading to increased customer loyalty.",
+    },
+    {
+      icon: "TrendingUp",
+      title: "Enhanced Market Access",
+      text: "Many clients, especially in government contracts and international markets, require their suppliers to be ISO certified. Certification opens doors to new business opportunities and provides a competitive edge.",
+    },
+    {
+      icon: "Shield",
+      title: "Improved Brand Image",
+      text: "Being ISO certified signals to the market that an organization is committed to quality, efficiency, and compliance, enhancing the brand's reputation and credibility.",
+    },
+    {
+      icon: "CheckCircle",
+      title: "Regulatory Compliance",
+      text: "For certain industries (e.g., medical devices, food safety), ISO certification helps comply with national and international regulations, reducing legal risks and facilitating market entry.",
+    },
+    {
+      icon: "Briefcase",
+      title: "Better Supplier Relationships",
+      text: "ISO-certified organizations have better-defined requirements for their suppliers, leading to clearer expectations, improved quality from the supply chain, and more reliable partnerships.",
+    },
+  ],
   disadvantages: [
     {
-        icon: "CheckCircle",
-        title: ")",
-        text: "",
-        subPoints: [
-            "**Increased Customer Confidence and Satisfaction:** Certification assures customers that the organization meets internationally recognized standards for quality, safety, or security. This builds trust and can lead to increased customer loyalty and repeat business.",
-            "**Enhanced Market Access and Competitive Advantage:** Many clients, especially in government contracts, large corporations, or international markets, require their suppliers to be ISO certified. Certification can open doors to new business opportunities and give you an edge over non-certified competitors.",
-            "**Improved Brand Image and Credibility:** Being ISO certified signals to the market that an organization is committed to quality, efficiency, and compliance. This enhances the brand\\'s reputation and credibility within its industry.",
-            "**Better Supplier Relationships:** ISO-certified organizations often have better-defined requirements for their suppliers, leading to clearer expectations, improved quality from the supply chain, and more reliable partnerships.",
-            "**Compliance with Regulatory Requirements:** For certain industries (e.g., medical devices, food safety), ISO certification can help organizations comply with national and international regulations, reducing legal risks and facilitating market entry.",
-            "**Easier Integration with Other Management Systems:** Many ISO standards are designed to be compatible, making it easier for an organization to integrate multiple management systems (e.g., Quality, Environmental, Health & Safety) into a single, cohesive framework."
-        ]
-    }
-],
+      icon: "IndianRupee",
+      title: "Cost of Certification",
+      text: "There are upfront costs for consultancy, implementation, and the certification body's audit fees, plus recurring costs for annual surveillance audits and recertification every 3 years.",
+    },
+    {
+      icon: "Clock",
+      title: "Time-Consuming Process",
+      text: "Implementing a management system from scratch, training staff, conducting internal audits, and passing the certification audit can take several months, especially for larger organizations.",
+    },
+    {
+      icon: "FileWarning",
+      title: "Documentation Burden",
+      text: "ISO standards require extensive documentation of policies, procedures, and records. Maintaining this documentation can be an ongoing administrative burden if not integrated into daily workflows.",
+    },
+    {
+      icon: "RefreshCw",
+      title: "Ongoing Maintenance Requirement",
+      text: "Certification is not a one-time event. Organizations must continuously maintain and improve their systems, undergo annual surveillance audits, and pass a recertification audit at the end of the 3-year cycle.",
+    },
+  ],
   eligibility: [
     {
         title: "The eligibility criteria for ISO registration (certification) are",

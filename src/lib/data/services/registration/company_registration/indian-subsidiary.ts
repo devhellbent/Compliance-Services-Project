@@ -89,21 +89,88 @@ It is treated as an Indian company and operates as a separate legal entity with 
     },
   ],
   eligibility: [
-    "**Parent Company**: A foreign company to act as the holding company.",
-    "**Shareholders**: A minimum of two shareholders.",
-    "**Directors**: A minimum of two directors, with at least one being a resident of India.",
-    "**Registered Office**: A registered office address in India.",
+    "The eligibility criteria for registering an Indian Subsidiary Company primarily revolve around compliance with the Companies Act, 2013, and the Foreign Direct Investment (FDI) policy of India. The subsidiary is typically set up as a Private Limited Company.",
+    {
+      title: "1. Parent Company Requirements",
+      items: [
+        "**Foreign entity:** A foreign company (body corporate incorporated outside India) must act as the holding company and hold more than **50%** of the share capital.",
+        "**Board resolution:** A formal resolution passed by the Parent Company's Board of Directors approving the setting up of the Indian subsidiary.",
+        "**FDI compliance:** The proposed business activity must be eligible for **Foreign Direct Investment (FDI)** under the automatic route or with government approval.",
+      ],
+    },
+    {
+      title: "2. Directors and Shareholders",
+      items: [
+        "**Minimum shareholders:** A minimum of **two (2) shareholders** is required.",
+        "**Minimum directors:** A minimum of **two (2) directors** must be appointed.",
+        "**Resident director:** At least **one director must be a resident of India** (a person who has stayed in India for a total period of not less than **182 days** during the previous financial year).",
+        "**Competence:** All directors must be of sound mind, at least 18 years old, and not disqualified under any law.",
+      ],
+    },
+    {
+      title: "3. Other Requirements",
+      items: [
+        "**Registered office:** The subsidiary must have a **registered office address** in India to receive all official communications.",
+        "**Unique name:** The proposed company name must be unique and end with **\"Private Limited\"**.",
+        "**DIN and DSC:** All proposed directors must obtain a **Director Identification Number (DIN)** and a **Digital Signature Certificate (DSC)**.",
+      ],
+    },
   ],
   documents: [
     {
-      title: "Documents for Indian Subsidiary Registration",
-      items: [
-        "Certificate of incorporation of the foreign parent company (apostilled).",
-        "MOA and AOA of the foreign parent company (apostilled).",
-        "Board resolution from the parent company for the investment.",
-        "Passport and address proof of the directors and shareholders.",
-        "Proof of the registered office address in India.",
-      ],
+      tabTitle: "Foreign parent company",
+      content: {
+        title: "Documents from the Foreign Parent Company",
+        items: [
+          "**Important Verification Note:** All documents issued in a foreign country must be legally verified. Depending on the country, they must be either **Notarized and Apostilled** (Hague Convention) or **Notarized and Consularized** (by the Indian Embassy).",
+          "**Board resolution:** A formal resolution approving the setting up of an Indian subsidiary and authorizing a representative.",
+          "**Certificate of Incorporation:** A copy of the Parent Company's legal registration document from its home country.",
+          "**Charter documents:** Copy of the Parent Company's MOA and AOA or equivalent constitutional documents.",
+          "**List of directors and shareholders:** A certified list prepared on the Parent Company's letterhead.",
+          "**Address proof:** A recent utility bill or bank statement for the Parent Company's registered address.",
+          "**Authorization letter:** A document authorizing the named representative to act on behalf of the Parent Company.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Foreign directors",
+      content: {
+        title: "Documents from Foreign Directors and Shareholders",
+        items: [
+          "**Important Verification Note:** All identity and address proofs of foreign nationals must also be **Notarized and Apostilled/Consularized**.",
+          "**Identity proof:** Copy of the **Passport** (mandatory).",
+          "**Address proof:** Copy of a recent **Bank Statement** or utility bill (Electricity, Water, or Telephone Bill).",
+          "**Photograph:** Recent **passport-sized** photograph.",
+          "**DIR-2 & INC-9:** Consent to act as a Director and Declaration of non-disqualification.",
+          "**Business Visa:** A copy of the Business Visa if present in India for signing.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Indian directors",
+      content: {
+        title: "Documents from Indian Directors and Shareholders",
+        items: [
+          "**PAN Card:** Copy of **PAN Card** (mandatory).",
+          "**Aadhaar Card:** Copy of **Aadhaar Card** (highly recommended / often required).",
+          "**Other identity proof:** Copy of **Voter ID**, **Passport**, or **Driving License**.",
+          "**Address proof:** Copy of **Bank Statement** or utility bill (Electricity Bill, Water Bill, or Gas Bill), not older than **two months**.",
+          "**Photograph:** Recent **passport-sized** photograph.",
+          "**DIR-2 and INC-9:** Same consent and declaration forms as for foreign nationals.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Registered office",
+      content: {
+        title: "Documents for the Indian Registered Office Address",
+        items: [
+          "**If rented:** Copy of **Rent Agreement / Lease Deed**.",
+          "**If owned:** Copy of **Sale Deed / Property Deed**.",
+          "**No Objection Certificate (NOC):** A letter from the property owner consenting to the use of the premises as the company's Registered Office.",
+          "**Utility bill:** A recent electricity, water, or gas bill (not older than **two months**) for the office premises.",
+        ],
+      },
     },
   ],
   registrationProcess: [

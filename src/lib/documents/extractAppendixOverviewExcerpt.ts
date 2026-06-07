@@ -7,6 +7,27 @@ export function titleMatchCandidates(serviceTitle: string): string[] {
   const out = new Set<string>([t]);
   const stripped = t.replace(/\s*\([^)]*\)\s*$/, "").trim();
   if (stripped.length > 0 && stripped !== t) out.add(stripped);
+
+  // Generate common synonym variants for company-type titles
+  const synonymSwaps: [RegExp, string][] = [
+    [/\bPrivate Limited\b/i, "Private Company"],
+    [/\bPrivate Company\b/i, "Private Limited"],
+    [/\bPrivate Limited Company\b/i, "Private Company"],
+    [/\bPrivate Company\b/i, "Private Limited Company"],
+  ];
+  for (const base of [...out]) {
+    for (const [re, rep] of synonymSwaps) {
+      const variant = base.replace(re, rep).trim();
+      if (variant !== base && variant.length > 0) out.add(variant);
+    }
+    // Also try stripping trailing "Services" or "Annual"
+    const noServices = base.replace(/\s+Services?\s*$/i, "").trim();
+    if (noServices !== base && noServices.length > 0) out.add(noServices);
+    const noAnnual = base.replace(/\s+Annual\b/i, "").trim();
+    if (noAnnual !== base && noAnnual.length > 0) out.add(noAnnual);
+    const noAnnualPrefix = base.replace(/\bAnnual\s+/i, "").trim();
+    if (noAnnualPrefix !== base && noAnnualPrefix.length > 0) out.add(noAnnualPrefix);
+  }
   return [...out];
 }
 

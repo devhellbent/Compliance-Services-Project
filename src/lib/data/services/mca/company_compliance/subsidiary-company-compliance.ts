@@ -1,106 +1,137 @@
 // lib/data/services/mca/company_compliance/subsidiary-company-compliance.ts
-// Source themes: DOCUMENTS_extracted/MCA/company-complance.md — Subsidiary Company Compliance
 
 import { ServiceData } from "@/lib/types";
 
 export const subsidiaryCompanyComplianceData: ServiceData = {
   title: "Subsidiary Company Compliance",
-  breadcrumb: ["Home", "MCA", "Subsidiary Company Compliance"],
+  breadcrumb: ["Home", "MCA", "Subsidiary Compliance"],
   description:
-    "Annual ROC, tax, transfer pricing, and governance for Indian subsidiaries—aligned with jurisdiction, control thresholds, and materiality to the parent group.",
-  overview: `**Subsidiary Company Compliance** is the fulfillment of all legal, financial, and regulatory obligations that a company, owned or controlled by a parent company, must adhere to in its operating jurisdiction. Because a subsidiary is a **separate legal entity**, it must meet local statutory requirements—annual corporate filings, board and shareholder meetings, and Registrar of Companies (RoC) submissions.
+    "Subsidiary Company Compliance involves the legal, financial, and regulatory obligations of a company owned or controlled by a parent entity.",
+  overview: `Subsidiary Company Compliance is the fulfillment of all legal, financial, and regulatory obligations that a company, owned or controlled by a parent company, must adhere to in its operating jurisdiction. Since a subsidiary is a separate legal entity, it must comply with local statutory requirements.
 
-Compliance also covers **financial and tax** mandates: local audits, financial statements under applicable accounting standards, corporate income tax, indirect taxes (such as GST), and **transfer pricing** so related-party transactions with the parent are at **arm's length**.
+Furthermore, compliance covers financial and tax mandates, including mandatory local audits, preparation of financial statements according to local accounting standards, and accurate reporting for corporate income tax and indirect taxes (like VAT/GST). A critical area is Transfer Pricing, ensuring that transactions with the parent are conducted at fair market value.
 
-Strong subsidiary compliance limits penalties, disputes, and reputational risk; it keeps the subsidiary in good standing and supports **transparent consolidated reporting** for the parent.`,
+### Core Compliance Areas for a Foreign Subsidiary
+
+#### Corporate Governance and Annual Filings
+*   **Annual corporate filings** with the Registrar of Companies (AOC-4, MGT-7) are mandatory.
+*   **Board and shareholder meetings** must be held regularly, with proper minutes maintained.
+*   **Director KYC (DIR-3 KYC)** must be filed annually for all directors, including foreign nationals.
+
+#### Financial and Tax Mandates
+*   **Statutory Audit:** Mandatory local audit of the subsidiary's books as per the operating country's GAAP.
+*   **Consolidated Reporting:** Accurate and timely local audits are essential for the parent company to prepare consolidated financial statements for its shareholders and global regulators.
+*   **Income Tax Filing (ITR-6):** Mandatory annual corporate tax filing for the subsidiary entity.
+
+#### Transfer Pricing and Cross-Border Compliance
+*   **Arm's Length Pricing:** Transactions between the parent and subsidiary must be priced at fair market value to comply with transfer pricing regulations, a major area of scrutiny by tax authorities globally.
+*   **FLA Return:** Mandatory annual filing of the Foreign Liabilities and Assets return with the Central Bank (e.g., RBI) if FDI has been received.
+*   **FEMA Compliance:** Adherence to FEMA and RBI reporting is mandatory for repatriation of profits back to the parent company.`,
   advantages: [
     {
       icon: "Shield",
-      title: "Liability and risk isolation",
-      text: "The subsidiary's legal and financial liabilities are generally ring-fenced from the parent, subject to respecting the corporate veil.",
+      title: "Liability and Risk Isolation",
+      text: "The subsidiary's legal and financial liabilities are ring-fenced from the parent company. This protects the parent's assets (limited to its investment) even if the subsidiary faces lawsuits or financial losses, provided the corporate veil is respected.",
     },
     {
       icon: "Globe",
-      title: "Local market adaptability",
-      text: "The subsidiary can align with local tax, governance, labour, and sector rules, including resident-director and industry licensing where applicable.",
-    },
-    {
-      icon: "ClipboardCheck",
-      title: "Regulatory clarity and ownership",
-      text: "Distinct governance makes it easier to assign compliance responsibility and run independent audits at subsidiary level.",
+      title: "Local Market Adaptability",
+      text: "Subsidiaries can more effectively comply with regional laws, including favorable local tax treatments, specific labor laws, and industry regulations, allowing the global group to adapt quickly to regional market changes.",
     },
     {
       icon: "TrendingUp",
-      title: "Potential tax optimisation",
-      text: "Group structures may access local incentives and consolidation benefits where law and facts support them.",
+      title: "Regulatory Clarity and Focus",
+      text: "Operating as a distinct legal entity with its own board makes compliance ownership clear. The subsidiary's management is explicitly responsible for local adherence, making it easier to assign accountability and conduct independent audits.",
+    },
+    {
+      icon: "Award",
+      title: "Strategic Tax Optimization",
+      text: "Subsidiaries can often leverage local tax incentives or credits not available to the parent. Additionally, depending on consolidation laws, losses in one subsidiary can sometimes offset profits in others to optimize the group's tax liability.",
     },
   ],
   disadvantages: [
     {
-      icon: "Layers",
-      title: "Higher regulatory complexity",
-      text: "Multiple jurisdictions mean diverging rules; consistent group policy is harder to maintain.",
+      icon: "ShieldAlert",
+      title: "Transfer Pricing Scrutiny",
+      text: "Transactions with the parent company must be priced 'at arm's length'. This requires complex documentation and is a high-risk area for audit by tax authorities who watch for profit shifting across borders.",
     },
     {
-      icon: "FileStack",
-      title: "Administrative and reporting burden",
-      text: "Each subsidiary maintains its own books, tax filings, and corporate governance cycles.",
+      icon: "Activity",
+      title: "Global Regulatory Complexity",
+      text: "Managing compliance across multiple subsidiaries in different countries is resource-intensive. What is compliant in one jurisdiction may be a violation in another, requiring a sophisticated and diverse global legal team.",
     },
     {
-      icon: "GitMerge",
-      title: "Consolidation and transfer pricing",
-      text: "Consolidated accounts and arm's-length documentation for related-party deals add cost and scrutiny.",
+      icon: "FileText",
+      title: "Financial Consolidation Burden",
+      text: "The parent company must perform complex consolidated reporting, aggregating results from all subsidiaries while reconciling different local accounting standards (like IFRS vs Indian GAAP).",
     },
     {
-      icon: "AlertTriangle",
-      title: "Veil piercing and reputational risk",
-      text: "Excessive parent control or misuse of the entity can expose the group; a failure in one subsidiary can still harm group reputation.",
+      icon: "Lock",
+      title: "Risk of Piercing the Corporate Veil",
+      text: "If a parent company exercises excessive daily control, the legal separation may be disregarded by courts. This makes the parent directly liable for the subsidiary's debts, negating the benefit of limited liability.",
     },
   ],
   eligibility: [
     {
-      title: "Geographic and legal basis",
+      title: "Relationship and Control Criteria",
       items: [
-        "**Incorporation jurisdiction** defines core obligations (definition of subsidiary, board structure, RoC framework).",
-        "**Operating presence** in additional states or countries can trigger extra tax, labour, and establishment filings.",
-        "**Foreign investment** rules apply when the parent is overseas (FDI caps, RBI reporting, profit repatriation).",
+        "**Voting Power:** Parent company must hold more than 50% of the voting power or control the composition of the Board of Directors.",
+        "**Legal Structure:** Must be registered as a separate legal entity (typically a Private Limited Company) in the operating country.",
+        "**Material Subsidiary:** Faced with higher oversight if the subsidiary's income/net worth exceeds 10% of the consolidated group income/worth.",
       ],
     },
     {
-      title: "Control and materiality",
+      title: "Statutory Reporting Criteria",
       items: [
-        "A **subsidiary** typically arises when the parent **controls the board** or holds **more than 50%** of voting power or share capital—driving consolidated reporting.",
-        "For **listed parents**, **material subsidiary** tests (e.g. turnover or net worth vs consolidated figures) can raise board oversight and disclosure expectations.",
+        "**Resident Director:** Mandatory requirement to have at least one director who is a resident of the country where the subsidiary is incorporated.",
+        "**FLA Return:** Mandatory annual filing of the Foreign Liabilities and Assets return with the Central Bank (e.g., RBI) if FDI has been received.",
+        "**Transfer Pricing:** Mandatory maintenance of documentation if inter-company transactions with the parent exceed specified local thresholds.",
       ],
     },
     {
-      title: "Scale and sector",
+      title: "Annual Governance Criteria",
       items: [
-        "**Turnover, capital, and borrowings** thresholds can mandate statutory audit and full-time KMP (e.g. CS/CFO) where applicable.",
-        "**Regulated sectors** (finance, insurance, pharma, telecom) add licensing and supervisor-specific compliance.",
+        "**Statutory Audit:** Compulsory annual audit of the subsidiary's books by a local auditor to ensure compliance with local GAAP.",
+        "**Annual MCA/ROC Filings:** Mandatory filing of Form AOC-4 (Financials) and Form MGT-7 (Annual Return) with the Registrar of Companies.",
+        "**Income Tax Filing:** Mandatory annual corporate tax filing (e.g., ITR-6 in India) for the subsidiary entity.",
       ],
     },
   ],
   documents: [
     {
-      tabTitle: "Incorporation (one-time)",
+      tabTitle: "Parent Documents",
       content: {
-        title: "Parent and local entity records",
+        title: "From the Parent Company",
         items: [
-          "Certified constitutional documents of the **parent** (certificate of incorporation, charter).",
-          "**Board resolution** authorising the subsidiary, capital subscription, and authorised signatories.",
-          "**KYC** for directors/subscribers, **registered office** proof, and **SPICe+** / incorporation bundle as per MCA practice.",
+          "Certified copies of the Parent Company's COI, MOA, and AOA.",
+          "Board Resolution from the Parent authorizing the subsidiary and investment.",
+          "Power of Attorney (POA) for the authorized signatory in the local country.",
+          "Proof of investment/capital remittance into the subsidiary's bank account.",
         ],
       },
     },
     {
-      tabTitle: "Annual and event-based",
+      tabTitle: "Annual Statutory",
       content: {
-        title: "Ongoing compliance pack",
+        title: "Mandatory Annual Records",
         items: [
-          "**Audited financial statements**, board and AGM minutes, **AOC-4**, **MGT-7/MGT-7A**, **ADT-1** where applicable.",
-          "**DIR-3 KYC** for directors; **FC-GPR / FC-TRS** and other **RBI/FEMA** forms for foreign investment movements.",
-          "Event filings for **authorised capital**, **charge**, **director change**, **registered office**, and related MCA forms.",
+          "Audited Financial Statements (Balance Sheet, P&L, Cash Flow).",
+          "Statutory Auditor's Report and detailed Notes to Accounts.",
+          "Transfer Pricing Study and Arm's Length transaction reports.",
+          "Notice and Minutes of the AGM and Board Meetings approving accounts.",
+          "Annual Return (MGT-7) detailing the current shareholding structure.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Director & KYC",
+      content: {
+        title: "For local governance",
+        items: [
+          "Valid Passports and Visas (for foreign directors).",
+          "PAN Card and Aadhaar Card (for the local resident director).",
+          "Digital Signature Certificate (DSC) of all authorized directors.",
+          "Form DIR-2 (Consent to act as director) for all board members.",
         ],
       },
     },
@@ -108,59 +139,64 @@ Strong subsidiary compliance limits penalties, disputes, and reputational risk; 
   registrationProcess: [
     {
       step: 1,
-      title: "Compliance calendar",
-      description:
-        "Map RoC, income-tax, GST/TDS, labour, and RBI/FEMA due dates for the subsidiary's facts.",
+      title: "Group Consolidation Prep",
+      description: "Compile local financial records and ensure they are ready for both local statutory audit and global group consolidation.",
     },
     {
       step: 2,
-      title: "Books, audit, and TP",
-      description:
-        "Maintain statutory books, complete statutory audit where triggered, and prepare transfer-pricing documentation for related-party transactions.",
+      title: "Local Statutory Audit",
+      description: "Appoint a local auditor to conduct the annual audit of the subsidiary's books as per the operating country's laws.",
     },
     {
       step: 3,
-      title: "File and certify",
-      description:
-        "File MCA annual/event forms with DSC; coordinate FLA and other RBI returns where applicable.",
+      title: "Transfer Pricing Audit",
+      description: "Conduct a transfer pricing analysis to ensure that all transactions with the parent company are at fair market value.",
     },
     {
       step: 4,
-      title: "Group reporting",
-      description:
-        "Support parent consolidation, material-subsidiary disclosures, and board packs for oversight.",
+      title: "MCA / ROC Filings",
+      description: "Convene the Annual General Meeting and file the audited financial statements (AOC-4) and Annual Return (MGT-7) on the ROC portal.",
+    },
+    {
+      step: 5,
+      title: "Central Bank (FLA) Filing",
+      description: "Submit the mandatory annual FLA return to the Central Bank (e.g., RBI) to report foreign investment and liabilities by July 15th.",
     },
   ],
-  fees: [
-    {
-      component: "MCA annual forms (AOC-4, MGT-7/7A)",
-      fees: "₹200–₹600+ each (illustrative; depends on authorised capital)",
-      remarks: "Government fees via MCA portal; late fees ₹100/day per form if delayed.",
-    },
-    {
-      component: "Professional — basic ROC compliance",
-      fees: "₹10,000–₹25,000+ p.a. (typical range)",
-      remarks: "Prepare and file mandatory annual forms.",
-    },
-    {
-      component: "Professional — comprehensive",
-      fees: "₹25,000–₹50,000+ p.a.",
-      remarks: "May include books, financials, minutes, ITR coordination, and audit liaison.",
-    },
-    {
-      component: "Transfer pricing / tax complexity",
-      fees: "Highly variable",
-      remarks: "Inter-company volume and documentation needs can add materially to annual cost.",
-    },
-  ],
+  fees: [],
+  feesMarkdown: `
+Subsidiary compliance costs are higher due to global reporting needs and transfer pricing documentation.
+
+### Annual Professional Compliance Table
+
+| Compliance Service | Applicability | Estimated Professional Fee (Annual) | Key Factors Affecting Cost |
+| --- | --- | --- | --- |
+| Statutory Audit | Mandatory for all subsidiaries | Rs.20,000 to Rs.60,000+ | Volume of transactions. |
+| Transfer Pricing Study | Inter-company transactions | Rs.50,000 to Rs.2,50,000+ | Complexity and volume. |
+| MCA / ROC Filings | AOC-4 and MGT-7 | Rs.10,000 to Rs.25,000 | Number of directors. |
+| RBI / FLA Compliance | Foreign Owned Subsidiaries | Rs.5,000 to Rs.15,000 | FDI inflow frequency. |
+
+### Statutory Government (MCA) Filing Fees
+
+| Authorized Share Capital | Normal ROC Fee (Per Form) | Late Filing Penalty |
+| --- | --- | --- |
+| Up to ₹1 Crore | ₹200 to ₹600 | ₹100 per day per form |
+| DIR-3 KYC (Director) | NIL (on time) | ₹5,000 (after deadline) |
+
+*Note: Late filing penalties for AOC-4 and MGT-7 have no upper limit and accumulate daily.*
+`,
   faqs: [
     {
-      q: "Is an Indian subsidiary compliance the same as a normal private limited company?",
-      a: "Core MCA annual compliance is similar for a private limited subsidiary, but foreign ownership adds FEMA/RBI reporting, and related-party dealings need transfer-pricing discipline. Listed parents may impose extra governance and disclosure tests.",
+      q: "What is Transfer Pricing in subsidiary compliance?",
+      a: "It is the rule that requires transactions between a parent and its subsidiary to be priced at **'Arm's Length'** (fair market price), ensuring profits aren't shifted to low-tax jurisdictions.",
     },
     {
-      q: "What drives material subsidiary status?",
-      a: "For listed companies, thresholds based on turnover, net worth, or income relative to the consolidated group can classify a subsidiary as material, increasing board attention and SEBI/LODR style disclosures.",
+      q: "What is the FLA return and is it mandatory?",
+      a: "Yes. The **Foreign Liabilities and Assets (FLA)** return is mandatory for all companies receiving FDI and must be filed with the RBI by **July 15th** every year.",
+    },
+    {
+      q: "Can a subsidiary have its own independent directors?",
+      a: "Yes. In fact, for **material subsidiaries** of listed parent companies, having independent directors is often a mandatory governance requirement.",
     },
   ],
 };

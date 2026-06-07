@@ -102,23 +102,74 @@ These regulations are designed to **ensure transparency, protect members' intere
     },
   ],
   eligibility: [
-    "Must be a public company with a minimum of seven members and three directors.",
-    "Minimum paid-up equity share capital of ₹10 lakh.",
-    "The name must end with 'Nidhi Limited'.",
+    "To register a Nidhi Company in India, the applicant must meet the following incorporation and post-incorporation requirements under the Companies Act, 2013 and the Nidhi Rules, 2014:",
+    {
+      title: "Incorporation requirements",
+      items: [
+        "**Nature of company:** Must be incorporated as a **Public Limited Company** under the Companies Act, 2013.",
+        "**Minimum members:** A minimum of **seven (7) members** or shareholders are required at the time of incorporation to form the company.",
+        "**Minimum directors:** At least **three (3) directors** must be appointed, who are responsible for managing the company's affairs.",
+        "**Minimum paid-up capital:** The company must start with a minimum paid-up equity share capital of **₹10 lakh** (as per the latest Nidhi Amendment Rules, 2022).",
+        "**Name suffix:** The company name must mandatorily end with the words **\"Nidhi Limited\"** to signify its status as a mutual benefit society.",
+      ],
+    },
+    {
+      title: "Post-incorporation compliance (within one year)",
+      items: [
+        "**Minimum members requirement:** The company must grow its membership base to not less than **200 members** within one year of incorporation.",
+        "**Net Owned Funds (NOF):** Must achieve and maintain Net Owned Funds of at least **₹20 lakh** (as per Nidhi Amendment Rules, 2022).",
+        "**NOF to deposit ratio:** The ratio of Net Owned Funds to total deposits should not exceed **1:20** (i.e., for every ₹1 of NOF, a maximum of ₹20 can be held as deposits).",
+        "**Unencumbered deposits:** Must maintain unencumbered term deposits (free from any charge or lien) amounting to not less than **10%** of its outstanding deposits in a scheduled commercial bank.",
+      ],
+    },
+    {
+      title: "Key restrictions and operational conditions",
+      items: [
+        "**Member-only transactions:** The company is strictly restricted to borrowing from and lending to its registered members who are also shareholders.",
+        "**No RBI licence required:** It is exempted from the core provisions of the RBI Act and does not require RBI approval; instead, it is regulated by the **Ministry of Corporate Affairs (MCA)**.",
+        "**Prohibited activities:** Cannot engage in chit funds, hire purchase finance, leasing finance, insurance business, or the acquisition of securities issued by any corporate body.",
+        "**No public solicitation:** Cannot issue any advertisement in any form for soliciting deposits from the general public.",
+        "**No debentures or preference shares:** Cannot issue preference shares, debentures, or any other debt instrument to raise funds.",
+      ],
+    },
   ],
   documents: [
     {
-      tabTitle: "For Directors/Shareholders",
+      tabTitle: "Directors & shareholders",
       content: {
-        title: "For Directors/Shareholders",
-        items: ["PAN Card", "Identity Proof", "Address Proof", "Photograph"],
+        title: "Documents for directors and shareholders",
+        items: [
+          "**PAN Card:** A self-attested copy of the PAN Card is mandatory for all proposed directors and shareholders. This serves as the primary identity proof.",
+          "**Identity proof:** A self-attested copy of any one of the following valid documents: **Aadhaar Card**, **Voter ID**, **Passport**, or **Driving License**.",
+          "**Address proof:** A recent document (not older than **two months**) showing the current residential address of the individuals. Accepted documents include a **Bank Statement**, electricity bill, water bill, gas bill, or telephone bill.",
+          "**Photographs:** Recent **passport-size** color photographs of all proposed directors and shareholders.",
+          "**Digital Signature Certificate (DSC):** A **Class 3 DSC** is mandatory for all directors to digitally sign the electronic incorporation forms on the MCA portal.",
+          "**Director Identification Number (DIN):** All directors must possess a valid DIN, which can be applied for simultaneously within the main SPICe+ registration form.",
+        ],
       },
     },
     {
-      tabTitle: "For Registered Office",
+      tabTitle: "Registered office",
       content: {
-        title: "For Registered Office",
-        items: ["Utility Bill", "NOC from the owner"],
+        title: "Registered office address proof",
+        items: [
+          "**Utility bill:** A recent electricity, water, or gas bill (not older than **two months**) specifically for the registered office premises, showing the exact address.",
+          "**If owned property:** A copy of the sale deed, property tax receipt, or any other valid property ownership document, along with the latest utility bill.",
+          "**If rented property:** A copy of the valid **Rent/Lease Agreement** executed between the company (or proposed director) and the property owner.",
+          "**No Objection Certificate (NOC):** A signed NOC from the actual property owner, explicitly consenting to the premises being used as the registered office of the Nidhi Company.",
+        ],
+      },
+    },
+    {
+      tabTitle: "Company documents",
+      content: {
+        title: "Company formation documents",
+        items: [
+          "**Memorandum of Association (MoA):** The foundational document outlining the company's name, registered office state, main objectives (which must strictly be restricted to Nidhi activities), and the limited liability of its members.",
+          "**Articles of Association (AoA):** The document containing the comprehensive internal rules, regulations, and bylaws for the company's day-to-day governance and management, aligned with Nidhi Rules.",
+          "**Consent forms:** Signed consent from all proposed directors to act in their respective capacities, filed using **Form DIR-2**.",
+          "**Declaration (Form INC-9):** A formal declaration from each subscriber and first director stating they have not been convicted of any offense in connection with the promotion, formation, or management of any company.",
+        ],
       },
     },
   ],
